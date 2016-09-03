@@ -334,13 +334,13 @@ the 15-75 age range.
 | Appearance   |   0 | +1    | +1    | 0     | -1    | -2    | -3
 | Constitution |  +2 | +1    | 0     | 0     | 0     | -1    | -2-1/year
 | Dexterity    |   0 | +1    | 0     | 0     | 0     | 0     | -0.5/year
-| Intelligence |-2-0.5/year <15 | -1 | 0     | 0     | +1    | +2 | +2-1/year
+| Intelligence |-2 - 0.5/year < 15 | -1 | 0     | 0     | +1    | +2 | +2-1/year
 | Magic        |   0 | 0     | 0     | 0     | +1    | +2    | +2
 | Money        |  -3 | -2    | -1    | 0     | +1    | +2    | +2
 | Psi          |  -3 | -2    | -1    | 0     | +1    | +2    | +3
 | Reactions    |  +2 | +1    | 0     | 0     | 0     | -1    | -1-0.5/year
 | Senses       |   0 | 0     | +1    | 0     | 0     | -1    | -1-0.5/year
-| Size         |-1-1/year < 15 | -1  | 0     | +1    | 0     | -1 | -1-1/year
+| Size         |-1 - 1/year < 15   | -1  | 0     | +1    | 0     | -1 | -1-1/year
 | Strength     |   0 | +1    | 0     | 0     | -1    | -2    | -2-1/year
 |====
 
@@ -387,11 +387,11 @@ CON^2^ / 10
 |====
 | HP             | Effect                        | Recovery
 | HP to HP/2     | None                          | C*/10 / hour
-| HP/2-1 to 0    | None                          | C*/10 / day
+| HP/2 - 1 to 0  | None                          | C*/10 / day
 | -1 to -C*/2    | -1 combat for each 10% of C*  | C*/10 / week
 | -C*/2-1 to -C* | -1 move for each 20%C*        | C*/10 / week
 | -C*-1 to -2*C* | Unconscious                   | C*/10 / week
-| <-2*C*         | *Dead* - no recovery possible | n/a
+| < -2*C*        | *Dead* - no recovery possible | n/a
 |====
 
 Recovery: After 3 rounds of no combat actions, you recover d6 HP. Note that
@@ -399,9 +399,6 @@ you may not recover more points than you lost in the battle. Each hour, day
 or week (depending on your position on the chart) a healer may make a
 healing roll. The number of points you regain is multiplied by (1+ the
 amount by which the healer makes their roll).
-
-Silly Campaign Recovery: Use the top rate of recovery C*/10/hour for all
-levels of injury.
 
 Orc Recovery Rates:
 
@@ -545,7 +542,7 @@ using the Damage to Physical Objects rules below.
 | Cover type | Comments                 | Attack | Defense
 | None       |                          | 0      | 0
 | Wall edge  |                          | -n     | +2n
-| Prone      | Movement = 1/round       | 0      | +2
+| Prone      | Movement = 1 / round     | 0      | +2
 | Arrow slit | Can use like a wall edge | -1     | +5
 |====
 
@@ -644,14 +641,14 @@ shift pluses when attacking a solid object.
 .Properties of Structural Materials
 [options="header"]
 |====
-| Material                  | Defense                 | Hit points  | Type / special rules
-| Wood door / wooden wall   | 30 / inch (max 200)     | 80 / inch   | Soft
-| Iron bound wood door      | 50 / inch (max 500)     | 200 / inch  | Soft
-| Iron clad wood door       | 100 + 50/inch (max 600) | 200 / inch  | Metal, until first inch destroyed, then soft
-| Bronze door               | 100+100/inch (max 500)  | 400 / inch  | Metal.
-| Masonry Wall              | 100/inch (max 500)      | 200/inch,   | Hard, 2000/inch beyond 3 feet (tunneling)
-| Stone Wall - large blocks | 150 / inch (max 600)    | 800 / inch  | Hard, 2500/inch beyond 3 feet (tunneling)
-| Iron                      | 300 / inch (max 2000)   | 2000 / inch | metal, (not very realistic).
+| Material                  | Defense                 | Hit points | Type / special rules
+| Wood door / wooden wall   | 30 / in. (max 200)      | 80 / in.   | Soft
+| Iron bound wood door      | 50 / in. (max 500)      | 200 / in.  | Soft
+| Iron clad wood door       | 100 + 50 / in. (max 600)| 200 / in.  | Metal, until first in. destroyed, then soft
+| Bronze door               | 100+100 / in. (max 500) | 400 / in.  | Metal
+| Masonry Wall              | 100 / in. (max 500)     | 200 / in.  | Hard, 2000/in. beyond 3 feet (tunneling)
+| Stone Wall - large blocks | 150 / in. (max 600)     | 800 / in.  | Hard, 2500/in. beyond 3 feet (tunneling)
+| Iron                      | 300 / in. (max 2000)    | 2000 / in. | Metal (not very realistic)
 |====
 
 === Other Combat
@@ -985,16 +982,17 @@ A dark paint that can be used to cover the body and make you more difficult
 to see in the dark. +5 visual stealth at night but doesn't wash off easily.
 Difficulty 8, 250 EP. Coal and oil.
 
-==== CheezWhiz Bomb (silly)
+==== Cheez Whiz Bomb (Silly Campaign Rules)
 
 Used like a grenade, it coats everything within a 3 hex radius with sticky,
-bright yellow cheesy goo. All creatures find the goo tasty, and will attempt
-to eat it in preference to anything else in the area (including the PCs).
-This is an effective way to distract any creature that attacks purely out of
-hunger. It will typically take a minute for a creature to eat all of the
-cheezwiz in a hex. The nutritional value of cheezwhiz is similar to that of
-a similar amount of cheese. Difficulty -7, EP 250, components: Yellow dye,
-sugar, corn starch, salt, vegetable oil. (no cheese).
+bright yellow cheesy goo. All non-sentient creatures find the goo tasty, and
+will attempt to eat it in preference to anything else in the area (including
+the PCs). This is an effective way to distract any creature that attacks
+purely out of hunger. It will typically take a minute for a creature to eat
+all of the Cheez Whiz in a hex. The nutritional value of Cheez Whiz is
+similar to that of a similar amount of cheese. Difficulty -7, EP 250,
+components: Yellow dye, sugar, corn starch, salt, vegetable oil. (no
+cheese).
 
 ==== Fire Shield
 
@@ -1072,9 +1070,9 @@ to break free. Requires plant materials. Difficulty = 9, EP 100
 A powder which when added to water causes the water to solidify into a high
 melting point ice. The resulting material has a melting point of about 100
 degrees C, and mechanical properties like soft rock. Components: Sand, iron
-ore, chalk, trace platinum (1 oz. / 100 cubic meters). Mixture must be
+ore, chalk, trace platinum (1 oz. / 100 m^3^). Mixture must be
 frozen (at normal water freezing temperature), then will not melt until
-boiling temperature. 1 "unit - pint bottle" will convert 1 cubic meters.
+boiling temperature. 1 "unit - pint bottle" will convert 1 m^3^.
 Difficulty 7. EP 500
 
 ==== Heat Balm
@@ -1265,7 +1263,7 @@ rolls are +1 for each success and -2 for each failure.
 | +6                | Animal is devoted to handler. (domesticated Pet that is very well taken care of)
 | +4                | Animal is loyal to handler. Handler is considered the animals "master" or alpha or handler trained the animal.
 | +2                | Animal knows and trusts handler (is the pet of a friend of handler)
-| +Training success | Animal is trained for task: add the training roll success margin. If GM allows the success margin should be kept with the trained animal's stat. (i.e. must have been trained in advance.) (note: animals can be trained in 1 month at: +0; about 3 hours at: -5; about 7 minutes at: -8 )
+| +Training Success | Animal is trained for task: add the training roll success margin. If GM allows the success margin should be kept with the trained animal's stat. (i.e. must have been trained in advance.) (note: animals can be trained in 1 month at: +0; about 3 hours at: -5; about 7 minutes at: -8 )
 | 0                 | Animal was trained for task but is nervous for some reason (crowd, predator in the area, unusual smells, loud noises that the animal wasn't trained to ignore)
 | -1                | Animal is trained for a conflicting task. (trained to hunt rabbits but asked to sit and ignore a rabbit)
 | -2                | Animal is confused or has conflicting loyalties. (cumulative with devotion pluses. If conflict is with a devoted master modifiers: -1 and -3 )
@@ -1580,7 +1578,7 @@ Base cost for clockwork creature: 10 gold.
 
 Base time to build clockwork creature: 1 week
 
-Basic creature stats: +0/5 0/0/0 10 hit points, move 0, preprogrammed +
+Basic creature stats: +0/5 0/0/0 10 HP, move 0, preprogrammed +
 behavior
 
   * -1 for each additional attack plus
@@ -1726,7 +1724,7 @@ The craft of fashioning glass objects, both lab ware, and artistic items.
 
 === Healing
 
-The healing skill causes others to recover hit points. First aid uses the
+The healing skill causes others to recover HP. First aid uses the
 healing skill. A roll in the first minute after combat stabilizes the victim
 and usually allows them to recover consciousness. Normal healing requires 1
 hour. The victim recovers d6 for each plus. Healing can only be done once
@@ -1912,10 +1910,10 @@ follows:
 | Object is in pocket                                             | 0
 | Object is tied to person                                        | -2
 | Object is in hidden inside pocket                               | -3
-| Object is <4 oz.                                                | +0
+| Object is < 4 oz.                                               | +0
 | Object is 4 oz. to 8 oz.                                        | -1
 | Object is 8 oz. to 1 lb.                                        | -2
-| Object is 1lb to 2 lb                                           | -3
+| Object is 1 lb. to 2 lb.                                        | -3
 |====
 
 === Religion
@@ -2382,7 +2380,7 @@ Spell lasts for 1 day , cannot be dropped.
 Turns the caster or anyone they touch into animate stone. All damages are
 increased by X4. Parries are increased by X4. All combat values are REDUCED
 by 2. 50points of defense is added. Divide all damage done to target by 2
-before applying to hit points. In addition to the above, all heat and cold
+before applying to HP. In addition to the above, all heat and cold
 damage are reduced by an additional X2. Target's movement (base) is reduced
 to 2. All falling damage is multiplied by X4 before applying to HP . Plus =
 0.
@@ -2396,7 +2394,7 @@ will take 10d6/round. (armor only protects for 1 round). Plus = 0
 ==== Fireball
 
 Caster takes 1 round to form a fireball between their hands, then next round
-casts. Fireball moves 10 Hex / round up to a maximum of 50 hexes. It covers
+casts. Fireball moves 10 hexes / round up to a maximum of 50 hexes. It covers
 1 gigahex, and will travel until it hits something. Then it detonates doing
 10d6 in a gigahex. +=0.
 
@@ -2545,14 +2543,14 @@ some spells require specific types of gems or other materials for symbols.
 .Spell Symbol Effects
 [options="header"]
 |====
-| Type                        | Pow / ft^2^            | Cost (GP)  | Hours / Pow | Notes
-| Lines in Dirt               | 1                      | 0          | 1/10        | Destroyed by wind or rain,
-| Silver / gold dust          | 100                    | 1 SP / Pow | 1/10        | Can be easily scratched. Must be drawn on >6" of stone or wood
-| Carved in rock (1' thick)   | 100                    | 0          | 1           | Durable
-| Three dimensional structure | 100 / ft^3^            | 5 SP / Pow | 1           | Can be re-assembled in 1 / 100 creation time
-| Ink on Paper (scroll)       | 100 / page (for spell) | 0          | 5           | 1 minute / page minimum casting time. Cast at +3 (general magic - 2). NO Pow storage.
-| Carved in gem               | 30 Pow / ct            | (Pow/30)^2^| 1           | Portable, expensive. Maximum gem size limits maximum spell Pow
-| Tattoos                     | 1000/body              |            | 1           | Cannot be changed.
+| Type                        | Pow / ft.^2^           | Cost (GP)    | Hours / Pow | Notes
+| Lines in Dirt               | 1                      | 0            | 1/10        | Destroyed by wind or rain,
+| Silver / gold dust          | 100                    | 1 SP / Pow   | 1/10        | Can be easily scratched. Must be drawn on >6" of stone or wood
+| Carved in rock (1' thick)   | 100                    | 0            | 1           | Durable
+| Three dimensional structure | 100 / ft.^3^           | 5 SP / Pow   | 1           | Can be re-assembled in 1% of creation time
+| Ink on Paper (scroll)       | 100 / page (for spell) | 0            | 5           | 1 minute / page minimum casting time. Cast at +3 (general magic - 2). NO Pow storage.
+| Carved in gem               | 30 Pow / ct            | (Pow / 30)^2^| 1           | Portable, expensive. Maximum gem size limits maximum spell Pow
+| Tattoos                     | 1000 / body            |              | 1           | Cannot be changed.
 |====
 
 Sample symbol spell: "Flesh to stone" on a gem by a mage who is -2 at flesh
@@ -2863,7 +2861,7 @@ to determine the effects on a failed roll.
 | 1000   | 9    | Mage polymorphs to frog (but retains magical abilities).
 | 2000   | 10   | Karaken Demon
 | 5000   | 11   | Hezrou Demon
-| 10000  | 12   | 100 Hex radius transported to alternate plane
+| 10000  | 12   | 100 hex radius transported to alternate plane
 | 20000  | 13   | 3d6 Ubu Beasts
 | 50000  | 14   | d6 randomly generated chaos creatures created. (see chaos section for rules)
 | 100000 | 15   | Summon Demon duke
@@ -3031,7 +3029,7 @@ mass production). Some examples are > 100ct gemstones, teeth of a greater
 dragon, or large meteors,
 
 
-=== SPELLS
+=== Magic Spells
 
 ==== Alarm
 
@@ -3082,7 +3080,7 @@ casting 1 day, +10
 
 ==== Asteroid Strike
 
-metamagic. Damage is 1,000,000,000 points / (distance in hexes)^2^. EG,
+Metamagic. Damage is 1,000,000,000 points / (distance in hexes)^2^. EG,
 deadly at 3 miles, very damaging at 10-30 miles. About a megaton. Based on
 metamagic. Must actually drop an existing star out of the sky. Range = line
 of sight (be careful). Damage counts as physical. There is a 1 minute time
@@ -3092,7 +3090,7 @@ somehow).
 
 ==== Audible simulacrum
 
-causes a sound to emanate from an object. Note the sound must originate from
+Causes a sound to emanate from an object. Note the sound must originate from
 a physical object, not from thin air. 1 Pow / min, EP 250, Difficulty 5.
 Maximum sound level is like a person yelling (eg no damage).
 
@@ -3140,8 +3138,8 @@ Causes the victim to become blind. Lasts until dispelled. Direct spell. ep
 
 Causes the target to become made of stone. They move more slowly, but gain
 strength and damage resistance. All damages are increased by X4. Parries are
-increased by X4. All combat values are REDUCED by 2. 50points of defense is
-added. Divide all damage done to target by 2 before applying to hit points.
+increased by X4. All combat values are REDUCED by 2. 50 points of defense is
+added. Divide all damage done to target by 2 before applying to HP.
 In addition to the above, all heat and cold damage are reduced by an
 additional X2. Target's movement (base) is reduced to 2. All falling damage
 is multiplied by X4 before applying to HP . EP 2000, Pow 120, 10/round to
@@ -3199,7 +3197,7 @@ Allows the caster to collect the raw energies of chaos. A proper vessel is
 required. A vessel can be constructed for 10 SP / Pow of chaos trapped.
 Vessel must be constructed of crystal, platinum, gold and iron. It will have
 a volume of about 1 ft^3^ for each 100 Pow stored. The area from which the
-Pow will be collected must be enclosed in a symbol of area 100Hex / Pow. Pow
+Pow will be collected must be enclosed in a symbol of area 100 hex / Pow. Pow
 = amount of chaos trapped. Difficulty = 15 EP = 1000. 1 day +12
 
 ==== Chill
@@ -3496,7 +3494,7 @@ Difficulty 11, Pow = 1/ounce.
 ==== Fog
 
 Causes fog to rise from the ground. Must be used outside. Covers an area of
-10,000 Hexes / Pow. EP 1000, Minimum 10 Pow. Difficulty 8. 3 rounds +4
+10,000 hexes / Pow. EP 1000, Minimum 10 Pow. Difficulty 8. 3 rounds +4
 
 ==== Forget
 
@@ -3550,7 +3548,7 @@ minute at +7.
 
 ==== Hellborer
 
-Metamagic. Blasts a hole through (nearly) anything. Hole is 10 Hexes in
+Metamagic. Blasts a hole through (nearly) anything. Hole is 10 hexes in
 radius, and is drilled at 10 hexes / round. Much of the material is
 destroyed, but some is ejected around the entrance. The spell must be
 targeted at least 3 rounds before it begins to drill - it makes a poor
@@ -3669,7 +3667,7 @@ New rules: Fixed 100 Pow spell, does 20 points base damage.
 Will liquefy a large volume of broken rock or gravel then re-solidify it
 into a concrete like substance, generally used for construction. The spell
 works on pieces of rock smaller than a few inches across, and not connected
-together with mortar. Volume of rock is 100 cubic feet / Pow. Minimum
+together with mortar. Volume of rock is 100 ft.^3^ / Pow. Minimum
 casting time 10 minutes, follows standard time casting pluses. -2 spell
 (easy).
 
@@ -3742,7 +3740,7 @@ EP 3000, Difficulty = 14 Pow = 2000. Fixed casting time 10 rounds, +5
 
 ==== Mold rock
 
-Gives a rock the consistency of putty. Requires 10 Pow / cubic foot, lasts 1
+Gives a rock the consistency of putty. Requires 10 Pow / ft.^3^, lasts 1
 minute. Difficulty 8. EP 500. fixed time 2 rounds, +4
 
 ==== Moonlight
@@ -3756,7 +3754,7 @@ if by moonlight with all appropriate effects. EP 1000, Difficulty = 8, Pow =
 Allows the magician to exert a force on stone. The target can only be moved
 slowly (1 hex / round) and cannot move more than 1hex above the ground. The
 force exerted is 100 lb. / Pow, and must be distributed over at least 1
-cubic foot of rock. For less than 1 ft^3^, derate force appropriately.
+cubic foot of rock. For less than 1 ft.^3^, derate force appropriately.
 Difficulty 8. Pow = 250
 
 ==== N-Liquid
@@ -3996,7 +3994,7 @@ Duration 10 rounds. Direct spell. Pow 20. Difficulty 7. EP 500
 
 A substance which will burn very slowly and regularly. It has the
 consistency of clay. 1cc of the material can burn for about an hour.
-Requires plant materials, oil, sulfur. Difficulty 8, Pow = 1/cc, EP 250
+Requires plant materials, oil, sulfur. Difficulty 8, Pow = 1 / cc, EP 250
 
 ==== Smoke - Magical
 
@@ -4019,7 +4017,7 @@ Spell requires chaos trapping. EP 3000, Difficulty = 16 Metamagic 5000 Pow
 
 Creates a new, 0 Pow chaos soul. This type of soul is required in order to
 absorb other Chaons (see <<chaons,Chaons>>). EP 3000, Difficulty 16,
-metamagic, 5000 Pow.
+Metamagic, 5000 Pow.
 
 ==== Soul Rip
 
@@ -4101,7 +4099,7 @@ will have all the normal effects on undead. Lasts for 1 hour. EP 5000, Pow
 This spell causes a beam of light with all of the effects of sunlight to
 emit from the caster's hand. Damage to undead (roll to hit is required) is
 10 base (no armor or parry). After casting, the spell can be maintained at
-20 Pow / round. Range is 20 Hex. EP 1000, Difficulty = 9, Pow = 100. 10
+20 Pow / round. Range is 20 hexex. EP 1000, Difficulty = 9, Pow = 100. 10
 rounds, +5.
 
 ==== Teleport
@@ -4184,7 +4182,7 @@ round, +2.
 ==== Volcano
 
 Causes a volcano to begin to grow in a specified location. Difficulty 15.
-Volcano will start producing 100 cubic meters of lava each hour. This will
+Volcano will start producing 100 m^3^ of lava each hour. This will
 double each hour for 3d6 hours. This rate will continue for (d2*)^2^ days.
 It will then subside, and remain dormant for (d2*)^2^ years. It will then
 begin to erupt again. EP 5000, Pow = 50,000, Difficulty = 15
@@ -4513,7 +4511,7 @@ selected, the abilities for that element cost 2X for an unrelated element,
   ** Immunity to fire,
   ** Ignite on touch,
   ** Body of flame (opponents take 3d6 within 1 hex),
-  ** Control fire 20 Hex radius.
+  ** Control fire in 20 hex radius.
   * Water
   ** Immunity to water / cold (includes unlimited time under water),
   ** Walk on water, purify water (up to lake size).
@@ -4581,11 +4579,11 @@ Each 12 hours roll for one of the following effects (flat roll):
 | 8     | Chaos wave
 | 9     | Special chaos effect - see table.
 | 10-13 | No effect
-| 14    | Clear area - no roll needed next hour. 10,000 Hex
-| 15    | Clear area - no roll next day, 1,000,000 Hex
+| 14    | Clear area - no roll needed next hour. 10,000 hex
+| 15    | Clear area - no roll next day, 1,000,000 hex
 | 16    | Permanent clear spot found. 100 hex area
 | 17    | Permanent clear spot 1000 hex area
-| 18    | Permanent clear spot 10,000 Hex area
+| 18    | Permanent clear spot 10,000 hex area
 | > 18  | Etc.
 |====
 
@@ -4593,11 +4591,11 @@ Each 12 hours roll for one of the following effects (flat roll):
 [options="header"]
 |====
 | Roll | Result
-| 1    | Meteor Swarm: Each character has a 1% chance of taking a +0/200 attack
+| 1    | Meteor Swarm: Each character has a 1% chance of taking a +0 / 200 attack
 | 2    | Rain of Fire: d6 fire damage / minute until find shelter - resisted by volcano survival, fire shield, etc.
 | 3    | Crevasse opens. All must roll an acrobatic roll at +8 (or be swallowed).
 | 4    | Food from heaven - bread drops from the sky, or grows out of the ground.
-| 5    | Geyser appears - Fire attack at +0/30 to all involved.
+| 5    | Geyser appears - Fire attack at +0 / 30 to all involved.
 | 6    | Hail of d6( Magnesium, Silver, Gold, Rubies (1-10 ct), Diamonds (1-10 Ct), Mithril): each 1 pound / hex total. Counts as +6/3 attack each round. Last 5 rounds.
 |====
 
@@ -4610,7 +4608,7 @@ Even permanent clear areas can be destroyed by attacks from chaos creatures.
 
 Chaos Wave: These occur in chaos areas. They are a more dense form of chaos
 with stronger effects. A chaos wave may be generated by expending one Chaon
-for each hex of range. The wave expands at 10 Hexes / round from the point
+for each hex of range. The wave expands at 10 hexes / round from the point
 of origin. When the wave passes, roll against the universe on the chaos
 effects table. Physical objects affected at +0 / 10 when it passes.
 
@@ -4821,7 +4819,7 @@ Availability of a specific skill in the general population
 [options="header"]
 |====
 | Item                                                | Unit   | Price (sp) | Barganing | R    | Notes
-| Blackout                                            | Oz.    | 100        | 25%       | 50%  | 1oz covers 10 hexes black paint
+| Blackout                                            | oz.    | 100        | 25%       | 50%  | 1 oz. covers 10 hexes black paint
 | Brass                                               | Lb.    | 2          | 5%        | 75%  |
 | Bronze                                              | Lb.    | 5          | 5%        | 75%  |
 | Clothes: Normal street clothes                      | Set    | 10         | 25%       | 25%  |
@@ -4830,7 +4828,7 @@ Availability of a specific skill in the general population
 | Clothes: top grade outdoor                          | Ea.    | 1000       | 25%       | 25%  | +1 outdoor survival (not for parkas)
 | Clothes: parka, other special                       | Ea.    | 100        | 25%       | 50%  |
 | Clothes: +1 parka                                   | Ea.    | 2000       | 25%       | 50%  |
-| Copper                                              | Oz     | .01        | 0%        | 75%  | Monetary standard
+| Copper                                              | oz.    | .01        | 0%        | 75%  | Monetary standard
 | Diamonds                                            | Ct^2^  | 100        | 10%       | 75%  | 10% appraisal fee, or evaluate merchandise
 | Flash Powder                                        | lb.    | 100        | 25%       | 50%  | If available, about 10% in a normal city
 | Food, - 1 day, minimum                              | 1 day  | 0.03       | 50%       | 25%  | Sustenance, no more
@@ -4841,7 +4839,7 @@ Availability of a specific skill in the general population
 | Food - wine bottle, typical                         | Ea.    | 1          | 50%       | 25%  |
 | Food - wine bottle, excellent                       | Ea.    | 10         | 50%       | 50%  |
 | Food - wine bottle, legendary                       | Ea.    | 100-500    | 50%       | 75%  | Collectors items to >1000 SP.
-| Gold                                                | Oz     | 100        | 0%        | 100% | Large Monetary Standard
+| Gold                                                | oz.    | 100        | 0%        | 100% | Large Monetary Standard
 | Horse - normal                                      | Ea.    | 100        | 25%       | 50%  |
 | Horse - good riding                                 | Ea.    | 500        | 25%       | 50%  |
 | Horse - war                                         | Ea     | 1000       | 25%       | 25%  |
@@ -4858,13 +4856,13 @@ Availability of a specific skill in the general population
 | Lands - as noble lord                               | person | 200        | 50%       | 90%  | Each peasant, can only sell after 1 year
 | Iron                                                | Lb     | 2          | 5%        | 75%  |
 | Lamp (brass, wind block)                            | Ea.    | 20         | 10%       | 50%  | 3 hours. 1 pound, fragile
-| Mercury                                             | Oz     | 100        | 25%       | 75%  | Important magical ingredient
+| Mercury                                             | oz.    | 100        | 25%       | 75%  | Important magical ingredient
 | Nitroglycerin                                       | Lb.    | 100        | 25%       | 50%  | If available, 10% in city, dangerous
-| Mithril                                             | Oz     | 2000       | 50%       | 50%  | Rare
-| Platinum                                            | Oz     | 500        | 0%        | 100% | Largest standard monetary unit
+| Mithril                                             | oz.    | 2000       | 50%       | 50%  | Rare
+| Platinum                                            | oz.    | 500        | 0%        | 100% | Largest standard monetary unit
 | Prostitute                                          | Night  | 2          | 50%       | 50%  | Varies
 | Ship                                                |        |            |           |      | See Sailing Ship Rules
-| Silver                                              | Oz     | 1          | 0%        | 100% | Monetary standard
+| Silver                                              | oz.    | 1          | 0%        | 100% | Monetary standard
 | Steel                                               | Lb.    | 5          | 10%       | 75%  | Weapons grade
 | Torch                                               | Ea.    | 0.1        | 10%       | 50%  | 1/2 hour, weighs 1 pound.
 | Wages - General Skilled +N                          | Hour   | 0.05*2^N^  | 25%       | 50%  | Carpenter, smith, etc
@@ -5008,31 +5006,31 @@ authorities will imprison or kill mages casting it if possible.
 | Animal Empathy         | 8   |       | n/a     | n/a   | 500   | 5           | Communicate with animals
 | Animate Rock           | 10  |       | 10 GP   | 5%    | 500   | 5 / hex     | attack +5/10.0
 | Animate Tree           | 10  |       | Nil     | Nil   | 2000  | 10/foot     | Rare
-| Army of Death          | 13  |       | >1,000  | nil   | 1000  | 1 / 100 hex | 100hex / Pow MM
-| Asteroid Strike        | 15  |       | >1,000  | nil   | 20000 | 1.0E6       | 1 Megaton, MM
+| Army of Death          | 13  |       | >1,000  | nil   | 1000  | 1 / 100 hex | 100hex / Pow Metamagic
+| Asteroid Strike        | 15  |       | >1,000  | nil   | 20000 | 1.0E6       | 1 Megaton, Metamagic
 | Audible Simulacrum     | 5   |       | 1 GP    | 80%   | 250   | 1 / min     | Scroll is for a specific sound
 | Aurora Shield          | 13  |       | Nil     | Nil   | 5000  | 1k+50 / rnd | meteors into fireballs, asteroids->10K meteors
-| Ball Lightning         | 5   |       | 1 GP    | nil   | 1000  | 50          | mg+, 10.0, 10hex / rnd,6 rounds, MM
+| Ball Lightning         | 5   |       | 1 GP    | nil   | 1000  | 50          | mg+, 10.0, 10hex / rnd,6 rounds, Metamagic
 | Banish                 | 10  |       | 10 GP   | 30%   | 1000  | 1000        | Banish demons (you hope)
 | Blackout               | 10  |       | 10 GP   | 10%   | 200   | >1          | 1 Pow / 10 hexes, potion
 | Blindness              | 10  |       | 10 GP   | 5%    | 500   | 30          | Lasts until dispelled 30 Pow
 | Body of Stone          | 8   |       | 1 GP    | 20%   | 2000  | 120         | x4 dam, -2CV, 2h / rnd move (P)
-| Brass to Bronze        | 12  |       | >1,000  | nil   | 250   | 10 / lb     |
-| Brass to Iron          | 12  |       | >1000   | 20%   | 250   | 10 / lb     |
+| Brass to Bronze        | 12  |       | >1,000  | nil   | 250   | 10 / lb.    |
+| Brass to Iron          | 12  |       | >1000   | 20%   | 250   | 10 / lb.    |
 | Break Rock             | 8   |       | 1 GP    | 20%   | 250   | 10 / ft^2^  | Magician must touch target
 | Bronze to Silver       | 14  |       | >1000   | nil   | 500   | 10 / oz.    |
 | Call lightning         | 6   |       | 1 GP    | 10%   | 1000  | 10          | +5/20 200hex p =10
 | Call Sun               | 10  |       | 10 GP   | 10%   | 1000  | 80          | Pow 80, dissipates storms
 | Camouflage             | 10  |       | 10 GP   | 10%   | 100   | 10          | chameleon skin (P), +2 stealth
-| Channel                | 10  |       | 10pg    | nil   | 1000  | 1           | Channel natural forces MM
-| Chaos Binding          | 15  |       | >1000   | nil   | 1000  | >1          | Stores chaos energy in object MM
+| Channel                | 10  |       | 10pg    | nil   | 1000  | 1           | Channel natural forces Metamagic
+| Chaos Binding          | 15  |       | >1000   | nil   | 1000  | >1          | Stores chaos energy in object Metamagic
 | Chill                  | 7   |       | 1 GP    | 5%    | 250   | 5           | causes momentary fear
 | City Walk              | 7   |       | 1 GP    | 10%   | 250   | 20          | Scroll is specific location
 | Cleaner                | 7   |       | 1 GP    | 30%   | 500   | 1 / hex     | Sorcerer's apprentice spell 1 Pow / hex
 | Conflagration          | 15  |       | >1000   | nil   | 5000  | 10000       | Fires storm, air turns to oxygen.
 | Control Undead         | 8   |       | 1 GP    | 10%   | 500   | 10          |
 | Corona                 | 8   |       | n/a     | n/a   | 1000  | 20 / round  | allows weapons to affect resistant opponent
-| Crack of doom          | 15  |       | >1000   | 0     | 20000 | 1.0E6       | 1milex10mile , 1M Pow. MM
+| Crack of doom          | 15  |       | >1000   | 0     | 20000 | 1.0E6       | 1milex10mile , 1M Pow. Metamagic
 | Create Rock            | 9   |       | 1 GP    | 30%   | 500   | 1 / ft^3^   | makes granite or basalt like rock
 | Create Zombie          | 10  |       | 10 GP   | 10%   | 500   | 30          |
 | Curse                  | 4   |       | n/a     | n/a   | 500   | 20          | Variable
@@ -5045,13 +5043,13 @@ authorities will imprison or kill mages casting it if possible.
 | Door Break             | 9   |       | 1 GP    | 20%   | 500   | >10         | Breaks open door
 | Drain                  | 9   |       | 1 GP    | 5%    | 1000  | 10          | Draw d10 cn and st, get X10 Pow
 | Earth Elemental        | 12  |       | 1000    | 1%    | 1000  | 5000        | Summons earth elemental
-| Earthquake             | 15  |       | >1000   | nil   | 5000  | 100,000     | Magnitude 8, MM
+| Earthquake             | 15  |       | >1000   | nil   | 5000  | 100,000     | Magnitude 8, Metamagic
 | Enchant Weapon         | 14  |       | n/a     | n/a   | 1000  | 1000        | Creates a plus 1 weapon
 | Exorcism               | 10  |       | n/a     | n/a   | 500   | 100         | Removes a demonic possession
 | Extinguish             | 7   |       | 1 GP    | 10%   | 500   | 1 / hex     | Puts out fires
 | Vorpal Weapon          | 16  |       | n/a     | n/a   | 1500  | 5000        | Creates a plus 2 weapon
 | Slaying Weapon         | 16  |       | n/a     | n/a   | 1500  | 10,000      | Sword will kill specific type
-| Energy Wall            | 8   |       | 1 GP    | 20%   | 500   | 1 / 5pts    | barrier is DCV0
+| Energy Wall            | 8   |       | 1 GP    | 20%   | 500   | 1 / 5 points| barrier is DCV0
 | Fast Walk              | 8   |       | n/a     | n/a   | 500   | 10*spd^2^   | Failure is BAD
 | Fear                   | 7   |       | 1 GP    | 20%   | 500   | 15          | Scares single target
 | Fire Elemental         | 11  |       | n/a     | nil   | 1000  | 5000        |
@@ -5061,14 +5059,14 @@ authorities will imprison or kill mages casting it if possible.
 | Floating Liquid        | 11  |       | 100 GP  | nil   | 500   | 1 / oz.     | lifts UP
 | Fog                    | 10  |       | 10 GP   | 10%   | 1000  | 1 / 10K hex | Outside only
 | Forget                 | 10  |       | 10 GP   | 5%    | 500   | 30          |
-| Gate                   | 13  |       | n/a     | n/a   | 5000  | 10K / Hex   | Metamagic, (P)
+| Gate                   | 13  |       | n/a     | n/a   | 5000  | 10K / hex   | Metamagic, (P)
 | Glue                   | 9   |       | 1 GP    | 10%   | 100   | 1 / oz.     | like crazy glue
 | Glow                   | 10  |       | 10 GP   | 50%   | 500   | 10          | Lasts 1 day on object, like candle
 | Glow water             | 12  |       | 100 GP  | nil   | 1000  | 10 / oz.    | like Cylume stick
 | Healing Potion         | 9   |       | n/a     | n/a   | 500   | 50          | 6d6 healing, drain 10d6* from others
 | Heat                   | 7   |       | 1 GP    | 20%   | 500   | 1 / round   | like camp fire
-| Hellborer              | 12  |       | n/a     | n/a   | 5000  | 10000       | Drills hole, 10hex rad. 100Pow / hex deep 10 / rnd
-| Hurricane              | 12  |       | >1000   | nil   | 5000  | 20000       | MM.
+| Hellborer              | 12  |       | n/a     | n/a   | 5000  | 10000       | Drills hole, 10 hex radius, 100 Pow / hex deep, 10 hexes / rnd
+| Hurricane              | 12  |       | >1000   | nil   | 5000  | 20000       | Metamagic.
 | Hypnotize              | 9   |       | n/a     | n/a   | 500   | 10          | *Restricted*
 | Identify Artifact      | 8   |       | n/a     | n/a   | 500   | 5           | fabricated devices (non magic)
 | Identify Rock          | 8   |       | n/a     | n/a   | 250   | 5           | natural rock only
@@ -5076,7 +5074,7 @@ authorities will imprison or kill mages casting it if possible.
 | Igniteall              | 10  |       | 10 GP   | 5%    | 250   | 1 / unit    | Burns anything
 | Immortality            | 16  |       | >1000   | nil   | 5000  | 10,000      | impossible???, any failure kills!
 | Invisibility           | 7   |       | 1 GP    | 5%    | 500   | 10 / min    | move to other world?
-| Lead to Brass          | 9   |       | 1 GP    | 5%    | 250   | 1 / lb      |
+| Lead to Brass          | 9   |       | 1 GP    | 5%    | 250   | 1 / lb.     |
 | Light                  | 7   |       | 1 GP    | 30%   | 500   | >1          | 1=candle to 100 = flare (P)
 | Lightning Bolt         | 6   |       | 1 GP    | 30%   | 500   | >10         | 1 HP base / 10 Pow
 | Livelong               | 0   |       | 1 GP    | 10%   | 2000  | 20          | dangerous (*Restricted*)
@@ -5087,7 +5085,7 @@ authorities will imprison or kill mages casting it if possible.
 | Meteor                 | 14  |       | >1000   | nil   | 3000  | 2000        | 10,000 / hexes^2^
 | Mold rock              | 8   |       | 1 GP    | 10%   | 500   | 10 / ft^3^  | turns rock into putty
 | Moonlight              | 10  |       | 10 GP   | 5%    | 1000  | 30          | lasts 1 minute
-| Move rock              | 6   |       | n/a     | n/a   | 250   | 1 / 100 lb  | lots of restrictions, 1 round
+| Move rock              | 6   |       | n/a     | n/a   | 250   | 1 / 100 lb. | lots of restrictions, 1 round
 | N-Liquid               | 8   |       | 1 GP    | 5%    | 250   | 1 / ltr     | flows uphill, useless?
 | Necromantic collection | 10  |       | n/a     | n/a   | 2000  | 100         | Requires carved obelisks. Collects death Pow
 | Nightmare              | 8   |       | n/a     | n/a   | 500   | 10          |
@@ -5096,8 +5094,8 @@ authorities will imprison or kill mages casting it if possible.
 | Peer through rock      | 9   |       | 1 GP    | 10%   | 500   | 10 / ft     | lasts 1 minute
 | Permanent Sleep        | 11  |       | 100 GP  | nil   | 1000  | 30          | sleeping beauty spell
 | Phase thru rock        | 10  |       | 10 GP   | 1%    | 1000  | 1 / rnd     | after start roll at +0 or DIE
-| Physical protection    | 8   |       | 1 GP    | 20%   | 500   | 1 / 5 pts   | DCV 0
-| Plague                 | 14  |       | >1000   | nil   | 1000  | 1000        | 50% fatality, MM,
+| Physical protection    | 8   |       | 1 GP    | 20%   | 500   | 1 / 5 points| DCV 0
+| Plague                 | 14  |       | >1000   | nil   | 1000  | 1000        | 50% fatality, Metamagic,
 | Plant Growth           | 9   |       | 10 GP   | 1%    | 2000  | 30 / rnd    | 10 hex radius area.
 | Poison                 | 9   |       | 1 GP    | 5%    | 500   | 1           | Creates poison
 | Power Storage          | 4   |       | n/a     | n/a   | 500   | >10         | Store power in gem
@@ -5119,7 +5117,7 @@ authorities will imprison or kill mages casting it if possible.
 | Slow                   | 9   |       | 1 GP    | 10%   | 500   | 20          | slows movement to 1/2
 | Slow burn              | 8   |       | 1 GP    | 25%   | 250   | 1 / cc      | Burns for an hour / cc
 | Smoke                  | 6   |       | 1 GP    | 25%   | 500   | 1 / 1K ft^3^|
-| Soul Creation          | 17  |       | >>1000  | nil   | 3000  | 5000        | MM - immortality, and angelic powers
+| Soul Creation          | 17  |       | >>1000  | nil   | 3000  | 5000        | Metamagic - immortality, and angelic powers
 | Spring                 | 9   |       | 1 GP    | 10%   | 500   | 100         | Causes water spring to appear (P)
 | Statue Garden          | 12  |       | >1000   | Nil   | 1000  | 100 / target| Turns people to stone is prepared area (P)
 | Storm                  | 11  |       | 100 GP  | 1%    | 1000  | 500         | Big thunderstorm
@@ -5128,7 +5126,7 @@ authorities will imprison or kill mages casting it if possible.
 | Sunlight               | 9   |       | 1 GP    | 1%    | 1000  | 100         | Ray of sunlight
 | Teleport               | 9   |       | n/a     | n/a   | 1000  | 10 / hex    | Line of sight, direct spell
 | Terrify animal         | 7   |       | 1 GP    | 10%   | 250   | 5           | non-enchanted, unintelligent only
-| Tidal Wave             | 12  |       | >1000   | nil   | 5000  | 10,000      | 200' X 20 mile wave MM
+| Tidal Wave             | 12  |       | >1000   | nil   | 5000  | 10,000      | 200' X 20 mile wave Metamagic
 | Tidiness               | 7   |       | 1 GP    | 10%   | 500   | 10          | Makes you look neat and clean
 | Time Stop              | 8   |       | 10 GP   | 1%    | 500   | 30 / hex    | Stops time inside or out.
 | Tornado                | 10  |       | n/a     | n/a   | 3000  | 3000        | 500 hex diam, 200 rounds, 20 hex / round
@@ -5179,14 +5177,14 @@ tedious hassle to track this all the time.
 [options="header"]
 |====
 | Item            | Typical costs | Encumbrance
-| Coins           |              | 1 / 10
-| Dagger, etc     |              | 1
-| One hand weapon |              | 10
-| Two hand weapon |              | 15
-| Bow             |              | 5
-| Arrow           |              | 1 / 2
-| Winter Coat     |              | 10
-| Parka           |              | 20
+| Coins           |               | 1 / 10
+| Dagger, etc     |               | 1
+| One hand weapon |               | 10
+| Two hand weapon |               | 15
+| Bow             |               | 5
+| Arrow           |               | 1/2
+| Winter Coat     |               | 10
+| Parka           |               | 20
 |====
 
 
@@ -5196,7 +5194,7 @@ Type of wall and time to construct per foot of perimeter. It is assumed that
 resources are available for wall. Note that normal labor rates are 25 SP /
 year or 1cp (.01 SP) per hour. Material costs are for a typical area. Stone
 and wood costs can easily vary a factor of 10 from the given numbers. In
-areas where raw materials are free, assume 1 / 2 of the material cost is the
+areas where raw materials are free, assume 1/2 of the material cost is the
 labor to "refine" the materials into useful forms. Defense / HP is per hex.
 
 .Fortification Construction Times
@@ -5218,7 +5216,7 @@ labor to "refine" the materials into useful forms. Defense / HP is per hex.
 A castle wall, 200' on a side, with 15' stone fortifications, would cost
 50Gold in materials and labor.
 
-Defensive Wall gates: A typical gate for a defensive wall will have 1 / 4
+Defensive Wall gates: A typical gate for a defensive wall will have 1/4
 the DEF and HP of the wall itself. A gate costs as much as 100' of wall.
 
 Building construction costs per ft.^2^ of living area. These costs are
@@ -5280,12 +5278,12 @@ acre in the city center.
 .Doorbreak Damage Required
 [options="header"]
 |====
-|Wooden door - light | 20pts
-|Wooden door - heavy | 50pts
-|Interior wall       | 30 pts
-|Stone wall          | 200pts (50 against explosion)
-|Steel door (1 inch) | 200 points.
-|Car door            | 25 points
+| Wooden door - light | 20 points
+| Wooden door - heavy | 50 points
+| Interior wall       | 30 points
+| Stone wall          | 200 points (50 against explosion)
+| Steel door (1 in.)  | 200 points.
+| Car door            | 25 points
 |====
 
 
@@ -5299,16 +5297,16 @@ rounds. Ignores parry
 
 ==== Siege Engines
 
-Small catapult - gravel Range 100Hex, Damage 6d6, area 1megahex, accuracy
+Small catapult - gravel, Range 100 hexes, Damage 6d6, area 1 megahex, accuracy
 10%, attack plus 3.
 
-Small catapult - stone, Range 150 Hex, Damage 100 base, accuracy 5%, attack
+Small catapult - stone, Range 150 hexes, Damage 100 base, accuracy 5%, attack
 plus 0.
 
-Big catapult - gravel Range 150 Hex, Damage 6d6, area 1 gigahex,
+Big catapult - gravel, Range 150 hexes, Damage 6d6, area 1 gigahex,
 accuracy 10%, attack plus 3
 
-Big catapult - stone Range 250, Damage 250base, accuracy 3%, attack plus 0
+Big catapult - stone, Range 250, Damage 250 base, accuracy 3%, attack plus 0
 
 Ballista - steel bolt Range 300, Damage 200base, attacks target like a -2
 weapon.
@@ -5322,7 +5320,7 @@ Climbing ropes - base +3 climbing roll for 1' / round.
 A body is 1' high by 1 hex wide. 5 bodies are required to raise a hex by 1
 foot.
 
-Battering Ram: Does 10 pts base for each wielder. Attacks at +0. Maximum of
+Battering Ram: Does 10 points base for each wielder. Attacks at +0. Maximum of
 20 wielders 1 attack / 2 rounds.
 
 
@@ -5341,17 +5339,17 @@ Battering Ram: Does 10 pts base for each wielder. Attacks at +0. Maximum of
 | -1                      | Explorer       | 500     |           |      | 200        |                 |                 | 30          | 250 GP
 |====
 
-Crew: 400 pounds of cargo must be allocated for each person., Additional
-5 pounds day / person supplies.
+Crew: 400 pounds of cargo must be allocated for each person, plus 5 lb. /
+day / person supplies.
 
-Scale: Hexes are 100 ft, turns are 1 minute (for both to move). (speed 1 = 1
-Knot)
+Scale: Hexes are 100 ft, turns are 1 minute (for both to move). Speed 1 = 1
+Knot.
 
 ==== Ship Stats:
 
 Speed = number of "movement points" per round
 
-Maneuverability, turns per hex. 1 - 1 hexside per hex. 2 is 2 hexsides per
+Maneuverability, turns per hex. 1 - 1 hexside per hex. 2 = 2 hexsides per
 hex.
 
 Port cannon = number of cannons on the port side
@@ -5364,29 +5362,25 @@ Rigging points = damage the rigging can take
 
 Typical ship:
 
-Hull points = 40
-
-Rigging points = 18
-
-Cannon = 10 Port, 10 Starbord
-
-Calm wind movement: 0 points available
-
-Light wind movement: 2 points available: cost = Inf, 2,1,1, turncost = 1
-
-Medium wind movement: 6 points available: cost = Inf, 3, 1, 1, turncost = 1
-
-Strong wind movement: 12 points available: cost = Inf, 6, 3, 2 turncost = 2
-
-Storm movement: 6 points available: cost = Inf, Inf, 2, 1 turncost = 3
+  * Hull points = 40
+  * Rigging points = 18
+  * Cannon = 10 Port, 10 Starbord
+  * Calm wind movement: 0 points available
+  * Light wind movement: 2 points available: cost = Inf, 2, 1, 1, turncost =
+    1
+  * Medium wind movement: 6 points available: cost = Inf, 3, 1, 1, turncost
+    = 1
+  * Strong wind movement: 12 points available: cost = Inf, 6, 3, 2 turncost
+    = 2
+  * Storm movement: 6 points available: cost = Inf, Inf, 2, 1 turncost = 3
 
 ==== Wind Direction and Strength
 
 The wind direction is determined before combat begins. The wind may be
 defined as normal, strong, or very strong. Unless there is a game reason it
-should do otherwise, the wind has a 1 / 6 chance of changing direction by
-one hex side each round (determined by die roll); if it changes, it has a
-50-50 of each direction.
+should do otherwise, the wind has a 1/6 chance of changing direction by one
+hex side each round (determined by die roll); if it changes, it has a 50-50
+of each direction.
 
 ==== Ship Movement
 
@@ -5420,8 +5414,8 @@ movement round.
 
 Rigging damage: Movement points are proportional to the number of rigging
 points. As you take rigging damage, your movement points decrease. Round
-movement points up. (At zero rigging points, the ship cannot move except to
-drift with the wind.)
+movement points up. At zero rigging points, the ship cannot move except to
+drift with the wind.
 
 Cannon damage: One point of damage to cannons takes out one cannon on the
 side fired upon.
@@ -5442,11 +5436,11 @@ move.
 == Silly Rules
 
 These rules are for Vikings, Pirates, Barbarians, Bikers, and others whose
-Hit points are >2x their Int. Do not use in serious campaigns.
+HP are more than twice their INT. Do not use in serious campaigns.
 
 === Recovery Rates (Silly)
 
-Hit points always recover at Con* / 10. (eg. Con^2^ / 100) per hour.
+HP always recover at C* / 10 (CON^2^ / 100) per hour.
 
 === Drinking Effects (Silly)
 
@@ -5457,7 +5451,7 @@ drinking roll fails, you take a -1 on all skills (including drinking). If
 you fail a roll, roll again (for the same drink, but including the new
 minus). If you fail, loose another plus, etc. When you are at -10 you pass
 out. That's the bad news. The good news is that if you have N drinks, you
-gain N^2^ hit points.
+gain N^2^ HP.
 
 === Challenge by Head Butting (Silly)
 
@@ -5572,7 +5566,7 @@ remember minimum combat DCVs.
 | Flash powder (against darkness creatures - orcs) 2-5 hex     | -10 +1 / round
 | Flash powder (against normal creatures) 1 hex (must hit)     | -7 additional, +1 / round
 | Flash powder (against darkness creatures - orcs) 1 hex (hit) | -15, +1 / round
-| Flash power, target facing away                              | 1 / 2 minuses, round down
+| Flash power, target facing away                              | 1/2 minuses, round down
 |====
 
 New Flash powder Rules: Flash powder maybe used to blind opponents when
