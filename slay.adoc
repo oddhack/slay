@@ -2429,7 +2429,7 @@ Then lava starts flowing. This is a permanent volcano, the eruption will
 last months, eventually leaving a mile tall volcano and a 50 mile wide
 devastated area. Plus =-10
 
-== Magic and Psi
+== Magic System
 
 Your plus with a spell is given on the character sheet. In order for a spell
 to work, you must equal a 3d6 roll + plus, against a flat 3d6. Note that
@@ -3029,27 +3029,27 @@ mass production). Some examples are > 100ct gemstones, teeth of a greater
 dragon, or large meteors,
 
 
-=== Magic Spells
+== Magic Spells
 
-==== Alarm
+=== Alarm
 
 Cast on an object, if the object is ever removed from its current location
 by more than the number of hexes specified by the owner, it will cause the
 object to cry "Thief, Thief "at 120db (at 1 hex). Lasts 1 month / Pow Will
 alarm for 1 minute / Pow. Difficulty 6, EP 100.
 
-==== Analyze magic
+=== Analyze magic
 
 Allows the magician to know the operation of any active spell or enchanted
 device and the amount of Pow in the spell. EP 500. Difficulty = 8. Pow = 10
 
-==== Animal Empathy
+=== Animal Empathy
 
 Causes animals to be friendly to the caster. Allows the caster to
 communicate with animals (at the level of the animal's intelligence). EP
 500, Difficulty = 8, Pow = 5. variable time.
 
-==== Animate rock
+=== Animate rock
 
 Causes a piece of rock to extrude active arms and weapons. The spell will
 affect hex of rock for each 5 Pow. The area must be approximately circular.
@@ -3060,7 +3060,7 @@ the hold. Once animated, any area will remain animated for 1 minute. Tie
 roll will produce animated, but uncontrolled rock. EP 500, Difficulty 10, 5
 Pow / hex, att +5, 10.0 dam, 1 minute +7.
 
-==== Animate Tree
+=== Animate Tree
 
 Causes a tree to uproot itself and do your bidding. The spell requires 10
 Pow for each foot of height of tree. Tree movement will be 1hex / round for
@@ -3068,7 +3068,7 @@ each 20' of height. Tree hp is height^3^ / 1000. Def is = 20 -100 varies
 with type of tree. Attack at -2. Base damage = height of tree. Difficulty
 10, EP 2000,
 
-==== Army of death
+=== Army of death
 
 Causes all of the dead in the effected area to rise from the grave and serve
 your will. A roll equal to that required will cause the dead to attack you.
@@ -3078,7 +3078,7 @@ available, they are raised as shades. Note the dead are animated by spirits.
 EP 1000, Difficulty 13. Area of effect 100hex / Pow. Metamagic, fixed
 casting 1 day, +10
 
-==== Asteroid Strike
+=== Asteroid Strike
 
 Metamagic. Damage is 1,000,000,000 points / (distance in hexes)^2^. EG,
 deadly at 3 miles, very damaging at 10-30 miles. About a megaton. Based on
@@ -3088,13 +3088,13 @@ delay from when the spell is cast until the asteroid hits. Minimum EP
 20,000. Difficulty = 15. Pow = 1000,000 (must be collected and stored
 somehow).
 
-==== Audible simulacrum
+=== Audible simulacrum
 
 Causes a sound to emanate from an object. Note the sound must originate from
 a physical object, not from thin air. 1 Pow / min, EP 250, Difficulty 5.
 Maximum sound level is like a person yelling (eg no damage).
 
-==== Aurora Shield
+=== Aurora Shield
 
 Creates a protection from meteor and asteroid strike attacks. All meteors
 will be defused to act as fireballs. An asteroid strike will be
@@ -3103,7 +3103,7 @@ shield). The meteors will fall in about a 30 mile radius. Typical separation
 is 300 hexes. EP 5000, Difficulty 13, Pow 1000, + 50/round to maintain.
 Shield area is 30 mile radius.
 
-==== Ball Lightning
+=== Ball Lightning
 
 Causes glowing spheres of damage causing energy to fly from the caster's
 fingertips. Spheres do 10 points base at caster's GM+. Balls last for 6
@@ -3112,7 +3112,7 @@ Movement is :flow like water toward target - so it is possible to trap them.
 If they miss, they continue in a straight line that turn, then come back for
 another pass. EP 1000, Pow = 50. Difficulty =5 Metamagic. 1 round, +4
 
-==== Banish
+=== Banish
 
 Returns a creature to its plane of origin, typically used on demons. If
 target is inside a drawn symbol (minimum 1 hour to draw), then if the spell
@@ -3121,7 +3121,7 @@ single target spell: target has a chance to counter. EP 1000, -10 Pow = 1000
 For fixed casting time, 1 day to setup for particular creature, then 1 round
 when target is in symbol. Cast at +8.
 
-==== Blackout
+=== Blackout
 
 A potion which acts like the ultimate black paint. One portion can cover
 about 10 square hexes with absolute light absorbing black. requires coal
@@ -3129,12 +3129,12 @@ dust, gold, silver, mercury. Used on a person causes + 5 visual stealth at
 night. Minimum creation time 10 minutes. EP 200, Difficulty 10, 1 Pow per 10
 square hexes worth.
 
-==== Blindness
+=== Blindness
 
 Causes the victim to become blind. Lasts until dispelled. Direct spell. ep
 500 Pow = 30. Difficulty 10.
 
-==== Body of stone
+=== Body of stone
 
 Causes the target to become made of stone. They move more slowly, but gain
 strength and damage resistance. All damages are increased by X4. Parries are
@@ -3145,24 +3145,24 @@ additional X2. Target's movement (base) is reduced to 2. All falling damage
 is multiplied by X4 before applying to HP . EP 2000, Pow 120, 10/round to
 maintain. Difficulty 8
 
-==== Brass to bronze
+=== Brass to bronze
 
 Costs 10 Pow / pound. EP 250 Difficulty 12.
 
-==== Brass to iron
+=== Brass to iron
 
 Costs 10 Pow / pound. EP 250 Difficulty 12.
 
-==== Break rock
+=== Break rock
 
 The magician must strike the rock to be broken. Cost is 10 Pow / ft^2^ of
 rock fracture. Fixed time 5 rounds, +5. EP 250 Difficulty 8.
 
-==== Bronze to silver
+=== Bronze to silver
 
 Costs 10 Pow / ounce. EP 500 Difficulty 14.
 
-==== Call Lightning
+=== Call Lightning
 
 Can only be used during a storm or severe storm. Range is 200 hex. Spell
 attacks as a single target indirect spell at +5. Base damage is 50. The
@@ -3171,18 +3171,18 @@ hex radius. If multiple people are calling, do a base GM+ contest to see who
 wins each round. Difficulty 6. Once started, spell continues EP 1000. Pow =
 10.
 
-==== Call Sun
+=== Call Sun
 
 Causes the sun to come out from behind clouds, even during a storm. This
 spell will dissipate storms. EP 1000, Difficulty 10. Pow 80.
 
-==== Camouflage
+=== Camouflage
 
 A potion which causes your skin to have chameleon properties. Lasts 1 hour.
 Gives a +2 to stealth in appropriate circumstances. Does not change the
 color of your clothes. EP 100 Difficulty 10, Pow 10.
 
-==== Channel
+=== Channel
 
 Allows the caster to interact with, and to some extent control natural
 forces like storms, volcanoes, oceans, etc. Allows the caster to manipulate
@@ -3191,7 +3191,7 @@ Difficulty 10, EP 1000. Pow: once started, magician GAINS up to 1000 Pow /
 minute from a major phenomena. Can be used to combine magical Pow from
 multiple magicians. Must be cast for each magician. Metamagic.
 
-==== Chaos Binding
+=== Chaos Binding
 
 Allows the caster to collect the raw energies of chaos. A proper vessel is
 required. A vessel can be constructed for 10 SP / Pow of chaos trapped.
@@ -3200,12 +3200,12 @@ a volume of about 1 ft^3^ for each 100 Pow stored. The area from which the
 Pow will be collected must be enclosed in a symbol of area 100 hex / Pow. Pow
 = amount of chaos trapped. Difficulty = 15 EP = 1000. 1 day +12
 
-==== Chill
+=== Chill
 
 Causes momentary fear (undirected) in victim. Direct spell. Difficulty 7,
 Pow 5. EP 250, 1 round +3.
 
-==== City Walk
+=== City Walk
 
 Allows the caster to move between any two outside places inside a city. The
 spell works by turning a corner, the far side of which must be out of the
@@ -3213,25 +3213,25 @@ view of anyone trying to follow the caster. As with Fast Walk, others can
 follow the caster if they are directly behind him. Pow = 20, Difficulty = 7.
 EP 250
 
-==== Cleaner
+=== Cleaner
 
 Animates an object or objects to clean and tidy an area. Fumble is the
 sorceres apprentice effect. Area effect. EP 500, Pow = 1 / hex Spell
 requires about 1 minute after casting to operate. Difficulty = 7.
 
-==== Conflagration
+=== Conflagration
 
 Metamagic - Creates a spreading fire - acts as if the air were turned to
 pure oxygen. This spell has not specific range limit, but will typically
 burn any city, or forest to ashes. Difficulty 15, Pow 10000, EP 5000
 
-==== Control undead
+=== Control undead
 
 Allows the caster to gain control of an undead. Single target direct spell.
 Once control is gained, it does not need to be maintained. Difficulty 8, Pow
 10, EP 500, Casting time 1 minute, +7
 
-==== Control Fire
+=== Control Fire
 
 Allows the caster to move fire within the spell range, reducing damage to
 zero in some areas, or increasing to 3d6 (from the normal d6) in others. It
@@ -3241,7 +3241,7 @@ hexes beyond the area in which it is naturally burning to do a 3d6 area
 effect damage. EP 500, Difficulty 7. 10 Pow / hex, lasts 1 minute, maybe
 continued.
 
-==== Corona
+=== Corona
 
 Creates a magical halo around a creature which causes it to extend into
 another plane. This allows the creature to affect (specific) things normally
@@ -3251,31 +3251,31 @@ therefore unable to use stealth. EP 1000, Difficulty 8, Pow = 20/round (not
 per minute). Spell may be cast at multiple targets by multiplying Pow cost.
 5 rounds, +4.
 
-==== Crack of doom
+=== Crack of doom
 
 Metamagic. Opens a crack in the earth, up to 1 mile wide by 10 long, and all
 within that area are cast into the void (or hell, or chaos, or pick your
 favorite space). Difficulty 15, Pow 1,000,000.
 
-==== Create rock
+=== Create rock
 
 Causes rock to appear. Direct spell. rock must appear in contact with the
 earth, in a stable configuration. EP 500 Cost is 1 Pow / ft^3^, Difficulty =
 9. Fixed casting time 1 minute, +6
 
-==== Create Zombie
+=== Create Zombie
 
 Animates a corpse. Can create a zombie, skeleton, or shade. Failure Causes a
 zombie not under your control. EP 500 Difficulty 10. Pow 30. Can be multiple
 target for extra Pow. 1 hour, +8
 
-==== Curse
+=== Curse
 
 A special spell. You must make up a curse in rhyme. It is entirely up to the
 GM to determine results. Note that the best curses also affect the caster.
 EP 500. Pow = 20
 
-==== Darkness
+=== Darkness
 
 Creates an area of darkness around the caster. Within this area, light does
 not illuminate anything, but the light sources are still visible. Can be
@@ -3284,12 +3284,12 @@ Pow to create, 0.1 Pow / hex to maintain. Darkness is total, normal light
 will not help except see interactions between light and darkness rules.
 Difficulty 7, EP 500 1 round +4
 
-==== Death
+=== Death
 
 Kills victim on the spot. Direct spell. EP 2000, Difficulty 11. Pow = 50. 1
 round +2
 
-==== Deflect
+=== Deflect
 
 Allows a magician to deflect an incoming spell. It is in some ways similar
 to a standard counter. It is a continuing spell. It can only be used against
@@ -3303,7 +3303,7 @@ Pow / hex must be spent . A spell cannot be deflected out of its normal
 range. A spell cannot be deflected within the 60 degree cone in the range of
 the original casting mage. EP500, Difficulty 5, 10 Pow / round continuing.
 
-==== Deflect Lightning
+=== Deflect Lightning
 
 Redirect a lightning bolt that would have hit within 10hexes of the caster
 to any location in 10 hexes at caster's plus with this spell. Note - it is
@@ -3312,38 +3312,38 @@ plus. This can be cast after other magic in defense (but at minuses if other
 spells have been cast). Deflecting multiple lightning strokes all done at
 the same plus. Plus = 0. 1 round +0.
 
-==== De-scent oil
+=== De-scent oil
 
 Will eliminate smells in an area. (useful if you are being tracked). only
 lasts a few minutes after manufacture. Requires several herbs. Difficulty
 10, Pow 1/unit, EP 250
 
-==== Disease
+=== Disease
 
 Causes disease in target when touched (no range allowed). Disease will kill
 in about 2 weeks without treatment if victim fails a flat con roll.
 . Must add Pow to exceed CON in addition to other costs. Direct spell,
 EP 500 Pow 10 Difficulty 10.
 
-==== Distract
+=== Distract
 
 Direct spell. Causes to victim to pay atention to something else
 momentarily. Spell failure causes the victim to notice the caster.
 Difficulty 7. Pow 10. EP 250
 
-==== Door Bar
+=== Door Bar
 
 Will hold a door locked as if it were made of stronger material. The
 strength of the door depends on the Pow put into the spell (see door break).
 EP 500 Difficulty = 9. 1 round, +5
 
-==== Door Break
+=== Door Break
 
 Will shatter a locked door. Direct Spell. Amount of Pow depends on the door.
 Effective "damage" to door is roll+mg+ * 1/Pow in spell. Difficulty 9. EP
 500 1 round, +3.
 
-==== Drain
+=== Drain
 
 This drains strength from a victim. Target must be below 0 hp or must be
 willing. They loose CON and STR, you gain in Pow 5x the amount drained. You
@@ -3351,21 +3351,21 @@ may drain d10 from each. Direct spell. Victims drained below zero may not be
 drained again. Range=touch. Victims recover 1 of con and strength each day.
 Pow = 10, EP 1000, Difficulty = 9.
 
-==== Earth elemental
+=== Earth elemental
 
 Calls an elemental a creature: move 1, -2/10,000, DCV -5,-5, inf. Def =
 2000, HP = 50000. Depends on the scenario. Currently the animate type is in
 use. Elemental will remain active for 1 day. Difficulty = 11, Pow = 5000. EP
 1000 . Fixed time, 2 hours +10.
 
-==== Earthquake
+=== Earthquake
 
 Metamagic This spell can devastate a large area. It does not damage people,
 but will destroy many buildings. Casting this spell generally requires the
 use of an extra Pow source. The approximate magnitude is magnitude 8
 earthquake. 100,000 Pow. Difficulty 15. EP 5000.
 
-==== Elemental Sphere
+=== Elemental Sphere
 
 A sphere of protection that encircles the caster. It is composed of 6
 concentric layers, with a hex gap between each. It is actually a partial
@@ -3391,7 +3391,7 @@ are:
 EP is 2000, Difficulty 8, Pow is 100/round to maintain. 10 rounds to cast
 +5.
 
-==== Enchant Weapon
+=== Enchant Weapon
 
 It is used to put an enchantment on a weapon to make it +1 to hit. 1000 EP
 -14, 1000 Pow. Weapon must be crafted of the finest materials. A weapons
@@ -3399,33 +3399,33 @@ making roll (smithing or similar) must be made at -5 to create the base
 weapon. A failed roll destroys the materials (typically 1 GP cost). 1 week,
 +10.
 
-==== Enchant Vorpal
+=== Enchant Vorpal
 
 Used to put a +2 on a weapon - a very difficult spell. 1500 EP, -18 5000
 Pow. Weapon must be made of meteoric iron or similar. Materials cost is 20
 GP. A weapons making roll must be made at -7 or the materials are only
 suitable for a +1 weapon. If failed at -5, materials are destroyed.
 
-==== Enchant Slaying
+=== Enchant Slaying
 
 Weapon will kill a single type of creature if it does any damage. Weapon
 must be made as vorpal above (separate spell required to also make a weapon
 vorpal). Weapon must also use parts from a dead creature of the type to be
 killed. 1500 EP, diff -16. 10,000 Pow
 
-==== Enchant Special
+=== Enchant Special
 
 Creates a weapon with special properties. The use of this spell is up to GM
 discretion, but some examples are:
 
-==== Energy Wall
+=== Energy Wall
 
 Stops energy (fire, lightning, etc) based attacks, in a fashion similar to
 physical protection. The barrier acts as DCV=0, 1 Pow will be consumed for
 each 5 points of damage iflicted on the barrier. The barrier has a base cost
 of 1 Pow for each hex side covered. Difficulty 8. EP 500
 
-==== Exorcism
+=== Exorcism
 
 Cures possession. Works when a person is possessed by a demon (or angel), or
 similar spirit. The target must be inside of a drawn symbol (minimum 1 hour
@@ -3434,12 +3434,12 @@ target's heart (hit against high). Target should probably be restrained.
 Fumble kills the target, or possibly moves the possession to the magician.
 EP 500 Difficulty -10. 100 Pow.
 
-==== Extinguish
+=== Extinguish
 
 Will put out all fires in an area. 1 hex / Pow area affected. Difficulty 7,
 EP 500. 3 rounds +5
 
-==== Fast Walk
+=== Fast Walk
 
 Allows the caster to travel large distances quickly. Can only be used to
 travel between places the caster has visited before. Fast walk moves
@@ -3456,62 +3456,62 @@ into or out of castles, dungeons, etc. Difficulty 8. EP 500. For fixed
 casting time rules, casting time is 2 hours to start at +7, then 1 day using
 the spell.
 
-==== Fear
+=== Fear
 
 Causes fear in target. Direct spell. Fear will last hours. Failure causes
 victim to be aware of spell. Difficulty = 7, EP 500, Pow = 15. For fixed
 casting time rules: 5 Rounds, +4 to cast.
 
-==== Fire Elemental
+=== Fire Elemental
 
 Summons a single fire elemental to do the caster's bidding. Elemental will
 remain active for 1 day. Difficulty = 11, Pow = 5000. EP 1000
 
-==== Fireball
+=== Fireball
 
 Fixed Pow spell doing 10 dice center hex, -1 each hex from center. Spell
 goes off the round after it is cast. The caster must secretly write down the
 target location. Pow = 50, Difficulty 7, EP 1000. fixed casting time 3
 rounds, +3;
 
-==== Flesh to stone
+=== Flesh to stone
 
 Affects single target, direct spell. Target is turned to stone. Target is
 not conscious while stoned. The reverse spell is learned automatically. EP
 500, Difficulty = 8 Pow = 20
 
-==== Flesh to stone potion
+=== Flesh to stone potion
 
 Causes the person drinking to turn to stone. Not reversible except with
 stone to flesh spell (a statue can't drink). EP 1000, Difficulty 12, Pow 50
 
-==== Floating liquid
+=== Floating liquid
 
 This material, composed primarily of mercury, will fall up. It pulls up with
 the same force that the same amount of mercury would pull down. EP 500
 Difficulty 11, Pow = 1/ounce.
 
-==== Fog
+=== Fog
 
 Causes fog to rise from the ground. Must be used outside. Covers an area of
 10,000 hexes / Pow. EP 1000, Minimum 10 Pow. Difficulty 8. 3 rounds +4
 
-==== Forget
+=== Forget
 
 Causes the victim to forget something until the spell is broken. Direct
 spell. EP 500 Pow 30. Difficulty 10
 
-==== Gate
+=== Gate
 
 Opens a door to a new location or dimension. Pow is 10K / hex. EP 5000,
 Difficulty 13. Symbol spell only. 1 day +9
 
-==== Glow
+=== Glow
 
 Causes an object to glow, producing about the light of a candle. The glow
 lasts for about a day. Difficulty 10, EP 500 Pow 10.
 
-==== Glow water
+=== Glow water
 
 Liquid is like the liquid in cylume sticks. It can be made in any lifetime
 from 30min to 24 hours, and in any color. Requires water, sulfur, coal,
@@ -3529,7 +3529,7 @@ be written in 12 words or less: "kill everything except me" works. A golem
 can house a soul, in which case it acts like a permanent body of stone. EP
 1000, Difficulty 12 with time pluses. Obvious fumble.
 
-==== Healing Potion
+=== Healing Potion
 
 A magical potion which causes healing. Must draw energy from other people
 when it is prepared. Can be used in conjunction with non-magical healing,
@@ -3540,13 +3540,13 @@ person. On each die roll, if get a 6, roll again and add. On a failed roll,
 points are drained, but no healing takes place. On a fumble, something
 interesting happens. Difficulty 9, ep 500, Pow 50.
 
-==== Heat
+=== Heat
 
 Causes heat equivalent to a camp fire. Heat is cast on an object. EP 500.
 Difficulty = 7, Pow = 1 / round. With fixed casting time rules, requires 1
 minute at +7.
 
-==== Hellborer
+=== Hellborer
 
 Metamagic. Blasts a hole through (nearly) anything. Hole is 10 hexes in
 radius, and is drilled at 10 hexes / round. Much of the material is
@@ -3555,20 +3555,20 @@ targeted at least 3 rounds before it begins to drill - it makes a poor
 weapon. Anything in its path will take 1000 points / hex / round damage. EP
 5000. Pow 100/ hex drilled. (minimum 10,000 Pow), Difficulty 12.
 
-==== Hulk
+=== Hulk
 
 A strength spell that cause the recipient to gain +5 con, +5 strength and+5
 size (armor will not fit), and loose 5 on all other stats and turns green.
 Lasts 1 minute.
 
-==== Hurricane
+=== Hurricane
 
 Metamagic. Causes a hurricane class storm (about 100 miles diameter. peak
 150mph winds). Storm will last for 1 week at sea, or 2 days on land. It will
 move up to 500miles / day, under the magicians control. EP = 5000 (metamagic
 reduces). Pow = 20,000. Difficulty = 12
 
-==== Hypnotize
+=== Hypnotize
 
 Causes a victim to perform a set of actions under a set of prescribed
 conditions. The victim performs as if asleep, and may be woken, breaking the
@@ -3576,21 +3576,21 @@ spell. Must be cast on an unsuspecting victim. Direct spell. Failure causes
 victim to be aware of spell. Pow 10. Difficulty 9. EP 500. Casting time 1
 minute, +7
 
-==== Identify Artifact
+=== Identify Artifact
 
 Allows a magician to know the function of a created device. If the spell
 fails by 1, an incorrect reading is obtained. If the spell succeeds by 2,
 additional information, including the object's origin, and any curses, etc
 are revealed. Pow = 5, Difficulty = 8, EP 500.
 
-==== Identify Rock
+=== Identify Rock
 
 Allows the magician to know the composition, and age of a rock. Note that
 the age of a rock is defined as when it was removed from its natural place
 in the ground, or when it was broken from a larger piece. Pow 5, Difficulty
 8. EP 250
 
-==== Ignite
+=== Ignite
 
 Causese any flammable object in the area of effect to catch fire. Continuing
 spell, May be cast on a hex, or on the wielder. Clothes typically do d6
@@ -3598,13 +3598,13 @@ damage (no armor). All lamp oil, flash powder, etc will ignite. 25 Pow /
 hex, 1 / hex to maintain. Spell area must be approximately round. Difficulty
 10, EP 2000.
 
-==== Igniteall
+=== Igniteall
 
 A wax like substance which burns very hot and will ignite almost any
 flammable material. It will also melt soft metals. Requires mercury, sulfur,
 charcoal. Difficulty 10. EP 250, Pow = 1/unit.
 
-==== Immortality
+=== Immortality
 
 Alchemical potion. When first drunk, or poured on to wounds, it provides up
 to 100 points of healing within a few minutes. 10 doses, taken at one time
@@ -3617,7 +3617,7 @@ trapped on this plane. EP 5000, Difficulty 16 Pow 10000. Note: knowledge of
 this spell is very restricted. Knowledge of this spell allows a reverse
 potion to be created.
 
-==== Inferno
+=== Inferno
 
 Metamagic: A higher Pow version of "control fire" it allows a mage to also
 dramatically increase the speed at which things burn causing 100pts / round
@@ -3626,18 +3626,18 @@ fire rates. Fire may be extended beyond the initial range by 30 hexes. A
 minimum of 100 hexes of fire must already be burning in order to use this
 spell. Minimum 1000 Pow, 10 Pow / round, EP 1000, Difficulty 11.
 
-==== Invisibility
+=== Invisibility
 
 Causes magician to move toward spirit world. The further you move, the less
 you can be seen, and the less you can see. As you move further, you can
 interact with spirits. Failure leaves you TRAPPED on the other side. EP 500
 Pow 10. Duration 1 min. / 10 Pow. Difficulty 7
 
-==== Lead to Brass
+=== Lead to Brass
 
 Costs 1 Pow / pound, Difficulty 9, EP 250.
 
-==== Light
+=== Light
 
 Causes light to radiate from the magician's hand. Intensity depends on Pow
 used. Spell lasts as long as Pow is used. EP 500, Difficulty 7.
@@ -3654,7 +3654,7 @@ used. Spell lasts as long as Pow is used. EP 500, Difficulty 7.
 | 100 | Flare - Will blind everyone within 100' for 1 round.
 |====
 
-==== Lightning Bolt
+=== Lightning Bolt
 
 An indirect single target spell. Standard 1 Pow / hex range. A 10 point or
 more lightning bolt will also act as a "flash powder" spell. Damage 1 point
@@ -3662,7 +3662,7 @@ base / 10 Pow. EP 500. Difficulty = 6. fixed casting time 3 rounds +3
 
 New rules: Fixed 100 Pow spell, does 20 points base damage.
 
-==== Liquid Rock
+=== Liquid Rock
 
 Will liquefy a large volume of broken rock or gravel then re-solidify it
 into a concrete like substance, generally used for construction. The spell
@@ -3671,7 +3671,7 @@ together with mortar. Volume of rock is 100 ft.^3^ / Pow. Minimum
 casting time 10 minutes, follows standard time casting pluses. -2 spell
 (easy).
 
-==== Livelong
+=== Livelong
 
 An alchemical potion, which can indefinitely prolong your life. You must
 drink a dose every month ( on the day of the full moon) or you will lose the
@@ -3680,7 +3680,7 @@ effects of previous livelong potions. Ingredients: Water, Mercury, Wood from
 an ancient bristle cone pine, Bone from someone dead a thousand years, Gold
 dust, Glacier ice. EP 2000, Difficulty = 0, Pow = 20.
 
-==== Magic Hide
+=== Magic Hide
 
 This spell will mask the presence of stored magic (not active spells) in an
 area. Pow required = sqrt(Pow to be hidden). Area for hiding is 1 hex / Pow
@@ -3689,21 +3689,21 @@ this spel). So to hide a 10,000 point storage area, would need to cast a 100
 point spell, and maintain at 10 points per round. Difficulty 5, variable
 casting time. Continuing spell.. 500 EP.
 
-==== Magic wall
+=== Magic wall
 
 This spell puts up a barrier which magical energy cannot pass. It stops only
 direct magical spells. EP 500 Difficulty 6. Pow = 100 / hex. 1 Pow / minute
 / hex. It is destroyed by any physical or energy attack. A magic wall is
 visible. Continuing spell.
 
-==== Magical sword
+=== Magical sword
 
 Allows an existing weapon to affect things otherwise immune to normal
 weapons. Weapon will also glow in the dark - eliminating darkness minuses,
 but preventing stealth. Fumble will destroy weapon. After cast will last 1
 minte / Pow in spell. Difficulty 7, EP 500,
 
-==== Major Illusion
+=== Major Illusion
 
 Similar to Simulacrum, but can create complex and large objects, complete
 with sound. After spell is cast, must make a roll at GM+ to create the
@@ -3718,7 +3718,7 @@ significant way. Spell can also be used to change the appearance of objects
 or people when used at an additional -2 on general magic roll. EP 2000,
 Difficulty 9. Casting time 10 rounds, +6
 
-==== Mesmerize
+=== Mesmerize
 
 Allows you to take control of a victim. Direct spell. It lasts until
 dispelled. Victim is immune if they state they are avoiding your eyes
@@ -3730,7 +3730,7 @@ The caster will know when a command will break the spell before it is
 issued. A mesmerized person will seem distracted, but not abnormally so to
 observers. EP 1000, Pow = 30 Difficulty 12. Casting time 1 hour. +8
 
-==== Meteor
+=== Meteor
 
 Causes a meteor to fall from the sky and hit a specified target. Range =
 1000', Damage is 10,000 points explosive. Magician can specify smaller
@@ -3738,18 +3738,18 @@ damage if desired. Failure may cause meteor to hit caster. If the attack
 misses the target, the target can half (or full) move out of the target hex.
 EP 3000, Difficulty = 14 Pow = 2000. Fixed casting time 10 rounds, +5
 
-==== Mold rock
+=== Mold rock
 
 Gives a rock the consistency of putty. Requires 10 Pow / ft.^3^, lasts 1
 minute. Difficulty 8. EP 500. fixed time 2 rounds, +4
 
-==== Moonlight
+=== Moonlight
 
 Spell causes a glowing disk to rise into the air and illuminate 1 mi.^2^ as
 if by moonlight with all appropriate effects. EP 1000, Difficulty = 8, Pow =
 30. Lasts 1 minute.
 
-==== Move rock
+=== Move rock
 
 Allows the magician to exert a force on stone. The target can only be moved
 slowly (1 hex / round) and cannot move more than 1hex above the ground. The
@@ -3757,13 +3757,13 @@ force exerted is 100 lb. / Pow, and must be distributed over at least 1
 cubic foot of rock. For less than 1 ft.^3^, derate force appropriately.
 Difficulty 8. Pow = 250
 
-==== N-Liquid
+=== N-Liquid
 
 A material which flows like water, but up. It follows the path water would
 take down, but follows it in reverse (along the ground only). components -
 Water, silver dust. Difficulty = 6 EP 250. Pow = 1 / unit.
 
-==== Necromantic collection
+=== Necromantic collection
 
 A very powerful and dangerous spell. Collects all of the Pow released by
 death in an area (200 Pow / death typically). A set of 5 stones must be
@@ -3776,14 +3776,14 @@ minions. Stones are reusable. EP 2000, Difficulty 10 Pow 100. Note: you must
 be able to use the Pow as quickly as it is delivered. 1 week(preparation), 1
 round activation, +10
 
-==== Nightmare
+=== Nightmare
 
 Causes the victim to have a horrible nightmare. Direct spell. Failure causes
 inability to use this spell on that victim again. You may decide in general
 the course of the nightmare, or let their worst fears take over. Pow 10.
 Difficulty 8, EP 500.
 
-==== Olfactory simulacrum
+=== Olfactory simulacrum
 
 Causes a smell to emanate from an object. The smell can duplicate in detail
 anything the caster has personally smelled, and is accurate enough to, for
@@ -3791,7 +3791,7 @@ example, confuse tracking dogs. 1 Pow / min, 250 EP, Difficulty 5. Note that
 the smell overlays, but doesn't replace existing smells. Smells can be made
 very unpleasant, but not disabling .
 
-==== Oxyliquid
+=== Oxyliquid
 
 Alchemical - eliminates the effects of oxygen starvation due to high
 altitude, under water, or the breathing effects (but not contact) with
@@ -3799,7 +3799,7 @@ poison gas, etc. Spell creates a potion - which has a shelf life of 1 week
 (only!). Components: Water, Mercury (1 GP / unit), plant components. Pow1,
 Potion lasts 8 hours. Difficulty 10, EP 500.
 
-==== Paralysis
+=== Paralysis
 
 Causes the victim to be unable to move or fight. This spell will be broken
 by any sudden movement toward the victim. You must approach slowly for the
@@ -3807,18 +3807,18 @@ kill. This spell only allows you to get to combat range before it is broken.
 It does NOT give you a free attack. Spell lasts for about 5 minutes. Direct
 spell. EP 500 Pow 30. Difficulty 10.
 
-==== Partial Petrify
+=== Partial Petrify
 
 Causes a part of the victim to turn to stone. Note that this will not kill
 the victim. Difficulty 10 Pow 10. Lasts for about 1 day, then slowly
 recovers.
 
-==== Peer through rock
+=== Peer through rock
 
 Makes rock as clear as glass (to the caster only). Cost is 10 Pow / foot
 distance. Lasts 1 minute. Difficulty 9 EP 500, Fixed time 1 minute, +6.
 
-==== Permanent sleep
+=== Permanent sleep
 
 Induces a sleep which cannot be broken. Must be cast on a victim who is
 already sleeping. The victim will not age, or change in any way until
@@ -3826,13 +3826,13 @@ awakened. A specific action must be declared which will awake the victim.
 (GM discretion for acceptable actions). Direct spell Pow 30. Difficulty 11.
 EP 1000
 
-==== Phase Through Rock
+=== Phase Through Rock
 
 Allows the magician to move through solid rock at 1 hex / round. Costs 1 Pow
 / round, Difficulty = 10 to start, 0 to continue. A failed roll means
 *death*. EP 1000. 10 minutes, +8
 
-==== Physical Protection
+=== Physical Protection
 
 Allows the magician to surround himself with a barrier that will stop
 physical attacks. The barrier is transparent, but slightly visible. Once
@@ -3842,24 +3842,24 @@ barrier acts as DCV=0, 1 Pow will be consumed for each 5 points of damage.
 inflicted on the barrier. The barrier has a base cost of 1 Pow for each hex
 side covered. Difficulty 8. EP 500. +6, 1 round / hex side.
 
-==== Plague
+=== Plague
 
 Causes an outbreak of plague which will continue naturally. The death rate
 is 50% over 6 month. Make con roll to survive. Difficulty 14. Pow 1000. EP
 1000 Metamagic.
 
-==== Plant Growth
+=== Plant Growth
 
 Causes plants in the area to grow at up to 1 years growth per minute. Lasts
 1 minute. This spell can be very powerful. Magician can control direction of
 growth within reason. EP 2000. Difficulty = 7, Pow = 15
 
-==== Poison
+=== Poison
 
 Creates a poison which causes death (if ingested) in seconds to days
 (magicians choice). Difficulty 9. Pow 1. EP 500
 
-==== Portal
+=== Portal
 
 Creates a symbol which allows travel to any location. A single symbol can be
 used for multiple destinations. Failure has effects similar to a failed
@@ -3873,13 +3873,13 @@ can be activated to that location using standard symbol rules (GM+ - 5
 casting). The portal spell must be cast again for any change in target (but
 can use the existing symbol). Difficulty 10. EP 1000. Pow = 100 / hex.
 
-==== Power Generation
+=== Power Generation
 
 Allows the construction of a Pow generation gem. This gem will produce, and
 radiate Pow. Only a single Pow generation gem can be liked to a storage or
 symbol gem. Difficulty = 8 Pow = 10 EP 500.
 
-==== Power Storage
+=== Power Storage
 
 Allows the storage of Pow in a gem. Once created, the gem automatically
 charges when "linked" to a magician. Power in the gem can be used by anyone
@@ -3896,17 +3896,17 @@ This rule is not always used: "A fumble will discharge the entire gem Pow".
 ====
 
 
-==== Rain
+=== Rain
 
 Spell causes it to rain over an area about 10 miles on a side. Rain will
 last for a few hours. Difficulty = 10 Pow = 20 0, EP 500.
 
-==== Rainbow
+=== Rainbow
 
 Causes a rainbow to appear in the sky. Continuing spell 1 Pow / round. +5 if
 there is rain and clouds. -2 at night.. EP 500, Difficulty 8. Pow 200.
 
-==== Rebuild
+=== Rebuild
 
 This spell will rebuild a structure which had previously been destroyed. It
 will rebuild the oldest and / or most significant structure which had been
@@ -3914,12 +3914,12 @@ constructed from the materials at hand. The structure will remain intact,
 only if it can stand on its own after being assembled. The spell affects an
 area of 1 hex in radius for each Pow. Difficulty = 14. EP 1000
 
-==== Rock to Lead
+=== Rock to Lead
 
 This spell causes a volume of rock to convert to lead. Pow = 1/pound
 Difficulty 10. EP 250
 
-==== Sanctuary
+=== Sanctuary
 
 The caster creates an area of safety. Any attempt to enter the area must be
 made at a land navigation roll at -10. The sanctuary spell is not noticeable
@@ -3936,7 +3936,7 @@ roll required to re-enter the sanctuary. Note that a large sanctuary can be
 cast in segments. If it is broken, the entire spell breaks. EP 1000, Pow
 1000 (miimum), Difficulty 11. Metamagic. Fixed casting time 1 week, +10.
 
-==== Scrying
+=== Scrying
 
 Spell allows the caster to see things at a distance. The caster must have a
 part of something currently held by the target. The caster can see things in
@@ -3944,7 +3944,7 @@ the area of the item. Note the caster has no control over the exact
 direction the spell looks. The spell is Difficulty 12. Pow 50. EP 2000. The
 target is not aware of the scrying.
 
-==== Shadow Hide
+=== Shadow Hide
 
 Allows the caster (only) to hide perfectly in shadow. Failure of any roll
 will result in detection. A roll is required each time someone looks. Rolls
@@ -3952,94 +3952,94 @@ are made without time modifiers. Note that you can be seen if you directly
 attack someone. EP 500, Difficulty = 6 for first roll, then 0, Pow =
 1/round.
 
-==== Shatter metal
+=== Shatter metal
 
 Will break a metal object. Direct spell. Cost is 10 Pow / in.^2^. Difficulty
 = 10. EP 500
 
-==== Shatter rock
+=== Shatter rock
 
 This spell will break an object at range. It is a direct spell. Pow is 20 /
 ft.^2^. Difficulty = 9. EP 500. 3 rounds +3.
 
-==== Silence
+=== Silence
 
 Causes the victim to be unable to make any noise. Direct spell. (Note this
 will also prevent indirect noise from the victim). Can be used on self.
 Duration 10 rounds. Pow 10. Difficulty 8. EP 500
 
-==== Silver to Gold
+=== Silver to Gold
 
 Costs 100 Pow / ounce Difficulty 14. EP 2000
 
-==== Simulacrum
+=== Simulacrum
 
 Makes an image of an object. 1 Pow / minute lifetime. Difficulty 7, EP =
 250. Image does not move. Maximum size is 1 hex (approximately human size)
 fixed time 1 minute, +7.
 
-==== Sleep
+=== Sleep
 
 Cast on someone in a situation where they might fall asleep (a guard at his
 post for example). Direct spell, Difficulty 6. Pow 10, Failure, no effect.
 EP 500. Fixed casting time 1 minute, +8. Can be cast over an area at 1 Pow /
 hex + 10 Pow / victim.
 
-==== Slow
+=== Slow
 
 Cast on someone to slow their movement. Causes movement to be at 1/2 normal.
 Duration 10 rounds. Direct spell. Pow 20. Difficulty 7. EP 500
 
-==== Slow Burn
+=== Slow Burn
 
 A substance which will burn very slowly and regularly. It has the
 consistency of clay. 1cc of the material can burn for about an hour.
 Requires plant materials, oil, sulfur. Difficulty 8, Pow = 1 / cc, EP 250
 
-==== Smoke - Magical
+=== Smoke - Magical
 
 A spell which produces a puff of smoke, about enough to fill a room,
 Difficulty 46 EP 500, 1000 ft^3^ / Pow.
 
-==== Soul Bind
+=== Soul Bind
 
 Connects a soul to an object. Direct spell. 100 Pow, -10. Casting time 1
 day. +8
 
-==== Soul Creation
+=== Soul Creation
 
 Uses Chaons to create a new soul. Requires 500 Chaons to be trapped. This
 spell will convert the Chaons to a new soul which is bound to a person. The
 target permanently gains: Angel abilities, immortality. It's a good deal.
 Spell requires chaos trapping. EP 3000, Difficulty = 16 Metamagic 5000 Pow
 
-==== Soul Creation (version2)
+=== Soul Creation (version2)
 
 Creates a new, 0 Pow chaos soul. This type of soul is required in order to
 absorb other Chaons (see <<chaons,Chaons>>). EP 3000, Difficulty 16,
 Metamagic, 5000 Pow.
 
-==== Soul Rip
+=== Soul Rip
 
 Removes a soul from a person. Direct spell. 100 Pow, -10, cating time 1 day.
 +8.
 
-==== Soul Talk
+=== Soul Talk
 
 Talk to a soul. 1 Pow. -10. Casting time 1 hour +8.
 
-==== Spirit Wall
+=== Spirit Wall
 
 Creates a wall (actually a dome) that spirits cannot cross. A line must be
 scribed around the area to be protected, 1 round / hex. +6. Each Pow in the
 wall can stop 10 spirits from crossing the wall.
 
-==== Spring
+=== Spring
 
 Causes a small water spring to grow in the ground. Spring will last 1 hour.
 Must be cast at -5 in very dry areas. Difficulty 9, EP 500, Pow 100
 
-==== Statue Garden
+=== Statue Garden
 
 Turns people to stone in a prepared area. Area must be prepared - cost is 1
 SP and 1 EP (applied to this spell) for each hex prepared. A Pow source (Pow
@@ -4047,7 +4047,7 @@ stone for example, or the mage) must be provided. Acts as an area effect
 direct spell. Trigger can be any action specified by the caster. Difficuly
 12, EP 1000, Pow 100 / target.
 
-==== Stone Golem
+=== Stone Golem
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
@@ -4067,26 +4067,26 @@ but almost indestructible. They will mindlessly hunt down the nearest humans
 and kill them. Single zombies are not too dangerous, but once a horde gets
 started it is almost unstoppable. Difficulty 14. Pow 1000. EP 1000 Metamagic
 
-==== St. Elmo's fire
+=== St. Elmo's fire
 
 Casts a dim blue-green light over an object - up to 10 hexes size..Can be
 cast on an opponent by hitting low DCV at casters GM+. 5 rounds +3.
 Difficulty 2, 250 EP
 
-==== Storm
+=== Storm
 
 Spell causes a strong thunderstorm to cover an area about 10 miles on a
 side. Storm will last about 1 hour. Difficulty 11, EP 1000, Pow = 500. Fixed
 casting 10 minutes +7.
 
-==== Summon
+=== Summon
 
 This is used to summon demons, etc. Power used is variable. Spell will work
 if all particulars have been carried out exactly. See summoning section for
 details on requirements for summoning each type of demon. Difficulty 10, Pow
 1000. EP 1000. Casting time varies, but typically 1 week to prepare. +8
 
-==== Sun
+=== Sun
 
 This spell causes the sun to appear in the sky (if it is not there already).
 The sun will rise in the east, and reach the zenith in 3 rounds. It will
@@ -4094,7 +4094,7 @@ light up an area 10 miles on a side with normal levels of daylight. This
 will have all the normal effects on undead. Lasts for 1 hour. EP 5000, Pow
 2000, Difficulty 11.
 
-==== Sunlight
+=== Sunlight
 
 This spell causes a beam of light with all of the effects of sunlight to
 emit from the caster's hand. Damage to undead (roll to hit is required) is
@@ -4102,30 +4102,30 @@ emit from the caster's hand. Damage to undead (roll to hit is required) is
 20 Pow / round. Range is 20 hexex. EP 1000, Difficulty = 9, Pow = 100. 10
 rounds, +5.
 
-==== Teleport
+=== Teleport
 
 Causes mage to spend the next full round moving to a specified hex, the
 subject appears with a popping sound, loud enough to wake a sleeping person.
 The mage must appear on solid ground. The destination must be in line of
 sight. Direct Spell. Difficulty 9, Pow 10 / hex, EP 1000.
 
-==== Terrify animal
+=== Terrify animal
 
 Causes any animal (non enchanted creature) to flee in panic. Direct spell.
 Difficulty 7. Pow 5. EP 250. 3 rounds, +4.
 
-==== Tidal Wave
+=== Tidal Wave
 
 Metamagic. Causes a 200' tall wave, approximately 20 mile wide to move on
 shore. Damage depends on the local terrain. Difficulty = 12, EP 5000
 (metamagic rules apply). Pow = 10,000.
 
-==== Tidiness
+=== Tidiness
 
 Spell causes you to look clean, repairs clothes, etc. EP 500. Difficulty 7,
 Pow 10.
 
-==== Time stop
+=== Time stop
 
 Causes a bubble to be created around the caster. Outside the bubble, the
 world stops. Alternately time inside the bubble can be stopped for a
@@ -4136,7 +4136,7 @@ for the bubble to form or disappear. Fumble has the obvious very bad effect
 (caster frozen for some very long time - thousands of years). 30 Pow / hex
 (must be round, centered on caster). Difficulty 8, ep 500.
 
-==== Tornado
+=== Tornado
 
 Metamagic. Creates a category 5 tornado which lasts 300 rounds under the
 control of the casting magician. Range Pow costs must be paid to create the
@@ -4149,37 +4149,37 @@ in the tornado. Armor gives normal protection against area attacks. Outdoor
 clothes give 10/90% protection. Diffculty 10, 3000 EP, Pow = 3000, 10 rounds
 +5.
 
-==== Track
+=== Track
 
 Allows you to find the direction to a person if you have some item of
 theirs. Failure will give an incorrect direction. 10 Pow / mile range,
 minimum 10 Pow. Difficulty = 11, EP 500, Fixed casting time 1 hour, +7.
 
-==== Trigger
+=== Trigger
 
 A spell bound into a magical device that allows the firing of a symbol
 spell. The trigger must be as large as the triggered symbol. A trigger is
 attached to one and only one symbol spell. Difficulty 12, Pow = 1, EP 1000.
 
-==== Unerase
+=== Unerase
 
 A liquid which will cause erased or faded writing to reappear on a page.
 Difficulty 8. Pow = 1, EP 250
 
-==== Vampirism
+=== Vampirism
 
 Converts anyone into a vampire (permanently). You gain all the powers and
 disadvantages of a vampire. A failed roll means the target dies. Difficulty
 11. Pow 1000. EP 2000
 
-==== Vigor
+=== Vigor
 
 Allows the recipient to fight at negative HP. Recipient will fight to
 negative 4X normal death, but will die if spell ends while you are worse
 than death. EP 250, Difficulty = 7, 10 Pow. Can continue at 1 Pow / round. 1
 round, +2.
 
-==== Volcano
+=== Volcano
 
 Causes a volcano to begin to grow in a specified location. Difficulty 15.
 Volcano will start producing 100 m^3^ of lava each hour. This will
@@ -4187,12 +4187,12 @@ double each hour for 3d6 hours. This rate will continue for (d2*)^2^ days.
 It will then subside, and remain dormant for (d2*)^2^ years. It will then
 begin to erupt again. EP 5000, Pow = 50,000, Difficulty = 15
 
-==== Volcano Control
+=== Volcano Control
 
 Includes protection from fumes, walk on lava, survive lava, redirect lava,
 lava control. EP 2000, Pow = 20 / round, Difficulty = 7 (each round).
 
-==== Wall of fire
+=== Wall of fire
 
 Create an immobile curtain of raging fire. It cannot be created through a
 solid object (or person). Anything which crosses through the curtain takes
@@ -4200,14 +4200,14 @@ fire damage equal d6 for each 10 points in the spell. In addition to the Pow
 for damage, 5 Pow / hex length must be spent. Continuing spell. Difficulty 8
 EP500. fixed casting time 3 rounds, +3;
 
-==== Wall of stone
+=== Wall of stone
 
 Creates a series of crystal like spikes the grow out of the ground. Covers 1
 hexes to a height of 10' for each Pow. Requires a flat climbing or
 acrobatics roll to cross. If attacked, DCV=-10, DEF =600, 5000hp, 1/4 damage
 from edged weapons. Blocks vision. 10 rounds +5
 
-==== Water Breathing
+=== Water Breathing
 
 Potion allows you to operate under water without needing to breathe and
 makes you immune to pressure effects. Components are deep sea fish oil,
@@ -4215,7 +4215,7 @@ squid ink, and crushed pearls (1 GP / potion). Potion lasts 1 day. EP 500,
 Difficulty 10. After taking potion, you cannot survive in air until the
 effects wear off.
 
-==== Wind
+=== Wind
 
 Spell causes a wind to blow over the area of effect. Pow = radius(hexes) *
 speed(knots)^2^ / 1000 . A 10 knot wind over a 1000 hex radius (1 mile),
@@ -4224,7 +4224,7 @@ Maximum radius is 10 miles. Minimum Pow is 20. Difficulty =10, EP 500, Pow =
 1000.
 
 
-=== Psionic abilities
+== Psionics
 
 If your Psi - General Plus is <= 0, you are considered to be Psi inactive,
 and are not noticeable to other psionic creatures. If your Psi - General
@@ -4252,7 +4252,7 @@ added as for normal skills.
 
 Multiple Psi Actions: Are performed at -2 for each additional ability used.
 
-==== Psi - Area block
+=== Psi - Area block
 
 This is used to block others from Psi attacks. The rules are similar to Psi
 - Block (see below). It can be used to block any number of people within
@@ -4262,27 +4262,27 @@ area block has a range of 100 hexes. It is cast at -1 for each factor of 2
 in range. Psi - Block and Psi - Area Block cannot be used with any other
 Psionic ability.
 
-==== Psi - Area Hide
+=== Psi - Area Hide
 
 Really a lot more like area unobtrusiveness. Normal range is 100 hexes. Cast
 at -1 for each factor of 2 in range. Add this plus (using plus addition
 rules) to the unobtrusiveness plus of the group. The effect is not
 invisibility, but rather "These are not the droids you are looking for".
 
-==== Psi - Block
+=== Psi - Block
 
 This is used to block the effects of Psi attacks. The amount by which the
 Psi - Block roll succeeds each round is added to the defender's PSI Plus.
 Psi - Block must be rolled separately in every round in which there is a Psi
 attack. Psi - Block cannot be used with any other Psi ability.
 
-==== Psi - Brain Scan
+=== Psi - Brain Scan
 
 This is a very powerful psi ability. It allows you to read the target's
 deepest thoughts. It requires a roll every 1 minute of scanning. Typically
 it will take 100 minutes to scan all of the data in the target's mind.
 
-==== Psi - Detect
+=== Psi - Detect
 
 This is the ability to detect psionic creatures at a distance. Creatures
 must have PSI Plus > 0 in order to be detectable. A flat roll is required to
@@ -4295,35 +4295,35 @@ It's not clear what "10 Psi" means here. A PSI *stat* of 10, or a PSI *Plus*
 of 10, or something else?
 ====
 
-==== Psi - Displacement
+=== Psi - Displacement
 
 This causes the target to think that you are in a slightly different
 location. This will prevent missile attacks from hitting. It does not work
 in hand to hand. Like other Psi abilities, it can be stopped by a Psi block.
 It affects a single target.
 
-==== Psi - general
+=== Psi - general
 
 This is your Plus at resisting psionic attacks.
 
-==== Psi - Hide
+=== Psi - Hide
 
 Allows you to hide from searchers. It is treated like a stealth roll with
 the same modifiers. Psi - Hide does not work against Psi - Detect. Use Psi -
 Block instead. Adds to stealth plus using plus addition rules.
 
-==== Psi - History
+=== Psi - History
 
 Gives the ability to tell something about a person's history by touch. After
 a touch, the psionic will see important, but random scenes from the person's
 past.
 
-==== Psi - Language
+=== Psi - Language
 
 This allows you to communicate with the target in their native language. The
 language is normally forgotten after use.
 
-==== Psi - Madness
+=== Psi - Madness
 
 A high level Psi ability. Causes everyone in the affected area to roll
 against an attack at Psi - Madness plus or behave in an irrational fashion.
@@ -4331,44 +4331,44 @@ The choices (up to the attacker) are fear, aggressiveness, randomness, or
 paralysis. The base area of effect is 100 hex radius, at a range of up to
 200 hexes. The ability is used at -1 for each x2 in range or radius.
 
-==== Psi - paralyze gaze
+=== Psi - paralyze gaze
 
 This is the ability to freeze an opponent in their tracks. Target must look
 at your eyes or a -5 applies. Targets in combat will look at your eyes on a
 7-.Range is line of sight to max of 10 hexes. Note, opponent can avoid eyes
 but is -1 on all combat. Difficulty 5, EP 1000
 
-==== Psi - Read Impression
+=== Psi - Read Impression
 
 The psionic equivalent of Read Body Language. Tends to be less abstract /
 emotive: rather than "they're worried about something", would tend to return
 "they're thinking they might be in trouble with their boss". Succeeds
 proportional to amount over.
 
-==== Psi - pain
+=== Psi - pain
 
 Your basic psionic distraction attack. Opponent is -N on next rounds
 offensive actions where N is the number your roll beat them this round.
 Opponents in combat are already steeled for pain, and thus are only -N / 2
 (round down). Range is line of sight to 10 hexes.
 
-==== Psi - psi communication
+=== Psi - psi communication
 
 Allows sending communication to a target that is expecting the communication
 (-5 otherwise). Distance penalty: -log~2~(distance in miles). If the target
 also has this skill, it may be added to the attempt.
 
-==== Psi - send idea
+=== Psi - send idea
 
 An idea occurs to the target. Target is not compelled to act on the idea. -1
 for each additional target of one "attack". Distance penalty:
 -log~2~(distance in hexes). "These are not the droids you are looking for".
 
-==== Psi - send image
+=== Psi - send image
 
 Causes the target to think that they see something. Very powerful.
 
-==== Psi - Telekinesis
+=== Psi - Telekinesis
 
 A very advanced psi ability. Provides the ability to move objects by mind
 alone. It provides motions and forces similar to those a human could
