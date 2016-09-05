@@ -31,7 +31,7 @@ Per Joel, the combat phases are:
 
 [1] This rarely happens.
 
-=== Whirling Dervish Skill
+=== Combat - Whirling Dervish Skill
 
 The Whirling Dervish is a defensive combat maneuver. A person trained in
 Whirling Dervish must declare Whirling Dervish at the beginning of the
@@ -488,3 +488,167 @@ Even a -10 roll may succeed and even a +10 roll may fumble!
 | 9             | 98.9%   | 0.5%
 | 10            | 99.4%   | 0.3%
 |====
+
+=== Missing Spells (TBD)
+
+[NOTE]
+====
+(Jon) The JoelWorld "school" system has resulted in renaming all the spells
+in skill.dbs to include the school name. I don't know if the details of the
+spells differ, or just the college, but it makes it difficult to correlate
+the spell list in the main document with the spells in JoelWorld skill.dbs
+not explicitly listed above. If it's as simple as removing the college name,
+this entire section may go away. Here are the suspect spells, for tracking
+purposes.
+
+  * Magic Air - Ball Lightning
+  * Magic Air - Call Lightning
+  * Magic Air - Elemental Sphere
+  * Magic Air - Energy Wall
+  * Magic Air - Fog
+  * Magic Air - Invisibility
+  * Magic Air - Lightning Bolt
+  * Magic Air - Magic Wall
+  * Magic Air - Silence
+  * Magic Air - Smoke
+  * Magic Air - Teleport
+  * Magic Air - Wind
+  * Magic Alchemy - Blackout
+  * Magic Alchemy - Brass To Bronze
+  * Magic Alchemy - Brass To Iron
+  * Magic Alchemy - Bronze To Silver
+  * Magic Alchemy - Camouflage
+  * Magic Alchemy - De-scent Oil
+  * Magic Alchemy - Fireworks
+  * Magic Alchemy - Flesh To Stone Potion
+  * Magic Alchemy - Floating Liquid
+  * Magic Alchemy - Glow Water
+  * Magic Alchemy - Healing Potion
+  * Magic Alchemy - Igniteall
+  * Magic Alchemy - Lead To Brass
+  * Magic Alchemy - N-liquid
+  * Magic Alchemy - Oxyliquid
+  * Magic Alchemy - Rock To Lead
+  * Magic Alchemy - Silver To Gold
+  * Magic Alchemy - Slow Burn
+  * Magic Death - Army Of Death
+  * Magic Death - Banish
+  * Magic Death - Blindness
+  * Magic Death - Chill
+  * Magic Death - Control Undead
+  * Magic Death - Create Zombie
+  * Magic Death - Curse
+  * Magic Death - Darkness
+  * Magic Death - Death
+  * Magic Death - Disease
+  * Magic Death - Drain
+  * Magic Death - Exorcism
+  * Magic Death - Fear
+  * Magic Death - Forget
+  * Magic Death - Gate
+  * Magic Death - Immortality
+  * Magic Death - Mesmerize
+  * Magic Death - Necromantic Collection
+  * Magic Death - Nightmare
+  * Magic Death - Paralysis
+  * Magic Death - Permanent Sleep
+  * Magic Death - Plague
+  * Magic Death - Poison
+  * Magic Death - Summon
+  * Magic Death - Vampirism
+  * Magic Earth - Animate Rock
+  * Magic Earth - Body Of Stone
+  * Magic Earth - Break Rock
+  * Magic Earth - Crack Of Doom
+  * Magic Earth - Create Rock
+  * Magic Earth - Earth Elemental
+  * Magic Earth - Earthquake
+  * Magic Earth - Flesh To Stone
+  * Magic Earth - Hellborer
+  * Magic Earth - Mold Rock
+  * Magic Earth - Move Rock
+  * Magic Earth - Partial Petrify
+  * Magic Earth - Peer Thru Rock
+  * Magic Earth - Phase Thru Rock
+  * Magic Earth - Rebuild
+  * Magic Earth - Shatter Rock
+  * Magic Earth - Statue Garden
+  * Magic Enchant - Audible Simulacrum
+  * Magic Enchant - Door Bar
+  * Magic Enchant - Door Break
+  * Magic Enchant - Enchant Book
+  * Magic Enchant - Enchant Slaying
+  * Magic Enchant - Enchant Vorpal
+  * Magic Enchant - Enchant Weapon
+  * Magic Enchant - Magical Sword
+  * Magic Enchant - Major Illusion
+  * Magic Enchant - Olfactory Simulacrum
+  * Magic Enchant - Physical Protection
+  * Magic Enchant - Scrying
+  * Magic Enchant - Shadow Hide
+  * Magic Enchant - Shatter Metal
+  * Magic Enchant - Simulacrum
+  * Magic Enchant - Slow
+  * Magic Enchant - Time Stop
+  * Magic Fire - Conflagration
+  * Magic Fire - Control Fire
+  * Magic Fire - Fireball
+  * Magic Fire - Fire Elemental
+  * Magic Fire - Heat
+  * Magic Fire - Ignite
+  * Magic Fire - Meteor
+  * Magic Fire - Volcano
+  * Magic Fire - Volcano Control
+  * Magic Fire - Wall Of Fire
+  * Magic Life - Alarm
+  * Magic Life - Animal Empathy
+  * Magic Life - Call Sun
+  * Magic Life - Corona
+  * Magic Life - Distract
+  * Magic Life - Glow
+  * Magic Life - Guano Rain
+  * Magic Life - Hypnotize
+  * Magic Life - Imbue
+  * Magic Life - Light
+  * Magic Life - Livelong
+  * Magic Life - Moonlight
+  * Magic Life - Plant Growth
+  * Magic Life - Sleep
+  * Magic Life - Soul Bind
+  * Magic Life - Soul Creation
+  * Magic Life - Soul Rip
+  * Magic Life - Soul Talk
+  * Magic Life - Spirit Wall
+  * Magic Life - Sun
+  * Magic Life - Sunlight
+  * Magic Life - Terrify Animal
+  * Magic Meta - Analyze Magic
+  * Magic Meta - Channel
+  * Magic Meta - Chaos Binding
+  * Magic Meta - City Walk
+  * Magic Meta - Fast Walk
+  * Magic Meta - Identify Artifact
+  * Magic Meta - Identify Rock
+  * Magic Meta - Portal
+  * Magic Meta - Power Generation
+  * Magic Meta - Power Storage
+  * Magic Meta - Trigger
+  * Magic Meta - Tunnel Walk
+  * Magic Water - Animate Tree
+  * Magic Water - Aurora Shield
+  * Magic Water - Cleaner
+  * Magic Water - Extinguish
+  * Magic Water - Plant Growth
+  * Magic Water - Rain
+  * Magic Water - Spring
+  * Magic Water - Storm
+  * Magic Water - Tidiness
+  * Magic Water - Track
+  * Magic Water - Unerase
+  * Magic Water - Vigor
+  * Magic Water - Water Breathing
+  * Metamagic Air - Asteroid Strike
+  * Metamagic Air - Hurricane
+  * Metamagic Air - Tornado
+  * Metamagic Water - Tidal Wave
+====
