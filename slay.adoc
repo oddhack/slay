@@ -4,7 +4,7 @@
 // Misc. asciidoc boilerplate follows the title line
 
 = Hack and Slay IX Player's Guide
-Josef Frisch
+Josef Frisch, Joel Duisman, Ray Trent, Graham Hamilton, Jon Leech
 :icons:
 :toc: left
 :toclevels: 2
@@ -41,6 +41,11 @@ many years.
 The GM's Decision is final, and takes precedence over anything written
 in these rules.
 
+[NOTE]
+====
+(Graham) God is always right, but is not necessarily consistent.
+====
+
 You roll 3d6 + (Skill Plus).
 
 Your opponent or the universe rolls 3d6 + (Plus).
@@ -68,7 +73,7 @@ there are interactions between skills, so that training in one skill can
 improve others. Training in skills affects stats - usually, but not always
 resulting in an increase.
 
-=== Order of Actions
+=== Order Of Actions
 
   * Reserved actions can occur at any time during a round
   * Movement, which includes Engage rolls
@@ -78,10 +83,9 @@ resulting in an increase.
   * Magic spell normal counters: all counters declared
   * Brute force counters
   * Psi
-  * Other actions (``special actions'')
+  * Other actions ("special actions")
   ** Military Command to determine enemy combat pluses
   ** Soliloquy phase
-  **
 
 === Experience Points
 
@@ -91,30 +95,33 @@ character sheet. Skills with very low Pluses (less than a large negative
 value) are not shown on the character sheet as they are likely to always
 fail when used.
 
+[NOTE]
+====
+(Jon) "Typical activities and EP gain" section moved to the
+<<epgain,appendix>>.
+
 Characters start with relatively low EP and the amount increases after each
 run depending on what happened.
 
-[NOTE]
-====
 In principle, you must apply the EP for the time you have spent performing
 some skill. For example, if you are working harvesting crops for a week, you
 must put 40 EP / week into farming.
 
 In practice, this turns out to be a bookkeeping nightmare resulting in
-characters having extremely high EP in Travelling (which is not an actual
-skill) and not much else. Instead, the GM usually awards a fixed number of
-EP for each run of a campaign, and players are expected to allocate them
-reasonably based on what they did in the run. Sometimes there will be
-directives given by the GM which *must* be followed, e.g. "1000 EP of which
-200 must be in Sailing."
+characters having extremely high EP in skills related to Travelling, and not
+much else. Instead, the GM usually awards a fixed number of EP for each run
+of a campaign, and players are expected to allocate them reasonably based on
+what they did in the run. Sometimes there will be directives given by the GM
+which *must* be followed, e.g. "1000 EP of which 200 must be in Sailing."
 ====
+
 
 === Combining Skills
 
 ==== Adding Pluses
 
 Several characters can combine their skills in working on a problem (where
-it makes sense as decided by the game master). The ``value'' of a skill is
+it makes sense as decided by the game master). The "value" of a skill is
 2^plus^. Add all of the skill values, take the log~2~ of that value, and
 round down. Example: 3 magicians are working on a combined spell. They have
 pluses of 5,4,3. The values are 32,16,8. The sum is 56 which is between 2^5^
@@ -127,7 +134,7 @@ that case, add the inverses. In that case, 5,4,3 would add to 3 (round up).
 
 [NOTE]
 ====
-A simpler way is to sum lower-valued Pluses: "Two +2s is a +3. Is there a
+(Jon) A simpler way is to sum lower-valued Pluses: "Two +2s is a +3. Is there a
 +3? Yes, so two +3s is a +4." Likewise 3 +2s is a +3, 4 +2s is a +4.
 
 The player with the highest Plus normally rolls the dice with the group
@@ -145,14 +152,16 @@ In certain circumstances, such as Scrounging for unique items or Shopping in
 a bazaar, each player will be allowed a separate roll with separate results.
 ====
 
-==== Multiplying damages
+==== Multiplying Damages
 
 Various items and spells increase damages in combat. If the use of two
 devices gives NX and MX damage, the resulting damage is (M+N)X.
 
 === Character Sheets
 
-Character abilities are based on _stats_, which are intrinsic properties of
+[NOTE]
+====
+(Jon) Character abilities are based on _stats_, which are intrinsic properties of
 the character. Stats can range from 3-18, and in rare circumstances, higher.
 The Slay program starts with each stat set to a default value for the
 character's chosen race. They may be changed at will during character
@@ -162,8 +171,6 @@ In rare cases, the GM may impose or allow stat modifications after the
 campaign begins, through rare, dangerous, and/or expensive means such as
 Chaos Spells, Stat Potions, Polymorph Potions.
 
-[NOTE]
-====
 Stats affect how easily you gain pluses in skills. Each skill has a weighted
 contribution from the stats which affect it; this can be seen in the GUI for
 the Slay program (or extracted from the +skill.dbs+ file, if you're that
@@ -209,17 +216,21 @@ character you have.
 
 === Character Races
 
+[NOTE]
+====
 Most characters are human. Different races (Human, Elf, Orc, etc.) may
 sometimes be chosen for a character. Races usually differ in important ways
 both in terms of their default stats - Elves are more attractive, Orcs are
 stronger, Dwarves are tougher, etc. - and in how they are played.
 
 Races are built into the Slay program's database, and may be selected at
-character creation time. In some campaigns, an alternate method of selecting
-races by manually modifying the stats may be allowed; see the
-<<experimental-races,Experimental Character Races>> section.
+character creation time.
 
-=== Special stat rules
+(Jon) Moved the rarely used <<experimental-races,Experimental Rules>>
+section to an appendix.
+====
+
+=== Special Stat Rules
 
 *Money* gives the character starting wealth in gold = 2^(MON-10)^. The
 character must spend this much each year on luxuries to maintain their
@@ -250,7 +261,7 @@ investments.
 | 20    | King
 |====
 
-*Senses*: The Senses Plus is rolled to observe things that have already been
+*Senses*: The SEN Plus is rolled to observe things that have already been
 noticed by the character. The _Alertness_ skill is used when the character
 needs to notice something.
 
@@ -261,7 +272,7 @@ calculated for each set of equipment (e.g. sword and shield). Equipment may
 affect other abilities, as listed in the skill description. Carrying or
 using various weapons will reduce other skills. A typical list is give
 below; however, it is up to the GM to make the decision in each case. For
-multiple items carried, use the skill ``subtraction'' rules.
+multiple items carried, use the skill "subtraction" rules.
 
 For the purposes of this discussion:
 
@@ -301,50 +312,12 @@ for staff.
 
 [3] 2X normal price
 
-=== Aging Rules
-
-These rules are optional and rarely used.
-
-Typical character starting age is 15 + EP/300. For characters entering in
-the midst of a campaign, the GM should produce a set of rules.
-
 [NOTE]
 ====
-Most campaigns now start new characters with the same number of EP as
-existing characters, to avoid disgruntlement and the desire to keep the
-eldest character alive at all costs, so new characters get the most EP
-possible.
-
-In the past, it was typical to give a new character the base EP the campaign
-started with plus half of the difference between that and the maximum EP of
-any player, and add the length of the campaign to the character's age.
+(Jon) Moved <<aging-rules,Aging Rules>> section to an appendix.
 ====
 
-After a character is generated, the *Stat EP* field in the Slay program
-should be set to 0, which prevents stat rebalancing. Then the following
-modifications are made to the character's stats. Note that these charts are
-not exact for extreme ages, and should only be used as guidelines outside
-the 15-75 age range.
-
-.Aging Modifiers On Stats
-[options="header"]
-|====
-| Stat / Age   | <15 | 15-20 | 21-30 | 31-45 | 45-60 | 60-75 | >75
-| Agility      |  +2 | +1    | 0     | -1    | -2    | -3    | -3-.5/year
-| Appearance   |   0 | +1    | +1    | 0     | -1    | -2    | -3
-| Constitution |  +2 | +1    | 0     | 0     | 0     | -1    | -2-1/year
-| Dexterity    |   0 | +1    | 0     | 0     | 0     | 0     | -0.5/year
-| Intelligence |-2 - 0.5/year < 15 | -1 | 0     | 0     | +1    | +2 | +2-1/year
-| Magic        |   0 | 0     | 0     | 0     | +1    | +2    | +2
-| Money        |  -3 | -2    | -1    | 0     | +1    | +2    | +2
-| Psi          |  -3 | -2    | -1    | 0     | +1    | +2    | +3
-| Reactions    |  +2 | +1    | 0     | 0     | 0     | -1    | -1-0.5/year
-| Senses       |   0 | 0     | +1    | 0     | 0     | -1    | -1-0.5/year
-| Size         |-1 - 1/year < 15   | -1  | 0     | +1    | 0     | -1 | -1-1/year
-| Strength     |   0 | +1    | 0     | 0     | -1    | -2    | -2-1/year
-|====
-
-=== Hunger and Thirst
+=== Hunger And Thirst
 
 Lack of food and water will have both short and long term effects. Base
 effects on the most limited of food or water. Both affect all skills. For
@@ -367,7 +340,7 @@ Survival tables.
 == Combat
 
 *Reserved Actions:* An action that is ready to be performed may be
-``reserved'' until a later round. A character may not take any other action
+"reserved" until a later round. A character may not take any other action
 (anything requiring a roll, or a move above 2 hexes / round) while holding a
 reserved action.
 
@@ -385,13 +358,13 @@ CON^2^ / 10
 .Hit Points, Combat Modifiers, and Recovery Rates
 [options="header"]
 |====
-| HP             | Effect                        | Recovery
-| HP to HP/2     | None                          | C*/10 / hour
-| HP/2 - 1 to 0  | None                          | C*/10 / day
-| -1 to -C*/2    | -1 combat for each 10% of C*  | C*/10 / week
-| -C*/2-1 to -C* | -1 move for each 20%C*        | C*/10 / week
-| -C*-1 to -2*C* | Unconscious                   | C*/10 / week
-| < -2*C*        | *Dead* - no recovery possible | n/a
+| HP                  | Effect                        | Recovery
+| HP to HP/2          | None                          | C*/10 / hour
+| HP/2 - 1 to 0       | None                          | C*/10 / day
+| -1 to -C*/2         | -1 combat for each 10% of C*  | C*/10 / week
+| -C*/2-1 to -C*      | -1 move for each 20%C*        | C*/10 / week
+| -C*-1 to -2*C*      | Unconscious                   | C*/10 / week
+| < -2*C* (*Dead At*) | *Dead* - no recovery possible | n/a
 |====
 
 Recovery: After 3 rounds of no combat actions, you recover d6 HP. Note that
@@ -405,7 +378,16 @@ Orc Recovery Rates:
   * above 0: C*/10/hour
   * 0 to dead: C*/10/day.
 
-=== Hand to Hand Weapon Combat
+=== Hand To Hand Weapon Combat
+
+[NOTE]
+====
+(Graham) Morale die. A 12 sided die may be rolled to determine monster
+morale. A 12 means very aggressive, a 1 means reluctant to fight.
+
+(Jon) Players may also roll a morale die when they themselves are unsure how
+to react.
+====
 
 ==== Engaging
 
@@ -421,22 +403,42 @@ Good rules for resolving engage conflicts would be very useful in mass
 combat.
 ====
 
+
 ==== Attack Mode
 
 The attacker chooses which defense to attack against. You may attack against
 low, medium, or high armor class.
 
-  * *Low:* Attempt to smash through defenders parry and armor. Subtract
-    parry and armor from attack damage
-  * *Medium:* Attempt to bash through defenders armor. Subtract armor from
-    attack damage
-  * *High:* Attempt to avoid parry and armor. No damage subtracted.
+  * *Low* - Attempt to smash through defenders parry and armor. Subtract
+    parry and armor from attack damage.
+  * *Medium* - Attempt to bash through defenders armor. Subtract armor from
+    attack damage.
+  * (Jon) *<<Modified High>>* - used only during missile attacks. See
+    discussion in the Ranged Weapon section.
+  * *High* - Attempt to avoid parry and armor. No damage subtracted.
 
-Dropping pluses to attack first: Weapons normally attack simultaneously. You
-may drop pluses to attack first. If both combatants drop the same number of
-pluses, the attacks are again simultaneous. Dropping pluses only effects the
-order in which attacks occur within a phase of combat, it will not for
-example allow missile combat to occur before hand to hand combat.
+[NOTE]
+====
+(Jon) The list needs additional entries for e.g. *Ultrahigh*, with
+appropriate disclaimers about when they may be attacked against.
+====
+
+[NOTE]
+====
+(Jon) The dice modifier rolled by the _defender_ is determined by the attack
+chosen by the _attacker_, and shown in the *Low*, *Med*, *High*, or *M.H.*
+columns of the weapons table row for the defender's current armor. The
+resulting value is known as the [[DCV]] *DCV*, or *Defense Combat Value*,
+for that combat.
+====
+
+*Dropping Pluses to attack first*
+
+Weapons normally attack simultaneously. You may drop pluses to attack first.
+If both combatants drop the same number of pluses, the attacks are again
+simultaneous. Dropping pluses only effects the order in which attacks occur
+within a phase of combat, it will not, for example, allow missile combat to
+occur before hand to hand combat.
 
 ==== Multiple Opponents
 
@@ -444,7 +446,14 @@ If you are fighting more than one opponent, you defend against 2 at -2, 3 or
 more at -4. Note: your DCV is never worse than -4 absolute when in combat.
 Missile attacks are not included in multiple attacks.
 
-==== Grappling and Holding
+[NOTE]
+====
+(Jon) I believe our current rules are that a Fully Offensive attacker
+defends at *-5* absolute, which disagrees here and in the table below.
+====
+
+
+==== Grappling And Holding
 
 Bare hand and some creatures or weapons have the ability to use grappling
 attacks. The procedure is as follows:
@@ -454,14 +463,14 @@ wants to grapple must start the round already engaged. Grappling attacks
 must be announced at the beginning of combat, and will take place after hand
 to hand combat. The grappler must use their barehanded (or Karate) combat
 stats for defense the round in which they are grappling.. The grappler must
-then roll an attack at barehanded plus against the defender's low DCV. If it
-succeeds, no damage is done, but proceed to Grappling (below). Otherwise the
-round ends. Note: it is often effective for the defender to move pluses to
-attack, and kill the grappler before the grappling occurs
+then roll an attack at barehanded plus against the defender's low <<DCV>>.
+If it succeeds, no damage is done, but proceed to Grappling (below).
+Otherwise the round ends. Note: it is often effective for the defender to
+move pluses to attack, and kill the grappler before the grappling occurs
 
-Grappling: When grappling has started, each rolls with their grapple skill
+*Grappling*: When grappling has started, each rolls with their grapple skill
 plus at the start of each combat round. Keep track of the running total (the
-amount by which one or the other player is ``Grappled''). The current winner
+amount by which one or the other player is "Grappled"). The current winner
 can end the grapple at any time and switch to normal weapons attacks.
 
   * Grappled < 5: either opponent can decide to break the grapple and return
@@ -471,20 +480,20 @@ can end the grapple at any time and switch to normal weapons attacks.
   * Grappled at 20 or more: The loser takes a point of damage for each
     cumulative grapple point over 20.
 
-Net: Special weapon. A hit against low counts as a grapple attack at +10 for
-the first attack, then the net "grapples" at +0. Can be used with a 1-hand
-weapon, on the net round, defend with "Net" weapon defense levels, then
-attack. Can be readied overhead (spun) for an initial attack at +15 first
-round.
+*Net*: Special weapon. A hit against low counts as a grapple attack at +10
+for the first attack, then the net "grapples" at +0. Can be used with a
+1-hand weapon, on the net round, defend with "Net" weapon defense levels,
+then attack. Can be readied overhead (spun) for an initial attack at +15
+first round.
 
 === Ranged Weapon Combat
 
 ==== General Rules
 
-Pluses: Attacker uses their attack plus against opponent's defense plus -
+Pluses: Attacker uses their attack Plus against opponent's defense Plus -
 range modifier. You take 1 range minus for each multiple of the weapon range
 distance (round down: if the weapon has range 3, you are at 0 for 3 and less
-hexes, -1 for 4 to 6 hexes). Note: The attacker may not shift pluses from
+hexes, -1 for 4 to 6 hexes). Note: The attacker may not shift Pluses from
 offense to defense.
 
 Surprise attack: If the opponent is not aware they are being attacked and is
@@ -492,8 +501,8 @@ not in combat, their DCV is given in the combat actions list (later).
 
 Aiming: This may only be used against a target that is not moving, or is
 walking slowly. Attacker gains +1 for each round spent aiming. During
-aiming, DCV is as for all out offensive. Aimed weapons attack first in
-combat. Maximum aiming = +5.
+aiming, DCV is as for Fully Offensive. Aimed weapons attack first in combat.
+Maximum aiming = +5.
 
 Hitting a Hex: The DCV of a hex is -10.
 
@@ -517,6 +526,14 @@ Defense: For targets without a shield: Medium DCV is equal to Low DCV. High
 DCV is equal to low DCV + armor plus. Note: "armor plus" is the difference
 between High DCV and Medium DCV. A shield may only be used to parry missile
 attack from one hex side per round and will increase your medium DCV by 2.
+
+[NOTE]
+====
+(Graham) Adjusted High is Low DCV + (High DCV - Medium DCV)
+
+(Jon) This is usually referred to as *[[Modified High]]* and shown as *M.H.* in
+generated character sheets.
+====
 
 Running throw: Spears and axes may be thrown from a running start. Gain
 charge damage bonus, and +1 range for each hex moved, but run must be
@@ -546,7 +563,7 @@ using the Damage to Physical Objects rules below.
 | Arrow slit | Can use like a wall edge | -1     | +5
 |====
 
-==== Explosion damage
+==== Explosion Damage
 
 Weapon does listed number of dice in the mega hex hit. See chart for range
 effects. Damage if the explosive actually hits a target is the calculated at
@@ -568,14 +585,14 @@ someone with a meteor.
 
 Shielding: Hexes that are in line of sight of the explosion take full
 damage. If the blast must make a turn to hit the target, damage is reduced
-by x2 for each turn required. A wall counts as 1 turn normally, 2 turns if
+by 2x for each turn required. A wall counts as 1 turn normally, 2 turns if
 you are hiding (no shots that round). Arrow or gun slit counts as -5 dice
 damage.
 
 Armor: Armor protects against explosion damage in the same fashion it
 protects against area effect damage.
 
-=== Damage to Physical Objects
+=== Damage To Physical Objects
 
 Note that the physical damage rules are complex in order to prevent
 absurdities like hacking through a stone wall with a fencing foil, or even
@@ -604,25 +621,25 @@ damage. e.g. Bare hand weapons have advantages against soft targets, however
 they typically do much less damage than swords and axes. Note you can NOT
 shift pluses when attacking a solid object.
 
-  * Blunt / soft: Barehanded, club, staff, etc. These weapons are effective
-    against soft targets.
-  * Edged: Swords, Daggers, and spears. These weapons rely on sharp edges or
-    points to do damage. They are effective against soft targets, but
+  * *Blunt / soft* - Barehanded, club, staff, etc. These weapons are
+    effective against soft targets.
+  * *Edged* - Swords, Daggers, and spears. These weapons rely on sharp edges
+    or points to do damage. They are effective against soft targets, but
     ineffective against hard targets.
-  * Edged / impact: Axes, These weapons are intermediate between edged
+  * *Edged / impact* - Axes, These weapons are intermediate between edged
     weapons and hard impact weapons
-  * Hard impact: Hammers, Maces: These weapons rely on an impact by a hard
-    object. They are effective against hard targets.
-  * Concentrated impact: Pick Axe: These weapons are especially effective
+  * *Hard impact* - Hammers, Maces: These weapons rely on an impact by a
+    hard object. They are effective against hard targets.
+  * *Concentrated impact* - Pick Axe: These weapons are especially effective
     against hart brittle targets.
-  * Impaling: Spears, arrows, bullets, etc
+  * *Impaling* - Spears, arrows, bullets, etc
 
-==== Types of Materials
+==== Types Of Materials
 
-  * Hard: Stone, ceramic, brick, etc. These materials are primarily damaged
-    by concentrated shock.
-  * Metal: Ductile materials, generally immune to fracture
-  * Soft: Wood, plastic, organic materials. Can be fractured, or cut.
+  * *Hard* - Stone, ceramic, brick, etc. These materials are primarily
+    damaged by concentrated shock.
+  * *Metal* - Ductile materials, generally immune to fracture
+  * *Soft* - Wood, plastic, organic materials. Can be fractured, or cut.
 
 .Damage Ratios (Weapons vs. Material Types)
 [options="header"]
@@ -687,7 +704,7 @@ For Animal Training, a horse starts at -1. A successful Animal Training
 roll, and 1 year will make it +0. A successful roll at -5 and 1 year will
 make it +1. If the roll beats the universe by +10, then the horse is +2.
 
-==== Combat in water
+==== Combat In Water
 
 Character must make a swimming roll each round or lose 1 HP from water
 inhalation. All attacks are at -4 for swinging weapons, -2 for stabbing
@@ -713,7 +730,7 @@ roll fails you need to try again next round.
 
 Grabbing a sheathed weapon only requires a barehanded attack against high.
 
-==== Area effect Damage
+==== Area Effect Damage
 
 Applies to damage from fireballs, fire, or other area attacks. Take the
 damage done, A shield (if any) will stop 50% of the damage (up to the shield
@@ -752,7 +769,7 @@ light (round range in hexes down). In general, use GM's discretion.
 
 Interaction of various light / dark sources:
 
-==== Darkness vs. Light Spells
+==== Darkness Vs. Light Spells
 
 Light can be used to counter darkness and vice versa using standard
 countering pluses but *without* a bonus for a continuing spell. If the
@@ -768,12 +785,12 @@ need to use one hand to hold the torch. Flash powder only works in the
 target hex in darkness (A roll against low to hit is required, or the target
 can move out of a hex).
 
-Ranged weapons: Firing a ranged weapon or spell into darkness takes the
+*Ranged weapons* - Firing a ranged weapon or spell into darkness takes the
 darkness minus on the to-hit. Firing a ranged weapon into a lit area does
 not take a "light" minus for Darkness Creatures.
 
-Mass weapons fire into darkness ares: Assume fire is divided equally among
-hexes and use mass fire rules.
+*Mass weapons fire into darkness ares* - Assume fire is divided equally
+among hexes and use mass fire rules.
 
 ==== Swarms
 
@@ -781,8 +798,8 @@ Some small creatures (wasps, rats, etc) attack in groups. The entire group
 is treated as a single creature. The HP are proportional to the number of
 creatures involved. Engage / disengage is based only on the movement - if
 they can reach, they can attack. Swarms have a Low / Med / High attack
-damage (all simultaneous). (usually only high is important). Attack damage
-is treated like auto fire: First at normal, next 2 at -1, next 4 at -2.
+damage (all simultaneous, usually only High is important). Attack damage is
+treated like auto fire: First at normal, next 2 at -1, next 4 at -2.
 
 ==== Special Weapons
 
@@ -814,7 +831,7 @@ both barrels, but take (4d6 - size+ )damage
 
 Quick draw (gun speed). Can drop that many pluses on gun to go first.
 
-==== Combat actions summary
+==== Combat Actions Summary
 
 Absolute plus (abs) indicates that 3d6 is rolled, but no character based
 values are used for MEDIUM DCV. Other pluses are relative to the character's
@@ -825,44 +842,45 @@ is never worse than -4 absolute.
 .Combat Actions
 [options="header"]
 |====
-| Combat action         | Comments                                                           | Attack Plus       | DCV
-| Hex DCV               | Required to hit a hex                                              | No attack         | -10abs
-| Sleeping              | Or unconscious                                                     | No attack         | -8abs
-| Standing              | Attacker must make stealth roll                                    | No attack         | -6abs
-| Walking               | Attacker must make stealth roll                                    | No attack         | -5abs
-| Running               | Attacker must make stealth roll                                    | No attack         | -4abs
-| Combat *              | Minimum ever in combat!                                            | -                 | -4abs
-| Normal *              | Can shift Pluses (1)                                               | +n (-2 <= n <= 2) | -n
-| Fast attack           | Drop more to go first.                                             | -n                | Normal
-| 2 attackers *         |                                                                    | Normal            | -2
-| >=3 attackers *       |                                                                    | Normal            | -4
-| All out offensive     | Rarely used - VERY dangerous                                       | +5                | -4 Abs.
-| All out defensive     | * Next to action indicates all out defensive allowed               | No attack         | +5 added
-| Charge (hand to hand) | May move up to full (2)                                            | +2, +10% / hex    | -3
-| Full move             | No pluses can be shifted                                           | None              | -2
-| First round           | Defender not ready for combat                                      | None              | -2
-| Combat surprise       | Attacker makes stealth roll (at -3) against defender               | None              | -4
-| While climbing        | Climbing roll made at -climb_shift (max 2)                         | -2 +climb_shift   | -2 +climb_shift
-| Grab weapon           | Attack bare hand, then STR contest                                 | Normal            | Normal
-| Push 1 hex            | STR roll, to push back, otherwise normal.                          | +2                | -3
-| Pull attack           | Drop n pluses for option to drop n more after damage is calculated | -n                | Normal
-| Retreat 1 hex         | Opponent has option of not following                               | -2                | +3
-| Aiming Bonus          | Missile only (3)                                                   | +1/round, max +5  | -4 Abs.
+| Combat action         | Comments                                                           | Attack Plus       | DCV             | Fully Defensive
+| Hex DCV               | Required to hit a hex                                              | No attack         | -10abs          |
+| Sleeping              | Or unconscious                                                     | No attack         | -8abs           |
+| Standing              | Attacker must make stealth roll                                    | No attack         | -6abs           |
+| Walking               | Attacker must make stealth roll                                    | No attack         | -5abs           |
+| Running               | Attacker must make stealth roll                                    | No attack         | -4abs           |
+| Combat *              | Minimum ever in combat!                                            | -                 | -4abs           | Yes
+| Normal *              | Can shift Pluses (1)                                               |+n (-2 \<= n \<= 2)| -n              | Yes
+| Fast attack           | Drop more to go first.                                             | -n                | Normal          |
+| 2 attackers *         |                                                                    | Normal            | -2              | Yes
+| >=3 attackers *       |                                                                    | Normal            | -4              | Yes
+| Fully Offensive       | Rarely used - VERY dangerous                                       | +5                | -4 Abs.         |
+| Fully Defensive       | Allowed only if Fully Defensive column is "Yes"                    | No attack         | +5 added        |
+| Charge (hand to hand) | May move up to full (2)                                            | +2, +10% / hex    | -3              |
+| Full move             | No pluses can be shifted                                           | None              | -2              |
+| First round           | Defender not ready for combat                                      | None              | -2              |
+| Combat surprise       | Attacker makes stealth roll (at -3) against defender               | None              | -4              |
+| While climbing        | Climbing roll made at -climb_shift (max 2)                         | -2 +climb_shift   | -2 +climb_shift |
+| Grab weapon           | Attack bare hand, then STR contest                                 | Normal            | Normal          |
+| Push 1 hex            | STR roll to push back, otherwise Normal                            | +2                | -3              |
+| Pull attack           | Drop N pluses for option to drop N more after damage is calculated | -n                | Normal          |
+| Retreat 1 hex         | Opponent has option of not following                               | -2                | +3              |
+| Aiming Bonus          | Missile only (3)                                                   | +1/round, max +5  | -4 Abs.         |
 |====
 
-[1] In normal combat, you may shift up to two Pluses to attack or DCV. That
-is, increasing your Attack by 1 or 2 decreases your DCV by the same amount,
-and vice-versa. The shift must be announced before the GM's dice roll is
-revealed. If announced during the Engage phase, it affects your Engage Plus
-by the same amount.
+[1] (Jon) In normal combat, you may shift up to two Pluses to attack or DCV.
+That is, increasing your Attack by 1 or 2 decreases your DCV by the same
+amount, and vice-versa. The shift must be announced before the GM's dice
+roll is revealed. If announced during the Engage phase, it affects your
+Engage Plus by the same amount.
 
 [2] Charge Attacks must be in a straight line. Add +10% / hex damage up to a
-maximum of 100% (2X). Add +3 to engage. Defender may plant weapon (spear or
-similar) to get same damage multiple
+maximum of 100% (2X). Add +3 to Engage. Defender may plant weapon (spear or
+similar) to get same damage multiple.
 
-[3] Missile Weapon aiming bonuses can only be applied if the target is not
+[3] Missile weapon aiming bonuses can only be applied if the target is not
 moving faster than a walk, and is not in combat. The player may take no
 other actions during an aiming round.
+
 
 == Other Skills
 
@@ -1008,12 +1026,6 @@ damage (no armor).
 Provides a spectacular but harmless fireworks display. 50 EP, Difficulty 6.
 Components: Sulfur, saltpeter, metal powders.
 
-==== French Roast
-
-Gives a +1 Alertness plus for 4 hours, but a -1 on all DEX skills.
-Difficulty 10, EP 50. Components: Beans from exotic tropical (or hot house)
-plants.
-
 ==== Flash Powder
 
 Note: this is one of the most easily abused of the alchemical mixes. It has
@@ -1040,11 +1052,22 @@ Flash Powder has the following effects:
 
 ==== Flash Superpowder
 
+[NOTE]
+====
+(Jon) Colloquially "Mithril Flash".
+====
+
 Similar to normal Flash powder, but also has the effect of sunlight on the
 undead. Damage to undead is 3d6 * 100 points explosive (see rules under
 explosions: full damage in center hex, 1/10 damage at 10 hexes, 1/r^2^
 beyond that. ) Uses 1 oz. mithril for each unit produced. Difficulty 10, EP
 500
+
+==== French Roast
+
+Gives a +1 Alertness plus for 4 hours, but a -1 on all DEX skills.
+Difficulty 10, EP 50. Components: Beans from exotic tropical (or hot house)
+plants.
 
 ==== Fuel Air Bomb
 
@@ -1094,8 +1117,8 @@ Anti-migo spray. Creates a cloud of ~7 hex radius (3d) of mist. Cloud lasts
 30 rounds in calm air, 20 rounds in a light breeze (<5 hex / sec), 10 rounds
 in a strong wind. (5-10 hex / sec). cloud center moves with the wind. Any
 migo in, or passing through the cloud takes d100 damage in the special
-actions phase. Any human in the cloud takes 1 point per round. Components
-are sulfur, salt, pine oil. Difficulty 12, EP 250.
+actions phase. Any human in the cloud takes 1 point / round. Components are
+sulfur, salt, pine oil. Difficulty 12, EP 250.
 
 ==== Molotov Cocktail
 
@@ -1134,7 +1157,7 @@ several hours. Damage is 3d6/round if target is breathing, d6 / round if
 holding breath (-1, points each round in combat). Components: Sulfur, soda ash,
 limestone, tar, mercury, cost 1 GP / unit. Difficulty 11 EP 1000.
 
-==== Relighting fire
+==== Relighting Fire
 
 Creates a wax that can be used as a candle, or burned as a lump. Once
 ignited, will re-light unless doused in water for more than 10 minutes.
@@ -1159,7 +1182,7 @@ awakened normally for a deep sleeper. Targets must roll senses (use combined
 senses roll) at-5 to detect the vapors. Then, each individual must make a
 con roll at -5 or fall asleep. If any target does not sleep, they may
 notice, and wake others (Alertness roll at typically +0). Area of effect is
-20 hex radius per bottle (liter). Note: will drift in wind. Components:
+20 hex radius / bottle (liter). Note: will drift in wind. Components:
 plant materials, limestone, spring water. EP 500, Difficulty 10.
 
 ==== Slippery Liquid
@@ -1232,7 +1255,7 @@ If Silly Drinking Rules are not in use, use the following.
 
 === Alertness
 
-Alertness is ``jungle honed reflexes''. It is the ability to notice (as
+Alertness is "jungle honed reflexes". It is the ability to notice (as
 opposed to sense) things. A senses roll would be used to try to see a
 distant object you knew was there. Alertness would be used to notice a bird
 flying high overhead. Note that Alertness has a very strong senses
@@ -1454,7 +1477,13 @@ the ability to find interesting things in ruins. Typically the GM will
 define a required archaeology roll to find some important artifact or piece
 of information.
 
-=== Bargaining (Barganing)
+=== Bargaining
+
+[NOTE]
+====
+(Jon) This is misspelled as "Barganing" in the skill database and existing
+character sheets. It could be corrected when starting a new campaign.
+====
 
 This is the ability to convince someone to sell at a lower price. Roll with
 bargaining skill, For each 1 difference the price will multiply or divide by
@@ -1474,12 +1503,6 @@ for you (after all, you would need to bargain for hiring them).
 | Artifacts | 4                          | 50%
 |====
 
-[NOTE]
-====
-This is misspelled in the skill database and existing character sheets.
-Could be corrected when starting a new campaign.
-====
-
 === Child Care
 
 This is the skill of raising, educating and controlling children. It is not
@@ -1491,7 +1514,7 @@ The climbing skill allows you to climb anything more difficult than a
 ladder. A roll must be made for each standard distance, or part of a
 standard distance climbed.
 
-==== Climbing speeds
+==== Climbing Speed
 
 Normal climbing speed is 1' / round, max 20' / minute, 300' / hour for long
 climbs, 2000'/day for day climbs. Climb rolls are based on the distance to
@@ -1526,28 +1549,28 @@ example: for Half Dome, the distance is 2000'. For a rubble slope, the
 distance might only be 20'. After a fall, roll d100 % of this to find the
 distance you actually fell. Damage is d6 / 5'. Armor does not protect.
 
-==== Fixed ropes
+==== Fixed Ropes
 
 If you are roped to a fixed location, the damage is d6/20' falling, the rope
 will limit the distance you fall. Note, climbing with fixed ropes reduces
 you climbing speed to 1/4 normal. In this case, only one climber must roll
 the difficult climb. Minimum fall damage is d6.
 
-==== Party roped together
+==== Party Roped Together
 
 This allows you to climb at normal rate. If one person falls, any neighbors
 get to roll a climb roll at -2. If either succeeds, things are OK. If all
 neighbors fail, the next in line must make the roll at -4, then -6, etc. If
 all fail, all fall (and die?).
 
-==== Effects of altitude
+==== Effects Of Altitude
 
 For each 3000' above 10000', take a -1 at all skills.
 
 === Demolitions
 
 This is the knowledge of how to destroy physical structures. When attacking
-a structure, each +1 on a Demolitions roll gives a x2 on the amount of
+a structure, each +1 on a Demolitions roll gives 2X on the amount of
 damage done to the structure. A demolitions roll is a full round action. A
 structure designed by a superior engineer may be resistant to demolitions.
 In that case, roll demolitions plus against the engineering plus.
@@ -1578,7 +1601,7 @@ assumed that you have sufficient clothes, etc to at least be plausible.
 This is the ability to construct devices and buildings and strange
 mechanisms.
 
-==== Clockwork creature construction
+==== Clockwork Creature Construction
 
 Base cost for clockwork creature: 10 gold.
 
@@ -1832,7 +1855,7 @@ This is the ability to survive in the wild under adverse conditions. The
 group makes a roll at their combined plus vs. the universe (flat) to
 determine the general survival strategy. Then everyone makes an individual
 roll (adding their own pluses and the group plus) against a universe roll
-(modified by conditions). If the individual roll fails. Damage is equal to
+(modified by conditions). If the individual roll fails, damage is equal to
 the amount by which the individual roll fails. A roll is required each day,
 and each night. If the roll succeeds, outdoor survival damage is recovered
 by the amount by which the roll is made, limited by normal maximum recovery
@@ -1843,14 +1866,14 @@ rate.
 |====
 | Condition                                            | Plus
 | Temperatures between 65 degrees, and 100 degrees (F) | no roll
-| Temperature degrees above / below freezing           | -1/5
+| Temperature degrees above / below freezing           | -1 / 5 degrees
 | Rain / snow                                          | -2
 | High wind                                            | -2
 | Violent storm (includes wind, rain, snow)            | -5
 | No clothes                                           | -6
 | Minimal daytime clothes                              | -2
 | Normal outdoor clothes (leather jacket, etc)         | 0
-| winter coat                                          | +3
+| Winter coat                                          | +3
 | Parka (reduces abilities by 1)                       | +6
 | Winter Gear (modern)                                 | +5
 | Survival Suit (modern) (reduces abilities by 1)      | +8
@@ -1864,9 +1887,9 @@ rate.
 [options="header"]
 |====
 | Condition - for hot areas                  | Plus
-| Temperature degrees above 100 degrees F    | -1/3
+| Temperature degrees above 100 degrees F    | -1 / 3 degrees
 | No shade                                   | -4
-| No water / per shift cumulative            | -4
+| No water / shift cumulative                | -4
 | Lots of water available (1 gallon / shift) | +4
 | Good hot weather clothes (not with armor)  | +2
 | No clothes                                 | -6
@@ -1884,7 +1907,7 @@ rate.
 | Area can be flooded            | -1
 |====
 
-==== Examples for outdoor survival
+==== Examples For Outdoor Survival
 
 Chicago cold winter: Temp = -20F, (-10) Wind (-2) = -12. Winter clothes =
 +3. Net roll is -8. Typical person would take 8 points / day. In a Parka,
@@ -1965,7 +1988,7 @@ created during the game, the rules for intervention may be different.
 Typically a roll of +10 is required for any action. Any intervention will
 generally divide the remaining brownie points by 2.
 
-==== Religious attendants
+==== Religious Attendants
 
 Clerics can have a number of attendants depending on their religion plus.
 These are people who generally follow the cleric around, and work for the
@@ -1992,7 +2015,7 @@ accept godhood. Note that a soul can be created by various circumstances,
 including mass deaths, etc. A priest must then make a religion roll by +5,
 at a time when at least 10,000 people are actively worshiping the god.
 
-==== Special Abilities of Gods
+==== Special Abilities Of Gods
 
 Gods can see through the eyes of their priests. A priest needs to make a
 flat religion roll to be noticed by their god. Any worshiper may be observed
@@ -2041,7 +2064,12 @@ lose CON 2X as often, or decrease by 1 and roll 2X less often.
 
 === Travel
 
-Based on Roman tech level. May vary at GM discretion.
+Based on Roman tech level.
+
+[NOTE]
+====
+(Jon) Available forms of transit and speeds may vary at GM's discretion.
+====
 
 .Roman Travel Speeds
 [options="header"]
@@ -2062,7 +2090,7 @@ each day, then move 1 towards zero. If universe wins by 5, no progress is
 made that day. Each point above that does damage - typically ships can take
 20 damage before sinking. If actual damage is taken roll again under same
 conditions! A ship can sink in a single day. A typical ship can repair 1
-damage / per day.
+damage / day.
 
 .Sailing Modifiers
 [options="header"]
@@ -2098,6 +2126,12 @@ The ability to forge metal. There are several related skills
 The ability to make armor and weapons out of mithril. Mithril armor is 3
 step: Chain wears like Nothing. Times and mithril requirements (assuming 10
 assistants with the master smith):
+
+[NOTE]
+====
+(Graham) Folkore asserts that mithril blocks magic. For example, supposedly
+magic cannot be detected through mithril.
+====
 
 .Mithril Armor
 [options="header"]
@@ -2157,12 +2191,18 @@ specific instances are at the GM's discretion. Some examples:
 .Smithing Unusual Materials
 [options="header"]
 |====
-| Material   | Application                                       | Difficulty | Time
-| Tungsten   | Hammer : 2X damage, hammer. STR*SIZ > 400 to use. | 3          | 1 month
-| Black iron | Anti magic weapon                                 | 5          | 1 month
-| Magnesium  | Flaming Arrow heads. Do 6d6 fire damage on hit    | 2          | 1 day
-| Hadrium    | Fire proof armor                                  | 2          | 1 day
+| Material   | Application                                         | Difficulty | Time
+| Tungsten   | Hammer : 2X damage, hammer. STR * SIZ > 400 to use. | 3          | 1 month
+| Black iron | Anti magic weapon                                   | 5          | 1 month
+| Magnesium  | Flaming Arrow heads. Do 6d6 fire damage on hit      | 2          | 1 day
+| Hadrium    | Fire proof armor                                    | 2          | 1 day
 |====
+
+[NOTE]
+====
+(Graham) Tungsten Mace: 1.5X damage. Requires STR * SIZ >= 324 to use.
+Difficulty 4, time 1 month
+====
 
 === Spelunking
 
@@ -2283,9 +2323,9 @@ generally last until canceled by the mage._
 non-magic enhanced level. The roll is at -3 for the starting number of steps
 away from the non-magic level. A one round roll is done at flat, +1 for
 every factor of 10 in time. If the mage disconnects, weather will return to
-normal at one box per hour. Mages can contest the weather - use the
-difference in rolls as the net plus in either direction. A roll at every
-hour is done at net +3.
+normal at one box / hour. Mages can contest the weather - use the difference
+in rolls as the net plus in either direction. A roll every hour is done at
+net +3.
 
 [NOTE]
 ====
@@ -2304,7 +2344,7 @@ temperature, ocean and other modifiers.
 | 4                  | Hurricane (-10 sailing)   | Tornado (special)     | 10d6 everywhere.       | Powerful storm (-8 O.S) | Blizzard -7 O. S.
 |====
 
-==== Body of Air
+==== Body Of Air
 
 The mage transforms themselves or a target (hit against high) into a
 whirlwind. Move = 20, Cannot attack, Has original DCV. Any hit against low
@@ -2339,7 +2379,7 @@ Can intercept and deflect (but not aim) lightning at range (up to 20 hexes).
 Can be cast immediately after lightning is cast. May be cast multiple times
 in a round at no minuses. Plus = -2.
 
-==== St. Elmo's fire
+==== St. Elmo's Fire
 
 Casts a dim blue-green light over an object - up to 10 hexes size..Can be
 cast on an opponent by hitting low DCV. Plus=0.
@@ -2369,7 +2409,7 @@ hex radius. Lasts 1 hour.
 
 === Earth / Fire
 
-==== Animate rock
+==== Animate Rock
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
@@ -2380,7 +2420,7 @@ functional shape (human, monster, etc), can trade pluses for damage: +1
 attack, defense, move for 2X damage. Plus = -2. Fumble -> attacks caster.
 Spell lasts for 1 day , cannot be dropped.
 
-==== Body of stone
+==== Body Of Stone
 
 Turns the caster or anyone they touch into animate stone. All damages are
 increased by 4X. Parries are increased by 4X. All combat values are REDUCED
@@ -2403,23 +2443,23 @@ casts. Fireball moves 10 hexes / round up to a maximum of 50 hexes. It covers
 1 gigahex, and will travel until it hits something. Then it detonates doing
 10d6 in a gigahex. +=0.
 
-==== Flesh to stone
+==== Flesh To Stone
 
 Turns the target into stone. Range 10 hexes. Must hit against high at earth
 / fire Plus - 1 for each factor of 2 in target size vs. human. Plus = -3.
 
-==== Peer through rock
+==== Peer Through Rock
 
 Allows the caster to see though solid rock as if it were water - visibility
 is about 10 hexes. Plus = 0.
 
-==== Stone to Flesh
+==== Stone To Flesh
 
 Reverses the flesh to stone effect. Plus = -3. -1 for each factor of 2 in
 target size. Can be cast the same round as a counter, roll against opponent
 at +3.
 
-==== Wall of stone
+==== Wall Of Stone
 
 Creates a series of crystal like spikes the grow out of the ground. Covers
 10 hexes to a height of 10'. Requires a flat climbing or acrobatics roll to
@@ -2441,10 +2481,14 @@ to work, you must equal a 3d6 roll + plus, against a flat 3d6. Note that
 many spells have negative pluses. Increasing casting time increase the plus
 for spells.
 
+[NOTE]
+====
+(Jon) <<Psionics,PSI>> moved to its own section for TOC / indexing purposes.
+====
 
 === Casting Spells
 
-==== Spell casting requirements
+==== Spell Casting Requirements
 
 Comment: There must be a way to prevent a mage from casting spells other
 than by killing them. Otherwise, any captured mage will immediately be
@@ -2460,7 +2504,7 @@ two following options is used in the game:
     typically iron. A magician cannot cast spells when in contact with that
     material. Contact with this material does *not* reduce Pow to zero.
 
-==== Pluses and Pow
+==== Pluses And Pow
 
 Each character has a Magic - General Plus (abbreviated as _MG+_) which is
 used when specified, such as when countering of rolling a combat plus when
@@ -2521,7 +2565,7 @@ Multiple Spells: Magicians casting multiple spells in a single round take
 the usual -2 for each additional spell. There is no penalty for casting an
 additional spell while maintaining another.
 
-==== Symbol spells
+==== Symbol Spells
 
 The magician creates a symbol that is then activated by applying Pow. The
 exact effect of the spell must be decided when the symbol is drawn. The
@@ -2598,14 +2642,14 @@ For fixed casting time spells, use the larger of the fixed casting time and
 1 hour, using the time plus appropriate for the fixed time spell. Spells are
 cast at: general_magic_plus - 2 - spell_difficulty + time_plus.
 
-==== Effects of armor on magic
+==== Effects Of Armor On Magic
 
 In general, armor will stop damage from indirect spells the same way it does
 for weapon attacks (either direct, or area effect). Armor improves high DCV
 and thereby improves protection against direct spells. See table in weapons
 section for armor protection.
 
-==== Permanent spells
+==== Permanent Spells
 
 Some spells can be made permanent. The spell must be cast at -5 (in addition
 to all other minuses). Pow =(1+ log~2~ (duration / original duration)) *
@@ -2628,7 +2672,7 @@ work we get a net +1 (pretty scary), but when cast, the book can be used in
 
 === Magical Pow
 
-==== Types of Pow
+==== Types Of Pow
 
 Each magician has a personal Pow and Pow regeneration rate (equal to MAG
 stat each minute) listed on their character sheets. There are several ways
@@ -2674,15 +2718,20 @@ any fail, all of the combined Pow of the mages goes uncontrolled.
 
 ==== Detecting Pow
 
-Active or stored Pow may be detected at a range of 10 * sqrt(Pow) in hexes.
+Active or stored Pow may be detected at a range of sqrt(Pow) in hexes.
 Also, anyone within the area of effect of a direct or indirect spell can
 detect the casting of the spell. Note that "area of effect" is defined by
 the GM, but generally the smallest reasonable definition is used.
 
+[NOTE]
+====
+(Jon,Graham) Formerly the range was 10 * sqrt(Pow) - corrected above.
+====
+
 
 === Basic Spell Types.
 
-==== Direct single target
+==== Direct Single Target
 
 Example a death spell cast on an individual. The magician chooses a quantity
 of excess Pow for the spell to overcome the target's resistance. The
@@ -2696,14 +2745,14 @@ target can still perform normal combat actions that round. Note that for
 symbol spells, the mage may add Pow to overcome the target's resistance
 while not changing the Pow in the original symbol.
 
-==== Indirect single target
+==== Indirect Single Target
 
 Example: a magic missile cast on an individual. The magician rolls to see if
 the spell is successful. If it is, the target has a chance to counter. If
 the counter fails, the magician rolls an attack with their base MG+ against
 the target DCV - as if the spell was a standard missile attack.
 
-==== Area effect - direct
+==== Area Effect - Direct
 
 Example: mass death spell. These spells always take effect on the magic
 phase after the one in which they are cast. These spells must always have a
@@ -2712,13 +2761,13 @@ move to get out of the area of effect before the spell takes effect. If the
 defender cannot move out of the area, roll against the defender's Pow as for
 a single target direct spell.
 
-==== Area effect - indirect
+==== Area Effect - Indirect
 
 Example: fireball. These spells take effect on the round after the one in
 which they are cast. Defenders have a chance to try to run out of the area
 of effect.
 
-==== Area effect - animate
+==== Area Effect - Animate
 
 Example: animate ground. These spells create a number of combatants who
 attack according to the rules for the spells.
@@ -2752,7 +2801,7 @@ reversed magically. Even black iron will not affect them after they are
 cast.
 
 
-=== Countering spells
+=== Countering Spells
 
 ==== General Rules
 
@@ -2763,7 +2812,7 @@ effective, magical battles with multiple magicians are typically a draw. New
 rule: Caster can add additional Pow to a spell to make it more difficult to
 counter.
 
-==== Which mages can counter
+==== Which Mages Can Counter
 
 Any mage in the _area of effect_ of a spell can counter. The area of effect
 includes any location that will take damage from, or be directly effected by
@@ -2773,7 +2822,7 @@ summoned may later damage a very large area. Any spell can be detected and
 countered to a range of sqrt(Pow) in hexes. Any mage within line of sight of
 a spell casting may counter the spell.
 
-==== Information about a spell before a counter
+==== Information About A Spell Before A Counter
 
 A magician within the area of effect of a spell will only learn the Pow in
 the spell, not which spell is being cast until the counter is cast. If the
@@ -2781,7 +2830,10 @@ counter is successful, the mage will learn what spell was cast.
 
 [NOTE]
 ====
-In the past, a successful counter did not reveal what spell was cast.
+(Jon) In the past, a successful counter did not reveal what spell was cast.
+Corrected above.
+
+(Jon) <<Standard Counter>> - NO LONGER USED rules moved to an appendix.
 ====
 
 
@@ -2789,14 +2841,21 @@ In the past, a successful counter did not reveal what spell was cast.
 
 The defender rolls 3d6 at base MG+ Plus against the attacker. If the rolls
 are equal, then the defender must use as much Pow as was in the original
-spell. If the defender wins by N, then they must use 1/(N+1) of the Pow in
-the original spell. If the defender loses by N, they must use (N+1) times
-the Pow in the original spell. *All* unused Pow (including the countered
-spell) goes uncontrolled. Either attacker, or defender may choose (or not)
-to control the Pow. A mage may attempt to counter any number of different
-spells.
+spell. Each 1 difference in the rolls leads to a halving or doubling of
+required Pow to counter. So missing by three requires 8X, making by three
+requires 1/8.
 
-==== Multiple Counters and multiple attacks
+[NOTE]
+====
+(Jon,Graham) Old language said "If the defender wins by N, then they must
+use 1 / (N+1) of the Pow in the original spell. If the defender loses by N,
+they must use (N+1) times the Pow in the original spell. *All* unused Pow
+(including the countered spell) goes uncontrolled. Either attacker, or
+defender may choose (or not) to control the Pow. A mage may attempt to
+counter any number of different spells." Corrected above.
+====
+
+==== Multiple Counters And Multiple Attacks
 
 All attacking spells must first be declared in terms of their caster, and
 the Pow involved.
@@ -2846,7 +2905,7 @@ its target, not at its source. An indirect spell like lightning, however,
 needs to be countered at its source.
 
 
-=== Uncontrolled Pow and Fumbles
+=== Uncontrolled Pow And Fumbles
 
 ==== Uncontrolled Pow
 
@@ -2901,33 +2960,39 @@ restricted in some campaigns.
 
 ==== Magic - General
 
-This is general knowledge / study of magic. Magic - General rolls are made
-for counters, when rolling to hit with a direct spell, and other purposes as
-specified.
+This is general knowledge / study of magic.
+
+[NOTE]
+====
+(Jon) Magic - General (GM+) rolls are made for counters, when rolling to hit
+with a direct spell, and other purposes as specified.
+====
 
 ==== Theoretical Magic
 
 Theoretical Magic is required to create new spells and to attempt to
 understand magical artifacts or effects.
 
-Spell creation: New spells may be created with the GMs discretion. In
-general an attempt can be made each week to create a new spell. Typically a
-roll of +10 on Theoretical Magic is required. Of course the difficulty will
-vary with the type of spell to be created. A full magical library is
-required to create new spells.
+==== Spell Creation
+
+New spells may be created at the GM's discretion. In general an attempt can
+be made each week to create a new spell. Typically a roll of +10 on
+Theoretical Magic is required. Of course the difficulty will vary with the
+type of spell to be created. A full magical library is required to create
+new spells.
 
 
 === Detecting Magic
 
-General Rules: Magical Pow is detectable at a range of sqrt(Pow) in hexes.
-This includes a magician's personal Pow, or Pow stored in a device. The
-detection allows a general direction (within a 60 degree cone), but not
+*General Rules* - Magical Pow is detectable at a range of sqrt(Pow) in
+hexes. This includes a magician's personal Pow, or Pow stored in a device.
+The detection allows a general direction (within a 60 degree cone), but not
 exact location of the source. A magic general roll (made by the GM) is
 required to detect a spell. For each plus by which the roll is made, the
 detection range is doubled. Note that detection does not automatically allow
 countering.
 
-Spell Detection: A spell can be usually be detected (to allow for
+*Spell Detection* - A spell can be usually be detected (to allow for
 countering) anywhere inside its area of effect. This is an intentional
 kludge to prevent the "surprise you're dead" effect from ranged spells. Some
 spells may have specific detection ranges listed.
@@ -2938,25 +3003,33 @@ spells may have specific detection ranges listed.
 Black Iron is an anti-magical material found in some worlds. A gram of Black
 Iron can absorb 1 Pow (each round). (Note, in some worlds, there is not
 limit to absorption) If it absorbs more, it will detonate as an explosion,
-producing 1 point base damage per Pow in the center megahex It has the
+producing 1 point base damage / Pow in the center megahex It has the
 following effects:
 
-Magician - A magician who touches black iron (must touch skin - e.g. hit
-high), will lose all Pow, but may regain normally. A magician in contact
-with black Iron cannot cast any spells. Any spells being cast are lost.
+==== Mage
 
-Creature with magical abilities: e.g. Dragons. Will be unable to use magic,
-but will not be otherwise damaged.
+A mage who touches black iron (must touch skin - e.g. hit high), will lose
+all Pow, but may regain normally. A mage in contact with black Iron cannot
+cast any spells. Any spells being cast are lost.
 
-Enchanted creatures: Skeletons, Golems, etc - will be DESTROYED if touched
-by enough black iron. Note, the creature, not its weapons must be touched.
+==== Creature With Magical Abilities
 
-Summoned creatures: Demons etc: If an amount of black iron smaller than the
-demon's Pow is used, the iron just explodes. The black iron must "hit" the
-demon - exceed weapon parry and armor (if armor is not part of the demon).
-Note that demon Pow must be decided by the GM for each demon type. If a
-large enough piece of black iron is used, roll d6 to determine effect on the
-following table:
+(Dragons, etc.) Will be unable to use magic, but will not be otherwise
+damaged.
+
+==== Enchanted Creatures
+
+(Skeletons, Golems, etc) - Will be *destroyed* if touched by enough black
+iron. Note, the creature, not its weapons must be touched.
+
+==== Summoned Creatures
+
+(Demons, etc) - If an amount of black iron smaller than the demon's Pow is
+used, the iron just explodes. The black iron must hit the demon against
+High, e.g. exceed weapon parry and armor (if armor is not part of the
+demon). Note that demon Pow must be decided by the GM for each demon type.
+If a large enough piece of black iron is used, roll d6 to determine effect
+on the following table:
 
 .Black Iron and Summoned Creatures
 [options="header"]
@@ -2970,24 +3043,24 @@ following table:
 | 6      | No effect.
 |====
 
-==== Direct spells
+==== Direct Spells
 
 If the target (or any target) of a direct spell is in the same hex as black
 iron, the spell is absorbed.
 
-==== Indirect spells
+==== Indirect Spells
 
 Black iron will stop a spell before it has converted to an active effect. It
 will stop a fireball before it explodes, but not a lightning bolt. It will
 stop ball lightning.
 
-==== Area spells
+==== Area Spells
 
 If black iron is within the area of the spell, It will absorb the spell. If
 a small amount of black iron is present, it will explode, and subtract that
 much Pow from the spell.
 
-==== Spell disruption
+==== Spell Disruption
 
 For spells where the area of effect is unclear - fast walk, teleport the
 spell is cast at -5 if the spell in some way crosses an area of black iron.
@@ -3001,10 +3074,12 @@ Black iron plate will protect the wearer from ALL spells up to the
 destruction limit of the black iron (about 30,000 Pow). Wearer is also
 protected from fire and cold.
 
-Black iron dust: the presence of black iron dust will make spell casting
-difficult. The added difficulty is:
+==== Black Iron Dust
 
-.Black Iron Effects
+The presence of black iron dust will make spell casting difficult. The added
+difficulty is:
+
+.Black Iron Dust Effects
 [options="header"]
 |====
 | Density         | Effect
@@ -3026,12 +3101,12 @@ Special devices can be created to perform magical functions. Due to the wide
 range of possible artifacts, only general guidelines can be made for their
 creation.
 
-Form: The form of the artifact must be consistent with its function. A
+*Form* - The form of the artifact must be consistent with its function. A
 Hammer of Thunder is OK. A Propeller Beanie of Lightning Bolts is not.
 
-Composition: Artifacts must be constructed of nearly unique materials. (no
-mass production). Some examples are > 100ct gemstones, teeth of a greater
-dragon, or large meteors,
+*Composition* - Artifacts must be constructed of nearly unique materials.
+(no mass production). Some examples are > 100 carat gemstones, teeth of a
+Greater Dragon, or large meteors,
 
 
 == Magic Spells
@@ -3043,7 +3118,7 @@ by more than the number of hexes specified by the owner, it will cause the
 object to cry "Thief, Thief "at 120db (at 1 hex). Lasts 1 month / Pow Will
 alarm for 1 minute / Pow. Difficulty 6, EP 100.
 
-=== Analyze magic
+=== Analyze Magic
 
 Allows the magician to know the operation of any active spell or enchanted
 device and the amount of Pow in the spell. EP 500. Difficulty = 8. Pow = 10
@@ -3054,7 +3129,7 @@ Causes animals to be friendly to the caster. Allows the caster to
 communicate with animals (at the level of the animal's intelligence). EP
 500, Difficulty = 8, Pow = 5. variable time.
 
-=== Animate rock
+=== Animate Rock
 
 Causes a piece of rock to extrude active arms and weapons. The spell will
 affect hex of rock for each 5 Pow. The area must be approximately circular.
@@ -3073,7 +3148,7 @@ each 20' of height. Tree hp is height^3^ / 1000. Def is = 20 -100 varies
 with type of tree. Attack at -2. Base damage = height of tree. Difficulty
 10, EP 2000,
 
-=== Army of death
+=== Army Of Death
 
 Causes all of the dead in the effected area to rise from the grave and serve
 your will. A roll equal to that required will cause the dead to attack you.
@@ -3093,7 +3168,7 @@ delay from when the spell is cast until the asteroid hits. Minimum EP
 20,000. Difficulty = 15. Pow = 1000,000 (must be collected and stored
 somehow).
 
-=== Audible simulacrum
+=== Audible Simulacrum
 
 Causes a sound to emanate from an object. Note the sound must originate from
 a physical object, not from thin air. 1 Pow / minute, EP 250, Difficulty 5.
@@ -3131,39 +3206,44 @@ when target is in symbol. Cast at +8.
 A potion which acts like the ultimate black paint. One portion can cover
 about 10 square hexes with absolute light absorbing black. requires coal
 dust, gold, silver, mercury. Used on a person causes + 5 visual stealth at
-night. Minimum creation time 10 minutes. EP 200, Difficulty 10, 1 Pow per 10
-square hexes worth.
+night. Minimum creation time 10 minutes. EP 200, Difficulty 10, 1 Pow / 10
+hexes^2^ covered.
 
 === Blindness
 
 Causes the victim to become blind. Lasts until dispelled. Direct spell. EP
 500 Pow = 30. Difficulty 10.
 
-=== Body of stone
+=== Body Of Stone
 
 Causes the target to become made of stone. They move more slowly, but gain
 strength and damage resistance. All damages are increased by 4X. Parries are
-increased by 4X. All combat values are REDUCED by 2. 50 points of defense is
-added. Divide all damage done to target by 2 before applying to HP.
-In addition to the above, all heat and cold damage are reduced by an
-additional 2X. Target's movement (base) is reduced to 2. All falling damage
-is multiplied by 4X before applying to HP . EP 2000, Pow 120, 10 / round to
-maintain. Difficulty 8
+increased by 4X. All combat values are *reduced* by 2. 50 points of defense
+is added. Divide all damage done to target by 2 before applying to HP. In
+addition to the above, all heat and cold damage are reduced by an additional
+2X. Target's movement (base) is reduced to 2. All falling damage is
+multiplied by 4X before applying to HP. EP 2000, Pow 120, 10 / round to
+maintain. Difficulty 8.
 
-=== Brass to bronze
+[NOTE]
+====
+(Graham) Costs 300 Pow / minute to maintain.
+====
 
-Costs 10 Pow / pound. EP 250 Difficulty 12.
+=== Brass To Bronze
 
-=== Brass to iron
+Costs 10 Pow / lb. EP 250 Difficulty 12.
 
-Costs 10 Pow / pound. EP 250 Difficulty 12.
+=== Brass To Iron
 
-=== Break rock
+Costs 10 Pow / lb. EP 250 Difficulty 12.
+
+=== Break Rock
 
 The magician must strike the rock to be broken. Cost is 10 Pow / ft^2^ of
 rock fracture. Fixed time 5 rounds, +5. EP 250 Difficulty 8.
 
-=== Bronze to silver
+=== Bronze To Silver
 
 Costs 10 Pow / oz. EP 500 Difficulty 14.
 
@@ -3230,7 +3310,7 @@ Metamagic - Creates a spreading fire - acts as if the air were turned to
 pure oxygen. This spell has not specific range limit, but will typically
 burn any city, or forest to ashes. Difficulty 15, Pow 10000, EP 5000
 
-=== Control undead
+=== Control Undead
 
 Allows the caster to gain control of an undead. Single target direct spell.
 Once control is gained, it does not need to be maintained. Difficulty 8, Pow
@@ -3256,13 +3336,13 @@ therefore unable to use stealth. EP 1000, Difficulty 8, Pow = 20/round (not
 per minute). Spell may be cast at multiple targets by multiplying Pow cost.
 5 rounds, +4.
 
-=== Crack of doom
+=== Crack Of Doom
 
 Metamagic. Opens a crack in the earth, up to 1 mile wide by 10 long, and all
 within that area are cast into the void (or hell, or chaos, or pick your
 favorite space). Difficulty 15, Pow 1,000,000.
 
-=== Create rock
+=== Create Rock
 
 Causes rock to appear. Direct spell. rock must appear in contact with the
 earth, in a stable configuration. EP 500 Cost is 1 Pow / ft^3^, Difficulty =
@@ -3317,7 +3397,7 @@ plus. This can be cast after other magic in defense (but at minuses if other
 spells have been cast). Deflecting multiple lightning strokes all done at
 the same plus. Plus = 0. 1 round +0.
 
-=== De-scent oil
+=== De-scent Oil
 
 Will eliminate smells in an area. (useful if you are being tracked). only
 lasts a few minutes after manufacture. Requires several herbs. Difficulty
@@ -3356,7 +3436,7 @@ may drain d10 from each. Direct spell. Victims drained below zero may not be
 drained again. Range=touch. Victims recover 1 of CON and STR each day.
 Pow = 10, EP 1000, Difficulty = 9.
 
-=== Earth elemental
+=== Earth Elemental
 
 Calls an elemental a creature: move 1, -2 / 10,000, DCV -5,-5, inf. Def =
 2000, HP = 50000. Depends on the scenario. Currently the animate type is in
@@ -3479,18 +3559,18 @@ goes off the round after it is cast. The caster must secretly write down the
 target location. Pow = 50, Difficulty 7, EP 1000. fixed casting time 3
 rounds, +3;
 
-=== Flesh to stone
+=== Flesh To Stone
 
 Affects single target, direct spell. Target is turned to stone. Target is
 not conscious while stoned. The reverse spell is learned automatically. EP
 500, Difficulty = 8 Pow = 20
 
-=== Flesh to stone potion
+=== Flesh To Stone Potion
 
 Causes the person drinking to turn to stone. Not reversible except with
 stone to flesh spell (a statue can't drink). EP 1000, Difficulty 12, Pow 50
 
-=== Floating liquid
+=== Floating Liquid
 
 This material, composed primarily of mercury, will fall up. It pulls up with
 the same force that the same amount of mercury would pull down. EP 500
@@ -3516,7 +3596,7 @@ Difficulty 13. Symbol spell only. 1 day +9
 Causes an object to glow, producing about the light of a candle. The glow
 lasts for about a day. Difficulty 10, EP 500 Pow 10.
 
-=== Glow water
+=== Glow Water
 
 Liquid is like the liquid in Cylume sticks. It can be made in any lifetime
 from 30 minutes to 24 hours, and in any color. Requires water, sulfur, coal,
@@ -3613,14 +3693,14 @@ charcoal. Difficulty 10. EP 250, Pow = 1/unit.
 
 Alchemical potion. When first drunk, or poured on to wounds, it provides up
 to 100 points of healing within a few minutes. 10 doses, taken at one time
-confer immortality. All damage will heal at at least 1 point per day.
-Severed limbs will grow back. If the body is hacked into many pieces, the
-brain will be the center of the new body (which will grow slowly). Without
-food or water, the body will wither but not die. Only burning to ashes will
-destroy the body forever, and even then the soul will live on as a spirit,
-trapped on this plane. EP 5000, Difficulty 16 Pow 10000. Note: knowledge of
-this spell is very restricted. Knowledge of this spell allows a reverse
-potion to be created.
+confer immortality. All damage will heal at at least 1 point / day. Severed
+limbs will grow back. If the body is hacked into many pieces, the brain will
+be the center of the new body (which will grow slowly). Without food or
+water, the body will wither but not die. Only burning to ashes will destroy
+the body forever, and even then the soul will live on as a spirit, trapped
+on this plane. EP 5000, Difficulty 16 Pow 10000. Note: knowledge of this
+spell is very restricted. Knowledge of this spell allows a reverse potion to
+be created.
 
 === Inferno
 
@@ -3638,7 +3718,7 @@ you can be seen, and the less you can see. As you move further, you can
 interact with spirits. Failure leaves you TRAPPED on the other side. EP 500
 Pow 10. Duration 1 minute / 10 Pow. Difficulty 7
 
-=== Lead to Brass
+=== Lead To Brass
 
 Costs 1 Pow / pound, Difficulty 9, EP 250.
 
@@ -3689,19 +3769,19 @@ dust, Glacier ice. EP 2000, Difficulty = 0, Pow = 20.
 
 This spell will mask the presence of stored magic (not active spells) in an
 area. Pow required = sqrt(Pow to be hidden). Area for hiding is 1 hex / Pow
-in this spell. The spell may be continued at a cost per round of sqrt(Pow in
-this spell). So to hide a 10,000 point storage area, would need to cast a 100
-point spell, and maintain at 10 points per round. Difficulty 5, variable
+in this spell. The spell may be continued at a cost / round of sqrt(Pow in
+this spell). So to hide a 10,000 point storage area, would need to cast a
+100 point spell, and maintain at 10 points / round. Difficulty 5, variable
 casting time. Continuing spell.. 500 EP.
 
-=== Magic wall
+=== Magic Wall
 
 This spell puts up a barrier which magical energy cannot pass. It stops only
 direct magical spells. EP 500 Difficulty 6. Pow = 100 / hex. 1 Pow / minute
 / hex. It is destroyed by any physical or energy attack. A magic wall is
 visible. Continuing spell.
 
-=== Magical sword
+=== Magical Sword
 
 Allows an existing weapon to affect things otherwise immune to normal
 weapons. Weapon will also glow in the dark - eliminating darkness minuses,
@@ -3716,7 +3796,7 @@ desired effect. Roll is at the following minuses: Minus log~2~(total size of
 animate creatures / normal human size). e.g. 20 men would be -5. A dragon at
 20X man sized would be similar). For large inanimate effects (avalanches,
 tidal waves, etc), Difficulty -1 / log~2~(effect area / 100 hexes^2^). Pow 1
-Pow / hex area per minute (minimum cost is for 1 minute). Targets get a
+Pow / hex area / minute (minimum cost is for 1 minute). Targets get a
 (combined) senses roll against the mage's MG+ to notice the illusion. The
 roll is re-done every time there the illusion changes actions in a
 significant way. Spell can also be used to change the appearance of objects
@@ -3743,7 +3823,7 @@ damage if desired. Failure may cause meteor to hit caster. If the attack
 misses the target, the target can half (or full) move out of the target hex.
 EP 3000, Difficulty = 14 Pow = 2000. Fixed casting time 10 rounds, +5
 
-=== Mold rock
+=== Mold Rock
 
 Gives a rock the consistency of putty. Requires 10 Pow / ft.^3^, lasts 1
 minute. Difficulty 8. EP 500. fixed time 2 rounds, +4
@@ -3754,7 +3834,7 @@ Spell causes a glowing disk to rise into the air and illuminate 1 mi.^2^ as
 if by moonlight with all appropriate effects. EP 1000, Difficulty = 8, Pow =
 30. Lasts 1 minute.
 
-=== Move rock
+=== Move Rock
 
 Allows the magician to exert a force on stone. The target can only be moved
 slowly (1 hex / round) and cannot move more than 1hex above the ground. The
@@ -3762,13 +3842,13 @@ force exerted is 100 lb. / Pow, and must be distributed over at least 1
 cubic foot of rock. For less than 1 ft.^3^, de-rate force appropriately.
 Difficulty 8. Pow = 250
 
-=== N-Liquid
+=== N-liquid
 
 A material which flows like water, but up. It follows the path water would
 take down, but follows it in reverse (along the ground only). components -
 Water, silver dust. Difficulty = 6 EP 250. Pow = 1 / unit.
 
-=== Necromantic collection
+=== Necromantic Collection
 
 A very powerful and dangerous spell. Collects all of the Pow released by
 death in an area (200 Pow / death typically). A set of 5 stones must be
@@ -3788,7 +3868,7 @@ inability to use this spell on that victim again. You may decide in general
 the course of the nightmare, or let their worst fears take over. Pow 10.
 Difficulty 8, EP 500.
 
-=== Olfactory simulacrum
+=== Olfactory Simulacrum
 
 Causes a smell to emanate from an object. The smell can duplicate in detail
 anything the caster has personally smelled, and is accurate enough to, for
@@ -3818,12 +3898,12 @@ Causes a part of the victim to turn to stone. Note that this will not kill
 the victim. Difficulty 10 Pow 10. Lasts for about 1 day, then slowly
 recovers.
 
-=== Peer through rock
+=== Peer Through Rock
 
 Makes rock as clear as glass (to the caster only). Cost is 10 Pow / foot
 distance. Lasts 1 minute. Difficulty 9 EP 500, Fixed time 1 minute, +6.
 
-=== Permanent sleep
+=== Permanent Sleep
 
 Induces a sleep which cannot be broken. Must be cast on a victim who is
 already sleeping. The victim will not age, or change in any way until
@@ -3855,8 +3935,8 @@ is 50% over 6 month. Make con roll to survive. Difficulty 14. Pow 1000. EP
 
 === Plant Growth
 
-Causes plants in the area to grow at up to 1 years growth per minute. Lasts
-1 minute. This spell can be very powerful. Magician can control direction of
+Causes plants in the area to grow at up to 1 years growth / minute. Lasts 1
+minute. This spell can be very powerful. Magician can control direction of
 growth within reason. EP 2000. Difficulty = 7, Pow = 15
 
 === Poison
@@ -3897,9 +3977,9 @@ to link to a gem. You can only link to a single gem at a time. Difficulty =
 
 [NOTE]
 ====
-This rule is not always used: "A fumble will discharge the entire gem Pow".
+(Jon) This rule may not always be used: "A fumble will discharge the entire
+gem Pow".
 ====
-
 
 === Rain
 
@@ -3919,7 +3999,7 @@ constructed from the materials at hand. The structure will remain intact,
 only if it can stand on its own after being assembled. The spell affects an
 area of 1 hex in radius for each Pow. Difficulty = 14. EP 1000
 
-=== Rock to Lead
+=== Rock To Lead
 
 This spell causes a volume of rock to convert to lead. Pow = 1/pound
 Difficulty 10. EP 250
@@ -3957,12 +4037,12 @@ are made without time modifiers. Note that you can be seen if you directly
 attack someone. EP 500, Difficulty = 6 for first roll, then 0, Pow =
 1/round.
 
-=== Shatter metal
+=== Shatter Metal
 
 Will break a metal object. Direct spell. Cost is 10 Pow / in.^2^. Difficulty
 = 10. EP 500
 
-=== Shatter rock
+=== Shatter Rock
 
 This spell will break an object at range. It is a direct spell. Pow is 20 /
 ft.^2^. Difficulty = 9. EP 500. 3 rounds +3.
@@ -3973,7 +4053,7 @@ Causes the victim to be unable to make any noise. Direct spell. (Note this
 will also prevent indirect noise from the victim). Can be used on self.
 Duration 10 rounds. Pow 10. Difficulty 8. EP 500
 
-=== Silver to Gold
+=== Silver To Gold
 
 Costs 100 Pow / oz. Difficulty 14. EP 2000
 
@@ -4018,7 +4098,7 @@ spell will convert the Chaons to a new soul which is bound to a person. The
 target permanently gains: Angel abilities, immortality. It's a good deal.
 Spell requires chaos trapping. EP 3000, Difficulty = 16 Metamagic 5000 Pow
 
-=== Soul Creation (version2)
+=== Soul Creation (Version2)
 
 Creates a new, 0 Pow chaos soul. This type of soul is required in order to
 absorb other Chaons (see <<chaons,Chaons>>). EP 3000, Difficulty 16,
@@ -4072,7 +4152,7 @@ but almost indestructible. They will mindlessly hunt down the nearest humans
 and kill them. Single zombies are not too dangerous, but once a horde gets
 started it is almost unstoppable. Difficulty 14. Pow 1000. EP 1000 Metamagic
 
-=== St. Elmo's fire
+=== St. Elmo's Fire
 
 Casts a dim blue-green light over an object - up to 10 hexes size..Can be
 cast on an opponent by hitting low DCV at casters MG+. 5 rounds +3.
@@ -4114,7 +4194,7 @@ subject appears with a popping sound, loud enough to wake a sleeping person.
 The mage must appear on solid ground. The destination must be in line of
 sight. Direct Spell. Difficulty 9, Pow 10 / hex, EP 1000.
 
-=== Terrify animal
+=== Terrify Animal
 
 Causes any animal (non enchanted creature) to flee in panic. Direct spell.
 Difficulty 7. Pow 5. EP 250. 3 rounds, +4.
@@ -4130,7 +4210,7 @@ shore. Damage depends on the local terrain. Difficulty = 12, EP 5000
 Spell causes you to look clean, repairs clothes, etc. EP 500. Difficulty 7,
 Pow 10.
 
-=== Time stop
+=== Time Stop
 
 Causes a bubble to be created around the caster. Outside the bubble, the
 world stops. Alternately time inside the bubble can be stopped for a
@@ -4146,13 +4226,12 @@ for the bubble to form or disappear. Fumble has the obvious very bad effect
 Metamagic. Creates a category 5 tornado which lasts 300 rounds under the
 control of the casting magician. Range Pow costs must be paid to create the
 tornado. The tornado has a diameter of 500 hexes (fuzzy edged), and moves at
-up to 20 hexes per round. Tornado includes summoning a severe storm.
-Typically all wooden buildings in the area of effect will be destroyed, all
-trees uprooted. Stone buildings may be destroyed. All exposed persons will
-take at attack at +3/10 against OUTDOOR SURVIVAL plus every 10 rounds when
-in the tornado. Armor gives normal protection against area attacks. Outdoor
-clothes give 10/90% protection. Difficulty 10, 3000 EP, Pow = 3000, 10 rounds
-+5.
+up to 20 hexes / round. Tornado includes summoning a severe storm. Typically
+all wooden buildings in the area of effect will be destroyed, all trees
+uprooted. Stone buildings may be destroyed. All exposed persons will take at
+attack at +3/10 against OUTDOOR SURVIVAL plus every 10 rounds when in the
+tornado. Armor gives normal protection against area attacks. Outdoor clothes
+give 10/90% protection. Difficulty 10, 3000 EP, Pow = 3000, 10 rounds +5.
 
 === Track
 
@@ -4197,7 +4276,7 @@ begin to erupt again. EP 5000, Pow = 50,000, Difficulty = 15
 Includes protection from fumes, walk on lava, survive lava, redirect lava,
 lava control. EP 2000, Pow = 20 / round, Difficulty = 7 (each round).
 
-=== Wall of fire
+=== Wall Of Fire
 
 Create an immobile curtain of raging fire. It cannot be created through a
 solid object (or person). Anything which crosses through the curtain takes
@@ -4205,7 +4284,7 @@ fire damage equal d6 for each 10 points in the spell. In addition to the Pow
 for damage, 5 Pow / hex length must be spent. Continuing spell. Difficulty 8
 EP500. fixed casting time 3 rounds, +3;
 
-=== Wall of stone
+=== Wall Of Stone
 
 Creates a series of crystal like spikes the grow out of the ground. Covers 1
 hexes to a height of 10' for each Pow. Requires a flat climbing or
@@ -4231,7 +4310,7 @@ Maximum radius is 10 miles. Minimum Pow is 20. Difficulty =10, EP 500, Pow =
 
 == Psionics
 
-If your Psi - General Plus is <= 0, you are considered to be Psi inactive,
+If your Psi - General Plus is \<= 0, you are considered to be Psi inactive,
 and are not noticeable to other psionic creatures. If your Psi - General
 Plus is > 0, then you are noticeable by other Psi creatures (using Psi -
 detect).
@@ -4251,13 +4330,13 @@ succeeded are at +5. After 10 rounds, Psi attacks are launched (and
 resisted) every minute, after 10 minutes, every hour, after 10 hours, every
 day.
 
-Combining Psi attacks. Multiple people can combine Psi attacks. Each must
-make a Psi General roll. If any fail, the attack fails for all. Pluses are
+*Combining Psi Attacks* - Multiple people can combine Psi attacks. Each must
+make a Psi - General roll. If any fail, the attack fails for all. Pluses are
 added as for normal skills.
 
 Multiple Psi Actions: Are performed at -2 for each additional ability used.
 
-=== Psi - Area block
+=== Psi - Area Block
 
 This is used to block others from Psi attacks. The rules are similar to Psi
 - Block (see below). It can be used to block any number of people within
@@ -4307,7 +4386,7 @@ location. This will prevent missile attacks from hitting. It does not work
 in hand to hand. Like other Psi abilities, it can be stopped by a Psi block.
 It affects a single target.
 
-=== Psi - general
+=== Psi - General
 
 This is your Plus at resisting psionic attacks.
 
@@ -4334,9 +4413,9 @@ A high level Psi ability. Causes everyone in the affected area to roll
 against an attack at Psi - Madness plus or behave in an irrational fashion.
 The choices (up to the attacker) are fear, aggressiveness, randomness, or
 paralysis. The base area of effect is 100 hex radius, at a range of up to
-200 hexes. The ability is used at -1 for each x2 in range or radius.
+200 hexes. The ability is used at -1 for each 2X in range or radius.
 
-=== Psi - paralyze gaze
+=== Psi - Paralyze Gaze
 
 This is the ability to freeze an opponent in their tracks. Target must look
 at your eyes or a -5 applies. Targets in combat will look at your eyes on a
@@ -4350,26 +4429,26 @@ emotive: rather than "they're worried about something", would tend to return
 "they're thinking they might be in trouble with their boss". Succeeds
 proportional to amount over.
 
-=== Psi - pain
+=== Psi - Pain
 
 Your basic psionic distraction attack. Opponent is -N on next rounds
 offensive actions where N is the number your roll beat them this round.
 Opponents in combat are already steeled for pain, and thus are only -N / 2
 (round down). Range is line of sight to 10 hexes.
 
-=== Psi - psi communication
+=== Psi - Psi Communication
 
 Allows sending communication to a target that is expecting the communication
 (-5 otherwise). Distance penalty: -log~2~(distance in miles). If the target
 also has this skill, it may be added to the attempt.
 
-=== Psi - send idea
+=== Psi - Send Idea
 
 An idea occurs to the target. Target is not compelled to act on the idea. -1
 for each additional target of one "attack". Distance penalty:
 -log~2~(distance in hexes). "These are not the droids you are looking for".
 
-=== Psi - send image
+=== Psi - Send Image
 
 Causes the target to think that they see something. Very powerful.
 
@@ -4380,17 +4459,18 @@ alone. It provides motions and forces similar to those a human could
 produce. If used for attack, it attacks at your Psi - General Plus for 2.0
 base (for a dull object) and 5.0 base for weapons, or a parry of 15. If used
 for lifting, the maximum amount that can be lifted is 30 pounds. These
-numbers are multiplied by Psi / 10. Chaos Rules: For use in chaos. (Optional
-Game Rules)
+numbers are multiplied by Psi / 10.
 
 
-== Chaos Rules
+== Chaos Rules (Optional)
 
-Chaos rules are not available in most campaigns.
+Chaos is not even remotely fair. You can die (or worse) without warning.
 
 [NOTE]
 ====
-Chaos is not even remotely fair. You can die (or worse) without warning.
+(Jon) Chaos rules are not available in most campaigns. I edited to
+consistently use "Chaons" instead of the mix with "Chaos Power" found in the
+original document.
 ====
 
 
@@ -4429,11 +4509,16 @@ Chaons can be gained by sacrificing people (or similar sentients). 1 / 10
 Chaon is gained for each person sacrificed.
 
 
-=== Uses of Chaos Power
+=== Uses Of Chaos Power
 
 _Unbound_ Chaons are those collected by a player, but not yet bound into
 chaos abilities (see below). Unbound Chaons may be moved to those abilities
 (but not back), or used for Chaos Manipulation.
+
+[NOTE]
+====
+(Jon) Contemporary usage, formerly "Pure Chaos Power".
+====
 
 .Chaos Manipulation Pluses
 [options="header"]
@@ -4460,8 +4545,10 @@ chaos abilities (see below). Unbound Chaons may be moved to those abilities
 --
 [NOTE]
 ====
-Do not change your strength stat when gaining Chaos Strength. It is best to
-compute the modifier and write to the modified stats in the weapons table.
+Do not change your strength stat when gaining Chaos Strength.
+
+(Jon) It is simplest to compute the modifier and write a line with the
+modified stats in the weapons table.
 ====
 --
   * Growth: 2X the effect of strength increase for the same cost. Height
@@ -4624,10 +4711,10 @@ a day at 1 hex / round. Each hour a chaos storm has a 1% chance of spawning
 a chaos tornado. Each hour there is a 10% chance of d6 level d6 chaos
 creatures. A chaos storm can be created (but not controlled) by releasing
 1000 Chaons. Each hour, roll physical damage +6 / 20 scale pluses +1 for
-each x10 time.
+each 10X time.
 
 Chaos Tornado: A small but very powerful chaos storm. It is 10 hexes in
-radius, has a 1% chance per round of disappearing and can be detected d100
+radius, has a 1% chance / round of disappearing and can be detected d100
 hexes (center of storm) away. It will move 3d6 hexes toward the largest
 single source of Chaons in the area. A tornado is always accompanied by d6
 level d6 chaos creatures. Each *round* in a chaos tornado, roll at -6
@@ -4638,9 +4725,9 @@ controlled, it moves at 20hex / round. On a failed roll, a storm is created.
 Each round physical effect +8/50
 
 Chaos Wall: A wall in chaos, generally stationary. Can be created by
-expending 1 Chaon per hex length (roll required). Anything passing through
-the wall will be affected: Roll at -6 against the universe on the chaos
-effects table. When passed +8/30
+expending 1 Chaon / hex length (roll required). Anything passing through the
+wall will be affected: Roll at -6 against the universe on the chaos effects
+table. When passed +8/30
 
 .Chaos Effects Table (add Chaos Plus)
 [options="header"]
@@ -4677,7 +4764,7 @@ effects table. When passed +8/30
     any depth. Stealth underwater gain +5. All survival rolls at -5. Must
     have 2 pints water / hour (6 gallons / day), or lose d6 hp / hour.
 
-==== Damage to physical objects
+==== Damage To Physical Objects
 
 Any object in chaos is subject to damage. Damage is done per hex length of
 the object, in the area of influence. For example a 100 hex long chaos ship,
@@ -4755,7 +4842,7 @@ chaos drops from the sky.
 chaos, take into account range effects, then each rolls with chaos plus. The
 winner wins, the loser's Chaons are released, producing storms, etc.
 
-==== Chaos ship combat
+==== Chaos Ship Combat
 
 Scale is 100 hexes, 10 rounds (so things move at 1/10 speed). Tornadoes
 always move at 1 if uncontrolled, 2 if controlled (and last indefinitely on
@@ -4784,7 +4871,7 @@ Spirits are dispelled by direct sunlight, or mithril flash powder.
 In addition to the standard methods, spirits gain 1/100 Chaons for each
 normal human they kill
 
-==== Uses of Chaos Pow
+==== Uses Of Chaos Pow
 
 The following abilities are gained as Chaons are added
 
@@ -4797,11 +4884,15 @@ The following abilities are gained as Chaons are added
   * Magical Interaction: 100 Chaons gives normal magical interaction - both
     for offense and defense.
 
-== Prices and Money System
+== Prices And Money System
 
+[NOTE]
+====
+(Graham, Jon)
   * 1 gold piece (GP) = 1 oz. = 100 silver pieces
   * 1 silver piece (SP) = 1 oz. = 100 copper pieces = $5 US (roughly)
   * 1 copper piece (CP) = 1 oz.
+====
 
 Effect of MON stat: For MON = 10, income is 100 SP / year, with savings of
 100 SP. Double savings for each +1 in MON. Multiple typical income by
@@ -4894,7 +4985,7 @@ Availability of a specific skill in the general population
 |====
 
 
-=== Typical Wealth of people
+=== Typical Wealth Of People
 
 .Wealth and Class
 [options="header"]
@@ -4910,7 +5001,7 @@ Other:
   * Merchant ship (large) 100 GP War ship 250 GP
   * Book - about 10 pages / SP (hand copied)
 
-.Weapons and Armor Costs
+.Weapons and Armor Prices
 [options="header"]
 |====
 | Type                  | Cost
@@ -4922,11 +5013,16 @@ Other:
 | +1 Arrows (to damage) | 1 GP / ea.
 | Shield                | 10 SP
 | Leather Armor         | 1 GP
-| Ring Armor            | 2 GP
 | Chain                 | 20 GP
 | Plate                 | 20 GP
 | Juggernaut Armor      | 50 GP
 |====
+
+[NOTE]
+====
+(Jon) We no longer have "Ring Armor", which was listed at 2 GP in the
+original document.
+====
 
 Professional services (if available): 1 SP / day for +0. increase 2X for
 each plus. Available people 1/4 each plus.
@@ -4993,13 +5089,22 @@ Magical training:
   * Magic research lab - about 1000 GP, including at least 300 books.
 
 
-=== Magical Spells and Scrolls (retail, wholesale = 1/4)
+=== Magical Spells And Scrolls (Retail, Wholesale = 1/4)
 
 Availability is at a large city (100K pop) magic shops. *n/a* means a scroll
 cannot be created for that spell.
 
-Note - *Restricted* means that use of this spell is often illegal, and the
+[NOTE]
+====
+*Restricted* means that use of this spell is often illegal, and the
 authorities will imprison or kill mages casting it if possible.
+
+(Jon) The spell table has a lot of redundancy with the <<Magic Spells>>
+section, and with skill.dbs (which gets tweaked by GMs a fair amount anyway,
+and may no longer track this document in significant ways). Only the price,
+availability and notes columns of this table are unique. We should probably
+merge that information into the list of spells.
+====
 
 .Spell Table
 [options="header"]
@@ -5170,13 +5275,13 @@ weight.
 
 [NOTE]
 ====
-In practice, we rarely follow the rules below, although the effects on
+(Jon) In practice, we rarely follow the rules below, although the effects on
 movement (above) should be respected. The GM may inform a player that they
 cannot carry multiple sets of Plate Armor or thousands of GP, but it's a
 tedious hassle to track this all the time.
 ====
 
-==== Encumbrance of typical items:
+==== Encumbrance Of Typical Items:
 
 .Encumbrance Effects
 [options="header"]
@@ -5193,14 +5298,15 @@ tedious hassle to track this all the time.
 |====
 
 
-=== Construction and Fortifications
+=== Construction And Fortifications
 
 Type of wall and time to construct per foot of perimeter. It is assumed that
 resources are available for wall. Note that normal labor rates are 25 SP /
-year or 1 CP (.01 SP) per hour. Material costs are for a typical area. Stone
+year or 1 CP (.01 SP) / hour. Material costs are for a typical area. Stone
 and wood costs can easily vary a factor of 10 from the given numbers. In
 areas where raw materials are free, assume 1/2 of the material cost is the
-labor to "refine" the materials into useful forms. Defense / HP is per hex.
+labor to "refine" the materials into useful forms. Defense and HP is per
+hex.
 
 .Fortification Construction Times
 [options="header"]
@@ -5218,11 +5324,13 @@ labor to "refine" the materials into useful forms. Defense / HP is per hex.
 | Colossal stone fortification 100' tall (dark tower), 30' thick   | 20,000 hours      | 200 SP        | 600 / 1,000,000
 |====
 
-A castle wall, 200' on a side, with 15' stone fortifications, would cost
-50Gold in materials and labor.
+*Examples:*
 
-Defensive Wall gates: A typical gate for a defensive wall will have 1/4
-the DEF and HP of the wall itself. A gate costs as much as 100' of wall.
+A castle wall, 200' on a side, with 15' stone fortifications, would cost
+50 GP in materials and labor.
+
+Defensive Wall gates: A typical gate for a defensive wall will have 1/4 the
+DEF and HP of the wall itself. A gate costs as much as 100' of wall.
 
 Building construction costs per ft.^2^ of living area. These costs are
 approximations. Occupancy is minimum ft.^2^ per person living in the
@@ -5248,7 +5356,7 @@ materials.
 | Specialty workshop - smithy, magic lab | 1000      | ~         | 100 hours         | 10 SP
 |====
 
-Some examples:
+*Examples:*
 
   * Peasant hovel for family of 6: purchase cost 10 SP
   * Army barracks for 1000 troops: purchase cost 50 GP
@@ -5379,7 +5487,7 @@ Typical ship:
     = 2
   * Storm movement: 6 points available: cost = Inf, Inf, 2, 1 turn cost = 3
 
-==== Wind Direction and Strength
+==== Wind Direction And Strength
 
 The wind direction is determined before combat begins. The wind may be
 defined as normal, strong, or very strong. Unless there is a game reason it
@@ -5402,10 +5510,9 @@ Movement points can be permanently dropped (by removing sails) by deciding
 to do so during the movement round before the one in which the movement is
 reduced. Movement points can never be increased during a combat.
 
-If the wind is strong, ships will drift one hex per round downwind. Storm,
-two hexes per round (and higher drifts may be possible in more severe
-weather conditions). These motions occur at the end of the ship's movement
-phase.
+If the wind is strong, ships will drift one hex / round downwind. Storm, two
+hexes / round (and higher drifts may be possible in more severe weather
+conditions). These motions occur at the end of the ship's movement phase.
 
 ==== Attacking Ships
 
@@ -5445,7 +5552,7 @@ HP are more than twice their INT. Do not use in serious campaigns.
 
 === Recovery Rates (Silly)
 
-HP always recover at C* / 10 (CON^2^ / 100) per hour.
+HP always recover at C* / 10 (CON^2^ / 100) / hour.
 
 === Drinking Effects (Silly)
 
@@ -5458,7 +5565,7 @@ minus). If you fail, lose another plus, etc. When you are at -10 you pass
 out. That's the bad news. The good news is that if you have N drinks, you
 gain N^2^ HP.
 
-=== Challenge by Head Butting (Silly)
+=== Challenge By Head Butting (Silly)
 
 The two challengers run head first at each other, and smash their heads
 together. If both are left standing, they do it again.
@@ -5474,7 +5581,7 @@ Each combatant then takes damage equal to: The sum of the damage points
 applied by both combatants + the difference in the die rolls (added to one,
 subtracted from the other).
 
-=== Contest of Rock Carrying (Silly)
+=== Contest Of Rock Carrying (Silly)
 
 Each contestant picks up a 200 pound rock, and tries to carry it as far as
 possible without dropping (it or themselves). Contestants are allowed to ram
@@ -5486,7 +5593,7 @@ already traveled. If you wish to ram, make a roll at (size plus) + (agility
 plus) against your opponent. If either loses by 5 or more, they drop their
 rock. The ramming is done after the movement that round.
 
-=== Trial by Axe (Silly)
+=== Trial By Axe (Silly)
 
 Used to clear someone's reputation, usually after an accusation of
 infidelity. The accused is placed in stocks, with their head exposed, and
@@ -5506,7 +5613,7 @@ course).
 
 
 [appendix]
-== Obsolete Rules
+== Obsolete And Rarely Used Rules
 
 === Mounted Combat (Obsolete)
 
@@ -5606,7 +5713,7 @@ subtract armor). Difficulty 9. EP 100, Pow = 5 / unit. Materials cost is 10
 SP / unit.
 
 
-=== Special Angel and Demon Rules (Rarely Used)
+=== Special Angel And Demon Rules (Rarely Used)
 
 These rules only apply in a limited set of games.
 
@@ -5649,7 +5756,7 @@ is 1 Pow / day moved. Abilities:
     from that element.
 
 
-=== Mass combat rules (Rarely Used)
+=== Mass Combat Rules (Rarely Used)
 
 Movement sequence:
 
@@ -5683,7 +5790,9 @@ units are -2 relative to normal units. If 2 missile units are attacking, +1,
 
 Run sample combats to determine large-scale effects?
 
-==== General EP Gain Rules (Rarely Used)
+
+[[epgain]]
+=== General Ep Gain Rules (Rarely Used)
 
 "Free time" while doing some other full time job
 
@@ -5728,7 +5837,7 @@ Typical EP gain for a game "run"
 
 500 - 1000 EP
 
-==== Typical activities and EP gain
+==== Typical Activities And Ep Gain
 
 The following are listed for reference, and as a guide to EP gain rates.
 "Additional training hours" indicates the amount of time that can be applied
@@ -5750,8 +5859,12 @@ to training using the previous table.
 
 === Standard Counter
 
-This section was next to the Brute Force Counter section but marked as *no
-longer used* and was empty.
+[NOTE]
+====
+(Jon) This section was next to the Brute Force Counter section but marked as
+*no longer used* and was empty. We should probably also remove it from the
+order of actions and any other places it appears.
+====
 
 
 [[experimental-races]]
@@ -5765,9 +5878,9 @@ file (+name.chr+) before doing this, in case of errors.
 
 [NOTE]
 ====
-It is the GM's choice whether these races are allowed. In recent campaigns,
-the race system built into the skill database has been used in preference to
-these hand-coded races.
+(Jon) It is the GM's choice whether these races are allowed. In recent
+campaigns, the race system built into the skill database has been used in
+preference to these hand-coded races.
 ====
 
 ==== Demon
@@ -5860,10 +5973,60 @@ Orcs are Darkness Creatures.
 
 Players of Trolls must join discussions using only single-syllable words.
 
+[[aging-rules]]
+=== Aging Rules (Rarely Used)
+
+These rules are optional and rarely used.
+
+Typical character starting age is 15 + EP/300. For characters entering in
+the midst of a campaign, the GM should produce a set of rules.
+
+[NOTE]
+====
+Most campaigns now start new characters with the same number of EP as
+existing characters, to avoid disgruntlement and the desire to keep the
+eldest character alive at all costs, so new characters get the most EP
+possible.
+
+In the past, it was typical to give a new character the base EP the campaign
+started with plus half of the difference between that and the maximum EP of
+any player, and add the length of the campaign to the character's age.
+====
+
+After a character is generated, the *Stat EP* field in the Slay program
+should be set to 0, which prevents stat rebalancing. Then the following
+modifications are made to the character's stats. Note that these charts are
+not exact for extreme ages, and should only be used as guidelines outside
+the 15-75 age range.
+
+.Aging Modifiers On Stats
+[options="header"]
+|====
+| Stat / Age   | <15 | 15-20 | 21-30 | 31-45 | 45-60 | 60-75 | >75
+| Agility      |  +2 | +1    | 0     | -1    | -2    | -3    | -3-.5/year
+| Appearance   |   0 | +1    | +1    | 0     | -1    | -2    | -3
+| Constitution |  +2 | +1    | 0     | 0     | 0     | -1    | -2-1/year
+| Dexterity    |   0 | +1    | 0     | 0     | 0     | 0     | -0.5/year
+| Intelligence |-2 - 0.5/year < 15 | -1 | 0     | 0     | +1    | +2 | +2-1/year
+| Magic        |   0 | 0     | 0     | 0     | +1    | +2    | +2
+| Money        |  -3 | -2    | -1    | 0     | +1    | +2    | +2
+| Psi          |  -3 | -2    | -1    | 0     | +1    | +2    | +3
+| Reactions    |  +2 | +1    | 0     | 0     | 0     | -1    | -1-0.5/year
+| Senses       |   0 | 0     | +1    | 0     | 0     | -1    | -1-0.5/year
+| Size         |-1 - 1/year < 15   | -1  | 0     | +1    | 0     | -1 | -1-1/year
+| Strength     |   0 | +1    | 0     | 0     | -1    | -2    | -2-1/year
+|====
+
+
+// JoelWorld appendix
+include::joel.adoc[]
+
 
 [appendix]
 == Change Log
 
+  * 2016/09/04 (Jon Leech) - add JoelWorld appendix. Numerous minor
+    cleanups, typo fixes, and consistency edits.
   * 2016/09/03 (Jon Leech) - move some obsolete and alternate-rule sections
     into the appendix.
   * 2016/09/02 (Jon Leech) - convert to Asciidoc, license per agreement with

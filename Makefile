@@ -12,15 +12,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# The chosen asciidoc converter. asciidoctor is much faster than asciidoc.
+# Path to asciidoctor binary
 ASCIIDOC = asciidoctor
+# Path to dblatex binary.
+DBLATEX = dblatex
 
 SLAY = slay
+FILES = $(SLAY).adoc joel.adoc
 
-all: $(SLAY).html
+all: $(SLAY).html $(SLAY).pdf
 
-$(SLAY).html: $(SLAY).adoc
-	$(ASCIIDOC) -b html5 -o $@ $?
+$(SLAY).html: $(FILES)
+	$(ASCIIDOC) -b html5 -o $@ $(SLAY).adoc
+
+$(SLAY).pdf: $(FILES)
+	$(ASCIIDOC) -b docbook $(SLAY).adoc
+	$(DBLATEX) $(SLAY).xml
+	-rm $(SLAY).xml
 
 clean:
 	-rm -f *.html

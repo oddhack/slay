@@ -1,0 +1,490 @@
+[appendix]
+== JoelWorld Appendix
+
+This section covers changes and extensions introduced in the JoelWorld™
+system.
+
+=== JoelWorld Combat
+
+==== JoelWorld Combat Phases
+
+Per Joel, the combat phases are:
+
+  * Soliloquy ("Charge!", "Cheese!", etc.)
+  * Choose Round Special Actions (Charge (+2 attack, -3 defense), Eyes
+    Closed (-5 all))
+  * Disengage (3d6 + engage plus with current weapon)
+  * Move (more than half move requires charge or loss of attack and some
+    defense)
+  * Engage (3d6 + engage plus with current weapon)
+  * Soliloquy ("Be Defensive!")
+  * Decide on shifting pluses from offense to defense (up to 2, or fully
+    offensive or defensive)
+  * Combat
+  * Soliloquy ("One round with a Warrior Demon!" [1]
+  * Missile Weapons (Ignore Parry unless using a shield)
+  * Special Actions (Switching weapon, drinking a potion, disarming a trap)
+  * Magic (3d6 against the universe, miss by 1 is a fumble)
+  * Soliloquy
+  * Remind the GM he forgot the Missile phase
+  * Psionics (if Applicable)
+
+[1] This rarely happens.
+
+=== Whirling Dervish Skill
+
+The Whirling Dervish is a defensive combat maneuver. A person trained in
+Whirling Dervish must declare Whirling Dervish at the beginning of the
+movement round to start or continue the maneuver. If they successfully make
+their Combat - Whirling Dervish roll In place of movement the combatant
+gains three advantages:
+
+  * Engages / Disengages occur at +3 (same as a charge attack)
+  * Only 1 minus per attacker to defense (max -2)
+  * High DCV cannot be targeted by missile weapons
+
+Wise opponents may simply avoid the megahex but the tactic can be successful
+in holding an area such as a doorway since opponents would all need to
+engage past the person performing the Whirling Dervish. The Whirling Dervish
+can make normal combat attacks, but not missiles or magic.
+
+At the end of the round, in the special actions phase, the Whirling Dervish
+can move one square.
+
+=== PC Throwing Rules
+
+_http://www.imdb.com/name/nm0001557/[Aragorn] and
+http://www.imdb.com/name/nm0722636/[Gimli] are looking at the Uruk-hai, but
+are separated from them by a gap_
+
+_Gimli_: Oh come on, we can take 'em. +
+_Aragorn_: It's a long way. +
+_Gimli_: Toss me. +
+_Aragorn_: What? +
+_Gimli_: I cannot jump the distance, you'll have to toss me. +
+_Gimli_: (_pauses, looks up at Aragorn_) +
+_Gimli_: Don't tell the Elf. +
+_Aragorn_: Not a word.
+
+Maximum Distance Thrown: [Thrown persons move in current armor] + [STR Plus
+of Thrower]
+
+Base Chance of Success: [Throwers Acrobatics] + [SIZ Minus of Thrower] * 1 /
+hex thrown
+
+Effects of Failure: Throwee is 1 hex off intended landing hex / missed point
+(randomly determined). Needs to make Acrobatics roll to avoid Base d6 damage
+per missed point. Base damage can be modified for soft (water) or hard
+(pointy rocks).
+
+=== JoelWorld Magic Rules
+
+*There are a small set of Fixed Casting times:* It always takes at least 4
+rounds to cast a spell.
+
+4 rounds are at +0, 10 minutes +4, two months +8. You can precast and then
+hold for a "reasonable" time before casting, but you cannot keep something
+on hold semi-permanently.
+
+*Magical Pow Recovery* is MAG / minute.
+
+*Direct Spells:* Attack at MG+ plus against the target's low DCV.
+
+*Detecting Pow:* Active or stored Pow may be detected at a range of
+sqrt(Pow) in hexes.
+
+*Countering:* Countering requires a roll at MG+ against the caster's MG+.
+Each 1 difference leads to a halving or doubling of required Pow to counter.
+So missing by three requires 8 times, making by three requires one eighth.
+Countering has time bonuses. Two hours => +7.
+
+*Vigors:* You cannot combine different magical vigors from different
+colleges : the last cast vigor wins.
+
+To avoid excessive dice rolling, vigors can be cast on multiple targets
+using a single roll, with a -1 for each doubling. I.e, 2 people at -1, 4 at
+-2, 8 at -3, etc. But there is no reduction in casting time: vigoring 6
+people still takes six times as long as vigoring one.
+
+==== Magical Colleges
+
+In JoelWorld, magical spells are divided into different Colleges: Ice, Fire,
+Earth, Air, Water, Life, Death, Alchemy, Enchantment.
+
+As usual in Hack and Slay, investing EP in spells makes it easier to learn
+other spells. But this effect is particularly marked within a Magical
+College. Investing EP in Fire spells will make it easier to learn all kinds
+of spells, but it will especially help with learning other Fire spells. As
+usual, you need to put enough direct EP in a spell to reach "Minimum EP"
+before this indirect effect has much impact.
+
+Each Magical College has alignment or opposition to certain stats such as
+size, dexterity, etc. If a mage's personal stats are aligned with a College,
+it will be easier to learn spells in that College. But if a mage has stats
+that are opposed to a College they will find it harder. For example, a mage
+with a strong Constitution will find it easier to learn Life spells, but
+harder to learn Death spells.
+
+These stat effects typically make a difference of at most +1 or +2 to the
+casting plus. It is always possible for a mage to learn a spell in a
+non-aligned or even an opposing College, just at a somewhat lower plus.
+
+Just as learning certain spells may be boosted (or hindered) by the right
+stats, investing EP in those spells will slightly boost (or slightly reduce)
+the corresponding stats. These effects are slight, but they will build up if
+large amounts of EP are invested. So a Death Mage will find that his PSI
+becomes stronger and his CON weaker as he invests in more Death magic. (If a
+mage has a lot of EP in one college, then a little EP in an opposing college
+is unlikely to affect their stats noticeably.)
+
+The colleges are:
+
+.Magic Colleges
+[options="header"]
+|====
+| College       | Aligned With Stat | Opposed To Stat
+| *Air*         | DEX               | SIZ
+| *Alchemy*     | DEX               | APP
+| *Death*       | PSI               | CON
+| *Earth*       | SIZ               | DEX
+| *Enchantment* | APP               | SIZ
+| *Fire*        | REA               | SEN
+| *Ice*         | AGI               | STR
+| *Life*        | CON               | PSI
+| *Water*       | SEN               | REA
+|====
+
+In addition, all spells are helped by the INT and MAG stats. Investing in
+spells will boost Magic - General, and investing in Magic - General will
+(somewhat) help all spells (subject to Minimum EPs.)
+
+=== JoelWorld Spell List
+
+JoelWorld adds the following spells in addition to those listed in the
+main rules.
+
+==== Animate Statue (Earth)
+
+The effect of the spell is to cause a statue of any size to spring to life
+and begin acting like a body of stone creature of its own type. The spell
+costs 100 Pow / hex of the creature to create and 20 Pow / hex of the
+creature / round to maintain.
+
+==== Ankle Grass (Life)
+
+Causes grass (or similar ground cover) to grow and grasp the ankles of
+anyone within the affected area. The grapple only prevents movement - the
+victims can still fight normally. The victim can't disengage or force an
+engage while grasped.
+
+Grass has DC = 3, HP = 200. The grass fights at grapple +3. Victim cannot
+shift pluses.
+
+In the first round the grass may have surprise or combat surprise. (Grass is
+naturally stealthy.)
+
+Minimum EP = 500, Difficulty -7. 2 Pow / hex. Lasts one minute.
+
+==== Army of Stone (Earth)
+
+Casts Body of Stone on a large number of people or creatures. The maximum
+number ensorcelled matches the magic stat of the mage. Once the spell is
+cast the mage needs to pay for the area covered each minute at 1 Pow / hex.
+In each magic phase he decides which creatures on a single piece of stone
+will be body of stoned that turn at a cost of 10 Pow / creature / round.
+
+==== Befriend (Life)
+
+Befriend permanently binds a target creature to the casting mage. The Mage
+has a permanent Animal Empathy with their familiar and a limited ability to
+communicate and see through its senses at a distance (blurry pictures,
+scents, and sounds, but not words). The familiar, if treated well, may be
+persuaded to perform tasks, such as exploring a target area or transporting
+small objects. The connection will start weak, but will grow over months and
+years.
+
+Any damage done to the familiar also damages the Mage, up to a max of
+creature's HP plus Dead At.
+
+Minimum EP = 500, Difficulty = -6. Casting pluses or minuses (at GM
+discretion) for how the animal already feels about the caster. A spoiled
+house pet is much easier, a recently captured wild animal is much tougher.
+
+==== Bonfire (Fire)
+
+Create a giant bonfire which lights up an area to normal dawn levels and
+provides an endless source of burning torches and coals.
+
+==== Earth Vigor
+
+If an individual has Earth Vigor cast on them, they can fight to 2X normal
+Dead At, without any minuses. In addition, after someone's hit points drop
+below zero, their blood coagulates into a stone like substance and adds 10
+extra armor points.
+
+Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+
+==== Enduring Flame (Fire)
+
+This spell causes any existing flames to continue burning for 24 hours. They
+will consume materials as normal but do not require them to continue at
+their current level of heat.
+
+==== Fire Vigor
+
+If an individual has Fire Vigor cast on them, they can fight to 2X normal
+<<Hit Points,Dead At>>, without normal minuses, but must shift Pluses to
+offense for each minus they would normally be at. Additionally they do flame
+damage of a point for each minus they would normally be at.
+
+Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+
+==== Fissure (Earth)
+
+Creates a crack in the earth.
+
+The mage controls the shape of the crack and it extends 1 hex / 5 Pow.
+
+==== Genesis (Life)
+
+Creates new life in an area appropriate to that environment. The life will
+initially be respectful towards its creator.
+
+==== Guano Rain (Life)
+
+Causes a horde of birds, bats or other appropriate wildlife to rain guano
+down on an area.
+
+The area covered is 1 Pow / hex / minute, maintainable. Effects: -4 to
+movement / Climbing, no missile weapon use, -2 to spell casting.
+
+==== Herbal Tea (Alchemy)
+
+[NOTE]
+====
+(Graham) A nice cup of Fragrant Herbal Tea helps put the world in
+perspective. - Aland
+====
+
+The result of this spell is a small packet of enchanted tea, which may at
+some later point be ceremonially brewed, in freshly boiled water, to produce
+a delicate herbal tea. This fragrant concoction relaxes the mind of the
+imbiber.
+
+A nice hot cup of herbal tea allows all Psychology and resist Psi - Madness
+rolls to be made at plus 2.
+
+The tea must always be drunk freshly brewed, preferably in a china mug.
+Bottles of cold tea are ineffectual, as is (shudder) chewing the leaves.
+
+==== Hose (Water)
+
+This spell causes a beam of water with all of the effects of a high powered
+hose to emit from the caster's hand. Damage is 1 base (no armor or parry).
+After casting, the spell can be maintained at 20 Pow / round. Range is 20
+hexes. EP 1000, Pow = 100. 10 Pow / round to maintain.
+
+==== Ice Castle (Ice)
+
+Creates a castle of ice. 100 Pow yields a house, 1000 creates a small castle
+suitable for 20 men, 10000 creates an epic castle. The spell may be
+maintained at original cost above freezing or at 1% of cost below freezing
+each day. EP 2000
+
+==== Ice Floor (Ice)
+
+Turns one hex / Pow of a smooth surface to ice. Moving across the ice
+without proper footwear is slowed to 1 hex / round and requires a flat
+Acrobatics roll. The spell may be maintained at original cost above freezing
+or at 1% of cost below freezing each minute. EP 500
+
+==== Imbue (Alchemy)
+
+Takes the essence out of a unique magical material places it into a potion.
+
+==== Imbue Life (Life)
+
+The Pinocchio spell. Brings an inanimate 3D representation of a creature or
+plant to life.
+
+Effect: Creature (or plant) is brought to life. It will have the personality
+and behavior associated with the object brought to life. It will not
+necessary follow the directions of its creator but rather follow the
+behavior of its own nature. The capabilities of the creature will depend on
+the materials used to construct and the plus rolled in its creation. For
+example, a crudely made stone cat will limp around slowly but an exquisitely
+carved ruby bird will fly and sing wondrously.
+
+The spell difficulty is flat with the size of the creature but the Pow
+scales with size of the creature. 100 Pow is invested for a man-sized
+creature. Pow invested in this way is permanently subtracted from the mage's
+maximum Pow unless a diamond or other Pow storing symbol is created. If the
+Pow is withdrawn by the mage, the creature dies. A creature powered by a
+symbol will live as long as the symbol remains intact.
+
+Any offspring will be non-magical but to be able to successfully procreate
+newly made creatures would have to be made out of exceptional materials
+before given life. Two pieces of origami won't create a new race unless they
+are created over months by a master craftsman with golden paper blessed by
+the Monks of the inescapable mountains.
+
+==== Imbue Smell (Life)
+
+Causes an object to acquire a specific smell. Requires the actual scent the
+person wishes to imbue. The spell can be made permanent with the sacrifice
+of a gem, one carat / hex^3^ of the object. Otherwise lasts one hour. EP 500
+
+==== Killing Field (Death)
+
+Causes fights to break out in an area. Minuses are not suffered due to
+damage.
+
+==== Lava Pool (Earth)
+
+Creates an area of lava out of volcanic rock suitable for enchantment.
+The cost to create/maintain is 1 Pow / hex / round. The lava pool
+takes a minute to form or disappear after Pow is applied or removed.
+
+==== Life Vigor
+
+If an individual has Life Vigor cast on them, they can fight to 2X normal
+Dead At, without any minuses.
+
+In addition, in each round in which they are wounded they receive automatic
+d6 recovery in the magic phase without having to be still for 3 rounds.
+
+Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+
+==== Migration (Life)
+
+Migration causes all the animals (including sapients) in a given area to
+become restless and to acquire a desire to migrate into new lands in a
+target direction selected by the spell caster. During the migration the
+animals will need to eat normally, but they will otherwise be unusually
+tolerant of one another and willing to move together through narrow spaces
+or even to cooperate, e.g. at river crossings.
+
+The animals will travel for a season, 3 months typically. They'll wander
+back after the spell ends if life isn't good where they've gone. You can't
+send creatures to their demise with this spell. There needs to be sustenance
+and safety along the way.
+
+The range is Pow in hexes, so 1K would get you every creature in a mile.
+
+==== Mob (Life)
+
+Mob causes small local animals, such as mice, rats, or small birds, etc, to
+appear and "mob" a target victim. They will do no damage, but will severely
+distract the victim, cutting their engage and move in half. Mages and
+archers will be put at -2. Duration 6 rounds.
+
+The victim can disperse the mob either:
+
+  * Batting at them for 3 rounds.
+  * Hitting the victim's own hex with an area-of-effect weapon (flame
+    breath, gas, etc.).
+
+Indirect Single Target against low DCV. Minimum EP = 1000, Difficulty -5.
+Cost depends on target's size. 10 Pow for human size, 20 for a troll, 100
+for a dragon.
+
+==== Oasis (Water)
+
+Creates an oasis area even if there is no water geographically possible.
+Will last for months.
+
+==== Polymorph Potion (Alchemy)
+
+Changes sex and rerolls stats 4d6 (choose 3).
+
+Note: When rolling more than three dice if there are any 5's or 6's left
+over after the initial selection +2 is added for each additional 6 and +1 is
+added for each additional 5. This prevents having to roll multiple times and
+makes an awesome initial roll meaningful.
+
+Examples:
+
+  * 6 6 6 5 4 2 = 19
+  * 6 6 6 6 = 20
+  * 5 5 5 5 5 = 17
+  * 6 6 6 6 5 5 = 22
+
+==== Polymorph Rock (Earth)
+
+Turns one type of rock into another. One foot^3 / Pow can be transformed. A
+fumble destroys the rock entirely. A roll at MG+ must be made at -5 to make
+the rock suitable for artwork. EP 500
+
+==== Post Pile (Earth)
+
+Creates an area of stone post piles over an area over the next hour.
+Disrupting buildings and providing a source of stone for spells. 5 Pow /
+hex.
+
+==== Quicksand (Life)
+
+10 Pow / hex / minute maintainable.
+
+Creates an area of quicksand, flat Acrobatics roll each hex to cross, limits
+movement to 1 hex / round.
+
+Failed roll results in immobility until the spell is cancelled.
+
+==== Sanctuary (Life)
+
+(A JoelWorld variant on the traditional Sanctuary spell.)
+
+The effect is permanent with a cost of 500 Pow and a one carat gem / mi.^2^.
+The caster can freely enter the circle, but not other sapients, unless they
+are in some way aligned with the purpose of the sanctuary.
+
+==== Tongues (Life)
+
+This spell allows the caster to temporarily understand and speak the native
+language of a target sapient.
+
+Cost is 20 Pow, duration is one hour, but may be extended at 10 Pow / hour.
+
+==== Transfer (Enchantment)
+
+Removes the enchantment from a single object and transfers it to a new
+object.
+
+==== Whirlwind (Air)
+
+Creates a giant fixed whirlwind which can lift people up hundreds of feet to
+the top of a cliff or move other materials.
+
+==== Success and Fumble Probabilities
+
+This table shows the likelihood of either a success or a fumble if a spell
+is cast at a given plus.
+
+Even a -10 roll may succeed and even a +10 roll may fumble!
+
+.Success and Fumble Probability Table
+[options="header"]
+|====
+| Caster's Plus | Success | Fumble
+| -10           | 1.1%    | 1.0%
+| -9            | 2.1%    | 1.6%
+| -8            | 3.7%    | 2.5%
+| -7            | 6.2%    | 3.5%
+| -6            | 9.7%    | 4.8%
+| -5            | 14.5%   | 6.1%
+| -4            | 20.6%   | 7.3%
+| -3            | 28.0%   | 8.4%
+| -2            | 36.3%   | 9.0%
+| -1            | 45.4%   | 9.3%
+| 0             | 54.6%   | 9.0%
+| 1             | 63.7%   | 8.4%
+| 2             | 72.0%   | 7.3%
+| 3             | 79.4%   | 6.1%
+| 4             | 85.5%   | 4.8%
+| 5             | 90.3%   | 3.5%
+| 6             | 93.8%   | 2.5%
+| 7             | 96.3%   | 1.6%
+| 8             | 97.9%   | 1.0%
+| 9             | 98.9%   | 0.5%
+| 10            | 99.4%   | 0.3%
+|====
