@@ -348,7 +348,7 @@ takes a minute to form or disappear after Pow is applied or removed.
 ==== Life Vigor
 
 If an individual has Life Vigor cast on them, they can fight to 2X normal
-Dead At, without any minuses.
+<<Hit Points,Dead At>>, without any minuses.
 
 In addition, in each round in which they are wounded they receive automatic
 d6 recovery in the magic phase without having to be still for 3 rounds.
@@ -456,6 +456,12 @@ Creates a giant fixed whirlwind which can lift people up hundreds of feet to
 the top of a cliff or move other materials.
 
 ==== Success and Fumble Probabilities
+
+[NOTE]
+====
+(Jon) This is generally useful, and should be moved back into the main
+document where dice rolling and success / failure are discussed.
+====
 
 This table shows the likelihood of either a success or a fumble if a spell
 is cast at a given plus.
