@@ -440,6 +440,7 @@ be defined in the the GM-specific appendices.
   * Combat - Eastern - Eastern Bow, Karate, Light Two-Handed Sword,
     Naginata, Nunchuks, Shiruken, Eastern Staff, Vorch Sword.
   * Combat - Fencing - Rapier.
+  * Combat - Flail - Flail
   * Combat - Grappling - not a weapon, but the character's
     ability to <<grappling,grapple and hold>> an oppponent.
   * Combat - Gun - Assault Rifle, Blaster, Elephant Gun, Flame Thrower,
@@ -448,19 +449,22 @@ be defined in the the GM-specific appendices.
   * Combat - Gun Speed - not a weapon, but the chacter's ability to
     <<weapon-gun-speed,quickdraw and shoot>> before their opponent.
   * Combat - Hand To Hand - Barehand, Club, Dagger, Knife, Spear, Staff.
-  * Combat - Heavy Weapon - Chainsaw, Flail, Hammer, Two Hand Axe, Two Hand
-    Sword.
+  * Combat - Heavy Weapon - Chainsaw, Hammer, Two Hand Axe, Two Hand Sword.
+    Flail, if Combat - Flail skill is not available.
   * Combat - Light Saber - Light Saber.
+  * Combat - Mounted - Lance and Shield (Mounted)
   * Combat - Net - Special weapon used for <<weapon-net,Grapple>> attacks.
   * Combat - Random Object - Improvised weapons (chairs, flagpoles, rocks,
     etc.). These fall into four categories: Small (e.g. a pot), Medium (e.g.
     a chair), Big (e.g. a table), and Random - Throw (such as a rock). Exact
     categories and modifiers are determined by the GM in each case. Rarely
     used except for throwing rocks in low-level runs.
+  * Combat - Sonic Axe - Sonic Axe (obscure high-tech weapon)
   * Combat - Sword - Axe, Broadsword, Cutlass, Light Sword, Long Sword,
     Mace, Short Sword, Sword.
   * Combat - Sword And Shield - Shield combined with selected Hand to Hand
-    and Sword weapons. Also Lance and Shield, Morning Star and Shield.
+    and Sword weapons; also Morning Star and Shield, and Lance and Shield
+    (Mounted) if the Combat - Mounted skill is not available.
   * Combat - Thrown Weapon - Atlatl, Grenade, and selected blunt and edged
     weapons such as Axe, Dart, Knife, Rock, Spear can be thrown. Also used
     for throwing potions such as Flash Powder, Glue, or Slippery Liquid when
@@ -1009,18 +1013,39 @@ moving faster than a walk, and is not in combat. The player may take no
 other actions during an aiming round.
 
 
-== Other Skills
+[[skills-general]]
+== Skills (General)
 
 [NOTE]
 ====
+(Jon) New section intro.
+
+In addition to Combat skills, there are many other possible skills in a
+campaign. General Skills - commonly practiced occupational and activity
+skills - are described in this section, followed by separate sections for
+<<skills-alchemy,Alchemy>>, <<skills-magic,Magic>>, <<skills-psi,Psi>>, and
+<<skills-tech,Technical>> skills.
+
 (Jon) Names of Alchemy / Magic / Elemental Magic / Metamagic / Psi skills in
 section headers are now prefixed with the category, to help distinguish them
-and match the skill.dbs names.
+and better (not perfectly) match the skill.dbs names.
 ====
 
-=== Unlisted Skills
 
-Note: does not apply to Working Out, Magic - General, or Psi - General.
+[[skills-general-unlisted]]
+=== Unlisted Skill Pluses
+
+[NOTE]
+====
+These guidelines do not apply to Working Out, Magic - General, or Psi -
+General.
+
+(Jon)
+
+For skills without explicit descriptions provided, use the following general
+guidelines for difficulty. The GM will determine the difficulty of a
+particular roll.
+====
 
 .Unlisted Skill Pluses
 [options="header"]
@@ -1036,6 +1061,136 @@ Note: does not apply to Working Out, Magic - General, or Psi - General.
 | 7           | The best ... In all of France.
 | 8           | Legendary
 |====
+
+
+[[skills-general-undescribed]]
+=== Undescribed General Skills
+
+[NOTE]
+====
+(Jon) New section, new content.
+
+Many general skills lack explicit descriptions and tables, and are
+summarized in the following list. There are similar lists for undescribed
+<<magic-spells-undescribed,Magic Spells>>, <<skills-psi-undescribed,Psi
+Skills>>, and <<skills-tech-undescribed,Technical Skills>>.
+
+  * Architectural History
+  * Architecture
+  * Assasination - This is *not* what most people assume it is.
+  * Astrology
+  * Bartending
+  * Botany
+  * Bribery
+  * Bureaucracy
+  * Carpentry
+  * Cartography
+  * Chaos Sailing
+  * Chemistry
+  * Chess
+  * Civil Engineering
+  * Construction
+  * Cooking
+  * Crime Lord
+  * Dancing
+  * Diplomacy
+  * Divination
+  * Drawing
+  * Drinking
+  * Escape
+  * Evaluate Merchandise
+  * Fashion
+  * Fashion Design
+  * Fast Talk - Ability to convince someone to believe something they have
+    no particular reason to. Generally rolled against their applicable in
+    the topic of conversation.
+  * Finance
+  * Fishing
+  * Fletcher
+  * Flying Dizbusters
+  * Forensics
+  * Forestry
+  * Forgery
+  * Geology
+  * Gunnery
+  * Herbal Lore
+  * History
+  * Horse Training
+  * Hunting
+  * Interrogation
+  * Interviewing - Also known as Journalism
+  * Intimidation
+  * Lasso
+  * Law
+  * Leadership
+  * Leatherworking
+  * Librarian
+  * Life Magic
+  * Linguistics
+  * Lipreading
+  * Literature
+  * Lock Picking
+  * Logging
+  * Massage
+  * Megalithic Sculpting
+  * Merchant
+  * Meteorology
+  * Mumbdledy Peg
+  * Musical Instrument
+  * Mythology
+  * Navigation (Chaos)
+  * Navigation (Land)
+  * Navigation (Sea)
+  * Navigation (Tree)
+  * Occupational Skill
+  * Over Acting - https://www.youtube.com/watch?v=qXNqEURmKtA[*Khaaaaaaaaaaaan!*]
+  * Painting
+  * Panhandling
+  * Parachute - Failing roll can be *bad*
+  * Partying
+  * Piracy - More commonly used to avoid or negotiate with Pirates, rather
+    than commit Piracy.
+  * Poetry
+  * Poisons
+  * Pottery
+  * Practical Chemistry
+  * Prestidigitation
+  * Psychology
+  * Public Speaking
+  * Read Body Language
+  * Reading - Surprisingly often negative even for knowledge characters.
+  * Revolution!
+  * Rioting
+  * Sailing - Ice
+  * Scrounging - Very commonly used to get loot. You *want* a good Scrounger
+    in the party.
+  * Seduction
+  * Setting Traps - More often used to locate and disarm traps.
+  * Sex
+  * Ship Commander
+  * Shipbuilding
+  * Singing
+  * Skiing
+  * Skydiving - Needed to steal someone else's Parachute or fight in free
+    fall.
+  * Slaver
+  * Smuggling
+  * Snake Eating
+  * Snake Training
+  * Stone Cutting
+  * Story Telling
+  * Streetwise
+  * Torture
+  * Tracking
+  * Trailing
+  * Ventriloquism
+  * Weaving
+  * Whip
+  * Working Out - How to get stronger. GM may ask for a Working Out roll for
+    some types of strength-based actions.
+  * Zoology
+====
+
 
 === Acrobatics
 
@@ -1086,296 +1241,6 @@ levels lower.
 The practical skill of farming. Includes knowing which crops to grow. An
 even roll will allow you to make the normal amount of money for an acre of
 land. Each +1 will increase / decrease the profits by 20%.
-
-=== Alchemy
-
-Creating various potions - related to magic. Potions listed as Magic -
-_item_ require magic, and are partially based on magical abilities. Potions
-listed as Alchemy - _item_ do not have magical components, and are only
-based on alchemy ability (and specific potion ability). Note that time spent
-on an alchemical potion produces the same pluses as for magical casting.
-
-Alchemical potions can be created in bulk. Take a -1 for each 3X in quantity
-produced.
-
-Record the plus at which a potion is constructed. Roll for success when
-used.
-
-==== Alchemy - Acid
-
-The spell creates a strong acid (like sulfuric) which will eat through most
-base metals. It will do some damage (d6 / bottle) if thrown, but that is not
-its primary intended use. Minimum creation time is 10 minutes. Can be made
-in almost any quantity. Requires some common minerals. The acid will last
-indefinitely. Difficulty 8. EP 250. Components 1 SP / bottle.
-
-==== Alchemy - Alpine Snuff
-
-Cocaine. Each dose is .01 gram. Requires 10 minutes to make. Requires parts
-of some rare plants. EP 1000 Difficulty 12. Components 1 SP / dose (if
-available).
-
-[NOTE]
-====
-(Jon) Effects determined by GM but generally include difficulty resting,
-increased Alertness, paranoia.
-====
-
-==== Alchemy - Berserk Strength
-
-[NOTE]
-====
-(Jon) This is misspelled as "Beserk" in skill.dbs.
-====
-
-PCP. Gives 2X damage on all attacks (not defenses) for 10 rounds of combat.
-Then at -1 for all combat due to fatigue. Subject does not know when they
-take damage until they are dead. They may fight normally until dead. Subject
-must always go at least +2 to offense if in hand to hand. Subject must
-attempt to engage in hand to hand combat. If fighting multiple opponents,
-subject may tactically disengage from all if the GB believes this has a
-reasonable chance of resulting in combat with at least one opponent. Subject
-must make a PSI roll to avoid being taunted out of a defensive position by
-attackers. Difficulty -12, 200 EP. Components: Blood from a lion, Wood from
-an oak, Iron powder, Aged mead.
-
-==== Alchemy - Black Face
-
-A dark paint that can be used to cover the body and make you more difficult
-to see in the dark. +5 visual stealth at night but doesn't wash off easily.
-Difficulty 8, 250 EP. Coal and oil.
-
-==== Alchemy - Cheez Whiz Bomb
-
-[NOTE]
-====
-(Jon) Previous noted as "Silly", but found in most campaigns these days.
-====
-
-Used like a grenade, it coats everything within a 3 hex radius with sticky,
-bright yellow cheesy goo. All non-sentient creatures find the goo tasty, and
-will attempt to eat it in preference to anything else in the area (including
-the PCs). This is an effective way to distract any creature that attacks
-purely out of hunger. It will typically take a minute for a creature to eat
-all of the Cheez Whiz in a hex. The nutritional value of Cheez Whiz is
-similar to that of a similar amount of cheese. Difficulty -7, EP 250,
-components: Yellow dye, sugar, corn starch, salt, vegetable oil. (no
-cheese).
-
-==== Alchemy - Fire Shield
-
-Gives 50% damage resistance to all fire attacks, and 5 points / round
-defense on any damage which gets through the 50%. Reduces all dexterity
-based skills by 3. Reduces movement by 2. Reduces senses skills by 2. Looks
-sort of like foamy dough. Difficulty 11, 200 EP. Components: asbestos, sand,
-mineral oil, ash. Note: fumbled potion catches fire, causes additional 5d6
-damage (no armor).
-
-==== Alchemy - Fireworks
-
-Provides a spectacular but harmless fireworks display. 50 EP, Difficulty 6.
-Components: Sulfur, saltpeter, metal powders.
-
-==== Alchemy - Flash Powder
-
-Note: this is one of the most easily abused of the alchemical mixes. It has
-been converted from Magic - Flash Powder. Flash powder is thrown using the
-Combat - Thrown Weapon Plus to hit the target (normal a hex, sometimes an
-opponent). It takes effect at the end of the special actions phase of the
-round in which it is thrown. Components: Charcoal, sulfur, alum, silver,
-mercury. Component cost is 10 SP. Difficulty 8, EP 100.
-
-Flash Powder has the following effects:
-
-.Flash Powder Effects
-[options="header"]
-|====
-| Situation                                                  | Effect
-| In light as bright as or brighter than a full moon         | No effect
-| Any normal creature within 5 hexes and facing the flash    | Defender must make Int roll. If failed, take -5 (add combat darkness), +1/round
-| Any darkness creature within 10 hexes and facing the flash | Defender must make Int roll. If failed take -7 +1/round.
-| Multiple flashes                                           | Use the effect of the worst flash
-| Ally with eyes closed                                      | Must make PSI roll at +5 to close eyes BEFORE the powder is shot. Take one round at "pitch black" pluses.
-| Defender has seen flash powder before                      | +2 on roll
-| Multiple uses of flash powder in single combat             | Defender gets +1 each use.
-|====
-
-==== Alchemy - Flash Superpowder
-
-[NOTE]
-====
-(Jon) Colloquially "Mithril Flash".
-====
-
-Similar to normal Flash powder, but also has the effect of sunlight on the
-undead. Damage to undead is 3d6 * 100 points explosive (see rules under
-explosions: full damage in center hex, 1/10 damage at 10 hexes, 1/r^2^
-beyond that. ) Uses 1 oz. mithril for each unit produced. Difficulty 10, EP
-500
-
-==== Alchemy - French Roast
-
-Gives a +1 Alertness plus for 4 hours, but a -1 on all DEX skills.
-Difficulty 10, EP 50. Components: Beans from exotic tropical (or hot house)
-plants.
-
-==== Alchemy - Fuel Air Bomb
-
-For high level / silly campaigns only. The alchemist prepares a bottle of
-liquid which fills a room with mist. When ignited, the mixture explodes.
-Each unit fills a cubic hex with explosive gas, and will do 10d6 damage in a
-5 hex radius, then dropping to 5d6 out to 10 hexes, then 2d6 to 15 hexes.
-Increasing the quantity of explosive will increase the radius of damage as
-the square root of the quantity. Unlike nitro, fuel air explosives do not
-detonate accidently. Use: Potion must be activated, then placed on the
-ground. 1 to 5 rounds later it can be detonated by any source of ignition in
-the central hex. Components: Petroleum, sulfur. Can be manufactured in
-quantity. Difficulty 8, EP 500.
-
-==== Alchemy - Glue
-
-A liquid with the properties of crazy glue. Covers 1 hex. Anyone remaining
-in the area of effect for one round is stuck. Strength roll at -3 required
-to break free. Requires plant materials. Difficulty = 9, EP 100
-
-==== Alchemy - Hard Water
-
-A powder which when added to water causes the water to solidify into a high
-melting point ice. The resulting material has a melting point of about 100
-degrees C, and mechanical properties like soft rock. Components: Sand, iron
-ore, chalk, trace platinum (1 oz. / 100 m^3^). Mixture must be
-frozen (at normal water freezing temperature), then will not melt until
-boiling temperature. 1 "unit - pint bottle" will convert 1 m^3^.
-Difficulty 7. EP 500
-
-==== Alchemy - Heat Balm
-
-Gives a +3 to survival rolls in hot areas. Each application lasts 8 hours.
-Can resist 10 points of fire damage one time only per application.
-Difficulty 10, 100 EP. Components: tropical oils, redwood bark.
-
-==== Alchemy - Love Potion
-
-Gives a plus on your seduction roll for 1 evening. The plus is equal to the
-amount by which the alchemist made the required roll. Side effect: reduces
-your resistance to seduction by 5. Difficulty 10, EP 50. Components: Wine,
-Rose Petals, Gold Dust(10 SP), Diamond dust(10 SP).
-
-==== Alchemy - Migo-be-gone
-
-Anti-migo spray. Creates a cloud of ~7 hex radius (3d) of mist. Cloud lasts
-30 rounds in calm air, 20 rounds in a light breeze (<5 hex / sec), 10 rounds
-in a strong wind. (5-10 hex / sec). cloud center moves with the wind. Any
-migo in, or passing through the cloud takes d100 damage in the special
-actions phase. Any human in the cloud takes 1 point / round. Components are
-sulfur, salt, pine oil. Difficulty 12, EP 250.
-
-==== Alchemy - Molotov Cocktail
-
-The old D+D device returns. When thrown, does 3d6/round for 10 rounds in a 3
-hex radius. Ingredients: Petroleum. Difficulty 6, EP 100
-
-==== Alchemy - Nitroglycerine
-
-This is a powerful and very unstable explosive. Does 20d6 explosive damage
-(see explosion rules). Difficulty 8. EP 250 Fumble is an explosion at point
-blank range (very nasty). Components include saltpeter, sulfur, Dried wood.
-Component cost is 1 SP / unit. Each container of nitroglycerin has the
-following chance of detonating:
-
-.Accidental Explosions
-[options="header"]
-|====
-| Event                                     | Detonation chance EACH unit
-| Fall while Climbing                       | 10%
-| For each point of damage through armor    | 1%
-| Another unit has detonated on your person | 50%
-|====
-
-[NOTE]
-====
-Use of Nitroglycerine is strongly discouraged.
-====
-
-==== Alchemy - Poison Gas
-
-This is a particularly nasty potion which releases a cloud of dense amber
-gas that flows mostly downhill, in a layer about 10' thick. Gas will spread
-at 5 hexes / round from source to maximum size, then flow downhill at 2
-hexes / round. One bottle affects a 20 hex radius. Gas will persist for
-several hours. Damage is 3d6/round if target is breathing, d6 / round if
-holding breath (-1 points each round in combat). Components: Sulfur, soda
-ash, limestone, tar, mercury, cost 1 GP / unit. Difficulty 11 EP 1000.
-
-==== Alchemy - Relighting Fire
-
-Creates a wax that can be used as a candle, or burned as a lump. Once
-ignited, will re-light unless doused in water for more than 10 minutes.
-Components: Sulfur, wax, coal dust, silver dust (1 SP / unit), diamond dust
-10 SP / unit. 1 unit is ~1 short candle worth. Difficulty 8, EP 100.
-
-==== Alchemy - Scent Duplication
-
-Allows the alchemist to duplicate the scent of an existing object. Alchemist
-must have a (very small is OK) sample of the material to be duplicated.
-Useful for slipping past guard dogs, etc. Difficulty 8, EP = 250.
-
-==== Alchemy - Sleep Potion
-
-Causes the drinker to fall into a deep sleep from which they cannot be
-awakened for several hours. Ingredients - herbs. Difficulty 8., EP 250
-
-==== Alchemy - Sleep Vapor
-
-Causes anyone in the area of effect to fall into a deep sleep. Can be
-awakened normally for a deep sleeper. Targets must roll senses (use combined
-senses roll) at-5 to detect the vapors. Then, each individual must make a
-con roll at -5 or fall asleep. If any target does not sleep, they may
-notice, and wake others (Alertness roll at typically +0). Area of effect is
-20 hex radius / bottle (liter). Note: will drift in wind. Components:
-plant materials, limestone, spring water. EP 500, Difficulty 10.
-
-==== Alchemy - Slippery Liquid
-
-A liquid which reduces friction to almost nothing. Can be used for various
-mechanisms, or in combat to make opponents slip (acrobatics roll if passing
-through the area or fall (-4 defense, no attack next round). Each unit
-(about a pint) will cover 1 megahex of ground. Only works on non-porous
-surfaces (stone, wood, metal, etc). Will not work on dirt. EP 100 Difficulty
-9, Components are various plant and animal matter.
-
-==== Alchemy - Smelling Salts
-
-Used to wake an unconscious person. Will allow them to operate at no worse
-than -5 (relative to normal) on all skills. Effect lasts for 10 minutes.
-Cannot be used a second time. Recipient takes 1 point of damage. 100 EP
-Difficulty 8.
-
-==== Alchemy - Smoke Bomb
-
-Limits visibility to 2 hexes inside area of effect. This has effects on
-stealth, and overall confusion. Area of effect 5 hex radius. Difficulty 8,
-EP 100.
-
-==== Alchemy - Stink Bomb
-
-Will cause people to want to leave the area of effect (but will not force
-them to leave). Area 10 hex radius. Components: sulfur, Stink weed or skunk
-oil. Difficulty 8, EP 50. Fumble obvious.
-
-==== Alchemy - Sunlight Lamp
-
-Creates a mithril burner that produces the equivalent of sunlight. Burns 1
-oz. of Mithril / hour to produce the effect of sunlight in a 3 hex radius.
-EP 500, Difficulty 10.
-
-==== Alchemy - Volcano Survival
-
-Allows you to operate normally in volcanic terrain and tunnels. Provides
-immunity to sulfurous gasses, air temperatures up to boiling, and brief
-contact with boiling water (treat as 130 degree F water). Does not protect
-against fire, or non-volcanic gasses. EP 250, Difficulty 7. Components:
-sulfur, Redwood bark, spring water. Potion lasts 1 day.
 
 === Alcohol Making
 
@@ -1443,7 +1308,7 @@ rolls are +1 for each success and -2 for each failure.
 | -2                | Animal is frightened. Animal doesn't want to do task. Animal doesn't clearly understand task.
 | -4                | Animal is terrified.. Animal cannot clearly understand task. Animal risks death or serious injury
 | -6                | Action goes against animal's basic instinctive reactions.
-| +Int              | Successful Animal Empathy / Psi-Animal Communicate then Plus animal's int. Typical animal Int is 1-3.
+| +Int              | Successful Animal Empathy / Psi - Animal Communication then Plus animal's int. Typical animal Int is 1-3.
 |====
 
 At GM discretion, communicating with a hostile animal may not help other
@@ -1466,14 +1331,14 @@ There is a plus (minus) one for each factor of 3 in time. Additional Pluses
 | -1         | Train a show horse (train to do non-normal functions consistently on command)
 | -2         | Train a non-domesticated animal (cumulative with other numbers)
 | -3         | Train a Dizbuster for riding
-| +Int       | Successful Animal Empathy / Psi-Animal Communicate then Plus animal's int.
+| +Int       | Successful Animal Empathy / Psi - Animal Communication then Plus animal's int.
 | -1         | Animal is ferocious (Guard Wolf vs guard dog)
 | -4 or more | Animal is vicious or enchanted creature with animal int. (GM discretion)
 |====
 
 ==== Examples
 
-A character with successful Animal Communicate and +3 in Animal Training
+A character with successful Psi - Animal Communication and +3 in Animal Training
 trains a wild wolf for 12 months to act as a guard animal. The modifiers
 are:
 
@@ -1561,15 +1426,15 @@ separately for each command:
   * Seek specified Prey (command *gesture*). Master must communicate prey to
     seek (i.e. let a hound smell something of the prey). Animal will stay
     near prey and circle above, bay / howl, or otherwise indicate its
-    presence. An Animal Handling or Animal Communicate roll may be necessary
+    presence. An Animal Handling or Psi - Animal Communication roll may be necessary
     to indicate prey to seek.
   * Scout specified Prey (command *gesture*). Master must communicate prey to
     scout. Animal returns when found or after about an hour if not found and
-    attempts to communicate. Communication without Animal Communicate is
+    attempts to communicate. Communication without Psi - Animal Communication is
     very limited. (found prey / didn't find prey / in that direction).
   ** Add -1 to the training roll. Not natural.
   * Scout for danger (command *gesture*). The animal needs to be trained for
-    what indicates danger. Animal Communication is essential for any
+    what indicates danger. Psi - Animal Communication is essential for any
     flexibility in this otherwise the definition must be natural enemy or
     predefined condition (other humans, large creatures, etc.) Animal
     handling or Animal communicate roll necessary to indicate what danger
@@ -1579,11 +1444,11 @@ separately for each command:
     Communication. Animal will follow instructions and communicate
     information. This is limited by animal's INT and ability to understand
     instructions and to understand what is observed. Animal Handling and
-    Animal Communication rolls required.)
+    Psi - Animal Communication rolls required.)
   ** Add -3 to the training roll. This is a very useful and difficult skill.
   * Return (command *gesture* or "call" or animal communicate. Animal returns
     to master.)
-  * Flee (command *gesture* animal returns to home. Animal handling or Animal
+  * Flee (command *gesture* animal returns to home. Animal Handling or Psi - Animal
     Communication roll required if home is beyond the understanding of the
     animal.
 
@@ -1923,7 +1788,7 @@ assumed to be in 10 pieces.
 [NOTE]
 ====
 (Jon) None of the languages in skill.dbs are described here. We don't
-neccessarily want to enumerate them all, but at least describing what's
+necessarily want to enumerate them all, but at least describing what's
 available could be helpful. N.b. ideally there would be language groups
 (Romance, Chinese, Germanic, etc.) with greater cross-weighting between
 them.
@@ -2164,7 +2029,25 @@ Antarctica in a storm: Temp = -50F, (-14). Storm (-5) = -19. Clothes = Parka
 Death Valley 121F (-7) no shade (-4). = -11. Good hot weather clothes (+2).
 net -9.
 
+==== Environment-Specific Skills
+
+[NOTE]
+====
+(Jon) Add JoelWorld skills.
+
+In some campaigns, instead of a single generic skill, there are Outdoor
+Survival skills applicable to different environments. In those cases,
+use the appropriate skill plus for the environment the GM declares you
+to be affected by:
+
+  * Outdoor Survival Arctic
+  * Outdoor Survival Desert
+  * Outdoor Survival Jungle
+  * Outdoor Survival Mountains
+====
+
 === Pickpocketing
+
 
 The ability to remove something from someone. Rolls are made at plus as
 follows:
@@ -2491,247 +2374,6 @@ roll is missed, take d6 damage for each point missed.
 | Floating items to hold                                           | +5
 |====
 
-
-=== Missing Technical Skills (TBD)
-
-[NOTE]
-====
-(Jon) None of the high-tech skills in skill.dbs are described in the
-original document. We might want to put them in a group simply because they
-are rarely relevant to most campaigns. For that matter we might want to
-group all of the skills in the same fashion as the Slay program tabs.
-
-Suggested format for this section:
-
-Some skills are only relevant in world with high levels of science and
-technology - "Modern" or "Space" campaigns. These skills tend to rely
-heavily on INT. They are described here.
-
-  * Astronomy
-  * Astrophysics
-  * Biochemistry
-  * Biology - Macro
-  * Biology - Micro
-  * Computer - AI
-  * Computer - Data Analysis
-  * Computer - Hacking
-  * Computer - Network
-  * Computer - Programming
-  * Cybernetics
-  * Fighter Pilot
-  * Hyperphysics
-  * Materials Science
-  * Nuclear Engineering
-  * Physics
-  * Starship Commander
-  * Starship Communications
-  * Starship Engineer
-  * Starship Helmsman
-  * Starship Navigator
-  * Starship Science
-  * Starship Weapons
-  * Vehicle - Aircraft
-  * Vehicle - Balloon
-  * Vehicle - Car
-  * Vehicle - Power Armor
-  * Vehicle - Ship
-  * Vehicle - Tank
-  * Vehicle - Walker
-====
-
-=== Other Missing Skills (TBD)
-
-[NOTE]
-====
-(Jon) Many other skills in skill.dbs are also missing from the original
-document. They are listed here. Once described they can be merged back into
-the sorted skill sections above.
-
-  * Architectural History
-  * Architecture
-  * Assasination
-  * Astrology
-  * Bartending
-  * Botany
-  * Bribery
-  * Bureaucracy
-  * Carpentry
-  * Cartography
-  * Chaos Sailing
-  * Chemistry
-  * Chess
-  * Civil Engineering
-  * Construction
-  * Cooking
-  * Crime Lord
-  * Dancing
-  * Death Magic
-  * Diplomacy
-  * Divination
-  * Drawing
-  * Drinking
-  * Electronics
-  * Escape
-  * Evaluate Merchandise
-  * Fashion
-  * Fashion Design
-  * Fast Talk
-  * Finance
-  * Fishing
-  * Fletcher
-  * Flying Dizbusters
-  * Forensics
-  * Forestry
-  * Forgery
-  * Geology
-  * Gunnery
-  * Herbal Lore
-  * History
-  * Horse Training
-  * Hunting
-  * Interrogation
-  * Interviewing
-  * Intimidation
-  * Lasso
-  * Law
-  * Leadership
-  * Leatherworking
-  * Librarian
-  * Life Magic
-  * Linguistics
-  * Lipreading
-  * Literature
-  * Lock Picking
-  * Logging
-  * Magic - Army Of Death
-  * Magic - Ball Lightning
-  * Magic - Call Lightening
-  * Magic - Channel
-  * Magic - D Alterego
-  * Magic - D Devourer
-  * Magic - D Elementalattribute
-  * Magic - D Hellfire
-  * Magic - D Mark
-  * Magic - D Posession
-  * Magic - D Talkinghead
-  * Magic - Earthquake
-  * Magic - Hedge Magic
-  * Magic - Plague
-  * Magic - Sanctuary
-  * Magic - Smoke
-  * Magic - Soul Creation
-  * Magic - St Elmos Fire
-  * Magic - Stone Zombie
-  * Magic - Tunnel Walk
-  * Massage
-  * Megalithic Sculpting
-  * Merchant
-  * Metamagic - Gate
-  * Metamagic - Metamagic
-  * Meteorology
-  * Mumbdledy Peg
-  * Musical Instrument
-  * Mythology
-  * Navigation (Chaos)
-  * Navigation (Land)
-  * Navigation (Sea)
-  * Navigation (Tree)
-  * Occupational Skill
-  * Outdoor Survival Arctic
-  * Outdoor Survival Desert
-  * Outdoor Survival Jungle
-  * Outdoor Survival Mountains
-  * Over Acting
-  * Painting
-  * Panhandling
-  * Parachute
-  * Partying
-  * Piracy
-  * Poetry
-  * Poisons
-  * Pottery
-  * Practical Chemistry
-  * Prestidigitation
-  * Psi - Animal Communication
-  * Psi - Animal Sight
-  * Psi - Scare Animal
-  * Psychology
-  * Public Speaking
-  * Read Body Language
-  * Reading
-  * Revolution!
-  * Rioting
-  * Sailing - Ice
-  * Scrounging
-  * Seduction
-  * Setting Traps
-  * Sex
-  * Ship Commander
-  * Shipbuilding
-  * Singing
-  * Skiing
-  * Skydiving
-  * Slaver
-  * Smuggling
-  * Snake Eating
-  * Snake Training
-  * Stone Cutting
-  * Story Telling
-  * Streetwise
-  * Torture
-  * Tracking
-  * Trailing
-  * Ventriloquism
-  * Weaving
-  * Whip
-  * Working Out
-  * Zoology
-
-Missing skills from Ray campaigns
-
-  * These are weird metaskills used for tracking,
-    to go in the appendix
-  ** 0 - Death Penalty
-  ** 0 - Penalty Points
-  ** 0 - Reincarnation
-  ** 0 - Training Cost
-  * To go in the Combat section or appendix
-  ** Combat - Flail
-  ** Combat - Mounted
-  ** Combat - Sonic Axe
-  * To go in the Magic section or appendix
-  * Magic - Ankle Grass
-  * Magic - Bonfire
-  * Magic - Flight
-  * Magic - Ice Castle
-  * Magic - Ice Floor
-  * Magic - Lava Pool
-  * Magic Life - Quicksand
-  * Magic - Mob
-  * Magic - Oasis
-  * Magic - Resist Environment
-  * To go in the Technical Skills section or appendix
-  * Xeno Biologist
-  * Xeno Engineering
-
-Missing skills from Joel campaigns:
-
-  * Butler
-  * Conductor
-  * Flying Faerie Dust
-  * Opera - Heavy
-  * Opera - Light
-  * Scuba
-  * Surfing
-  * Meditation
-  * Psi - Vigor
-
-Other missing skills found in random .dbs files:
-
-  * Metamagic Air - Wall
-  * Metamagic Enchant - Sword
-====
-
 === Unobtrusiveness
 
 The ability to not be noticed when in plain sight. Negatively correlated
@@ -2750,6 +2392,314 @@ an area. Numbers below assume 10 people "milling about". For each factor of
 | Established disguise                 | +1
 | Foreign culture                      | -2
 |====
+
+
+[[skills-alchemy]]
+== Alchemy Skills
+
+[NOTE]
+====
+(Jon) Potions in this section do not have magical components, and are based
+only on the general Alchemy skill and specific potion ability. Some potions
+require magical ingredients and/or abilities, and are listed in the
+<<magic-spells,Magic Spells>> section.
+====
+
+Alchemical potions can be created in bulk. Take a -1 for each 3X in quantity
+produced.
+
+Note that time spent on an alchemical potion produces the same pluses as for
+magical casting.
+
+Record the plus at which a potion is constructed. Roll for success when
+used.
+
+=== Alchemy (General)
+
+[NOTE]
+====
+(Jon) This is the base skill for being an alchemist, comparable to Magic -
+General and Psi - General. In some cases the GM may ask for an Alchemy roll
+to identify a potion or make a judgement call about alchemy.
+====
+
+
+=== Alchemy - Acid
+
+The spell creates a strong acid (like sulfuric) which will eat through most
+base metals. It will do some damage (d6 / bottle) if thrown, but that is not
+its primary intended use. Minimum creation time is 10 minutes. Can be made
+in almost any quantity. Requires some common minerals. The acid will last
+indefinitely. Difficulty 8. EP 250. Components 1 SP / bottle.
+
+=== Alchemy - Alpine Snuff
+
+Cocaine. Each dose is .01 gram. Requires 10 minutes to make. Requires parts
+of some rare plants. EP 1000 Difficulty 12. Components 1 SP / dose (if
+available).
+
+[NOTE]
+====
+(Jon) Effects determined by GM but generally include difficulty resting,
+increased Alertness, paranoia.
+====
+
+=== Alchemy - Berserk Strength
+
+[NOTE]
+====
+(Jon) This is misspelled as "Beserk" in skill.dbs.
+====
+
+PCP. Gives 2X damage on all attacks (not defenses) for 10 rounds of combat.
+Then at -1 for all combat due to fatigue. Subject does not know when they
+take damage until they are dead. They may fight normally until dead. Subject
+must always go at least +2 to offense if in hand to hand. Subject must
+attempt to engage in hand to hand combat. If fighting multiple opponents,
+subject may tactically disengage from all if the GB believes this has a
+reasonable chance of resulting in combat with at least one opponent. Subject
+must make a PSI roll to avoid being taunted out of a defensive position by
+attackers. Difficulty -12, 200 EP. Components: Blood from a lion, Wood from
+an oak, Iron powder, Aged mead.
+
+=== Alchemy - Black Face
+
+A dark paint that can be used to cover the body and make you more difficult
+to see in the dark. +5 visual stealth at night but doesn't wash off easily.
+Difficulty 8, 250 EP. Coal and oil.
+
+=== Alchemy - Cheez Whiz Bomb
+
+[NOTE]
+====
+(Jon) Previous noted as "Silly", but found in most campaigns these days.
+====
+
+Used like a grenade, it coats everything within a 3 hex radius with sticky,
+bright yellow cheesy goo. All non-sentient creatures find the goo tasty, and
+will attempt to eat it in preference to anything else in the area (including
+the PCs). This is an effective way to distract any creature that attacks
+purely out of hunger. It will typically take a minute for a creature to eat
+all of the Cheez Whiz in a hex. The nutritional value of Cheez Whiz is
+similar to that of a similar amount of cheese. Difficulty -7, EP 250,
+components: Yellow dye, sugar, corn starch, salt, vegetable oil. (no
+cheese).
+
+=== Alchemy - Fire Shield
+
+Gives 50% damage resistance to all fire attacks, and 5 points / round
+defense on any damage which gets through the 50%. Reduces all dexterity
+based skills by 3. Reduces movement by 2. Reduces senses skills by 2. Looks
+sort of like foamy dough. Difficulty 11, 200 EP. Components: asbestos, sand,
+mineral oil, ash. Note: fumbled potion catches fire, causes additional 5d6
+damage (no armor).
+
+=== Alchemy - Fireworks
+
+Provides a spectacular but harmless fireworks display. 50 EP, Difficulty 6.
+Components: Sulfur, saltpeter, metal powders.
+
+=== Alchemy - Flash Powder
+
+Note: this is one of the most easily abused of the alchemical mixes. It has
+been converted from Magic - Flash Powder. Flash powder is thrown using the
+Combat - Thrown Weapon Plus to hit the target (normal a hex, sometimes an
+opponent). It takes effect at the end of the special actions phase of the
+round in which it is thrown. Components: Charcoal, sulfur, alum, silver,
+mercury. Component cost is 10 SP. Difficulty 8, EP 100.
+
+Flash Powder has the following effects:
+
+.Flash Powder Effects
+[options="header"]
+|====
+| Situation                                                  | Effect
+| In light as bright as or brighter than a full moon         | No effect
+| Any normal creature within 5 hexes and facing the flash    | Defender must make Int roll. If failed, take -5 (add combat darkness), +1/round
+| Any darkness creature within 10 hexes and facing the flash | Defender must make Int roll. If failed take -7 +1/round.
+| Multiple flashes                                           | Use the effect of the worst flash
+| Ally with eyes closed                                      | Must make PSI roll at +5 to close eyes BEFORE the powder is shot. Take one round at "pitch black" pluses.
+| Defender has seen flash powder before                      | +2 on roll
+| Multiple uses of flash powder in single combat             | Defender gets +1 each use.
+|====
+
+=== Alchemy - Flash Superpowder
+
+[NOTE]
+====
+(Jon) Colloquially "Mithril Flash".
+====
+
+Similar to normal Flash powder, but also has the effect of sunlight on the
+undead. Damage to undead is 3d6 * 100 points explosive (see rules under
+explosions: full damage in center hex, 1/10 damage at 10 hexes, 1/r^2^
+beyond that. ) Uses 1 oz. mithril for each unit produced. Difficulty 10, EP
+500
+
+=== Alchemy - French Roast
+
+Gives a +1 Alertness plus for 4 hours, but a -1 on all DEX skills.
+Difficulty 10, EP 50. Components: Beans from exotic tropical (or hot house)
+plants.
+
+=== Alchemy - Fuel Air Bomb
+
+For high level / silly campaigns only. The alchemist prepares a bottle of
+liquid which fills a room with mist. When ignited, the mixture explodes.
+Each unit fills a cubic hex with explosive gas, and will do 10d6 damage in a
+5 hex radius, then dropping to 5d6 out to 10 hexes, then 2d6 to 15 hexes.
+Increasing the quantity of explosive will increase the radius of damage as
+the square root of the quantity. Unlike nitro, fuel air explosives do not
+detonate accidently. Use: Potion must be activated, then placed on the
+ground. 1 to 5 rounds later it can be detonated by any source of ignition in
+the central hex. Components: Petroleum, sulfur. Can be manufactured in
+quantity. Difficulty 8, EP 500.
+
+=== Alchemy - Glue
+
+A liquid with the properties of crazy glue. Covers 1 hex. Anyone remaining
+in the area of effect for one round is stuck. Strength roll at -3 required
+to break free. Requires plant materials. Difficulty = 9, EP 100
+
+=== Alchemy - Hard Water
+
+A powder which when added to water causes the water to solidify into a high
+melting point ice. The resulting material has a melting point of about 100
+degrees C, and mechanical properties like soft rock. Components: Sand, iron
+ore, chalk, trace platinum (1 oz. / 100 m^3^). Mixture must be
+frozen (at normal water freezing temperature), then will not melt until
+boiling temperature. 1 "unit - pint bottle" will convert 1 m^3^.
+Difficulty 7. EP 500
+
+=== Alchemy - Heat Balm
+
+Gives a +3 to survival rolls in hot areas. Each application lasts 8 hours.
+Can resist 10 points of fire damage one time only per application.
+Difficulty 10, 100 EP. Components: tropical oils, redwood bark.
+
+=== Alchemy - Love Potion
+
+Gives a plus on your seduction roll for 1 evening. The plus is equal to the
+amount by which the alchemist made the required roll. Side effect: reduces
+your resistance to seduction by 5. Difficulty 10, EP 50. Components: Wine,
+Rose Petals, Gold Dust(10 SP), Diamond dust(10 SP).
+
+=== Alchemy - Migo-be-gone
+
+Anti-migo spray. Creates a cloud of ~7 hex radius (3d) of mist. Cloud lasts
+30 rounds in calm air, 20 rounds in a light breeze (<5 hex / sec), 10 rounds
+in a strong wind. (5-10 hex / sec). cloud center moves with the wind. Any
+migo in, or passing through the cloud takes d100 damage in the special
+actions phase. Any human in the cloud takes 1 point / round. Components are
+sulfur, salt, pine oil. Difficulty 12, EP 250.
+
+=== Alchemy - Molotov Cocktail
+
+The old D+D device returns. When thrown, does 3d6/round for 10 rounds in a 3
+hex radius. Ingredients: Petroleum. Difficulty 6, EP 100
+
+=== Alchemy - Nitroglycerine
+
+This is a powerful and very unstable explosive. Does 20d6 explosive damage
+(see explosion rules). Difficulty 8. EP 250 Fumble is an explosion at point
+blank range (very nasty). Components include saltpeter, sulfur, Dried wood.
+Component cost is 1 SP / unit. Each container of nitroglycerin has the
+following chance of detonating:
+
+.Accidental Explosions
+[options="header"]
+|====
+| Event                                     | Detonation chance EACH unit
+| Fall while Climbing                       | 10%
+| For each point of damage through armor    | 1%
+| Another unit has detonated on your person | 50%
+|====
+
+[NOTE]
+====
+Use of Nitroglycerine is strongly discouraged.
+====
+
+=== Alchemy - Poison Gas
+
+This is a particularly nasty potion which releases a cloud of dense amber
+gas that flows mostly downhill, in a layer about 10' thick. Gas will spread
+at 5 hexes / round from source to maximum size, then flow downhill at 2
+hexes / round. One bottle affects a 20 hex radius. Gas will persist for
+several hours. Damage is 3d6/round if target is breathing, d6 / round if
+holding breath (-1 points each round in combat). Components: Sulfur, soda
+ash, limestone, tar, mercury, cost 1 GP / unit. Difficulty 11 EP 1000.
+
+=== Alchemy - Relighting Fire
+
+Creates a wax that can be used as a candle, or burned as a lump. Once
+ignited, will re-light unless doused in water for more than 10 minutes.
+Components: Sulfur, wax, coal dust, silver dust (1 SP / unit), diamond dust
+10 SP / unit. 1 unit is ~1 short candle worth. Difficulty 8, EP 100.
+
+=== Alchemy - Scent Duplication
+
+Allows the alchemist to duplicate the scent of an existing object. Alchemist
+must have a (very small is OK) sample of the material to be duplicated.
+Useful for slipping past guard dogs, etc. Difficulty 8, EP = 250.
+
+=== Alchemy - Sleep Potion
+
+Causes the drinker to fall into a deep sleep from which they cannot be
+awakened for several hours. Ingredients - herbs. Difficulty 8., EP 250
+
+=== Alchemy - Sleep Vapor
+
+Causes anyone in the area of effect to fall into a deep sleep. Can be
+awakened normally for a deep sleeper. Targets must roll senses (use combined
+senses roll) at-5 to detect the vapors. Then, each individual must make a
+con roll at -5 or fall asleep. If any target does not sleep, they may
+notice, and wake others (Alertness roll at typically +0). Area of effect is
+20 hex radius / bottle (liter). Note: will drift in wind. Components:
+plant materials, limestone, spring water. EP 500, Difficulty 10.
+
+=== Alchemy - Slippery Liquid
+
+A liquid which reduces friction to almost nothing. Can be used for various
+mechanisms, or in combat to make opponents slip (acrobatics roll if passing
+through the area or fall (-4 defense, no attack next round). Each unit
+(about a pint) will cover 1 megahex of ground. Only works on non-porous
+surfaces (stone, wood, metal, etc). Will not work on dirt. EP 100 Difficulty
+9, Components are various plant and animal matter.
+
+=== Alchemy - Smelling Salts
+
+Used to wake an unconscious person. Will allow them to operate at no worse
+than -5 (relative to normal) on all skills. Effect lasts for 10 minutes.
+Cannot be used a second time. Recipient takes 1 point of damage. 100 EP
+Difficulty 8.
+
+=== Alchemy - Smoke Bomb
+
+Limits visibility to 2 hexes inside area of effect. This has effects on
+stealth, and overall confusion. Area of effect 5 hex radius. Difficulty 8,
+EP 100.
+
+=== Alchemy - Stink Bomb
+
+Will cause people to want to leave the area of effect (but will not force
+them to leave). Area 10 hex radius. Components: sulfur, Stink weed or skunk
+oil. Difficulty 8, EP 50. Fumble obvious.
+
+=== Alchemy - Sunlight Lamp
+
+Creates a mithril burner that produces the equivalent of sunlight. Burns 1
+oz. of Mithril / hour to produce the effect of sunlight in a 3 hex radius.
+EP 500, Difficulty 10.
+
+=== Alchemy - Volcano Survival
+
+Allows you to operate normally in volcanic terrain and tunnels. Provides
+immunity to sulfurous gasses, air temperatures up to boiling, and brief
+contact with boiling water (treat as 130 degree F water). Does not protect
+against fire, or non-volcanic gasses. EP 250, Difficulty 7. Components:
+sulfur, Redwood bark, spring water. Potion lasts 1 day.
+
 
 
 == Elemental Magic
@@ -3579,7 +3529,7 @@ difficulty is:
 |====
 
 
-=== Artifacts
+=== Magical Artifacts
 
 Special devices can be created to perform magical functions. Due to the wide
 range of possible artifacts, only general guidelines can be made for their
@@ -3593,7 +3543,47 @@ Hammer of Thunder is OK. A Propeller Beanie of Lightning Bolts is not.
 Greater Dragon, or large meteors,
 
 
+[[magic-spells]]
 == Magic Spells
+
+[[magic-spells-undescribed]]
+=== Undescribed Magic Spells
+
+[NOTE]
+====
+(Jon) New section, new content.
+
+Many magic spells lack explicit descriptions and tables, and are summarized
+in the following list. There are similar lists for undescribed
+<<skills-general-undescribed,General Skills>>, <<skills-psi-undescribed,Psi
+Skills>>, and <<skills-tech-undescribed,Technical Skills>>.
+
+  * Magic - Ankle Grass (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Bonfire (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - D Alterego
+  * Magic - D Devourer
+  * Magic - D Elementalattribute
+  * Magic - D Hellfire
+  * Magic - D Mark
+  * Magic - D Posession
+  * Magic - D Talkinghead
+  * Magic - Flight (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Hedge Magic
+  * Magic - Ice Castle (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Ice Floor (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Lava Pool (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Mob (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Oasis (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Resist Environment (same as <<spells-joel,JoelWorld spell>>?)
+  * Magic - Sanctuary
+  * Magic - Smoke
+  * Magic - St Elmos Fire
+  * Magic - Tunnel Walk
+  * Magic Air - Wall (Metamagic) (could be a <<spells-joel,JoelWorld spell>>?)
+  * Magic Enchant - Sword (Metamagic) (could be a <<spells-joel,JoelWorld
+    spell>>, or equivalent to Magic - Enchant Weapon?)
+====
+
 
 === Magic - Alarm
 
@@ -3632,7 +3622,7 @@ each 20' of height. Tree hp is height^3^ / 1000. Def is = 20 -100 varies
 with type of tree. Attack at -2. Base damage = height of tree. Difficulty
 10, EP 2000,
 
-=== Metamagic - Army Of Death
+=== Magic - Army Of Death (Metamagic)
 
 Causes all of the dead in the effected area to rise from the grave and serve
 your will. A roll equal to that required will cause the dead to attack you.
@@ -3642,19 +3632,7 @@ available, they are raised as shades. Note the dead are animated by spirits.
 EP 1000, Difficulty 13. Area of effect 100hex / Pow. Fixed casting 1 day,
 +10
 
-[NOTE]
-====
-(Jon) The difference between plain old "Magic" and "Metamagic" is not
-described anywhere in this document, although a variety of spells are
-*labelled* as Metamagic and claim that "Metamagic rules apply". I have
-cleaned them up to prefix the spell name with "Metamagic -" in the section
-header, at least.
-
-In practice, the only distinction seems to be that Metamagic is very
-difficult and takes a lot of Pow.
-====
-
-=== Metamagic - Asteroid Strike
+=== Magic - Asteroid Strike (Metamagic)
 
 Damage is 1,000,000,000 points / (distance in hexes)^2^. E.g.
 deadly at 3 miles, very damaging at 10-30 miles. About a megaton. Must
@@ -3678,7 +3656,7 @@ shield). The meteors will fall in about a 30 mile radius. Typical separation
 is 300 hexes. EP 5000, Difficulty 13, Pow 1000, + 50/round to maintain.
 Shield area is 30 mile radius.
 
-=== Metamagic - Ball Lightning
+=== Magic - Ball Lightning (Metamagic)
 
 Causes glowing spheres of damage causing energy to fly from the caster's
 fingertips. Spheres do 10 points base at caster's MG+. Balls last for 6
@@ -3744,6 +3722,11 @@ Costs 10 Pow / oz. EP 500 Difficulty 14.
 
 === Magic - Call Lightning
 
+[NOTE]
+====
+(Jon) Sometimes misspelled "Call Lightening"
+====
+
 Can only be used during a storm or severe storm. Range is 200 hex. Spell
 attacks as a single target indirect spell at +5. Base damage is 50. The
 total amount of lightning which can be call from a storm is 1 / round / 100
@@ -3762,7 +3745,7 @@ A potion which causes your skin to have chameleon properties. Lasts 1 hour.
 Gives a +2 to stealth in appropriate circumstances. Does not change the
 color of your clothes. EP 100 Difficulty 10, Pow 10.
 
-=== Metamagic - Channel
+=== Magic - Channel (Metamagic)
 
 Allows the caster to interact with, and to some extent control natural
 forces like storms, volcanoes, oceans, etc. Allows the caster to manipulate
@@ -3799,7 +3782,7 @@ Animates an object or objects to clean and tidy an area. Fumble is the
 Srcerer's Apprentice effect. Area effect. EP 500, Pow = 1 / hex Spell
 requires about 1 minute after casting to operate. Difficulty = 7.
 
-=== Metamagic - Conflagration
+=== Magic - Conflagration (Metamagic)
 
 Creates a spreading fire - acts as if the air were turned to pure oxygen.
 This spell has not specific range limit, but will typically burn any city,
@@ -3831,7 +3814,7 @@ therefore unable to use stealth. EP 1000, Difficulty 8, Pow = 20/round (not
 per minute). Spell may be cast at multiple targets by multiplying Pow cost.
 5 rounds, +4.
 
-=== Metamagic - Crack Of Doom
+=== Magic - Crack Of Doom (Metamagic)
 
 Opens a crack in the earth, up to 1 mile wide by 10 long, and all within
 that area are cast into the void (or hell, or Chaos, or pick your favorite
@@ -3938,7 +3921,7 @@ Calls an elemental a creature: move 1, -2 / 10,000, DCV -5,-5, inf. Def =
 use. Elemental will remain active for 1 day. Difficulty = 11, Pow = 5000. EP
 1000. Fixed time, 2 hours +10.
 
-=== Metamagic - Earthquake
+=== Magic - Earthquake (Metamagic)
 
 This spell can devastate a large area. It does not damage people, but will
 destroy many buildings. Casting this spell generally requires the use of an
@@ -4063,7 +4046,12 @@ not conscious while stoned. The reverse spell is learned automatically. EP
 === Magic - Flesh To Stone Potion
 
 Causes the person drinking to turn to stone. Not reversible except with
-stone to flesh spell (a statue can't drink). EP 1000, Difficulty 12, Pow 50
+Stone To Flesh spell (a statue can't drink). EP 1000, Difficulty 12, Pow 50
+
+[NOTE]
+====
+(Jon) Often used to coat arrowheads in higher-level campaigns.
+====
 
 === Magic - Floating Liquid
 
@@ -4081,7 +4069,7 @@ Causes fog to rise from the ground. Must be used outside. Covers an area of
 Causes the victim to forget something until the spell is broken. Direct
 spell. EP 500 Pow 30. Difficulty 10
 
-=== Magic - Gate
+=== Magic - Gate (Metamagic)
 
 Opens a door to a new location or dimension. Pow is 10K / hex. EP 5000,
 Difficulty 13. Symbol spell only. 1 day +9
@@ -4126,7 +4114,7 @@ Causes heat equivalent to a camp fire. Heat is cast on an object. EP 500.
 Difficulty = 7, Pow = 1 / round. With fixed casting time rules, requires 1
 minute at +7.
 
-=== Metamagic - Hellborer
+=== Magic - Hellborer (Metamagic)
 
 Blasts a hole through (nearly) anything. Hole is 10 hexes in radius, and is
 drilled at 10 hexes / round. Much of the material is destroyed, but some is
@@ -4141,7 +4129,7 @@ A strength spell that cause the recipient to gain +5 CON, +5 STR and +5
 SIZ (armor will not fit), and lose 5 on all other stats and turns green.
 Lasts 1 minute.
 
-=== Metamagic - Hurricane
+=== Magic - Hurricane (Metamagic)
 
 Causes a hurricane class storm (about 100 miles diameter. peak 150 mph
 winds). Storm will last for 1 week at sea, or 2 days on land. It will move
@@ -4197,7 +4185,7 @@ on this plane. EP 5000, Difficulty 16 Pow 10000. Note: knowledge of this
 spell is very restricted. Knowledge of this spell allows a reverse potion to
 be created.
 
-=== Metamagic - Inferno
+=== Magic - Inferno (Metamagic)
 
 A higher Pow version of "control fire" it allows a mage to also dramatically
 increase the speed at which things burn causing 100 points / round damage in
@@ -4309,6 +4297,25 @@ typically not fully offensive or defensive unless it is to their benefit.
 The caster will know when a command will break the spell before it is
 issued. A mesmerized person will seem distracted, but not abnormally so to
 observers. EP 1000, Pow = 30 Difficulty 12. Casting time 1 hour. +8
+
+[[metamagic]]
+=== Magic - Metamagic
+
+[NOTE]
+====
+(Jon) This is general knowledge and study of Metamagic, and helps cast
+specific Metamagic spells.
+
+In some (most?) campaigns, Metamagic is a separate class of spells, with a
+Magic - Metamagic skill they are based on. In other worlds, there is no
+Magic - Metamagic skill, but some of the same spells exist. In most (all?)
+worlds, Metamagic spells tend to be very destructive, very difficult to
+cast, very dangerous to fumble, and require a huge amount of Pow.
+
+Metamagic spells are included in the main <<magic-spells,spell list>>, with
+"(Metamagic)" appended to the spell name in the section header to help
+distinguish them.
+====
 
 === Magic - Meteor
 
@@ -4422,7 +4429,7 @@ barrier acts as DCV=0, 1 Pow will be consumed for each 5 points of damage.
 inflicted on the barrier. The barrier has a base cost of 1 Pow for each hex
 side covered. Difficulty 8. EP 500. +6, 1 round / hex side.
 
-=== Metamagic - Plague
+=== Magic - Plague (Metamagic)
 
 Causes an outbreak of plague which will continue naturally. The death rate
 is 50% over 6 month. Make con roll to survive. Difficulty 14. Pow 1000. EP
@@ -4504,7 +4511,7 @@ area of 1 hex in radius for each Pow. Difficulty = 14. EP 1000
 This spell causes a volume of rock to convert to lead. Pow = 1/pound
 Difficulty 10. EP 250
 
-=== Metamagic - Sanctuary
+=== Magic - Sanctuary (Metamagic)
 
 The caster creates an area of safety. Any attempt to enter the area must be
 made with a Navigation - Land roll at -10. The sanctuary spell is not noticeable
@@ -4591,14 +4598,14 @@ Difficulty 46 EP 500, 1000 ft^3^ / Pow.
 Connects a soul to an object. Direct spell. 100 Pow, -10. Casting time 1
 day. +8
 
-=== Metamagic - Soul Creation
+=== Magic - Soul Creation (Metamagic)
 
 Uses Chaons to create a new soul. Requires 500 Chaons to be trapped. This
 spell will convert the Chaons to a new soul which is bound to a person. The
 target permanently gains: Angel abilities, immortality. It's a good deal.
 Spell requires chaos trapping. EP 3000, Difficulty = 16, 5000 Pow.
 
-=== Metamagic - Soul Creation (Version2)
+=== Magic - Soul Creation (Version2) (Metamagic)
 
 Creates a new, 0 Pow chaos soul. This type of soul is required in order to
 absorb other Chaons (see <<chaons,Chaons>>). EP 3000, Difficulty 16, 5000
@@ -4651,7 +4658,7 @@ attack, defense, move for 2X damage. Plus = -2. Fumble -> golem attacks
 caster. Spell lasts for 1 day , cannot be dropped. Time: 1 hour, +8,
 Difficulty 6 Pow cost is linear in size. 1000 EP,
 
-=== Metamagic - Stone Zombie
+=== Magic - Stone Zombie (Metamagic)
 
 Creates a stone "zombie" that will kill other people and turn them into
 stone zombies. Each zombie is move 3/2, +0/40 0/0/10 50/0/300. They are slow
@@ -4706,7 +4713,7 @@ sight. Direct Spell. Difficulty 9, Pow 10 / hex, EP 1000.
 Causes any animal (non enchanted creature) to flee in panic. Direct spell.
 Difficulty 7. Pow 5. EP 250. 3 rounds, +4.
 
-=== Metamagic - Tidal Wave
+=== Magic - Tidal Wave (Metamagic)
 
 Causes a 200' tall wave, approximately 20 mile wide to move on shore. Damage
 depends on the local terrain. Difficulty = 12, EP 5000, Pow = 10,000.
@@ -4727,7 +4734,7 @@ for the bubble to form or disappear. Fumble has the obvious very bad effect
 (caster frozen for some very long time - thousands of years). 30 Pow / hex
 (must be round, centered on caster). Difficulty 8, EP 500.
 
-=== Metamagic - Tornado
+=== Magic - Tornado (Metamagic)
 
 Creates a category 5 tornado which lasts 300 rounds under the control of the
 casting magician. Range Pow costs must be paid to create the tornado. The
@@ -4840,7 +4847,30 @@ day.
 make a Psi - General roll. If any fail, the attack fails for all. Pluses are
 added as for normal skills.
 
-Multiple Psi Actions: Are performed at -2 for each additional ability used.
+*Multiple Psi Actions*: Are performed at -2 for each additional ability used.
+
+
+[[skills-psi-undescribed]]
+=== Undescribed Psi Skills
+
+[NOTE]
+====
+(Jon) New section, new content.
+
+Many Psionic skills lack explicit descriptions and tables, and are
+summarized in the following list. There are similar lists for undescribed
+<<skills-general-undescribed,General Skills>>,
+<<magic-spells-undescribed,Magic Spells>>, and
+<<skills-tech-undescribed,Technical Skills>>.
+
+  * Psi - Animal Communication - Ability to communicate with an animal
+    mind-to-mind, on your shared minimum level of sentience and
+    intelligence.
+  * Psi - Animal Sight - Ability to see through an animal's eyes.
+  * Psi - Scare Animal - Like Magic - Fear, for animals.
+  * Psi - Vigor (like Magic - Vigor spells)
+====
+
 
 === Psi - Area Block
 
@@ -4967,6 +4997,84 @@ base (for a dull object) and 5.0 base for weapons, or a parry of 15. If used
 for lifting, the maximum amount that can be lifted is 30 pounds. These
 numbers are multiplied by Psi / 10.
 
+
+== Technical Skills
+
+[NOTE]
+====
+(Jon) None of the high-tech skills in skill.dbs are described in the
+original document. They are segregated here because they are rarely relevant
+to most campaigns. For that matter, we might want to group all of the skills
+in the same fashion as the Slay program tabs.
+
+Some skills are only relevant in world with high levels of science and
+technology - "Modern" or "Space" campaigns. These skills (other than those
+associated with vehicles) tend to rely heavily on INT
+====
+
+[[skills-tech-undescribed]]
+=== Undescribed Technical Skills
+
+[NOTE]
+====
+(Jon) All technical skills currently lack explicit descriptions and tables.
+They are summarized in the following list. There are similar lists for
+undescribed <<skills-general-undescribed,General Skills>>,
+<<magic-spells-undescribed,Magic Spells>>, and <<skills-psi-undescribed,Psi
+Skills>>.
+
+  * Astronomy
+  * Astrophysics
+  * Biochemistry
+  * Biology - Macro
+  * Biology - Micro
+  * Computer Skills - Player suggests which one is appropriate to their
+    action, but the GM may decide differently.
+  ** Computer - AI
+  ** Computer - Data Analysis
+  ** Computer - Hacking
+  ** Computer - Network
+  ** Computer - Programming
+  * Cybernetics
+  * Electronics
+  * Fighter Pilot - For aircraft or spacecraft.
+  * Hyperphysics - Portals, Stargates, Krell Machines, Wormholes, and other
+    stressors and/or violations of General Relativity. Such devices are
+    often found in medieval worlds and characters may be able to gain enough
+    Pluses to control, if not understand them.
+  * Materials Science
+  * Nuclear Engineering
+  * Physics - As currently understood. See Hyperphysics.
+  * Starship skills - Roughly matches the bridge crew of the *Enterprise*.
+  * Starship Commander - Used in starship movement phase to determine order
+    of actions. May be combined with Overacting to dramatically impress
+    Viewing Audience.
+  * Starship Communications - "Hailing Frequencies open, Captain"
+  * Starship Engineer - "My poor bairns, they cannot take it!" / "I'd have
+    to be a Miracle Worker to do it in an hour, Jim!"
+  * Starship Helmsman - +
+    *Kirk*: "But from where? +
+    *Spock*: "His pattern indicates... two-dimensional thinking." +
+    *Kirk*: "Z Minus 10,000 meters. Stand by Photo Torpedos!" +
+  * Starship Navigator - "Is There in Truth no Beauty?"
+  * Starship Science - "It's a type of radiation unknown to our science,
+    Captain!"
+  * Starship Weapons - +
+    *Sulu*: "Phaser lock inoperative, sir." +
+    *Kirk*: "Best guess, Mr. Sulu. Fire when ready!"
+  * Vehicle - general ability to control type of vehicle. Take Minuses for
+    weather, environment, road conditions, etc.
+  ** Vehicle - Aircraft - Powered, endoatmospheric only. Wright Flyer,
+     Hindenberg, SR-71, etc.
+  ** Vehicle - Balloon
+  ** Vehicle - Car - Automobile, Tractor, Truck, etc.
+  ** Vehicle - Power Armor - M.I. Powered Armor, Iron Man, MJOLNIR Mk. V,
+     etc.
+  ** Vehicle - Ship - Wet-water, Age of Steam or later. See Sailing for
+     other ships.
+  ** Vehicle - Tank - M1 Abrams
+  ** Vehicle - Walker - AT-AT
+====
 
 == Chaos Rules (Optional)
 
@@ -6527,10 +6635,16 @@ the 15-75 age range.
 // JoelWorld appendix
 include::joel.adoc[]
 
+// RatWorld appendix
+include::rat.adoc[]
 
 [appendix]
 == Change Log
 
+  * 2016/09/07 (Jon Leech) add many skills and spells from various skill.dbs
+    missing from the document, mostly in outline form. Add "Technical
+    Skills" section. Split "Alchemy" and "Psi" into their own sections. Add
+    suggested description for "Magic - Metamagic". Add RatWorld appendix.
   * 2016/09/04 (Jon Leech) - add JoelWorld appendix. Numerous minor
     cleanups, typo fixes, and consistency edits.
   * 2016/09/03 (Jon Leech) - move some obsolete and alternate-rule sections

@@ -1,0 +1,58 @@
+[appendix]
+== RatWorld Appendix
+
+[NOTE]
+====
+(Jon) This entire appendix is new, and needs to be filled in from Ray's
+Metacampaign writeup and emails.
+====
+
+This section covers changes and additions in Ray Trent's system.
+
+In the Metacampaign, "Magic", "Psi", and "Pow" are all implemented using
+extremely advanced, Clarketech-level Physics. The *mechanisms* of Magic and
+Psi exist and behave as documented, but the *explanations* involve
+convincing-sounding buzzwords. So a "Pow Storage Gem" might be a "Cold
+Fusion Microreactor" or "Elevated Energy-State Diamonoid Matrix"; a "Focus"
+is a "Fantastical Operations Control Unit (Semiintelligent)"; and so on.
+
+=== New Skills
+
+There are several "Metaskills" that are used as tracking devices. These
+are not well described yet.
+
+==== 0 - Death Penalty
+
+If you die during the course of a run and have no more available
+Reincarnations (see below), you are dead for the remainder of the run.
+However, the Expert System will download you into a new body at the end of
+the run, at a cost of 1,000 EP. That cost must be allocated to Death
+Penalty.
+
+==== 0 - Penalty Points (*Undescribed*)
+
+==== 0 - Reincarnation
+
+For each 1,000 EP put into Reincarnation, the character may have one "Free"
+reincarnation during each subsequent run. The Expert System will deliver the
+new body and copy of your downloaded brain emulation to the rest of the
+Party as soon as practical.
+
+==== 0 - Training Cost
+
+Characters can learn skills normally if they're things they are actually
+doing in the run. For other, entirely new-to-the-character skills, the
+Expert System can teach them at a 10% penalty. The Training Cost skill
+tracks that penalty. For example, if you put 100 EP into Assassination,
+which never came up in previous runs, you must also put 10 EP (10%) into
+Training Cost.
+
+==== Xeno Biologist
+
+Technical skill. Ability to analyze and understand alien biology, non-DNA
+Life Codes, Molecular Acid for blood, etc.
+
+==== Xeno Engineering
+
+Technical skill. Ability to understand alien technology and sciences, Vorlon
+ships, Daleks, Squareness Guns, etc.

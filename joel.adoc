@@ -31,7 +31,35 @@ Per Joel, the combat phases are:
 
 [1] This rarely happens.
 
-=== Combat - Whirling Dervish Skill
+=== JoelWorld Skills
+
+[NOTE]
+====
+(Jon) New section, new content - except for Combat - Whirling Dervish skill
+which was already present.
+
+Many JoelWorld skills lack explicit descriptions and tables, and are
+summarized in the following list. There are similar lists for undescribed
+<<skills-general-undescribed,General Skills>> as well as Magic, Psi, Tech,
+etc. in the main document - these are just skills currently found only in
+JoelWorlds.
+====
+
+==== Butler
+
+[NOTE]
+====
+(Jon) - skill defined by me, filled in by GM.
+
+General househand management tasks, running a small staff, trip and event
+planning, dealing with bureaucrats, officials and support staff, etc.
+Similar to Military Command, but a different focus.
+
+Reginald Jeeves in canon is a +6 Butler. +7 if Saving Bertie from Unintended
+Marriage.
+====
+
+==== Combat - Whirling Dervish Skill
 
 The Whirling Dervish is a defensive combat maneuver. A person trained in
 Whirling Dervish must declare Whirling Dervish at the beginning of the
@@ -50,6 +78,87 @@ can make normal combat attacks, but not missiles or magic.
 
 At the end of the round, in the special actions phase, the Whirling Dervish
 can move one square.
+
+==== Conductor
+
+[NOTE]
+====
+(Jon) - skill defined by me, filled in by GM.
+
+Ability to lead, manage, and control a large Symphony Orchestra, while
+simultaneously impressing audiences.
+
+Leonard Bernstein, Sir Colin Davis, and Herbert von Karajan were all +6
+Conductors. Leopold Stokowski was at least +7, due to -1 Penalty when
+Conducting without a baton. Otto Klemperer appeared to combine +6 Conductor
+with at least +5 Intimidation and Torture.
+====
+
+==== Flying Faerie Dust (Jon - TBD)
+
+Ability to Fly and take actions when sprinkled with Fairy Dust from e.g.
+Tinkerbell. Move up to 20 hexes/round while Flying. Duration 24 hours. Must
+think Happy Thoughts while Flying, as defined by GM, or Dust fails.
+
+N.b. "I can *fly*", "They fly through the air with the greatest of ease,
+those daring young women on the flying trapeze", and "Flying gloriously with
+my Battle Sheep to confront Arien" are Happy Thoughts.
+
+Destruction, Death, etc. are by definition not Happy Thoughts, even if the
+character is Norman Bates.
+
+==== Meditation (Jon - TBD)
+
+Ability to be One with the Universe. Guidance and/or puzzling aphorisms may
+be given at GM discretion on a good roll. Easy to attain high Pluses, but
+it's never clear how accurate or meaningful the results are. Sometimes
+Meditation can be combined with a physical skill, such as "Balancing" on an
+ancient ruin to locate secret entrances.
+
+==== Opera - Heavy (Jon - TBD)
+
+[NOTE]
+====
+(Jon) - skill defined by me, filled in by GM.
+
+Ability to perform Classical Opera (Verdi, Wagner, Mozart, etc.).
+
+The GM has defined conditions where Opera - Heavy is a Combat skill, e.g.
+Duelling Duettos with Master Vampires and Liches.
+====
+
+==== Opera - Light (Jon - TBD)
+
+[NOTE]
+====
+(Jon) - skill defined by me, filled in by GM.
+
+Ability to perform Comic Opera (Gilbert and Sullivan, Marriage of Figaro,
+etc.).
+
+The GM has defined conditions where Opera - Light is a Military Command or
+Combat skill, e.g. weakening enemy leaders by performing Impromptu Light
+Operas making fun of their leadership abilities and personal attributes. Can
+work well when combined with Magic - Major Illusion to show the Opera to an
+entire enemy city.
+====
+
+==== Scuba (Jon - TBD)
+
+Ability to use SCUBA gear, navigate and operate underwater, etc.
+
+==== Surfing (Jon - TBD)
+
+[NOTE]
+====
+(Jon) - skill defined by me, filled in by GM.
+
+Ability to Surf (water, rocky mountain slopes, lava, etc.) and to take
+actions while Surfing. Considerable Minuses for not having a Surfboard
+appropriate to the substance being Surfed on. Minuses at GM discretion for
+ocean conditions, lava temperature and consistency, etc.
+====
+
 
 === PC Throwing Rules
 
@@ -158,6 +267,8 @@ In addition, all spells are helped by the INT and MAG stats. Investing in
 spells will boost Magic - General, and investing in Magic - General will
 (somewhat) help all spells (subject to Minimum EPs.)
 
+
+[[spells-joel]]
 === JoelWorld Spell List
 
 JoelWorld adds the following spells in addition to those listed in the
