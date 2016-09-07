@@ -5046,6 +5046,7 @@ Skills>>.
   * Nuclear Engineering
   * Physics - As currently understood. See Hyperphysics.
   * Starship skills - Roughly matches the bridge crew of the *Enterprise*.
+    They are used during <<starship-combat,Starship Combat>>.
   * Starship Commander - Used in starship movement phase to determine order
     of actions. May be combined with Overacting to dramatically impress
     Viewing Audience.
@@ -5055,7 +5056,7 @@ Skills>>.
   * Starship Helmsman - +
     *Kirk*: "But from where? +
     *Spock*: "His pattern indicates... two-dimensional thinking." +
-    *Kirk*: "Z Minus 10,000 meters. Stand by Photo Torpedos!" +
+    *Kirk*: "Z Minus 10,000 meters. Stand by Photon Torpedos!" +
   * Starship Navigator - "Is There in Truth no Beauty?"
   * Starship Science - "It's a type of radiation unknown to our science,
     Captain!"
@@ -6159,6 +6160,35 @@ in order to fire. You may fire at any point during your, or your opponent's
 move.
 
 
+[[starship-combat]]
+=== Starship Combat Rules
+
+[NOTE]
+====
+(Jon) There are ad-hoc starship combat rules that have been used in several
+campaigns and should be added to the system. The Universe is two-dimensional,
+movement is in hexes on planetary / astronomical scale defined by campaign,
+ships have multiple "Units" (contiguous hexes) such as Command, Engines,
+Weapons (short-range and long-), Sensors, Shields, etc.
+
+Phases are something like (there are better descriptions written up of all
+this, just not in readily-accessible documents to this editor):
+
+  * Roll for captain's initiative using Starship Commander Plus.
+  * Move using Starship Helmsman Plus, depending on conditions (manuevering
+    in gravity wells, Mutara Nebula, etc.). Losing captain's ship must move
+    first.
+  * Weapons Fire, winning Captain's Weapons Officer shoots first using
+    Starship - Weapons skill. Take minuses for different weapons ranges. GM
+    determines effects on enemy ship (weaken shields, damage or destroy a
+    hex of their ship, etc.
+  * Repairs to damaged hexes, using Starship Engineer Plus.
+  * Special Actions - "Jedi" boards enemy ship, Captain makes Overacting or
+    Fashion rolls to Intimidate other Captains, Science Officer determines
+    everyone is about to be eaten by a Ravenous Space Amoeba, etc.
+====
+
+
 == Silly Rules
 
 These rules are for Vikings, Pirates, Barbarians, Bikers, and others whose
@@ -6643,8 +6673,9 @@ include::rat.adoc[]
 
   * 2016/09/07 (Jon Leech) add many skills and spells from various skill.dbs
     missing from the document, mostly in outline form. Add "Technical
-    Skills" section. Split "Alchemy" and "Psi" into their own sections. Add
-    suggested description for "Magic - Metamagic". Add RatWorld appendix.
+    Skills" and "Starship Combat" sections. Split "Alchemy" and "Psi" into
+    their own sections. Add suggested description for "Magic - Metamagic".
+    Add RatWorld appendix.
   * 2016/09/04 (Jon Leech) - add JoelWorld appendix. Numerous minor
     cleanups, typo fixes, and consistency edits.
   * 2016/09/03 (Jon Leech) - move some obsolete and alternate-rule sections
