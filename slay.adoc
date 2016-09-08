@@ -135,11 +135,11 @@ group is doing.
 
 === Experience Points
 
-An Experience Point (EP) represents 1 hour of training in a skill. Skills where you have less
-than base EP are shown without a vertical bar after the skill on the
-character sheet. Skills with very low Pluses (less than a large negative
-value) are not shown on the character sheet as they are likely to always
-fail when used.
+An Experience Point (EP) represents 1 hour of training in a skill. Skills
+where you have less than base EP are shown without a vertical bar after the
+skill on the character sheet. Skills with very low Pluses (less than a large
+negative value) are not shown on the character sheet as they are likely to
+always fail when used.
 
 [NOTE]
 ====
@@ -198,8 +198,8 @@ that case, add the inverses. In that case, 5,4,3 would add to 3 (round up).
 
 [NOTE]
 ====
-(Jon) A simpler way is to sum lower-valued Pluses: "Two +2s is a +3. Is there a
-+3? Yes, so two +3s is a +4." Likewise 3 +2s is a +3, 4 +2s is a +4.
+(Jon) A simpler way is to sum lower-valued Pluses: "Two +2s is a +3. Is
+there a +3? Yes, so two +3s is a +4." Likewise 3 +2s is a +3, 4 +2s is a +4.
 
 The player with the highest Plus normally rolls the dice with the group
 Plus.
@@ -225,15 +225,16 @@ devices gives NX and MX damage, the resulting damage is (M+N)X.
 
 [NOTE]
 ====
-(Jon) Character abilities are based on _stats_, which are intrinsic properties of
-the character. Stats can range from 3-18, and in rare circumstances, higher.
-The Slay program starts with each stat set to a default value for the
-character's chosen race. They may be changed at will during character
-creation, but not afterwards.
+(Jon) Character abilities are based on _stats_, which are intrinsic
+properties of the character. Stats can range from 3-18, and in rare
+circumstances, higher. The Slay program starts with each stat set to a
+default value for the character's chosen race. They may be changed at will
+during character creation, but not afterwards.
 
 In rare cases, the GM may impose or allow stat modifications after the
 campaign begins, through rare, dangerous, and/or expensive means such as
-Chaos Spells, Stat Potions, Polymorph Potions.
+Chaos Pow (can be temporary), Stat Potions (permanent), or Polymorph Potions
+(permanent).
 
 Stats affect how easily you gain pluses in skills. Each skill has a weighted
 contribution from the stats which affect it; this can be seen in the GUI for
@@ -248,10 +249,10 @@ to 11.
 
 The number of stat points rarely increases, unlike EP. It's usually best to
 pick one or two stats relative to your character's role and make them as
-large as possible, in the 16-18 range; for example, mages might choose MAG 18
-and INT 16, heavy weapon fighters STR 18 and CON 16, rogues AGI and DEX 17,
-etc. Other stats which are significant can be raised to the 13-15 range, and
-the rest left near the defaults for the character race.
+large as possible, in the 16-18 range; for example, mages might choose MAG
+18 and INT 16, heavy weapon fighters STR 18 and CON 16, rogues AGI and DEX
+17, etc. Other stats which are significant can be raised to the 13-15 range,
+and the rest left near the defaults for the character race.
 
 This is general advice, not a rule. Hyper-optimization of your character is
 possible, but not in the spirit of the system. The Slay algorithms are very
@@ -778,8 +779,8 @@ distance (round down: if the weapon has range 3, you are at 0 for 3 and less
 hexes, -1 for 4 to 6 hexes). Note: The attacker may not shift Pluses from
 offense to defense.
 
-*Surprise Attack*: If the opponent is not aware they are being attacked and is
-not in combat, their DCV is given in the combat actions list (later).
+*Surprise Attack*: If the opponent is not aware they are being attacked and
+is not in combat, their DCV is given in the combat actions list (later).
 
 *Aiming*: This may only be used against a target that is not moving, or is
 walking slowly. Attacker gains +1 for each round spent aiming. During
@@ -804,10 +805,11 @@ the number of missiles which hit the hex. This only applies for
 hits normally, the next 2 at -1, the next 4 at -2, etc. Subtract armor from
 each projectile.
 
-*Defense*: For targets without a shield: Medium DCV is equal to Low DCV. High
-DCV is equal to low DCV + armor plus. Note: "armor plus" is the difference
-between High DCV and Medium DCV. A shield may only be used to parry missile
-attack from one hex side per round and will increase your medium DCV by 2.
+*Defense*: For targets without a shield: Medium DCV is equal to Low DCV.
+High DCV is equal to low DCV + armor plus. Note: "armor plus" is the
+difference between High DCV and Medium DCV. A shield may only be used to
+parry missile attack from one hex side per round and will increase your
+medium DCV by 2.
 
 [NOTE]
 ====
@@ -1151,7 +1153,7 @@ is never worse than -4 absolute.
 | Push 1 hex            | STR roll to push back, otherwise Normal                            | +2                | -3              |
 | Pull attack           | Drop N pluses for option to drop N more after damage is calculated | -n                | Normal          |
 | Retreat 1 hex         | Opponent has option of not following                               | -2                | +3              |
-| Aiming Bonus          | Missile only (3)                                                   | +1/round, max +5  | -4 Abs.         |
+| Aiming Bonus          | Missile only (3)
 |====
 
 [1] (Jon) In normal combat, you may shift up to two Pluses to attack or DCV.
@@ -1494,9 +1496,9 @@ There is a plus (minus) one for each factor of 3 in time. Additional Pluses
 
 ==== Examples
 
-A character with successful Psi - Animal Communication and +3 in Animal Training
-trains a wild wolf for 12 months to act as a guard animal. The modifiers
-are:
+A character with successful Psi - Animal Communication and +3 in Animal
+Training trains a wild wolf for 12 months to act as a guard animal. The
+modifiers are:
 
   * Not domesticated: -2
   * Time 12 Months: +4
@@ -1582,12 +1584,13 @@ separately for each command:
   * Seek specified Prey (command *gesture*). Master must communicate prey to
     seek (i.e. let a hound smell something of the prey). Animal will stay
     near prey and circle above, bay / howl, or otherwise indicate its
-    presence. An Animal Handling or Psi - Animal Communication roll may be necessary
-    to indicate prey to seek.
-  * Scout specified Prey (command *gesture*). Master must communicate prey to
-    scout. Animal returns when found or after about an hour if not found and
-    attempts to communicate. Communication without Psi - Animal Communication is
-    very limited. (found prey / didn't find prey / in that direction).
+    presence. An Animal Handling or Psi - Animal Communication roll may be
+    necessary to indicate prey to seek.
+  * Scout specified Prey (command *gesture*). Master must communicate prey
+    to scout. Animal returns when found or after about an hour if not found
+    and attempts to communicate. Communication without Psi - Animal
+    Communication is very limited. (found prey / didn't find prey / in that
+    direction).
   ** Add -1 to the training roll. Not natural.
   * Scout for danger (command *gesture*). The animal needs to be trained for
     what indicates danger. Psi - Animal Communication is essential for any
@@ -1602,11 +1605,11 @@ separately for each command:
     instructions and to understand what is observed. Animal Handling and
     Psi - Animal Communication rolls required.)
   ** Add -3 to the training roll. This is a very useful and difficult skill.
-  * Return (command *gesture* or "call" or animal communicate. Animal returns
-    to master.)
-  * Flee (command *gesture* animal returns to home. Animal Handling or Psi - Animal
-    Communication roll required if home is beyond the understanding of the
-    animal.
+  * Return (command *gesture* or "call" or animal communicate. Animal
+    returns to master.)
+  * Flee (command *gesture* animal returns to home. Animal Handling or Psi -
+    Animal Communication roll required if home is beyond the understanding
+    of the animal.
 
 The animal knows the following commands at the training success Plus. Roll
 separately for each command:
@@ -1640,12 +1643,12 @@ with a group of primitives. Some effects of other rolls:
 
 === Archaeology
 
-This is the study of ancient civilizations and ruins. A flat Archaeology roll
-allows the character to identify the culture, and age (to 50% - unless
+This is the study of ancient civilizations and ruins. A flat Archaeology
+roll allows the character to identify the culture, and age (to 50% - unless
 defined more accurately by the knowledge of the culture) of an artifact from
 a known civilization. Each +1 cuts the age uncertainty in half. This is also
 the ability to find interesting things in ruins. Typically the GM will
-define a required archaeology roll to find some important artifact or piece
+define a required Archaeology roll to find some important artifact or piece
 of information.
 
 === Bargaining
@@ -2335,12 +2338,12 @@ frightened horse. See combat - riding above for more details.
 === Running
 
 This skill allows you to move faster in combat, and also allows you to move
-larger distances. For a dash, maximum move is Full Move (so movement 9
-is 22.5 ft. / second Make a CON roll at Plus = (8 CON - 10 / 3). If you fail,
+larger distances. For a dash, maximum move is Full Move (so movement 9 is
+22.5 ft. / second Make a CON roll at Plus = (8 CON - 10 / 3). If you fail,
 take -1 on combat stats and CON Plus, and roll again each CON # rounds.
 Before exhaustion, with CON 20, speed 9 (an excellent runner) could go 1.7
-miles at 3.9 minutes / mile. CON 10, speed 6 gives 15' / second 2/3 mile, at 6
-minute mile.
+miles at 3.9 minutes / mile. CON 10, speed 6 gives 15' / second 2/3 mile, at
+6 minute mile.
 
 Distance running: Use 1/2 move. -1 CON effect each minute. CON 10, speed 6,
 rate is 12 minutes / mile for 50 minutes or 4.25 miles. CON 20, speed 9.
@@ -3036,22 +3039,22 @@ hex radius. Lasts 1 hour.
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
-30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is linear in
-size. Casting plus is -1 / factor of 2 in size. Mage can cast on multiple
-smaller stones. Stones must be detached to be used. A stone carved into a
-functional shape (human, monster, etc), can trade pluses for damage: +1
-attack, defense, move for 2X damage. Plus = -2. Fumble -> attacks caster.
+30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is
+linear in size. Casting plus is -1 / factor of 2 in size. Mage can cast on
+multiple smaller stones. Stones must be detached to be used. A stone carved
+into a functional shape (human, monster, etc), can trade pluses for damage:
++1 attack, defense, move for 2X damage. Plus = -2. Fumble -> attacks caster.
 Spell lasts for 1 day , cannot be dropped.
 
 ==== Elemental Magic - Earth And Fire - Body Of Stone
 
 Turns the caster or anyone they touch into animate stone. All damages are
-increased by 4X. Parries are increased by 4X. All combat values are *reduced*
-by 2. 50 points of defense is added. Divide all damage done to target by 2
-before applying to HP. In addition to the above, all heat and cold
-damage are reduced by an additional 2X. Target's movement (base) is reduced
-to 2. All falling damage is multiplied by 4X before applying to HP. Plus =
-0.
+increased by 4X. Parries are increased by 4X. All combat values are
+*reduced* by 2. 50 points of defense is added. Divide all damage done to
+target by 2 before applying to HP. In addition to the above, all heat and
+cold damage are reduced by an additional 2X. Target's movement (base) is
+reduced to 2. All falling damage is multiplied by 4X before applying to HP.
+Plus = 0.
 
 ==== Elemental Magic - Earth And Fire - Control Lava
 
@@ -3062,9 +3065,9 @@ will take 10d6/round. (armor only protects for 1 round). Plus = 0
 ==== Elemental Magic - Earth And Fire - Fireball
 
 Caster takes 1 round to form a fireball between their hands, then next round
-casts. Fireball moves 10 hexes / round up to a maximum of 50 hexes. It covers
-1 gigahex, and will travel until it hits something. Then it detonates doing
-10d6 in a gigahex. +=0.
+casts. Fireball moves 10 hexes / round up to a maximum of 50 hexes. It
+covers 1 gigahex, and will travel until it hits something. Then it detonates
+doing 10d6 in a gigahex. +=0.
 
 ==== Elemental Magic - Earth And Fire - Flesh To Stone
 
@@ -3107,10 +3110,10 @@ devastated area. Plus =-10
 
 == Magic System
 
-The mage's Plus with a spell is given on the character sheet. In order for a spell
-to work, you must equal a 3d6 roll + Plus, against a flat 3d6. Note that
-many spells have negative pluses. Increasing casting time increase the Plus
-for spells.
+The mage's Plus with a spell is given on the character sheet. In order for a
+spell to work, you must equal a 3d6 roll + Plus, against a flat 3d6. Note
+that many spells have negative pluses. Increasing casting time increase the
+Plus for spells.
 
 [NOTE]
 ====
@@ -3186,12 +3189,12 @@ fixed casting time spells.
 ==== Casting
 
 The casting mage applies Pow to the spell, and rolls at the spell Plus (with
-any time modifiers) against the universe. If the roll is equal or higher than
-the universe the spell is cast (but may be countered later). If the spell
-misses by exactly 1 plus, the spell is a <<fumble,Fumble>>. In a fumble something *bad*
-happens, at the GM's discretion. If the roll misses by more than one, the
-spell fails, and the Pow goes <<uncontrolled-pow,uncontrolled>> (see later
-chart).
+any time modifiers) against the universe. If the roll is equal or higher
+than the universe the spell is cast (but may be countered later). If the
+spell misses by exactly 1 plus, the spell is a <<fumble,Fumble>>. In a
+fumble something *bad* happens, at the GM's discretion. If the roll misses
+by more than one, the spell fails, and the Pow goes
+<<uncontrolled-pow,uncontrolled>> (see later chart).
 
 Multiple Spells: Magicians casting multiple spells in a single round take
 the usual -2 for each additional spell. There is no penalty for casting an
@@ -3339,10 +3342,10 @@ their MAG stat in Pow. Magician must be in contact (or have a special spell)
 to collect this Pow. Mass human sacrifices can be used to cast very large
 spells.
 
-*Lightning*: A bolt of lightning contains 200 Pow. The magician needs to have
-some mechanism (eg symbol) to store the Pow. Note that call lightning can be
-used to gather the Pow. The lightning must strike a specifically designed
-lightning rod.
+*Lightning*: A bolt of lightning contains 200 Pow. The magician needs to
+have some mechanism (eg symbol) to store the Pow. Note that call lightning
+can be used to gather the Pow. The lightning must strike a specifically
+designed lightning rod.
 
 *Volcano*: An erupting volcano releases 100 Pow / round.
 
@@ -3501,8 +3504,8 @@ Defending Mages then select which spells they wish to counter. In general
 defending mages must make these decisions independently without
 communication (there are only 2 seconds in a round). In the case of mages
 who have worked together for a long time, in can be assumed that some
-general set of rules has been agreed upon, and *brief* discussion is allowed.
-For non-communicating mages, assume a random selection of spells is
+general set of rules has been agreed upon, and *brief* discussion is
+allowed. For non-communicating mages, assume a random selection of spells is
 countered, and an even distribution of required Pow among counters.
 
 For a mage countering multiple spell: 2 spells are counted at -2, 3-4 at -3,
@@ -3822,7 +3825,8 @@ Skills>>, and <<skills-tech-undescribed,Technical Skills>>.
   * Magic - Smoke
   * Magic - St Elmos Fire
   * Magic - Tunnel Walk
-  * Magic Air - Wall (Metamagic) (could be a <<spells-joel,JoelWorld spell>>?)
+  * Magic Air - Wall (Metamagic) (could be a <<spells-joel,JoelWorld
+    spell>>?)
   * Magic Enchant - Sword (Metamagic) (could be a <<spells-joel,JoelWorld
     spell>>, or equivalent to Magic - Enchant Weapon?)
 ====
@@ -3836,7 +3840,8 @@ object to cry "Thief, Thief "at 120 dB (at 1 hex).
 
 Pow variable. Alarm lasts 1 month / Pow, alarm sounds for 1 min. / Pow.
 
-(Jon) Scroll cost 1 GP, availability 50%, sets a permanent alarm for a specific distance.
+(Jon) Scroll cost 1 GP, availability 50%, sets a permanent alarm for a
+specific distance.
 
 === Magic - Analyze Magic
 
@@ -3859,12 +3864,12 @@ Pow 5.
 === Magic - Animate Rock
 
 Causes a piece of rock to extrude active arms and weapons. The spell will
-affect one hex of rock for each 5 Pow. The area must be approximately circular.
-The rock may be used to attack. It will attack at +5, for a base damage of
-5. It can attack multiple opponents. If the rock hits, it may grab the
-target. The target must be able to do 50 points of damage to break out of
-the hold. Once animated, any area will remain animated for 1 minute. Casting
-tie roll will produce animated, but uncontrolled rock.
+affect one hex of rock for each 5 Pow. The area must be approximately
+circular. The rock may be used to attack. It will attack at +5, for a base
+damage of 5. It can attack multiple opponents. If the rock hits, it may grab
+the target. The target must be able to do 50 points of damage to break out
+of the hold. Once animated, any area will remain animated for 1 minute.
+Casting tie roll will produce animated, but uncontrolled rock.
 
 Pow 5 / hex.
 
@@ -4267,8 +4272,8 @@ Plus = 0. 1 round +0.
 
 [NOTE]
 ====
-(Jon) This notation is confusing. I think it means that it's always a fixed casting
-time of 1 round and always goes at +0. Is there a Pow requirement?
+(Jon) This notation is confusing. I think it means that it's always a fixed
+casting time of 1 round and always goes at +0. Is there a Pow requirement?
 ====
 
 === Magic - De-scent Oil
@@ -4433,7 +4438,8 @@ discretion.
 Stops energy (fire, lightning, etc) based attacks, in a fashion similar to
 physical protection. The barrier is DCV 0.
 
-Pow 1 / hex side covered + 1 / each 5 points of damage inflicted on the barrer.
+Pow 1 / hex side covered + 1 / each 5 points of damage inflicted on the
+barrer.
 
 (Jon) Scroll cost 1 GP, availability 20%.
 
@@ -4751,8 +4757,8 @@ Pow 1000, Pow 10 / round to continue.
 
 === Magic - Invisibility
 
-Causes magician to move toward the spirit world. The further you move, the less
-you can be seen, and the less you can see. As you move further, you can
+Causes magician to move toward the spirit world. The further you move, the
+less you can be seen, and the less you can see. As you move further, you can
 interact with spirits. Failure leaves you trapped on the other side.
 
 Pow 10, Pow 10 / minute to continue.
@@ -5203,18 +5209,18 @@ Pow 1 / lb.
 === Magic - Sanctuary (Metamagic)
 
 The caster creates an area of safety. Any attempt to enter the area must be
-made with a Navigation - Land roll at -10. The sanctuary spell is not noticeable
-unless someone attempts to get to a specific location. The area of effect is
-100 hex radius for 1000 Pow (minimum), radius linear in Pow. Note that the
-sanctuary spell does not affect anyone inside the area of effect, until they
-leave. If the casting magician wishes to re-enter, they must cast a 1 Pow
-Sanctuary spell at +5 to find their way back in. A fumble destroys the
-entire sanctuary. The area will last until dispelled by the caster.
-Sanctuary may only be used outdoors. It is difficult to lead large groups
-into a sanctuary. If trying to break in, the navigation roll is made at -1
-for each power of 2 of people above 12. The same applies to the Sanctuary
-roll required to re-enter the sanctuary. Note that a large Sanctuary can be
-cast in segments. If it is broken, the entire spell breaks.
+made with a Navigation - Land roll at -10. The sanctuary spell is not
+noticeable unless someone attempts to get to a specific location. The area
+of effect is 100 hex radius for 1000 Pow (minimum), radius linear in Pow.
+Note that the sanctuary spell does not affect anyone inside the area of
+effect, until they leave. If the casting magician wishes to re-enter, they
+must cast a 1 Pow Sanctuary spell at +5 to find their way back in. A fumble
+destroys the entire sanctuary. The area will last until dispelled by the
+caster. Sanctuary may only be used outdoors. It is difficult to lead large
+groups into a sanctuary. If trying to break in, the navigation roll is made
+at -1 for each power of 2 of people above 12. The same applies to the
+Sanctuary roll required to re-enter the sanctuary. Note that a large
+Sanctuary can be cast in segments. If it is broken, the entire spell breaks.
 
 Pow 1000.
 
@@ -5231,7 +5237,8 @@ direction the spell looks. The target is not aware of the scrying.
 
 Pow 50.
 
-(Jon - ??? permanent) Scroll cannot be created. If it could, the Scrying effect would be permanent.
+(Jon - ??? permanent) Scroll cannot be created. If it could, the Scrying
+effect would be permanent.
 
 === Magic - Shadow Hide
 
@@ -5380,8 +5387,8 @@ Fixed casting time 1 hour, +8.
 Creates a wall (actually a dome) that spirits cannot cross. A line must be
 enscribed around the area to be protected,
 
-Fixed casting time 1 round / hex, +6. Each Pow in the wall can stop 10 spirits
-from crossing the wall.
+Fixed casting time 1 round / hex, +6. Each Pow in the wall can stop 10
+spirits from crossing the wall.
 
 === Magic - Spring
 
@@ -5407,11 +5414,11 @@ Pow 100 / target.
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
-30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is linear in
-size. Casting plus is -1 / factor of 2 in size. Mage can cast on multiple
-smaller stones. Stones must be detached to be used. A stone carved into a
-functional shape (human, monster, etc), can trade pluses for damage: +1
-attack, defense, move for 2X damage. Plus = -2. Fumble -> golem attacks
+30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is
+linear in size. Casting plus is -1 / factor of 2 in size. Mage can cast on
+multiple smaller stones. Stones must be detached to be used. A stone carved
+into a functional shape (human, monster, etc), can trade pluses for damage:
++1 attack, defense, move for 2X damage. Plus = -2. Fumble -> golem attacks
 caster.
 
 Pow cost linear in size of golem. Duration 1 day, cannot be dropped.
@@ -5456,7 +5463,8 @@ Pow 1000.
 
 Fixed casting time typically 1 week to prepare (varies), +8.
 
-(Jon) Scroll cost 10 GP, availability 1%. A scroll summons a single specific demon.
+(Jon) Scroll cost 10 GP, availability 1%. A scroll summons a single specific
+demon.
 
 === Magic - Sun
 
@@ -5648,8 +5656,8 @@ Fixed casting time 3 rounds, +3.
 
 Creates a series of crystal like spikes to grow out of the ground. Spikes
 are 10' tall. Requires a flat Climbing or Acrobatics roll to cross. If
-attacked, DCV -10, Defense 600, HP 5000, 1/4 damage from edged weapons. Blocks
-vision.
+attacked, DCV -10, Defense 600, HP 5000, 1/4 damage from edged weapons.
+Blocks vision.
 
 Fixed casting time 10 rounds, +5, 1 Pow / hex / 10' spikes.
 
@@ -5722,7 +5730,8 @@ day.
 make a Psi - General roll. If any fail, the attack fails for all. Pluses are
 added as for normal skills.
 
-*Multiple Psi Actions*: Are performed at -2 for each additional ability used.
+*Multiple Psi Actions*: Are performed at -2 for each additional ability
+used.
 
 
 [[skills-psi-undescribed]]
@@ -6189,14 +6198,14 @@ fails go to the chaos effects table.
 Normal world rules apply here (except for the faster magic regeneration).
 Even permanent clear areas can be destroyed by attacks from chaos creatures.
 
-*Chaos Wave* - These occur in chaos areas. They are a more dense form of chaos
-with stronger effects. A chaos wave may be generated by expending one Chaon
-for each hex of range. The wave expands at 10 hexes / round from the point
-of origin. When the wave passes, roll against the universe on the chaos
-effects table. Physical objects affected at +0 / 10 when it passes.
+*Chaos Wave* - These occur in chaos areas. They are a more dense form of
+chaos with stronger effects. A chaos wave may be generated by expending one
+Chaon for each hex of range. The wave expands at 10 hexes / round from the
+point of origin. When the wave passes, roll against the universe on the
+chaos effects table. Physical objects affected at +0 / 10 when it passes.
 
-*Chaos Storm* - A swirling area of chaos about 10 miles on a side. Every hour
-(but at least once) everyone in the area must roll on the chaos effects
+*Chaos Storm* - A swirling area of chaos about 10 miles on a side. Every
+hour (but at least once) everyone in the area must roll on the chaos effects
 table at -3. Chaos storms can enter clear spots and travel for up for about
 a day at 1 hex / round. Each hour a chaos storm has a 1% chance of spawning
 a chaos tornado. Each hour there is a 10% chance of d6 level d6 chaos
@@ -6593,7 +6602,6 @@ Magical training:
   * Magic school equipment - minimum 100 GP.
   * Magic research lab - about 1000 GP, including at least 300 books.
 
-
 == Miscellaneous Rules
 
 === Encumbrance
@@ -6752,16 +6760,17 @@ rounds. Ignores parry
 
 ==== Siege Engines
 
-Small catapult - gravel, Range 100 hexes, Damage 6d6, area 1 megahex, accuracy
-10%, attack plus 3.
+Small catapult - gravel, Range 100 hexes, Damage 6d6, area 1 megahex,
+accuracy 10%, attack plus 3.
 
-Small catapult - stone, Range 150 hexes, Damage 100 base, accuracy 5%, attack
-plus 0.
+Small catapult - stone, Range 150 hexes, Damage 100 base, accuracy 5%,
+attack plus 0.
 
 Big catapult - gravel, Range 150 hexes, Damage 6d6, area 1 gigahex,
 accuracy 10%, attack plus 3
 
-Big catapult - stone, Range 250, Damage 250 base, accuracy 3%, attack plus 0.
+Big catapult - stone, Range 250, Damage 250 base, accuracy 3%, attack plus
+0.
 
 Ballista - steel bolt Range 300, Damage 200 base, attacks target like a -2
 weapon.
@@ -6775,8 +6784,8 @@ Climbing ropes - base +3 climbing roll for 1' / round.
 A body is 1' high by 1 hex wide. 5 bodies are required to raise a hex by 1
 foot.
 
-Battering Ram: Does 10 points base for each wielder. Attacks at +0. Maximum of
-20 wielders. 1 attack / 2 rounds.
+Battering Ram: Does 10 points base for each wielder. Attacks at +0. Maximum
+of 20 wielders. 1 attack / 2 rounds.
 
 
 === Sailing Ship Rules
@@ -6821,8 +6830,8 @@ Typical ship:
   * Rigging points = 18
   * Cannon = 10 Port, 10 Starboard
   * Calm wind movement: 0 points available
-  * Light wind movement: 2 points available: cost = Inf, 2, 1, 1, turn cost =
-    1
+  * Light wind movement: 2 points available: cost = Inf, 2, 1, 1, turn cost
+    = 1
   * Medium wind movement: 6 points available: cost = Inf, 3, 1, 1, turn cost
     = 1
   * Strong wind movement: 12 points available: cost = Inf, 6, 3, 2 turn cost
@@ -6893,10 +6902,10 @@ move.
 [NOTE]
 ====
 (Jon) There are ad-hoc starship combat rules that have been used in several
-campaigns and should be added to the system. The Universe is two-dimensional,
-movement is in hexes on planetary / astronomical scale defined by campaign,
-ships have multiple "Units" (contiguous hexes) such as Command, Engines,
-Weapons (short-range and long-), Sensors, Shields, etc.
+campaigns and should be added to the system. The Universe is
+two-dimensional, movement is in hexes on planetary / astronomical scale
+defined by campaign, ships have multiple "Units" (contiguous hexes) such as
+Command, Engines, Weapons (short-range and long-), Sensors, Shields, etc.
 
 Phases are something like (there are better descriptions written up of all
 this, just not in readily-accessible documents to this editor):
@@ -7143,9 +7152,10 @@ Pow 5 / unit.
 
 These rules only apply in a limited set of games.
 
-Angels (with 500 point souls) gain the following abilities: Gain 10X HP, 5X all
-damages and defenses (even weapons - its magic). 5X Pow, 5X Pow regeneration rate.
-Gain +20 defense. Gain +5 on all psi abilities. 20 points / round regeneration.
+Angels (with 500 point souls) gain the following abilities: Gain 10X HP, 5X
+all damages and defenses (even weapons - its magic). 5X Pow, 5X Pow
+regeneration rate. Gain +20 defense. Gain +5 on all psi abilities. 20 points
+/ round regeneration.
 
 Characters with angelic / demonic powers have a certain number of power
 points (independent of normal magical Pow) which can be distributed among
@@ -7178,8 +7188,8 @@ is 1 Pow / day moved. Abilities:
     Any size. Gain appropriate abilities.
   * Resistance to element: Cost 50 Pow. Reduce damage by factor of 10 from
     any elemental attack. Earth, Air, fire, water.
-  * Invulnerability to Element: Cost 100 Pow, Completely immune to any damage
-    from that element.
+  * Invulnerability to Element: Cost 100 Pow, Completely immune to any
+    damage from that element.
 
 
 === Mass Combat Rules (Rarely Used)
