@@ -294,7 +294,7 @@ shift pluses.
 In the first round the grass may have surprise or combat surprise. (Grass is
 naturally stealthy.)
 
-Minimum EP = 500, Difficulty -7. 2 Pow / hex. Lasts one minute.
+Pow 2 / hex, duration one minute.
 
 ==== Army of Stone (Earth)
 
@@ -317,9 +317,9 @@ years.
 Any damage done to the familiar also damages the Mage, up to a max of
 creature's HP plus Dead At.
 
-Minimum EP = 500, Difficulty = -6. Casting pluses or minuses (at GM
-discretion) for how the animal already feels about the caster. A spoiled
-house pet is much easier, a recently captured wild animal is much tougher.
+Casting pluses or minuses (at GM discretion) for how the animal already
+feels about the caster. A spoiled house pet is much easier, a recently
+captured wild animal is much tougher.
 
 ==== Bonfire (Fire)
 
@@ -329,11 +329,11 @@ provides an endless source of burning torches and coals.
 ==== Earth Vigor
 
 If an individual has Earth Vigor cast on them, they can fight to 2X normal
-Dead At, without any minuses. In addition, after someone's hit points drop
+Dead At, without any minuses. In addition, after someone's HP drop
 below zero, their blood coagulates into a stone like substance and adds 10
 extra armor points.
 
-Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+Pow 1 / minute to maintain.
 
 ==== Enduring Flame (Fire)
 
@@ -348,7 +348,7 @@ If an individual has Fire Vigor cast on them, they can fight to 2X normal
 offense for each minus they would normally be at. Additionally they do flame
 damage of a point for each minus they would normally be at.
 
-Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+Pow 10, Pow 1 / minute to maintain.
 
 ==== Fissure (Earth)
 
@@ -393,21 +393,29 @@ Bottles of cold tea are ineffectual, as is (shudder) chewing the leaves.
 This spell causes a beam of water with all of the effects of a high powered
 hose to emit from the caster's hand. Damage is 1 base (no armor or parry).
 After casting, the spell can be maintained at 20 Pow / round. Range is 20
-hexes. EP 1000, Pow = 100. 10 Pow / round to maintain.
+hexes.
+
+Pow 100, Pow 10 / round to maintain.
+
+[NOTE]
+====
+(Jon) So is it 10 or 20 Pow / minute to maintain?
+====
 
 ==== Ice Castle (Ice)
 
 Creates a castle of ice. 100 Pow yields a house, 1000 creates a small castle
 suitable for 20 men, 10000 creates an epic castle. The spell may be
 maintained at original cost above freezing or at 1% of cost below freezing
-each day. EP 2000
+each day.
 
 ==== Ice Floor (Ice)
 
-Turns one hex / Pow of a smooth surface to ice. Moving across the ice
-without proper footwear is slowed to 1 hex / round and requires a flat
-Acrobatics roll. The spell may be maintained at original cost above freezing
-or at 1% of cost below freezing each minute. EP 500
+Turns a smooth surface to ice. Moving across the ice without proper footwear
+is slowed to 1 hex / round and requires a flat Acrobatics roll.
+
+Pow 1 / hex affected, duration 1 minute. Pow 1 / hex / minute
+to continue above freezing, or 0.01 / hex / minute below freezing.
 
 ==== Imbue (Alchemy)
 
@@ -443,7 +451,7 @@ the Monks of the inescapable mountains.
 
 Causes an object to acquire a specific smell. Requires the actual scent the
 person wishes to imbue. The spell can be made permanent with the sacrifice
-of a gem, one carat / hex^3^ of the object. Otherwise lasts one hour. EP 500
+of a gem, one carat / hex^3^ of the object. Otherwise lasts one hour.
 
 ==== Killing Field (Death)
 
@@ -464,7 +472,7 @@ If an individual has Life Vigor cast on them, they can fight to 2X normal
 In addition, in each round in which they are wounded they receive automatic
 d6 recovery in the magic phase without having to be still for 3 rounds.
 
-Minimum EP = 250. 10 Pow. Can continue at 1 Pow / minute.
+Pow 10, Pow 1 / minute to maintain.
 
 ==== Migration (Life)
 
@@ -487,7 +495,7 @@ The range is Pow in hexes, so 1K would get you every creature in a mile.
 Mob causes small local animals, such as mice, rats, or small birds, etc, to
 appear and "mob" a target victim. They will do no damage, but will severely
 distract the victim, cutting their engage and move in half. Mages and
-archers will be put at -2. Duration 6 rounds.
+archers will be put at -2.
 
 The victim can disperse the mob either:
 
@@ -495,9 +503,10 @@ The victim can disperse the mob either:
   * Hitting the victim's own hex with an area-of-effect weapon (flame
     breath, gas, etc.).
 
-Indirect Single Target against low DCV. Minimum EP = 1000, Difficulty -5.
-Cost depends on target's size. 10 Pow for human size, 20 for a troll, 100
-for a dragon.
+Indirect Single Target against low DCV.
+
+Pow depends on target's size - 10 Pow for human size, 20 for a troll, 100
+for a dragon. Duration 6 rounds.
 
 ==== Oasis (Water)
 
@@ -524,37 +533,40 @@ Examples:
 
 Turns one type of rock into another. One foot^3 / Pow can be transformed. A
 fumble destroys the rock entirely. A roll at MG+ must be made at -5 to make
-the rock suitable for artwork. EP 500
+the rock suitable for artwork.
 
 ==== Post Pile (Earth)
 
 Creates an area of stone post piles over an area over the next hour.
-Disrupting buildings and providing a source of stone for spells. 5 Pow /
-hex.
+Disrupting buildings and providing a source of stone for spells.
+
+Pow 5 / hex.
 
 ==== Quicksand (Life)
-
-10 Pow / hex / minute maintainable.
 
 Creates an area of quicksand, flat Acrobatics roll each hex to cross, limits
 movement to 1 hex / round.
 
 Failed roll results in immobility until the spell is cancelled.
 
+Pow 10 / hex / minute to maintain.
+
 ==== Sanctuary (Life)
 
 (A JoelWorld variant on the traditional Sanctuary spell.)
 
-The effect is permanent with a cost of 500 Pow and a one carat gem / mi.^2^.
-The caster can freely enter the circle, but not other sapients, unless they
-are in some way aligned with the purpose of the sanctuary.
+The effect is permanent. The caster can freely enter the circle, but not
+other sapients, unless they are in some way aligned with the purpose of the
+sanctuary.
+
+Pow 500 / mi.^2^. Also requires a 1 carat gem / mi.^2^.
 
 ==== Tongues (Life)
 
 This spell allows the caster to temporarily understand and speak the native
 language of a target sapient.
 
-Cost is 20 Pow, duration is one hour, but may be extended at 10 Pow / hour.
+Pow 20, duration one hour. Pow 10 / hour to maintain.
 
 ==== Transfer (Enchantment)
 

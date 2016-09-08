@@ -317,7 +317,7 @@ investments.
 | 7-8   | Generic worker, guard
 | 9-11  | Craftsman, farmer, poor merchant, etc. Soldier
 | 12-14 | Wealthy craftsman or merchant, Low ranking officer
-| 15    | Noble family, (second son, etc)., Rich merchant. High-ranking officer.
+| 15    | Noble family, (second son, etc.), Rich merchant. High-ranking officer.
 | 16    | Noble, - Baron, etc. Commander, Ship captain
 | 17    | Noble - Duke, General, Fabulously wealthy merchant
 | 18    | Prince.
@@ -427,11 +427,15 @@ is the slowest Half Move in the group.
 When in combat time (when the <<phases,Order of Actions>> is being
 followed), you may move the following distances:
 
-  * Zero hexes if you are Engaged with an opponent and cannot Disengage.
-  * One hex if you are Engaged and win a STR roll to Push Back.
-  * One hex if you are moving in Stealth.
-  * Your Half Move, without combat penalties.
-  * Up to your Full Move, with potential penalties for defense and bonuses
+  * Zero hexes if Engaged with an opponent and cannot Disengage.
+  * One hex if Engaged and you win a STR roll to Push Back.
+  * One hex if moving in Stealth.
+  * One hex if carrying or dragging something very heavy, such as another
+    PC.
+  * Two hexes (and no other combat actions) if holding a
+    <<reserved-actions,Reserved Action>>.
+  * Up to your Half Move, without combat penalties.
+  * Up to your Full Move, with penalties for defense and potential bonuses
     for attack and Engage rolls.
 
 Movement interaction with Melee effects is enumerated in more detail in the
@@ -484,15 +488,11 @@ The following examples are based on Roman tech levels.
 [[combat]]
 == Combat
 
+[[reserved-actions]]
 *Reserved Actions:* An action that is ready to be performed may be
 "reserved" until a later round. A character may not take any other action
 (anything requiring a roll, or a move above 2 hexes / round) while holding a
 reserved action.
-
-*Simultaneity:* Combat is assumed to be simultaneous unless otherwise noted
-(see dropping pluses to attack first). If there is a simultaneous kill, roll
-a d6. On a 1 or 2, Combatant #1 is killed and #2 is unhurt. On a 3 or 4,
-both are killed. On a 5 or 6, Combatant #2 is killed and #1 is unhurt.
 
 === Combat Skills and Weapons
 
@@ -673,14 +673,15 @@ occur before hand to hand combat.
 
 [NOTE]
 ====
-(Jon) An undocumented and frequently used mechanic in melee:
+(Jon) Moved from the beginning of the section and expanded a bit.
 
-*Simultaneous Death*:If fighters attack simultaneously and both would have
-died, roll d6 to determine the outcome:
+*Simultaneous Death:* Combat is assumed to be simultaneous unless otherwise
+noted (see dropping pluses to attack first). If fighters attack
+simultaneously and both would have died, roll d6 to determine the outcome:
 
-  * 1 or 2 - Fighter A hit first, fighter B is dead and A took no damage.
-  * 3 or 4 - Fighter A and B hit simultaneously, both are dead.
-  * 5 or 6 - Fighter B hit first, fighter A is dead and B took no damage.
+  * 1 or 2 - Combatant #1 hit first, combatant #2 is dead and #1 is unhurt.
+  * 3 or 4 - Combatant #1 and #2 hit simultaneously, both are dead.
+  * 5 or 6 - Combatant #2 hit first, combatant #1 is dead and #2 is unhurt.
 ====
 
 ==== Multiple Opponents
@@ -1690,7 +1691,7 @@ climbs, 2000'/day for day climbs. Climb rolls are based on the distance to
 be climbed. Rolls below are for 10' climbs. All climb rolls are made for a
 minimum of 10'. Climbs are at -1 for each factor of 10 in climbing distance
 (up to 1 day). Climbs can be made faster (up to 1 hex / round) at -1 for
-each additional foot / round. Roll each round.
+each additional ft. / round. Roll each round.
 
 .Climbing Modifiers
 [options="header"]
@@ -2053,7 +2054,7 @@ of the force disabled. Rolls are required if the military leader goes down.
 | -10 or worse                             | Troops mutiny, betray their leader, etc
 | -5 to -9                                 | Troops surrender or retreat at the first opportunity
 | 0 to -4                                  | Troops will fight but at most at +0 offense
-| +1 to +4                                 | Troops follow all combat orders except full offensive
+| +1 to +4                                 | Troops follow all combat orders except fully offensive
 | +5 to +7                                 | Troops follow all combat orders
 | +8 to +10                                | No additional moral rolls that combat
 | +11 to +15 rolled in a combat situation  | Troops perform any heroic deeds for the commander
@@ -2334,11 +2335,11 @@ frightened horse. See combat - riding above for more details.
 === Running
 
 This skill allows you to move faster in combat, and also allows you to move
-larger distances. For a dash, maximum move is full movement. (so movement 9
-is 22.5 ft. / sec. Make a CON roll at Plus = (8 CON - 10 / 3). If you fail,
+larger distances. For a dash, maximum move is Full Move (so movement 9
+is 22.5 ft. / second Make a CON roll at Plus = (8 CON - 10 / 3). If you fail,
 take -1 on combat stats and CON Plus, and roll again each CON # rounds.
 Before exhaustion, with CON 20, speed 9 (an excellent runner) could go 1.7
-miles at 3.9 minutes / mile. CON 10, speed 6 gives 15' / sec. 2/3 mile, at 6
+miles at 3.9 minutes / mile. CON 10, speed 6 gives 15' / second 2/3 mile, at 6
 minute mile.
 
 Distance running: Use 1/2 move. -1 CON effect each minute. CON 10, speed 6,
@@ -2466,7 +2467,7 @@ specific instances are at the GM's discretion. Some examples:
 [NOTE]
 ====
 (Graham) Tungsten Mace: 1.5X damage. Requires STR * SIZ >= 324 to use.
-Difficulty 4, time 1 month
+Difficulty  4, time 1 month
 ====
 
 === Spelunking
@@ -2585,14 +2586,15 @@ to identify a potion or make a judgement call about alchemy.
 The spell creates a strong acid (like sulfuric) which will eat through most
 base metals. It will do some damage (d6 / bottle) if thrown, but that is not
 its primary intended use. Minimum creation time is 10 minutes. Can be made
-in almost any quantity. Requires some common minerals. The acid will last
-indefinitely. Difficulty 8. EP 250. Components 1 SP / bottle.
+in almost any quantity. The acid will last indefinitely.
+
+Components are common minerals, 1 SP / bottle.
 
 === Alchemy - Alpine Snuff
 
-Cocaine. Each dose is .01 gram. Requires 10 minutes to make. Requires parts
-of some rare plants. EP 1000 Difficulty 12. Components 1 SP / dose (if
-available).
+Cocaine. Each dose is .01 gram. Requires 10 minutes to make.
+
+Components are parts of rare plants, 1 SP / dose.
 
 [NOTE]
 ====
@@ -2615,14 +2617,17 @@ attempt to engage in hand to hand combat. If fighting multiple opponents,
 subject may tactically disengage from all if the GM believes this has a
 reasonable chance of resulting in combat with at least one opponent. Subject
 must make a PSI roll to avoid being taunted out of a defensive position by
-attackers. Difficulty -12, 200 EP. Components: Blood from a lion, Wood from
-an oak, Iron powder, Aged mead.
+attackers.
+
+Components are blood from a lion, wood from an oak,
+iron powder, and aged mead.
 
 === Alchemy - Black Face
 
 A dark paint that can be used to cover the body and make you more difficult
 to see in the dark. +5 visual stealth at night but doesn't wash off easily.
-Difficulty 8, 250 EP. Coal and oil.
+
+Components are coal and oil.
 
 === Alchemy - Cheez Whiz Bomb
 
@@ -2637,22 +2642,25 @@ will attempt to eat it in preference to anything else in the area (including
 the PCs). This is an effective way to distract any creature that attacks
 purely out of hunger. It will typically take a minute for a creature to eat
 all of the Cheez Whiz in a hex. The nutritional value of Cheez Whiz is
-similar to that of a similar amount of cheese. Difficulty -7, EP 250,
-components: Yellow dye, sugar, corn starch, salt, vegetable oil. (no
-cheese).
+similar to that of a similar amount of cheese.
+
+Componennts are yellow dye, sugar, corn starch, salt,
+and vegetable oil (no cheese).
 
 === Alchemy - Fire Shield
 
 Gives 50% damage resistance to all fire attacks, and 5 points / round
-defense on any damage which gets through the 50%. Reduces all dexterity
-based skills by 3. Reduces movement by 2. Reduces senses skills by 2. Looks
-sort of like foamy dough. Difficulty 11, 200 EP. Components: asbestos, sand,
-mineral oil, ash. Note: fumbled potion catches fire, causes additional 5d6
-damage (no armor).
+defense on any damage which gets through the 50%. Reduces all DEX based
+skills by 3. Reduces movement by 2. Reduces SEN based skills by 2. Looks
+sort of like foamy dough. A fumbled potion catches fire, causing additional
+5d6 damage (no armor).
+
+Components are asbestos, sand, mineral oil, and ash.
 
 === Alchemy - Fireworks
 
-Provides a spectacular but harmless fireworks display. 50 EP, Difficulty 6.
+Provides a spectacular but harmless fireworks display.
+
 Components: Sulfur, saltpeter, metal powders.
 
 === Alchemy - Flash Powder
@@ -2661,8 +2669,10 @@ Note: this is one of the most easily abused of the alchemical mixes. It has
 been converted from Magic - Flash Powder. Flash powder is thrown using the
 Combat - Thrown Weapon Plus to hit the target (normal a hex, sometimes an
 opponent). It takes effect at the end of the special actions phase of the
-round in which it is thrown. Components: Charcoal, sulfur, alum, silver,
-mercury. Component cost is 10 SP. Difficulty 8, EP 100.
+round in which it is thrown.
+
+Components are charcoal, sulfur, alum, silver,
+and mercury, 10 SP / bottle.
 
 Flash Powder has the following effects:
 
@@ -2690,56 +2700,67 @@ Similar to normal Flash powder, but also has the effect of sunlight on the
 undead. Damage to undead is 3d6 * 100 points explosive (see the
 <<explosion-damage,Explosion Damage>> table:
 full damage in center hex, 1/10 damage at 10 hexes, 1 / r^2^
-beyond that. ) Uses 1 oz. mithril for each unit produced. Difficulty 10, EP
-500
+beyond that. )
+
+Components 1 oz. mithril / bottle, cost 100 GP.
 
 === Alchemy - French Roast
 
 Gives a +1 Alertness plus for 4 hours, but a -1 on all DEX skills.
-Difficulty 10, EP 50. Components: Beans from exotic tropical (or hot house)
-plants.
+
+Components are beans from exotic tropical (or hot
+house) plants.
 
 === Alchemy - Fuel Air Bomb
 
 For high level / silly campaigns only. The alchemist prepares a bottle of
 liquid which fills a room with mist. When ignited, the mixture explodes.
-Each unit fills a cubic hex with explosive gas, and will do 10d6 damage in a
+Each unit fills a hex^3^ with explosive gas, and will do 10d6 damage in a
 5 hex radius, then dropping to 5d6 out to 10 hexes, then 2d6 to 15 hexes.
 Increasing the quantity of explosive will increase the radius of damage as
 the square root of the quantity. Unlike nitro, fuel air explosives do not
 detonate accidently. Use: Potion must be activated, then placed on the
 ground. 1 to 5 rounds later it can be detonated by any source of ignition in
-the central hex. Components: Petroleum, sulfur. Can be manufactured in
-quantity. Difficulty 8, EP 500.
+the central hex. Can be manufactured in quantity.
+
+Components are petroleum and sulfur.
 
 === Alchemy - Glue
 
 A liquid with the properties of crazy glue. Covers 1 hex. Anyone remaining
 in the area of effect for one round is stuck. Strength roll at -3 required
-to break free. Requires plant materials. Difficulty = 9, EP 100
+to break free.
+
+Components are plant materials.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Alchemy - Hard Water
 
 A powder which when added to water causes the water to solidify into a high
 melting point ice. The resulting material has a melting point of about 100
-degrees C, and mechanical properties like soft rock. Components: Sand, iron
-ore, chalk, trace platinum (1 oz. / 100 m^3^). Mixture must be
-frozen (at normal water freezing temperature), then will not melt until
-boiling temperature. 1 "unit - pint bottle" will convert 1 m^3^.
-Difficulty 7. EP 500
+degrees C, and mechanical properties like soft rock. Mixture must be frozen
+(at normal water freezing temperature), then will not melt until boiling
+temperature. 1 "unit - pint bottle" will convert 1 m^3^.
+
+Components are sand, iron ore, chalk, and trace
+platinum (1 oz. / 100 m^3^ converted).
 
 === Alchemy - Heat Balm
 
 Gives a +3 to survival rolls in hot areas. Each application lasts 8 hours.
 Can resist 10 points of fire damage one time only per application.
-Difficulty 10, 100 EP. Components: tropical oils, redwood bark.
+
+Components are tropical oils and redwood bark.
 
 === Alchemy - Love Potion
 
 Gives a plus on your seduction roll for 1 evening. The plus is equal to the
 amount by which the alchemist made the required roll. Side effect: reduces
-your resistance to seduction by 5. Difficulty 10, EP 50. Components: Wine,
-Rose Petals, Gold Dust(10 SP), Diamond dust(10 SP).
+your resistance to seduction by 5.
+
+Components are wine, rose petals, gold dust (10 SP),
+and diamond dust (10 SP).
 
 === Alchemy - Migo-be-gone
 
@@ -2747,21 +2768,24 @@ Anti-migo spray. Creates a cloud of ~7 hex radius (3d) of mist. Cloud lasts
 30 rounds in calm air, 20 rounds in a light breeze (<5 hex / sec), 10 rounds
 in a strong wind. (5-10 hex / sec). cloud center moves with the wind. Any
 migo in, or passing through the cloud takes d100 damage in the special
-actions phase. Any human in the cloud takes 1 point / round. Components are
-sulfur, salt, pine oil. Difficulty 12, EP 250.
+actions phase. Any human in the cloud takes 1 point / round.
+
+Components sulfur, salt, and pine oil.
 
 === Alchemy - Molotov Cocktail
 
-The old D+D device returns. When thrown, does 3d6/round for 10 rounds in a 3
-hex radius. Ingredients: Petroleum. Difficulty 6, EP 100
+The old D+D device returns. When thrown, does 3d6 / round for 10 rounds in a
+3 hex radius.
+
+Components are petroleum.
 
 === Alchemy - Nitroglycerine
 
 This is a powerful and very unstable explosive. Does 20d6 explosive damage
-(see explosion rules). Difficulty 8. EP 250 Fumble is an explosion at point
-blank range (very nasty). Components include saltpeter, sulfur, Dried wood.
-Component cost is 1 SP / unit. Each container of nitroglycerin has the
-following chance of detonating:
+(see explosion rules). Fumble is an explosion at point blank range (very
+nasty).
+
+Each container of nitroglycerin has the following chance of detonating.
 
 .Accidental Explosions
 [options="header"]
@@ -2771,6 +2795,8 @@ following chance of detonating:
 | For each point of damage through armor    | 1%
 | Another unit has detonated on your person | 50%
 |====
+
+Components are saltpeter, sulfur, and dried wood (1 SP / bottle).
 
 [NOTE]
 ====
@@ -2784,26 +2810,36 @@ gas that flows mostly downhill, in a layer about 10' thick. Gas will spread
 at 5 hexes / round from source to maximum size, then flow downhill at 2
 hexes / round. One bottle affects a 20 hex radius. Gas will persist for
 several hours. Damage is 3d6/round if target is breathing, d6 / round if
-holding breath (-1 points each round in combat). Components: Sulfur, soda
-ash, limestone, tar, mercury, cost 1 GP / unit. Difficulty 11 EP 1000.
+holding breath (-1 points each round in combat).
+
+Components are sulfur, soda ash, limestone, tar, and
+mercury (1 GP / bottle).
 
 === Alchemy - Relighting Fire
 
 Creates a wax that can be used as a candle, or burned as a lump. Once
-ignited, will re-light unless doused in water for more than 10 minutes.
-Components: Sulfur, wax, coal dust, silver dust (1 SP / unit), diamond dust
-10 SP / unit. 1 unit is ~1 short candle worth. Difficulty 8, EP 100.
+ignited, will re-light unless doused in water for more than 10 minutes. 1
+bottle is enough for 1 short candle.
+
+Components are sulfur, wax, coal dust, silver dust (1
+SP / bottle), annd diamond dust (10 SP / bottle).
 
 === Alchemy - Scent Duplication
 
 Allows the alchemist to duplicate the scent of an existing object. Alchemist
 must have a (very small is OK) sample of the material to be duplicated.
-Useful for slipping past guard dogs, etc. Difficulty 8, EP = 250.
+Useful for slipping past guard dogs, etc.
+
+
 
 === Alchemy - Sleep Potion
 
 Causes the drinker to fall into a deep sleep from which they cannot be
-awakened for several hours. Ingredients - herbs. Difficulty 8., EP 250
+awakened for several hours.
+
+Components are herbs.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Alchemy - Sleep Vapor
 
@@ -2812,8 +2848,10 @@ awakened normally for a deep sleeper. Targets must roll senses (use combined
 senses roll) at-5 to detect the vapors. Then, each individual must make a
 con roll at -5 or fall asleep. If any target does not sleep, they may
 notice, and wake others (Alertness roll at typically +0). Area of effect is
-20 hex radius / bottle (liter). Note: will drift in wind. Components:
-plant materials, limestone, spring water. EP 500, Difficulty 10.
+20 hex radius / bottle (liter). Note: will drift in wind.
+
+Components are plant materials, limestone, and spring
+water.
 
 === Alchemy - Slippery Liquid
 
@@ -2821,42 +2859,47 @@ A liquid which reduces friction to almost nothing. Can be used for various
 mechanisms, or in combat to make opponents slip (acrobatics roll if passing
 through the area or fall (-4 defense, no attack next round). Each unit
 (about a pint) will cover 1 megahex of ground. Only works on non-porous
-surfaces (stone, wood, metal, etc). Will not work on dirt. EP 100 Difficulty
-9, Components are various plant and animal matter.
+surfaces (stone, wood, metal, etc). Will not work on dirt.
+
+Components are various plant and animal matter.
 
 === Alchemy - Smelling Salts
 
 Used to wake an unconscious person. Will allow them to operate at no worse
 than -5 (relative to normal) on all skills. Effect lasts for 10 minutes.
-Cannot be used a second time. Recipient takes 1 point of damage. 100 EP
-Difficulty 8.
+Cannot be used a second time. Recipient takes 1 point of damage.
+
+
 
 === Alchemy - Smoke Bomb
 
 Limits visibility to 2 hexes inside area of effect. This has effects on
-stealth, and overall confusion. Area of effect 5 hex radius. Difficulty 8,
-EP 100.
+stealth, and overall confusion. Area of effect 5 hex radius.
+
+
 
 === Alchemy - Stink Bomb
 
 Will cause people to want to leave the area of effect (but will not force
-them to leave). Area 10 hex radius. Components: sulfur, Stink weed or skunk
-oil. Difficulty 8, EP 50. Fumble obvious.
+them to leave). Area 10 hex radius. Fumble effects are obvious.
+
+Components are sulfur, stink weed or skunk oil.
 
 === Alchemy - Sunlight Lamp
 
 Creates a mithril burner that produces the equivalent of sunlight. Burns 1
 oz. of Mithril / hour to produce the effect of sunlight in a 3 hex radius.
-EP 500, Difficulty 10.
+
+
 
 === Alchemy - Volcano Survival
 
 Allows you to operate normally in volcanic terrain and tunnels. Provides
 immunity to sulfurous gasses, air temperatures up to boiling, and brief
 contact with boiling water (treat as 130 degree F water). Does not protect
-against fire, or non-volcanic gasses. EP 250, Difficulty 7. Components:
-sulfur, Redwood bark, spring water. Potion lasts 1 day.
+against fire, or non-volcanic gasses. Potion lasts 1 day.
 
+Components are sulfur, redwood bark, and spring water.
 
 
 == Elemental Magic
@@ -2993,7 +3036,7 @@ hex radius. Lasts 1 hour.
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
-30 damage, 100 HP 50 DEF (1/2 damage from edged weapons). Damage is linear in
+30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is linear in
 size. Casting plus is -1 / factor of 2 in size. Mage can cast on multiple
 smaller stones. Stones must be detached to be used. A stone carved into a
 functional shape (human, monster, etc), can trade pluses for damage: +1
@@ -3048,7 +3091,7 @@ at +3.
 
 Creates a series of crystal like spikes the grow out of the ground. Covers
 10 hexes to a height of 10'. Requires a flat climbing or acrobatics roll to
-cross. If attacked, DCV=-10, DEF =600, 5000hp, 1/4 damage from edged
+cross. If attacked, DCV -10, Defense 600, HP 5000, 1/4 damage from edged
 weapons. Blocks vision. Plus = 0.
 
 ==== Elemental Magic - Earth And Fire - Volcano
@@ -3154,7 +3197,8 @@ Multiple Spells: Magicians casting multiple spells in a single round take
 the usual -2 for each additional spell. There is no penalty for casting an
 additional spell while maintaining another.
 
-==== Symbol Spells
+[[scrolls]]
+==== Symbol Spells and Scrolls
 
 The magician creates a symbol that is then activated by applying Pow. The
 exact effect of the spell must be decided when the symbol is drawn. The
@@ -3186,7 +3230,7 @@ some spells require specific types of gems or other materials for symbols.
 | Silver / gold dust          | 100                    | 1 SP / Pow   | 1/10        | Can be easily scratched. Must be drawn on >6" of stone or wood
 | Carved in rock (1' thick)   | 100                    | 0            | 1           | Durable
 | Three dimensional structure | 100 / ft.^3^           | 5 SP / Pow   | 1           | Can be re-assembled in 1% of creation time
-| Ink on Paper (scroll)       | 100 / page (for spell) | 0            | 5           | 1 minute / page minimum casting time. Cast at +3 (general magic - 2). NO Pow storage.
+| Ink on Paper (scroll)       | 100 / page (for spell) | 0            | 5           | 1 minute / page minimum casting time. Cast at +3 (general magic - 2). *No* Pow storage.
 | Carved in gem               | 30 Pow / ct.           | (Pow / 30)^2^| 1           | Portable, expensive. Maximum gem size limits maximum spell Pow
 | Tattoos                     | 1000 / body            |              | 1           | Cannot be changed.
 |====
@@ -3207,7 +3251,7 @@ after 5 rounds and +3 after 8 rounds, so this is of marginal use.
 Sample symbol spell: "Gate" spell to Yuggoth, 100 hex area, cast by
 Arch-Lich (+13 MG+) with 100,000 slaves as carved stone symbol: Spell is at
 +0, Pow is 1 million. Casting time is 2 years for spell to reach +3, Symbol
-is 10,000 ft^2^, 1 million hours time. 100,000 slaves give 2^5^ factor =
+is 10,000 ft.^2^, 1 million hours time. 100,000 slaves give 2^5^ factor =
 1/32 casting time, or about 3000 hours = 1.5 years. Will need to build an
 equal size symbol to store the Pow = 1.5 additional years. After creation
 can cast spell at +8.
@@ -3220,7 +3264,10 @@ for Pow (25 years!). Plus after 20 years is +12, -3 for spell, -8 for symbol
 cast, but will go at +9. (otherwise their plus would be +4 (after120
 minutes), but would need somewhere to store Pow.
 
-Note: Scroll spells are a special case of symbol spells.
+[NOTE]
+====
+Scroll spells are a special case of symbol spells.
+====
 
 ==== Magic Books
 
@@ -3710,6 +3757,38 @@ Greater Dragon, or large meteors,
 [[magic-spells]]
 == Magic Spells
 
+[NOTE]
+====
+(Jon) In the spell descriptions below, a Pow requirement, and in some cases
+fixed casting time are usually given. These are representative only, and may
+vary for a given campaign. The required minimum EP and difficulty of spells
+also varies and can be found using the Slay program.
+
+In some cases, a <<scrolls,magic scroll>> cost and availability are also
+given. The availability is at a large city (100K population) with Magic
+shops. Prices are retail; "wholesale" prices, if available, might be 1/4 of
+the listed price.
+
+Some scrolls are indicated to have restricted availability, which generally
+means the local authorities will try to imprison or kill anyone casting
+them. Of course, the authorities often try this due to many other
+non-Magical Party behaviours, so don't take it personally.
+
+Some scrolls are indicated to not be generally available. This is probably
+due to extremely rarity and value. They might still be found in a powerful
+Mage's library.
+
+Some spells indicate that scrolls for them "cannot be created". This may be
+because a scroll would make no logical sense, or it may be that scrolls
+still exist which were created in the past by means no longer available.
+
+There may or may not be scrolls available for spells not giving scroll
+information.
+
+Prices, availability, etc. may vary in specific campaigns, as always at GM
+discretion.
+====
+
 [[magic-spells-undescribed]]
 === Undescribed Magic Spells
 
@@ -3753,38 +3832,54 @@ Skills>>, and <<skills-tech-undescribed,Technical Skills>>.
 
 Cast on an object, if the object is ever removed from its current location
 by more than the number of hexes specified by the owner, it will cause the
-object to cry "Thief, Thief "at 120db (at 1 hex). Lasts 1 month / Pow Will
-alarm for 1 minute / Pow. Difficulty 6, EP 100.
+object to cry "Thief, Thief "at 120 dB (at 1 hex).
+
+Pow variable. Alarm lasts 1 month / Pow, alarm sounds for 1 min. / Pow.
+
+(Jon) Scroll cost 1 GP, availability 50%, sets a permanent alarm for a specific distance.
 
 === Magic - Analyze Magic
 
 Allows the magician to know the operation of any active spell or enchanted
-device and the amount of Pow in the spell. EP 500. Difficulty = 8. Pow = 10
+device and the amount of Pow in the spell.
+
+Pow 10
+
+(Jon) Scroll cannot be created.
 
 === Magic - Animal Empathy
 
 Causes animals to be friendly to the caster. Allows the caster to
-communicate with animals (at the level of the animal's intelligence). EP
-500, Difficulty = 8, Pow = 5. variable time.
+communicate with animals (at the level of the animal's intelligence).
+
+Pow 5.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Animate Rock
 
 Causes a piece of rock to extrude active arms and weapons. The spell will
-affect hex of rock for each 5 Pow. The area must be approximately circular.
+affect one hex of rock for each 5 Pow. The area must be approximately circular.
 The rock may be used to attack. It will attack at +5, for a base damage of
-5.0. It can attack multiple opponents. If the rock hits, it may grab the
+5. It can attack multiple opponents. If the rock hits, it may grab the
 target. The target must be able to do 50 points of damage to break out of
-the hold. Once animated, any area will remain animated for 1 minute. Tie
-roll will produce animated, but uncontrolled rock. EP 500, Difficulty 10, 5
-Pow / hex, att +5, 10.0 dam, 1 minute +7.
+the hold. Once animated, any area will remain animated for 1 minute. Casting
+tie roll will produce animated, but uncontrolled rock.
+
+Pow 5 / hex.
+
+Fixed casting time 1 minute, +7, base damage 10.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Animate Tree
 
 Causes a tree to uproot itself and do your bidding. The spell requires 10
-Pow for each foot of height of tree. Tree movement will be 1hex / round for
+Pow for each foot of height of tree. Tree movement will be 1 hex / round for
 each 20' of height. Tree hp is height^3^ / 1000. Def is = 20 -100 varies
-with type of tree. Attack at -2. Base damage = height of tree. Difficulty
-10, EP 2000,
+with type of tree. Attack at -2. Base damage = height of tree.
+
+(Jon) Scroll cost unknown, not generally available.
 
 === Magic - Army Of Death (Metamagic)
 
@@ -3793,8 +3888,12 @@ your will. A roll equal to that required will cause the dead to attack you.
 The dead will continue to serve you until they are destroyed. They attack as
 zombies or skeletons. Zombies if no weapons are available. If no bodies are
 available, they are raised as shades. Note the dead are animated by spirits.
-EP 1000, Difficulty 13. Area of effect 100hex / Pow. Fixed casting 1 day,
-+10
+
+Pow 1 / 100 hex area of effect.
+
+Fixed casting time 1 day, +10
+
+(Jon) Scroll cost >1,000 GP, not generally available.
 
 === Magic - Asteroid Strike (Metamagic)
 
@@ -3802,14 +3901,21 @@ Damage is 1,000,000,000 points / (distance in hexes)^2^. E.g.
 deadly at 3 miles, very damaging at 10-30 miles. About a megaton. Must
 actually drop an existing star out of the sky. Range = line of sight (be
 careful). Damage counts as physical. There is a 1 minute time delay from
-when the spell is cast until the asteroid hits. Minimum EP 20,000.
-Difficulty = 15. Pow = 1,000,000 (must be collected and stored somehow).
+when the spell is cast until the asteroid hits.
+
+Pow 1,000,000 (must be collected and stored somehow).
+
+(Jon) Scroll cost >1,000 GP, not generally available.
 
 === Magic - Audible Simulacrum
 
 Causes a sound to emanate from an object. Note the sound must originate from
-a physical object, not from thin air. 1 Pow / minute, EP 250, Difficulty 5.
-Maximum sound level is like a person yelling (eg no damage).
+a physical object, not from thin air. Maximum sound level is like a person
+yelling (eg no damage).
+
+Pow 1 / minute to maintain.
+
+(Jon) Scroll cost 1 GP, availability 80%, for a specific sound.
 
 === Magic - Aurora Shield
 
@@ -3817,8 +3923,11 @@ Creates a protection from meteor and asteroid strike attacks. All meteors
 will be defused to act as fireballs. An asteroid strike will be
 disintegrated into a shower of 10,000 meteors (which are not stopped by the
 shield). The meteors will fall in about a 30 mile radius. Typical separation
-is 300 hexes. EP 5000, Difficulty 13, Pow 1000, + 50/round to maintain.
-Shield area is 30 mile radius.
+is 300 hexes. Shield area is 30 mile radius.
+
+Pow 1000, Pow 50 / round to continue.
+
+(Jon) Scroll cost unknown, not generally available.
 
 === Magic - Ball Lightning (Metamagic)
 
@@ -3827,136 +3936,218 @@ fingertips. Spheres do 10 points base at caster's MG+. Balls last for 6
 rounds (use a d6) and travel at speed 10. Note, they can be parried.
 Movement is :flow like water toward target - so it is possible to trap them.
 If they miss, they continue in a straight line that turn, then come back for
-another pass. EP 1000, Pow = 50. Difficulty =5. 1 round, +4
+another pass.
+
+Pow 50.
+
+Fixed casting time 1 round, +4.
+
+(Jon) Scroll cost 1 GP, not generally available.
 
 === Magic - Banish
 
 Returns a creature to its plane of origin, typically used on demons. If
 target is inside a drawn symbol (minimum 1 hour to draw), then if the spell
 succeeds, the target is banished. Without a symbol, counts as a direct
-single target spell: target has a chance to counter. EP 1000, -10 Pow = 1000
-For fixed casting time, 1 day to setup for particular creature, then 1 round
-when target is in symbol. Cast at +8.
+single target spell: target has a chance to counter.
+
+Pow 1000.
+
+Fixed casting time 1 day to setup for a particular creature, then 1 round
+when target is in the symbol. Cast at +8.
+
+(Jon) Scroll cost 10 GP, availability 30%.
 
 === Magic - Blackout
 
 A potion which acts like the ultimate black paint. One portion can cover
-about 10 square hexes with absolute light absorbing black. requires coal
+about 10 hexes^2^ with absolute light absorbing black. requires coal
 dust, gold, silver, mercury. Used on a person causes + 5 visual stealth at
-night. Minimum creation time 10 minutes. EP 200, Difficulty 10, 1 Pow / 10
-hexes^2^ covered.
+night. Minimum creation time 10 minutes.
+
+1 Pow / 10 hexes^2^ covered.
+
+(Jon) Scroll cost 10 GP, availability 10%.
 
 === Magic - Blindness
 
-Causes the victim to become blind. Lasts until dispelled. Direct spell. EP
-500 Pow = 30. Difficulty 10.
+Causes the victim to become blind. Lasts until dispelled. Direct spell.
+
+Pow 30.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Body Of Stone
 
 Causes the target to become made of stone. They move more slowly, but gain
-strength and damage resistance. All damages are increased by 4X. Parries are
-increased by 4X. All combat values are *reduced* by 2. 50 points of defense
-is added. Divide all damage done to target by 2 before applying to HP. In
-addition to the above, all heat and cold damage are reduced by an additional
-2X. Target's movement (base) is reduced to 2. All falling damage is
-multiplied by 4X before applying to HP. EP 2000, Pow 120, 10 / round to
-maintain. Difficulty 8.
+strength and damage resistance.
 
 [NOTE]
 ====
-(Graham) Costs 300 Pow / minute to maintain.
+(Jon) We use this a fair amount, so break out the effects in detail.
+
+  * All combat Pluses (Attack, Low / Medium / Modified High / High DCV,
+    Engage) are *reduced* by 2.
+  * Weapon damage is increased by 4X.
+  * Parries are increased by 4X.
+  * 50 points of defense (armor) is added.
+  * Reduce damage reaching the target by 2X before subtracting from HP.
+  * All heat and cold damage is reduced by 2X.
+  * Full Move is reduced to 2.
+  * Falling damage is increased by 4X before subtracting from HP.
 ====
+
+Pow 120, Pow 10 / round to continue.
+
+[NOTE]
+====
+(Graham) Costs Pow 300 / minute to maintain.
+====
+
+(Jon) Scroll cost 1 GP, availability 20%, permanent.
 
 === Magic - Brass To Bronze
 
-Costs 10 Pow / lb. EP 250 Difficulty 12.
+Pow 10 / lb.
+
+(Jon) Scroll cost >1,000 GP, not generally available.
 
 === Magic - Brass To Iron
 
-Costs 10 Pow / lb. EP 250 Difficulty 12.
+Pow 10 / lb.
+
+(Jon) Scroll cost >1000, availability 20%.
 
 === Magic - Break Rock
 
-The magician must strike the rock to be broken. Cost is 10 Pow / ft^2^ of
-rock fracture. Fixed time 5 rounds, +5. EP 250 Difficulty 8.
+The magician must touch the rock to be broken.
+
+Pow 10 / ft.^2^ of rock fracture.
+
+Fixed casting time 5 rounds, +5.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Bronze To Silver
 
-Costs 10 Pow / oz. EP 500 Difficulty 14.
+Pow 10 / oz.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Call Lightning
 
 [NOTE]
 ====
-(Jon) Sometimes misspelled "Call Lightening"
+(Jon) Sometimes misspelled "Call Lightening". Pow to continue
+the spell is drawn from the lightning itself.
 ====
 
 Can only be used during a storm or severe storm. Range is 200 hex. Spell
 attacks as a single target indirect spell at +5. Base damage is 50. The
-total amount of lightning which can be call from a storm is 1 / round / 100
-hex radius. If multiple people are calling, do a base MG+ contest to see who
-wins each round. Difficulty 6. Once started, spell continues EP 1000. Pow =
-10.
+total amount of lightning which can be called from a storm is 1 bolt / round
+/ 100 hex radius. If multiple people are casting, do a base MG+ contest to
+see who wins each round.
+
+Pow 10. Once started, spell continues.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Call Sun
 
 Causes the sun to come out from behind clouds, even during a storm. This
-spell will dissipate storms. EP 1000, Difficulty 10. Pow 80.
+spell will dissipate storms.
+
+Pow 80.
+
+(Jon) Scroll cost 10 GP, availability 10%.
 
 === Magic - Camouflage
 
 A potion which causes your skin to have chameleon properties. Lasts 1 hour.
 Gives a +2 to stealth in appropriate circumstances. Does not change the
-color of your clothes. EP 100 Difficulty 10, Pow 10.
+color of your clothes.
+
+Pow 10.
+
+(Jon) Scroll cost 10 GP, availability 10%, permanent.
 
 === Magic - Channel (Metamagic)
 
 Allows the caster to interact with, and to some extent control natural
 forces like storms, volcanoes, oceans, etc. Allows the caster to manipulate
 the effect within the normal parameters for that sort of natural phenomena.
-Difficulty 10, EP 1000. Pow: once started, magician *gains* up to 1000 Pow /
+
+Pow: once started, magician *gains* up to 1000 Pow /
 minute from a major phenomena. Can be used to combine magical Pow from
 multiple magicians. Must be cast for each magician.
+
+(Jon) Scroll cost 10 GP, not generally available.
 
 === Magic - Chaos Binding
 
 Allows the caster to collect the raw energies of chaos. A proper vessel is
-required. A vessel can be constructed for 10 SP / Pow of chaos trapped.
-Vessel must be constructed of crystal, platinum, gold and iron. It will have
-a volume of about 1 ft^3^ for each 100 Pow stored. The area from which the
-Pow will be collected and must be enclosed in a symbol of area 100 hex / Pow. Pow
-= amount of chaos trapped. Difficulty = 15 EP = 1000. 1 day +12
+required. A vessel can be constructed for 10 SP / Chaon trapped. Vessel must
+be constructed of crystal, platinum, gold and iron. It will have a volume of
+about 1 ft.^3^ for each 100 Pow stored. The area from which the Pow will be
+collected and must be enclosed in a symbol of area 100 hex / Pow.
+
+Pow amount of Chaons trapped.
+
+Fixed casting time 1 day, +12.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Chill
 
-Causes momentary fear (undirected) in victim. Direct spell. Difficulty 7,
-Pow 5. EP 250, 1 round +3.
+Causes momentary fear (undirected) in victim. Direct spell.
+
+Pow 5.
+
+Fixed casting time 1 round, +3.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - City Walk
 
 Allows the caster to move between any two outside places inside a city. The
 spell works by turning a corner, the far side of which must be out of the
 view of anyone trying to follow the caster. As with Fast Walk, others can
-follow the caster if they are directly behind him. Pow = 20, Difficulty = 7.
-EP 250
+follow the caster if they are directly behind him.
+
+Pow 20,
+
+(Jon) Scroll cost 1 GP, availability 10%, for a specific location.
 
 === Magic - Cleaner
 
 Animates an object or objects to clean and tidy an area. Fumble is the
-Srcerer's Apprentice effect. Area effect. EP 500, Pow = 1 / hex Spell
-requires about 1 minute after casting to operate. Difficulty = 7.
+Srcerer's Apprentice effect. Area effect.
+
+Pow 1 / hex, Spell requires about 1 minute after casting to
+operate.
+
+(Jon) Scroll cost 1 GP, availability 30%.
 
 === Magic - Conflagration (Metamagic)
 
 Creates a spreading fire - acts as if the air were turned to pure oxygen.
-This spell has not specific range limit, but will typically burn any city,
-or forest to ashes. Difficulty 15, Pow 10000, EP 5000
+This spell has no specific range limit, but will typically burn any city,
+or forest to ashes.
+
+Pow 10000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Control Undead
 
 Allows the caster to gain control of an undead. Single target direct spell.
-Once control is gained, it does not need to be maintained. Difficulty 8, Pow
-10, EP 500, Casting time 1 minute, +7
+Once control is gained, it does not need to be maintained.
+
+Pow 10.
+
+Fixed casting time 1 minute, +7
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Control Fire
 
@@ -3965,8 +4156,9 @@ zero in some areas, or increasing to 3d6 (from the normal d6) in others. It
 protects the caster or anyone they choose to protect in the spell area from
 up to 100 points / round of fire damage (before armor). Fire may be moved 10
 hexes beyond the area in which it is naturally burning to do a 3d6 area
-effect damage. EP 500, Difficulty 7. 10 Pow / hex, lasts 1 minute, maybe
-continued.
+effect damage.
+
+Pow 10 / hex. Duration 1 minute. May be continued.
 
 === Magic - Corona
 
@@ -3974,33 +4166,55 @@ Creates a magical halo around a creature which causes it to extend into
 another plane. This allows the creature to affect (specific) things normally
 immune to weapons, and to defend normally against (specific) attacks which
 normally bypass defenses. The creature is surrounded by a violet halo, and
-therefore unable to use stealth. EP 1000, Difficulty 8, Pow = 20/round (not
-per minute). Spell may be cast at multiple targets by multiplying Pow cost.
-5 rounds, +4.
+therefore unable to use stealth.
+
+Pow 20 / round (not per minute). Spell may be cast
+at multiple targets by multiplying Pow cost.
+
+Fixed casting time 5 rounds, +4.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Crack Of Doom (Metamagic)
 
 Opens a crack in the earth, up to 1 mile wide by 10 long, and all within
 that area are cast into the void (or hell, or Chaos, or pick your favorite
-space). Difficulty 15, Pow 1,000,000.
+space).
+
+Pow 1,000,000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Create Rock
 
-Causes rock to appear. Direct spell. rock must appear in contact with the
-earth, in a stable configuration. EP 500 Cost is 1 Pow / ft^3^, Difficulty =
-9. Fixed casting time 1 minute, +6
+Causes rock (granite or basalt) to appear. Direct spell. rock must appear in
+contact with the earth, in a stable configuration.
+
+Pow 1 / ft.^3^.
+
+Fixed casting time 1 minute, +6
+
+(Jon) Scroll cost 1 GP, availability 30%.
 
 === Magic - Create Zombie
 
 Animates a corpse. Can create a zombie, skeleton, or shade. Failure Causes a
-zombie not under your control. EP 500 Difficulty 10. Pow 30. Can be multiple
-target for extra Pow. 1 hour, +8
+zombie not under your control.
+
+Pow 30. Can be multiple target for extra Pow.
+
+Fixed casting time 1 hour, +8.
+
+(Jon) Scroll cost 10 GP, availability 10%.
 
 === Magic - Curse
 
 A special spell. You must make up a curse in rhyme. It is entirely up to the
 GM to determine results. Note that the best curses also affect the caster.
-EP 500. Pow = 20
+
+Pow 20.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Darkness
 
@@ -4009,12 +4223,20 @@ not illuminate anything, but the light sources are still visible. Can be
 countered with an equivalent amount of Pow in a Light spell. Area is 1 hex /
 Pow to create, 0.1 Pow / hex to maintain. Darkness is total, normal light
 will not help except see interactions between light and darkness rules.
-Difficulty 7, EP 500 1 round +4
+
+Fixed casting time 1 round, +4.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Death
 
-Kills victim on the spot. Direct spell. EP 2000, Difficulty 11. Pow = 50. 1
-round +2
+Kills victim on the spot. Direct spell.
+
+Pow 50.
+
+Fixed casting time 1 round, +2.
+
+(Jon) Scroll cost 100 GP, availability 10%.
 
 === Magic - Deflect
 
@@ -4028,69 +4250,108 @@ incoming spell must be deflected directly away from the deflecting mage. If
 the attacking spell was not targeted at the deflecting mage, range cost , 10
 Pow / hex must be spent. A spell cannot be deflected out of its normal
 range. A spell cannot be deflected within the 60 degree cone in the range of
-the original casting mage. EP500, Difficulty 5, 10 Pow / round continuing.
+the original casting mage.
+
+Pow 10 / round continuing.
 
 === Magic - Deflect Lightning
 
-Redirect a lightning bolt that would have hit within 10hexes of the caster
+Redirect a lightning bolt that would have hit within 10 hexes of the caster
 to any location in 10 hexes at caster's plus with this spell. Note - it is
 possible to call lightning on yourself and then deflect it to get a better
 plus. This can be cast after other magic in defense (but at minuses if other
-spells have been cast). Deflecting multiple lightning strokes all done at
-the same plus. Plus = 0. 1 round +0.
+spells have been cast). Deflecting multiple lightning strokes is all done at
+the same plus.
+
+Plus = 0. 1 round +0.
+
+[NOTE]
+====
+(Jon) This notation is confusing. I think it means that it's always a fixed casting
+time of 1 round and always goes at +0. Is there a Pow requirement?
+====
 
 === Magic - De-scent Oil
 
-Will eliminate smells in an area. (useful if you are being tracked). only
-lasts a few minutes after manufacture. Requires several herbs. Difficulty
-10, Pow 1/unit, EP 250
+Will eliminate smells in an area (useful if you are being tracked). Only
+lasts a few minutes after manufacture. Requires several herbs.
+
+Pow 1 / hex.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Disease
 
 Causes disease in target when touched (no range allowed). Disease will kill
-in about 2 weeks without treatment if victim fails a flat con roll.
-. Must add Pow to exceed CON in addition to other costs. Direct spell,
-EP 500 Pow 10 Difficulty 10.
+in about 2 weeks without treatment if victim fails a flat con roll. Must add
+Pow to exceed CON in addition to other costs. Direct spell,
+
+Pow 10.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Distract
 
 Direct spell. Causes to victim to pay attention to something else
 momentarily. Spell failure causes the victim to notice the caster.
-Difficulty 7. Pow 10. EP 250
+
+Pow 10.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Door Bar
 
 Will hold a door locked as if it were made of stronger material. The
 strength of the door depends on the Pow put into the spell (see door break).
-EP 500 Difficulty = 9. 1 round, +5
+
+
+
+Fixed casting time 1 round, +5.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Door Break
 
 Will shatter a locked door. Direct Spell. Amount of Pow depends on the door.
-Effective "damage" to door is roll MG+ * 1 / Pow in spell. Difficulty 9. EP
-500 1 round, +3.
+Effective "damage" to door is roll MG+ * 1 / Pow in spell.
+
+
+
+Fixed casting time 1 round, +3.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Drain
 
 This drains strength from a victim. Target must be below 0 hp or must be
 willing. They lose CON and STR, you gain in Pow 5X the amount drained. You
 may drain d10 from each. Direct spell. Victims drained below zero may not be
-drained again. Range=touch. Victims recover 1 of CON and STR each day.
-Pow = 10, EP 1000, Difficulty = 9.
+drained again. Must touch victim. Victims recover 1 of CON and STR each day.
+
+Pow 10.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - Earth Elemental
 
-Calls an elemental a creature: move 1, -2 / 10,000, DCV -5,-5, inf. Def =
-2000, HP = 50000. Depends on the scenario. Currently the animate type is in
-use. Elemental will remain active for 1 day. Difficulty = 11, Pow = 5000. EP
-1000. Fixed time, 2 hours +10.
+Calls an elemental a creature: move 1, -2 / 10,000, DCV -5,-5, inf. Def
+2000, HP 50000. Depends on the scenario. Currently the animate type is in
+use. Elemental will remain active for 1 day.
+
+Pow 5000.
+
+Fixed casting time, 2 hours +10.
+
+(Jon) Scroll cost 1000 GP, availability  1%.
 
 === Magic - Earthquake (Metamagic)
 
 This spell can devastate a large area. It does not damage people, but will
 destroy many buildings. Casting this spell generally requires the use of an
 extra Pow source. The approximate magnitude is magnitude 8 earthquake.
-100,000 Pow. Difficulty 15. EP 5000.
+100,000 Pow.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Elemental Sphere
 
@@ -4109,62 +4370,94 @@ are:
     cold damage (normal armor does not stop). Openings appear as needed
     for spells cast out
   . Life - Writhing vines - Attack at MG+ to grab, grapple at +3. Can
-    hack through, DCV = 3, DEF = 10, hp = 1000.
+    hack through, DCV 3, Defense 10, HP 1000.
   . Death - near invisible dark shapes - must defend with combat
     darkness. Each attacks at MG+ - 5, no armor or parry, damage is
     10/over. Each takes 20 points to kill, (need magic weapons), DCV =
     MG+ - 5. Each round d6 can attempt to engage (at MG+) and attack.
 
-EP is 2000, Difficulty 8, Pow is 100/round to maintain. 10 rounds to cast
-+5.
+Pow 100 / round to maintain.
+
+Fixed casting time 10 rounds, +5.
 
 === Magic - Enchant Weapon
 
-It is used to put an enchantment on a weapon to make it +1 to hit. 1000 EP
--14, 1000 Pow. Weapon must be crafted of the finest materials. A weapons
-making roll (Smithing or similar) must be made at -5 to create the base
-weapon. A failed roll destroys the materials (typically 1 GP cost). 1 week,
-+10.
+It is used to put an enchantment on a weapon to make it +1 to hit. Weapon
+must be crafted of the finest materials. A weapons making roll (Smithing or
+similar) must be made at -5 to create the base weapon. A failed roll
+destroys the materials (typically 1 GP cost).
+
+Pow 1000.
+
+Fixed casting time 1 week, +10.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Enchant Vorpal
 
-Used to put a +2 on a weapon - a very difficult spell. 1500 EP, -18 5000
-Pow. Weapon must be made of meteoric iron or similar. Materials cost is 20
-GP. A weapons making roll must be made at -7 or the materials are only
-suitable for a +1 weapon. If failed at -5, materials are destroyed.
+Used to put a +2 on a weapon - a very difficult spell. Weapon must be made
+of meteoric iron or similar. Materials cost is 20 GP. A weapons making roll
+must be made at -7 or the materials are only suitable for a +1 weapon. If
+failed at -5, materials are destroyed.
+
+Pow 5000.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Enchant Slaying
 
 Weapon will kill a single type of creature if it does any damage. Weapon
-must be made as vorpal above (separate spell required to also make a weapon
-vorpal). Weapon must also use parts from a dead creature of the type to be
-killed. 1500 EP, diff -16. 10,000 Pow
+must be made as Vorpal above (separate spell required to also make a weapon
+Vorpal). Weapon must also use parts from a dead creature of the type to be
+killed.
+
+Pow 10,000.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Enchant Special
 
 Creates a weapon with special properties. The use of this spell is up to GM
-discretion, but some examples are:
+discretion.
+
+[NOTE]
+====
+(Jon) Examples:
+
+  * Thrown weapon returns to wielder's hand (Mjollnir).
+  * Weapon can Call Lightning (also Mjollnir).
+====
 
 === Magic - Energy Wall
 
 Stops energy (fire, lightning, etc) based attacks, in a fashion similar to
-physical protection. The barrier acts as DCV=0, 1 Pow will be consumed for
-each 5 points of damage inflicted on the barrier. The barrier has a base cost
-of 1 Pow for each hex side covered. Difficulty 8. EP 500
+physical protection. The barrier is DCV 0.
+
+Pow 1 / hex side covered + 1 / each 5 points of damage inflicted on the barrer.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Exorcism
 
 Cures possession. Works when a person is possessed by a demon (or angel), or
 similar spirit. The target must be inside of a drawn symbol (minimum 1 hour
 to draw). The magician (Or other) must plunge an enchanted dagger into the
-target's heart (hit against high). Target should probably be restrained.
+target's heart (hit against High). Target should probably be restrained.
 Fumble kills the target, or possibly moves the possession to the magician.
-EP 500 Difficulty -10. 100 Pow.
+
+Pow 100.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Extinguish
 
-Will put out all fires in an area. 1 hex / Pow area affected. Difficulty 7,
-EP 500. 3 rounds +5
+Will put out all fires in an area.
+
+Pow 1 / hex affected.
+
+Fixed casting time 3 rounds, +5
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Fast Walk
 
@@ -4174,80 +4467,132 @@ characters quickly over the terrain between the two points. Up to 12 people
 can follow the caster through the fast walk. Each additional dozen people is
 at -1 (rapidly becomes impossible) It is possible for only the later groups
 to fail. You can follow someone else's fast walk, at a penalty equivalent to
-the MG+ for that duration. EG: you follow 10 minutes later at -6 (from the
-original caster's plus) Spell duration is from casting time until sunset or
-sunrise (whichever comes first). Exactly equaling the roll required causes
-you to become lost. Pow is 10 * sqrt(speed multiplier). Note, fast walk can
-only allow you to travel between "outdoor" areas. It cannot be used to get
-into or out of castles, dungeons, etc. Difficulty 8. EP 500. For fixed
-casting time rules, casting time is 2 hours to start at +7, then 1 day using
-the spell.
+the MG+ for that duration. Example: you follow 10 minutes later at -6 (from
+the original caster's plus). Spell duration is from casting time until
+sunset or sunrise (whichever comes first). Exactly equalling the roll
+required causes you to become lost. Note, fast walk can only allow you to
+travel between "outdoor" areas. It cannot be used to get into or out of
+castles, dungeons, etc.
+
+Pow 10 * sqrt(speed multiplier).
+
+Fixed casting time 2 hours, +7, continuing for up to one day.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Fear
 
 Causes fear in target. Direct spell. Fear will last hours. Failure causes
-victim to be aware of spell. Difficulty = 7, EP 500, Pow = 15. For fixed
-casting time rules: 5 Rounds, +4 to cast.
+victim to be aware of spell.
+
+Pow 15.
+
+Fixed casting time 5 Rounds, +4.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Fire Elemental
 
 Summons a single fire elemental to do the caster's bidding. Elemental will
-remain active for 1 day. Difficulty = 11, Pow = 5000. EP 1000
+remain active for 1 day.
+
+Pow 5000.
+
+(Jon) Scroll cost unknown, not generally available.
 
 === Magic - Fireball
 
 Fixed Pow spell doing 10 dice center hex, -1 each hex from center. Spell
 goes off the round after it is cast. The caster must secretly write down the
-target location. Pow = 50, Difficulty 7, EP 1000. fixed casting time 3
-rounds, +3;
+target location.
+
+Pow 50.
+
+Fixed casting time 3 rounds, +3.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Flesh To Stone
 
 Affects single target, direct spell. Target is turned to stone. Target is
-not conscious while stoned. The reverse spell is learned automatically. EP
-500, Difficulty = 8 Pow = 20
+not conscious while stoned. The reverse spell is learned automatically.
+
+Pow 20
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Flesh To Stone Potion
 
 Causes the person drinking to turn to stone. Not reversible except with
-Stone To Flesh spell (a statue can't drink). EP 1000, Difficulty 12, Pow 50
+Stone To Flesh spell (a statue can't drink).
+
+Pow 50
+
+(Jon) Scroll cost unknown, not generally available.
 
 [NOTE]
 ====
-(Jon) Often used to coat arrowheads in higher-level campaigns.
+(Jon) Often used to coat arrowheads in higher-level campaigns. In some
+campaigns, Stone To Flesh potions are also available.
 ====
 
 === Magic - Floating Liquid
 
 This material, composed primarily of mercury, will fall up. It pulls up with
-the same force that the same amount of mercury would pull down. EP 500
-Difficulty 11, Pow = 1 / oz.
+the same force that the same amount of mercury would pull down.
+
+Pow 1 / oz.
+
+(Jon) Scroll cost 100 GP, not generally available.
 
 === Magic - Fog
 
 Causes fog to rise from the ground. Must be used outside. Covers an area of
-10,000 hexes / Pow. EP 1000, Minimum 10 Pow. Difficulty 8. 3 rounds +4
+10,000 hexes / Pow.
+
+Pow 10 (minimum).
+
+Fixed casting time 3 rounds, +4.
+
+(Jon) Scroll cost 10 GP, availability 10%.
 
 === Magic - Forget
 
 Causes the victim to forget something until the spell is broken. Direct
-spell. EP 500 Pow 30. Difficulty 10
+spell.
+
+Pow 30.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Gate (Metamagic)
 
-Opens a door to a new location or dimension. Pow is 10K / hex. EP 5000,
-Difficulty 13. Symbol spell only. 1 day +9
+Opens a door to a new location or dimension. Symbol spell only.
+
+Pow 10K / hex.
+
+Fixed casting time 1 day, +9.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Glow
 
 Causes an object to glow, producing about the light of a candle. The glow
-lasts for about a day. Difficulty 10, EP 500 Pow 10.
+lasts for about a day.
+
+Pow 10.
+
+(Jon) Scroll cost 10 GP, availability 50%.
 
 === Magic - Glow Water
 
 Liquid is like the liquid in Cylume sticks. It can be made in any lifetime
-from 30 minutes to 24 hours, and in any color. Requires water, sulfur, coal,
-crushed fireflies, plants. EP 1000, Pow = 10 / oz. Difficulty = 12.
+from 30 minutes to 24 hours, and in any color.
+
+Pow 10 / oz. Components water, sulfur, coal, crushed fireflies,
+plants.
+
+(Jon) Scroll cost 100 GP, not generally available.
 
 === Magic - Golem
 
@@ -4256,10 +4601,11 @@ and can only be operated within line of sight of the mage. The Pow increases
 linearly with the size of the statue, as does the damage and resistance of
 the statue. A human sized statue acts as a stone golem. A statue may be
 precharged with up to 100 rounds worth of Pow, and set to activate with an
-alarm spell. Outside of human range the Golem's instructions must be able to
+Alarm spell. Outside of human range the Golem's instructions must be able to
 be written in 12 words or less: "kill everything except me" works. A golem
-can house a soul, in which case it acts like a permanent body of stone. EP
-1000, Difficulty 12 with time pluses. Obvious fumble.
+can house a soul, in which case it acts like a permanent body of stone.
+
+Obvious fumble.
 
 === Magic - Healing Potion
 
@@ -4270,13 +4616,21 @@ use. Repairs 6d6 damage. Blood must be drained from some number of people. A
 total of 10 dice in HP must be drained, minimum 1 die (with extensions) per
 person. On each die roll, if get a 6, roll again and add. On a failed roll,
 points are drained, but no healing takes place. On a fumble, something
-interesting happens. Difficulty 9, EP 500, Pow 50.
+interesting happens.
+
+Pow 50.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Heat
 
-Causes heat equivalent to a camp fire. Heat is cast on an object. EP 500.
-Difficulty = 7, Pow = 1 / round. With fixed casting time rules, requires 1
-minute at +7.
+Causes heat equivalent to a camp fire. Heat is cast on an object.
+
+Pow 1 / round.
+
+Fixed casting time 1 minute, +7.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Hellborer (Metamagic)
 
@@ -4284,8 +4638,11 @@ Blasts a hole through (nearly) anything. Hole is 10 hexes in radius, and is
 drilled at 10 hexes / round. Much of the material is destroyed, but some is
 ejected around the entrance. The spell must be targeted at least 3 rounds
 before it begins to drill - it makes a poor weapon. Anything in its path
-will take 1000 points / hex / round damage. EP 5000. Pow 100/ hex drilled.
-(minimum 10,000 Pow), Difficulty 12.
+will take 1000 points / hex / round damage.
+
+Pow 100 / hex drilled (minimum 10,000 Pow).
+
+(Jon) Scroll cannot be created.
 
 === Magic - Hulk
 
@@ -4297,44 +4654,66 @@ Lasts 1 minute.
 
 Causes a hurricane class storm (about 100 miles diameter. peak 150 mph
 winds). Storm will last for 1 week at sea, or 2 days on land. It will move
-up to 500 miles / day, under the mage's control. EP = 5000 (metamagic
-reduces). Pow = 20,000. Difficulty = 12
+up to 500 miles / day, under the mage's control.
+
+Pow 20,000. Metamagic reduces EP.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Hypnotize
 
 Causes a victim to perform a set of actions under a set of prescribed
 conditions. The victim performs as if asleep, and may be woken, breaking the
 spell. Must be cast on an unsuspecting victim. Direct spell. Failure causes
-victim to be aware of spell. Pow 10. Difficulty 9. EP 500. Casting time 1
-minute, +7
+victim to be aware of spell.
+
+Pow 10.
+
+Fixed casting time 1 minute, +7.
+
+(Jon) Spell is restricted (mind control Magic). Scroll cannot be created.
 
 === Magic - Identify Artifact
 
-Allows a magician to know the function of a created device. If the spell
-fails by 1, an incorrect reading is obtained. If the spell succeeds by 2,
-additional information, including the object's origin, and any curses, etc
-are revealed. Pow = 5, Difficulty = 8, EP 500.
+Allows a magician to know the function of a created device. If the casting
+<<fumble,fumbles>>, an incorrect reading is obtained. If the casting
+succeeds by 2, additional information, including the object's origin, and
+any curses, etc are revealed.
+
+Pow 5.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Identify Rock
 
 Allows the magician to know the composition, and age of a rock. Note that
 the age of a rock is defined as when it was removed from its natural place
-in the ground, or when it was broken from a larger piece. Pow 5, Difficulty
-8. EP 250
+in the ground, or when it was broken from a larger piece.
+
+Pow 5.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Ignite
 
 Causes any flammable object in the area of effect to catch fire. Continuing
-spell, May be cast on a hex, or on the wielder. Clothes typically do d6
-damage (no armor). All lamp oil, flash powder, etc will ignite. 25 Pow /
-hex, 1 / hex to maintain. Spell area must be approximately round. Difficulty
-10, EP 2000.
+spell. May be cast on a hex, or on the wielder. Clothes typically do d6
+damage (no armor). All lamp oil, flash powder, etc will ignite.
+Spell area must be approximately round.
+
+25 Pow / hex, 1 / hex to maintain.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Igniteall
 
 A wax like substance which burns very hot and will ignite almost any
 flammable material. It will also melt soft metals. Requires mercury, sulfur,
-charcoal. Difficulty 10. EP 250, Pow = 1/unit.
+charcoal.
+
+Pow 1 / bottle.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Immortality
 
@@ -4345,9 +4724,20 @@ limbs will grow back. If the body is hacked into many pieces, the brain will
 be the center of the new body (which will grow slowly). Without food or
 water, the body will wither but not die. Only burning to ashes will destroy
 the body forever, and even then the soul will live on as a spirit, trapped
-on this plane. EP 5000, Difficulty 16 Pow 10000. Note: knowledge of this
-spell is very restricted. Knowledge of this spell allows a reverse potion to
+on this plane.
+
+[NOTE]
+====
+Knowledge of this spell is very restricted, and allows a reverse potion to
 be created.
+
+(Jon) Typically the ingredients for Immortality include one human life /
+dose.
+====
+
+Pow 10000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Inferno (Metamagic)
 
@@ -4355,26 +4745,32 @@ A higher Pow version of "control fire" it allows a mage to also dramatically
 increase the speed at which things burn causing 100 points / round damage in
 the active area, but consuming burnable materials at 100X normal fire rates.
 Fire may be extended beyond the initial range by 30 hexes. A minimum of 100
-hexes of fire must already be burning in order to use this spell. Minimum
-1000 Pow, 10 Pow / round, EP 1000, Difficulty 11.
+hexes of fire must already be burning in order to use this spell.
+
+Pow 1000, Pow 10 / round to continue.
 
 === Magic - Invisibility
 
-Causes magician to move toward spirit world. The further you move, the less
+Causes magician to move toward the spirit world. The further you move, the less
 you can be seen, and the less you can see. As you move further, you can
-interact with spirits. Failure leaves you TRAPPED on the other side. EP 500
-Pow 10. Duration 1 minute / 10 Pow. Difficulty 7
+interact with spirits. Failure leaves you trapped on the other side.
+
+Pow 10, Pow 10 / minute to continue.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - Lead To Brass
 
-Costs 1 Pow / pound, Difficulty 9, EP 250.
+Costs 1 Pow / lb.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - Light
 
 Causes light to radiate from the magician's hand. Intensity depends on Pow
-used. Spell lasts as long as Pow is used. EP 500, Difficulty 7.
+used. Spell lasts as long as Pow is used.
 
-.Light Spell Effects
+.Light Spell Effects And Continuing Pow Cost
 [options="header"]
 |====
 | Pow / minute  | Effect
@@ -4386,54 +4782,76 @@ used. Spell lasts as long as Pow is used. EP 500, Difficulty 7.
 | 100 | Flare - Will blind everyone within 100' for 1 round.
 |====
 
+(Jon) Scroll cost 1 GP, availability 30%, permanent???
+
 === Magic - Lightning Bolt
 
-An indirect single target spell. Standard 1 Pow / hex range. A 10 point or
-more lightning bolt will also act as a "flash powder" spell. Damage 1 point
-base / 10 Pow. EP 500. Difficulty = 6. fixed casting time 3 rounds +3
+An indirect single target spell.
 
-New rules: Fixed 100 Pow spell, does 20 points base damage.
+[NOTE]
+====
+New rules: Fixed 100 Pow spell, does 20 points base damage / over.
+
+Old rules: Standard 1 Pow / hex range. A 10 point or more lightning bolt
+will also act as a "flash powder" spell. Damage 1 point base / 10 Pow.
+====
+
+Pow 100.
+
+Fixed casting time 3 rounds, +3.
+
+(Jon) Scroll cost 1 GP, availability 30%.
 
 === Magic - Liquid Rock
 
-Will liquefy a large volume of broken rock or gravel then re-solidify it
+Will liquify a large volume of broken rock or gravel then re-solidify it
 into a concrete like substance, generally used for construction. The spell
 works on pieces of rock smaller than a few inches across, and not connected
-together with mortar. Volume of rock is 100 ft.^3^ / Pow. Minimum
-casting time 10 minutes, follows standard time casting pluses. -2 spell
-(easy).
+together with mortar. Minimum casting time 10 minutes,
+
+Pow 1 / 100 ft.^3^ rock.
 
 === Magic - Livelong
 
 An alchemical potion, which can indefinitely prolong your life. You must
 drink a dose every month ( on the day of the full moon) or you will lose the
 effects of *all* of the previous potions. Failure causes you to lose all
-effects of previous livelong potions. Ingredients: Water, Mercury, Wood from
-an ancient bristle cone pine, Bone from someone dead a thousand years, Gold
-dust, Glacier ice. EP 2000, Difficulty = 0, Pow = 20.
+effects of previous livelong potions.
+
+Pow 20. Components water, mercury, wood from an ancient bristle cone pine,
+bone from someone dead a thousand years, gold dust, glacier ice.
+
+(Jon) Spell is restricted. Scroll cost 1 GP, availability 10%.
 
 === Magic - Magic Hide
 
 This spell will mask the presence of stored magic (not active spells) in an
 area. Pow required = sqrt(Pow to be hidden). Area for hiding is 1 hex / Pow
 in this spell. The spell may be continued at a cost / round of sqrt(Pow in
-this spell). So to hide a 10,000 point storage area, would need to cast a
-100 point spell, and maintain at 10 points / round. Difficulty 5, variable
-casting time. Continuing spell.. 500 EP.
+this spell). To hide a 10,000 Pow storage area, you would need to cast a
+100 Pow spell, and maintain at 10 Pow / round.
+
+Continuing spell.
 
 === Magic - Magic Wall
 
 This spell puts up a barrier which magical energy cannot pass. It stops only
-direct magical spells. EP 500 Difficulty 6. Pow = 100 / hex. 1 Pow / minute
-/ hex. It is destroyed by any physical or energy attack. A magic wall is
-visible. Continuing spell.
+direct magical spells. It is destroyed by any physical or energy attack. A
+magic wall is visible. Continuing spell.
+
+Pow 100 / hex. Pow 1 / hex / minute to continue.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Magical Sword
 
 Allows an existing weapon to affect things otherwise immune to normal
 weapons. Weapon will also glow in the dark - eliminating darkness minuses,
-but preventing stealth. Fumble will destroy weapon. After cast will last 1
-minute / Pow in spell. Difficulty 7, EP 500,
+but preventing stealth. Fumble will destroy weapon.
+
+Pow 1 / minute to continue.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Major Illusion
 
@@ -4442,13 +4860,19 @@ with sound. After spell is cast, must make a roll at MG+ to create the
 desired effect. Roll is at the following minuses: Minus log~2~(total size of
 animate creatures / normal human size). e.g. 20 men would be -5. A dragon at
 20X man sized would be similar). For large inanimate effects (avalanches,
-tidal waves, etc), Difficulty -1 / log~2~(effect area / 100 hexes^2^). Pow 1
-Pow / hex area / minute (minimum cost is for 1 minute). Targets get a
-(combined) senses roll against the mage's MG+ to notice the illusion. The
-roll is re-done every time there the illusion changes actions in a
-significant way. Spell can also be used to change the appearance of objects
-or people when used at an additional -2 on general magic roll. EP 2000,
-Difficulty 9. Casting time 10 rounds, +6
+tidal waves, etc), roll at -1 / log~2~(effect area / 100 hexes^2^).
+
+Targets get a (combined) senses roll against the mage's MG+ to notice the
+illusion. The roll is re-done every time there the illusion changes actions
+in a significant way. Spell can also be used to change the appearance of
+objects or people when used at an additional -2 on general magic roll.
+
+Pow 1 / hex / minute (minimum 1 minute, continuing).
+
+
+Fixed casting time 10 rounds, +6.
+
+(Jon) Scroll cost 10 GP, availability 20%.
 
 === Magic - Mesmerize
 
@@ -4460,7 +4884,13 @@ be caused to fight in a more or less offensive fashion than normal, but
 typically not fully offensive or defensive unless it is to their benefit.
 The caster will know when a command will break the spell before it is
 issued. A mesmerized person will seem distracted, but not abnormally so to
-observers. EP 1000, Pow = 30 Difficulty 12. Casting time 1 hour. +8
+observers.
+
+Pow 30.
+
+Fixed casting time 1 hour, +8.
+
+(Jon) Scroll cannot be created.
 
 [[metamagic]]
 === Magic - Metamagic
@@ -4487,32 +4917,50 @@ Causes a meteor to fall from the sky and hit a specified target. Range =
 1000', Damage is 10,000 points explosive. Magician can specify smaller
 damage if desired. Failure may cause meteor to hit caster. If the attack
 misses the target, the target can half (or full) move out of the target hex.
-EP 3000, Difficulty = 14 Pow = 2000. Fixed casting time 10 rounds, +5
+
+Pow 2000.
+
+Fixed casting time 10 rounds, +5.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Mold Rock
 
 Gives a rock the consistency of putty. Requires 10 Pow / ft.^3^, lasts 1
-minute. Difficulty 8. EP 500. fixed time 2 rounds, +4
+minute.
+
+Fixed casting time 2 rounds, +4.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Moonlight
 
 Spell causes a glowing disk to rise into the air and illuminate 1 mi.^2^ as
-if by moonlight with all appropriate effects. EP 1000, Difficulty = 8, Pow =
-30. Lasts 1 minute.
+if by moonlight with all appropriate effects.
+
+Pow 30. Duration 1 minute.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Move Rock
 
 Allows the magician to exert a force on stone. The target can only be moved
-slowly (1 hex / round) and cannot move more than 1hex above the ground. The
+slowly (1 hex / round) and cannot move more than 1 hex above the ground. The
 force exerted is 100 lb. / Pow, and must be distributed over at least 1
-cubic foot of rock. For less than 1 ft.^3^, de-rate force appropriately.
-Difficulty 8. Pow = 250
+ft.^3^ of rock. For less than 1 ft.^3^, de-rate force appropriately.
+
+Pow 250.
+
+(Jon) Scroll cannot be created.
 
 === Magic - N-liquid
 
 A material which flows like water, but up. It follows the path water would
-take down, but follows it in reverse (along the ground only). components -
-Water, silver dust. Difficulty = 6 EP 250. Pow = 1 / unit.
+take down, but follows it in reverse (along the ground only).
+
+Pow 1 / unit.Components water, silver dust.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - Necromantic Collection
 
@@ -4522,66 +4970,105 @@ erected in a pentagon to mark out the area. The collection area is roughly
 spherical. Each stone must be of solid basalt in the form of a obelisk, 10:1
 aspect ratio. Stones must be at least 1/100 of the diameter of the circle.
 Stones may be buried. Typically takes 100 hours to carve each 1' stone, with
-time increasing as the square of the height - but carving may be done by
-minions. Stones are reusable. EP 2000, Difficulty 10 Pow 100. Note: you must
-be able to use the Pow as quickly as it is delivered. 1 week (preparation), 1
-round activation, +10
+time increasing as the height^2^ - but carving may be done by minions.
+Stones are reusable.
+
+[NOTE]
+====
+You must be able to use the Pow as quickly as it is delivered.
+====
+
+Pow 100.
+
+Fixed casting time 1 week (preparation), 1 round activation, +10.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Nightmare
 
 Causes the victim to have a horrible nightmare. Direct spell. Failure causes
 inability to use this spell on that victim again. You may decide in general
 the course of the nightmare, or let their worst fears take over. Pow 10.
-Difficulty 8, EP 500.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Olfactory Simulacrum
 
 Causes a smell to emanate from an object. The smell can duplicate in detail
 anything the caster has personally smelled, and is accurate enough to, for
-example, confuse tracking dogs. 1 Pow / minute, 250 EP, Difficulty 5. Note that
+example, confuse tracking dogs. Note that
 the smell overlays, but doesn't replace existing smells. Smells can be made
 very unpleasant, but not disabling.
+
+Pow 1 / minute to continue.
 
 === Magic - Oxyliquid
 
 Alchemical - eliminates the effects of oxygen starvation due to high
 altitude, under water, or the breathing effects (but not contact) with
 poison gas, etc. Spell creates a potion - which has a shelf life of 1 week
-(only!). Components: Water, Mercury (1 GP / unit), plant components. Pow1,
-Potion lasts 8 hours. Difficulty 10, EP 500.
+(only!).
+
+Pow 1. Components water, mercury (1 GP / unit),
+plant components. Potion lasts 8 hours.
 
 === Magic - Paralysis
 
 Causes the victim to be unable to move or fight. This spell will be broken
 by any sudden movement toward the victim. You must approach slowly for the
 kill. This spell only allows you to get to combat range before it is broken.
-It does NOT give you a free attack. Spell lasts for about 5 minutes. Direct
-spell. EP 500 Pow 30. Difficulty 10.
+It does *not* give you a free attack. Direct spell.
+
+Pow 30. Duration about 5 minutes.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Partial Petrify
 
 Causes a part of the victim to turn to stone. Note that this will not kill
-the victim. Difficulty 10 Pow 10. Lasts for about 1 day, then slowly
-recovers.
+the victim.
+
+Pow 10. Duration about 1 day, then target slowly recovers.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Peer Through Rock
 
-Makes rock as clear as glass (to the caster only). Cost is 10 Pow / foot
-distance. Lasts 1 minute. Difficulty 9 EP 500, Fixed time 1 minute, +6.
+Makes rock as clear as glass (to the caster only).
+
+Pow 10 / ft. distance. Duration 1 minute.
+
+Fixed casting time 1 minute, +6.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Permanent Sleep
 
 Induces a sleep which cannot be broken. Must be cast on a victim who is
 already sleeping. The victim will not age, or change in any way until
 awakened. A specific action must be declared which will awake the victim.
-(GM discretion for acceptable actions). Direct spell Pow 30. Difficulty 11.
-EP 1000
+(GM discretion for acceptable actions). Direct spell.
+
+Pow 30.
+
+(Jon) Scroll cost 100 GP, not generally available.
 
 === Magic - Phase Through Rock
 
-Allows the magician to move through solid rock at 1 hex / round. Costs 1 Pow
-/ round, Difficulty = 10 to start, 0 to continue. A failed roll means
-*death*. EP 1000. 10 minutes, +8
+Allows the magician to move through solid rock at 1 hex / round. A failed
+roll means *death*.
+
+Pow 1 / round to maintain.
+
+[NOTE]
+====
+(Jon) Originally this said "Difficulty 10 to start, 0 to continue", which
+suggests a roll every round to stay phased. We don't do that now.
+====
+
+Fixed casting time 10 minutes, +8.
+
+(Jon) Scroll cost 10 GP, availability 1%.
 
 === Magic - Physical Protection
 
@@ -4589,26 +5076,41 @@ Allows the magician to surround himself with a barrier that will stop
 physical attacks. The barrier is transparent, but slightly visible. Once
 created it is immobile. The magician allocates Pow to the barrier at each
 magic phase. That Pow will remain in the barrier until it is attacked. The
-barrier acts as DCV=0, 1 Pow will be consumed for each 5 points of damage.
+barrier acts as DCV 0. 1 Pow will be consumed for each 5 points of damage.
 inflicted on the barrier. The barrier has a base cost of 1 Pow for each hex
-side covered. Difficulty 8. EP 500. +6, 1 round / hex side.
+side covered.
+
+Fixed casting time 1 round / hex side, +6.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Plague (Metamagic)
 
 Causes an outbreak of plague which will continue naturally. The death rate
-is 50% over 6 month. Make con roll to survive. Difficulty 14. Pow 1000. EP
-1000.
+is 50% over 6 month. Make con roll to survive.
+
+Pow 1000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Plant Growth
 
 Causes plants in the area to grow at up to 1 years growth / minute. Lasts 1
 minute. This spell can be very powerful. Magician can control direction of
-growth within reason. EP 2000. Difficulty = 7, Pow = 15
+growth within reason.
+
+Pow 15.
+
+(Jon) Scroll cost 10 GP, availability 1%.
 
 === Magic - Poison
 
 Creates a poison which causes death (if ingested) in seconds to days
-(magicians choice). Difficulty 9. Pow 1. EP 500
+(magicians choice).
+
+Pow 1.
+
+(Jon) Scroll cost 1 GP, availability 5%.
 
 === Magic - Portal
 
@@ -4622,13 +5124,21 @@ Symbol takes a minimum of 2 months to construct , plus 1 additional month
 per hex of active area. The symbol is designed for a specific location - and
 can be activated to that location using standard symbol rules (MG+ - 5
 casting). The portal spell must be cast again for any change in target (but
-can use the existing symbol). Difficulty 10. EP 1000. Pow = 100 / hex.
+can use the existing symbol).
+
+Pow 100 / hex.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Power Generation
 
 Allows the construction of a Pow generation gem. This gem will produce and
 radiate Pow. Only a single Pow generation gem can be liked to a storage or
-symbol gem. Difficulty = 8 Pow = 10 EP 500.
+symbol gem.
+
+Pow 10.
+
+(Jon) Scroll cannot be created.
 
 [NOTE]
 ====
@@ -4643,8 +5153,11 @@ who "links" to it. If the gem is destroyed, all Pow is released as
 uncontrolled. A fumble on a spell when you are "linked" will discharge the
 entire gem Pow. Any Pow left in a gem when it is unlinked from a magician
 goes uncontrolled. A roll for this spell is required when you first choose
-to link to a gem. You can only link to a single gem at a time. Difficulty =
-4, Pow = 10 EP 500
+to link to a gem. You can only link to a single gem at a time.
+
+Pow 10.
+
+(Jon) Scroll cannot be created.
 
 [NOTE]
 ====
@@ -4655,25 +5168,37 @@ gem Pow".
 === Magic - Rain
 
 Spell causes it to rain over an area about 10 miles on a side. Rain will
-last for a few hours. Difficulty = 10 Pow = 200, EP 500.
+last for a few hours.
+
+Pow 200.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Rainbow
 
-Causes a rainbow to appear in the sky. Continuing spell 1 Pow / round. +5 if
-there is rain and clouds. -2 at night.. EP 500, Difficulty 8. Pow 200.
+Causes a rainbow to appear in the sky. +5 on casting if there is rain and
+clouds, -2 at night.
+
+Pow 200, Pow 1 / round to continue.
 
 === Magic - Rebuild
 
 This spell will rebuild a structure which had previously been destroyed. It
 will rebuild the oldest and / or most significant structure which had been
 constructed from the materials at hand. The structure will remain intact,
-only if it can stand on its own after being assembled. The spell affects an
-area of 1 hex in radius for each Pow. Difficulty = 14. EP 1000
+only if it can stand on its own after being assembled.
+
+Pow 1 / hex rebuilt.
+
+(Jon) Scroll cost >1000 GP, not generally available, permanent.
 
 === Magic - Rock To Lead
 
-This spell causes a volume of rock to convert to lead. Pow = 1/pound
-Difficulty 10. EP 250
+This spell causes a volume of rock to convert to lead.
+
+Pow 1 / lb.
+
+(Jon) Scroll cost 10 GP, availability 5%.
 
 === Magic - Sanctuary (Metamagic)
 
@@ -4689,91 +5214,144 @@ Sanctuary may only be used outdoors. It is difficult to lead large groups
 into a sanctuary. If trying to break in, the navigation roll is made at -1
 for each power of 2 of people above 12. The same applies to the Sanctuary
 roll required to re-enter the sanctuary. Note that a large Sanctuary can be
-cast in segments. If it is broken, the entire spell breaks. EP 1000, Pow
-1000 (minimum), Difficulty 11. Fixed casting time 1 week, +10.
+cast in segments. If it is broken, the entire spell breaks.
+
+Pow 1000.
+
+Fixed casting time 1 week, +10.
+
+(Jon) Scroll cost >100 GP, not generally available.
 
 === Magic - Scrying
 
 Spell allows the caster to see things at a distance. The caster must have a
 part of something currently held by the target. The caster can see things in
 the area of the item. Note the caster has no control over the exact
-direction the spell looks. The spell is Difficulty 12. Pow 50. EP 2000. The
-target is not aware of the scrying.
+direction the spell looks. The target is not aware of the scrying.
+
+Pow 50.
+
+(Jon - ??? permanent) Scroll cannot be created. If it could, the Scrying effect would be permanent.
 
 === Magic - Shadow Hide
 
 Allows the caster (only) to hide perfectly in shadow. Failure of any roll
 will result in detection. A roll is required each time someone looks. Rolls
 are made without time modifiers. Note that you can be seen if you directly
-attack someone. EP 500, Difficulty = 6 for first roll, then 0, Pow =
-1 / round.
+attack someone. Roll at difficulty 6 for first roll, then 0 for each
+successive roll,
+
+Pow 1 / round.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Shatter Metal
 
-Will break a metal object. Direct spell. Cost is 10 Pow / in.^2^. Difficulty
-= 10. EP 500
+Will break a metal object. Direct spell.
+
+Pow 10 / in.^2^.
+
+(Jon) Scroll cost 10 GP, availability 10%.
 
 === Magic - Shatter Rock
 
-This spell will break an object at range. It is a direct spell. Pow is 20 /
-ft.^2^. Difficulty = 9. EP 500. 3 rounds +3.
+This spell will break an object at range. Direct spell.
+
+Pow 20 / ft.^2^.
+
+Fixed casting time 3 rounds, +3.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Silence
 
-Causes the victim to be unable to make any noise. Direct spell. (Note this
-will also prevent indirect noise from the victim). Can be used on self.
-Duration 10 rounds. Pow 10. Difficulty 8. EP 500
+Causes the victim to be unable to make any noise. This will also prevent
+indirect noise from the victim. Can be used on caster. Direct spell.
+
+Pow 10, Duration 10 rounds.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Silver To Gold
 
-Costs 100 Pow / oz. Difficulty 14. EP 2000
+Pow 100 / oz.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Simulacrum
 
-Makes an image of an object. 1 Pow / minute lifetime. Difficulty 7, EP =
-250. Image does not move. Maximum size is 1 hex (approximately human size)
-fixed time 1 minute, +7.
+Makes an image of an object. Image does not move. Maximum size is 1 hex
+(approximately human size)
+
+Pow 1 / minute lifetime.
+
+Fixed casting time 1 minute, +7.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Sleep
 
 Cast on someone in a situation where they might fall asleep (a guard at his
-post for example). Direct spell, Difficulty 6. Pow 10, Failure, no effect.
-EP 500. Fixed casting time 1 minute, +8. Can be cast over an area at 1 Pow /
-hex + 10 Pow / victim.
+post for example). Direct spell. Casting failure has no effect.
+
+Pow 10, Can be cast over an area at 1 Pow / hex + 10
+Pow / victim.
+
+Fixed casting time 1 minute, +8.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Slow
 
 Cast on someone to slow their movement. Causes movement to be at 1/2 normal.
-Duration 10 rounds. Direct spell. Pow 20. Difficulty 7. EP 500
+Direct spell.
+
+Pow 20, Duration 10 rounds.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Slow Burn
 
 A substance which will burn very slowly and regularly. It has the
-consistency of clay. 1cc of the material can burn for about an hour.
-Requires plant materials, oil, sulfur. Difficulty 8, Pow = 1 / cc, EP 250
+consistency of clay. 1 cc. will burn for about an hour.
+
+Pow 1 / cc. Components plant materials, oil, sulfur.
+
+(Jon) Scroll cost 1 GP, availability 25%.
 
 === Magic - Smoke - Magical
 
-A spell which produces a puff of smoke, about enough to fill a room,
-Difficulty 46 EP 500, 1000 ft^3^ / Pow.
+A spell which produces a puff of smoke, about enough to fill a room.
+
+Pow 1 / 1000 ft.^3^.
+
+(Jon) Scroll cost 1 GP, availability 25%.
 
 === Magic - Soul Bind
 
-Connects a soul to an object. Direct spell. 100 Pow, -10. Casting time 1
-day. +8
+Connects a soul to an object. Direct spell.
+
+Pow 100.
+
+Fixed casting time 1 day, +8.
 
 === Magic - Soul Creation (Metamagic)
 
 Uses Chaons to create a new soul. Requires 500 Chaons to be trapped. This
 spell will convert the Chaons to a new soul which is bound to a person. The
 target permanently gains: Angel abilities, immortality. It's a good deal.
-Spell requires chaos trapping. EP 3000, Difficulty = 16, 5000 Pow.
+Spell requires chaos trapping.
+
+Pow 5000.
+
+(Jon) Scroll cost >>1000 GP, not generally available.
 
 === Magic - Soul Creation (Version2) (Metamagic)
 
 Creates a new, 0 Pow chaos soul. This type of soul is required in order to
-absorb other Chaons (see <<chaons,Chaons>>). EP 3000, Difficulty 16, 5000
-Pow.
+absorb other Chaons (see <<chaons,Chaons>>).
+
+Pow 5000.
 
 [NOTE]
 ====
@@ -4781,46 +5359,64 @@ Pow.
 original version is obsolete and should be moved to the appendix.
 ====
 
-
 === Magic - Soul Rip
 
-Removes a soul from a person. Direct spell. 100 Pow, -10, casting time 1 day.
-+8.
+Removes a soul from a person. Direct spell.
+
+Pow 100.
+
+Fixed casting time 1 day, +8.
 
 === Magic - Soul Talk
 
-Talk to a soul. 1 Pow. -10. Casting time 1 hour +8.
+Talk to a soul.
+
+Pow 1.
+
+Fixed casting time 1 hour, +8.
 
 === Magic - Spirit Wall
 
 Creates a wall (actually a dome) that spirits cannot cross. A line must be
-enscribed around the area to be protected, 1 round / hex. +6. Each Pow in the
-wall can stop 10 spirits from crossing the wall.
+enscribed around the area to be protected,
+
+Fixed casting time 1 round / hex, +6. Each Pow in the wall can stop 10 spirits
+from crossing the wall.
 
 === Magic - Spring
 
-Causes a small water spring to grow in the ground. Spring will last 1 hour.
-Must be cast at -5 in very dry areas. Difficulty 9, EP 500, Pow 100
+Causes a small water spring to grow in the ground. Cast at -5 in very dry
+areas.
+
+Pow 100. Duration 1 hour.
+
+(Jon) Scroll cost 1 GP, availability 10%, permanent.
 
 === Magic - Statue Garden
 
 Turns people to stone in a prepared area. Area must be prepared - cost is 1
 SP and 1 EP (applied to this spell) for each hex prepared. A Pow source (Pow
 stone for example, or the mage) must be provided. Acts as an area effect
-direct spell. Trigger can be any action specified by the caster. Difficulty
-12, EP 1000, Pow 100 / target.
+direct spell. Trigger can be any action specified by the caster.
+
+Pow 100 / target.
+
+(Jon) Scroll cost >1000 GP, not generally available, permanent.
 
 === Magic - Stone Golem
 
 Causes a rock or boulder to stand up and work at the caster's command. Move
 2 Engage 2. Att +1, DCV 1/1/Inf. Damage depends on size. Human sized (300kg)
-30 damage, 100 HP 50 DEF (1/2 damage from edged weapons). Damage is linear in
+30 damage, HP 100, Defense 50 (1/2 damage from edged weapons). Damage is linear in
 size. Casting plus is -1 / factor of 2 in size. Mage can cast on multiple
 smaller stones. Stones must be detached to be used. A stone carved into a
 functional shape (human, monster, etc), can trade pluses for damage: +1
 attack, defense, move for 2X damage. Plus = -2. Fumble -> golem attacks
-caster. Spell lasts for 1 day , cannot be dropped. Time: 1 hour, +8,
-Difficulty 6 Pow cost is linear in size. 1000 EP,
+caster.
+
+Pow cost linear in size of golem. Duration 1 day, cannot be dropped.
+
+Fixed casting time 1 hour, +8.
 
 === Magic - Stone Zombie (Metamagic)
 
@@ -4828,64 +5424,100 @@ Creates a stone "zombie" that will kill other people and turn them into
 stone zombies. Each zombie is move 3/2, +0/40 0/0/10 50/0/300. They are slow
 but almost indestructible. They will mindlessly hunt down the nearest humans
 and kill them. Single zombies are not too dangerous, but once a horde gets
-started it is almost unstoppable. Difficulty 14. Pow 1000. EP 1000.
+started it is almost unstoppable.
+
+Pow 1000.
 
 === Magic - St. Elmo's Fire
 
 Casts a dim blue-green light over an object - up to 10 hexes size..Can be
-cast on an opponent by hitting low DCV at casters MG+. 5 rounds +3.
-Difficulty 2, 250 EP
+cast on an opponent by hitting low DCV at casters MG+.
+
+Fixed casting time 5 rounds, +3.
 
 === Magic - Storm
 
 Spell causes a strong thunderstorm to cover an area about 10 miles on a
-side. Storm will last about 1 hour. Difficulty 11, EP 1000, Pow = 500. Fixed
-casting 10 minutes +7.
+side. Storm will last about 1 hour.
+
+Pow 500.
+
+Fixed casting time 10 minutes, +7.
+
+(Jon) Scroll cost 100 GP, availability 1%.
 
 === Magic - Summon
 
 This is used to summon demons, etc. Power used is variable. Spell will work
 if all particulars have been carried out exactly. See summoning section for
-details on requirements for summoning each type of demon. Difficulty 10, Pow
-1000. EP 1000. Casting time varies, but typically 1 week to prepare. +8
+details on requirements for summoning each type of demon.
+
+Pow 1000.
+
+Fixed casting time typically 1 week to prepare (varies), +8.
+
+(Jon) Scroll cost 10 GP, availability 1%. A scroll summons a single specific demon.
 
 === Magic - Sun
 
 This spell causes the sun to appear in the sky (if it is not there already).
 The sun will rise in the east, and reach the zenith in 3 rounds. It will
 light up an area 10 miles on a side with normal levels of daylight. This
-will have all the normal effects on undead. Lasts for 1 hour. EP 5000, Pow
-2000, Difficulty 11.
+will have all the normal effects on undead.
+
+Pow 2000. Duration 1 hour.
+
+(Jon) Scroll cost >100 GP, not generally available.
 
 === Magic - Sunlight
 
 This spell causes a beam of light with all of the effects of sunlight to
 emit from the caster's hand. Damage to undead (roll to hit is required) is
-10 base (no armor or parry). After casting, the spell can be maintained at
-20 Pow / round. Range is 20 hexes. EP 1000, Difficulty = 9, Pow = 100. 10
-rounds, +5.
+10 base (no armor or parry). Range is 20 hexes.
+
+Pow 100. 20 Pow / round to maintain.
+
+Fixed casting time 10 rounds, +5.
+
+(Jon) Scroll cost 1 GP, availability 1%.
 
 === Magic - Teleport
 
 Causes mage to spend the next full round moving to a specified hex, the
 subject appears with a popping sound, loud enough to wake a sleeping person.
 The mage must appear on solid ground. The destination must be in line of
-sight. Direct Spell. Difficulty 9, Pow 10 / hex, EP 1000.
+sight. Direct Spell.
+
+Pow 10 / hex.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Terrify Animal
 
 Causes any animal (non enchanted creature) to flee in panic. Direct spell.
-Difficulty 7. Pow 5. EP 250. 3 rounds, +4.
+
+Pow 5.
+
+Fixed casting time 3 rounds, +4.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Tidal Wave (Metamagic)
 
 Causes a 200' tall wave, approximately 20 mile wide to move on shore. Damage
-depends on the local terrain. Difficulty = 12, EP 5000, Pow = 10,000.
+depends on the local terrain.
+
+Pow 10,000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Tidiness
 
-Spell causes you to look clean, repairs clothes, etc. EP 500. Difficulty 7,
+Spell causes you to look clean, repairs clothes, etc.
+
 Pow 10.
+
+(Jon) Scroll cost 1 GP, availability 10%.
 
 === Magic - Time Stop
 
@@ -4895,8 +5527,12 @@ predetermined time - creating an invulnerable shield. No Pow can be
 naturally collected inside of a bubble - however otherwise magic can be
 used. It takes one round (as viewed by both inside and outside observers)
 for the bubble to form or disappear. Fumble has the obvious very bad effect
-(caster frozen for some very long time - thousands of years). 30 Pow / hex
-(must be round, centered on caster). Difficulty 8, EP 500.
+(caster frozen for some very long time - thousands of years). Area covered
+must be round and centered on the caster.
+
+Pow 30 / hex.
+
+(Jon) Scroll cost 10 GP, availability 1%.
 
 === Magic - Tornado (Metamagic)
 
@@ -4905,85 +5541,137 @@ casting magician. Range Pow costs must be paid to create the tornado. The
 tornado has a diameter of 500 hexes (fuzzy edged), and moves at up to 20
 hexes / round. Tornado includes summoning a severe storm. Typically all
 wooden buildings in the area of effect will be destroyed, all trees
-uprooted. Stone buildings may be destroyed. All exposed persons will take at
-attack at +3/10 against OUTDOOR SURVIVAL plus every 10 rounds when in the
+uprooted. Stone buildings may be destroyed. All exposed persons will take an
+attack at +3 / 10 against Outdoor Survival every 10 rounds when in the
 tornado. Armor gives normal protection against area attacks. Outdoor clothes
-give 10/90% protection. Difficulty 10, 3000 EP, Pow = 3000, 10 rounds +5.
+give 10 / 90% protection.
+
+Pow 3000.
+
+Fixed casting time 10 rounds, +5.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Track
 
 Allows you to find the direction to a person if you have some item of
-theirs. Failure will give an incorrect direction. 10 Pow / mile range,
-minimum 10 Pow. Difficulty = 11, EP 500, Fixed casting time 1 hour, +7.
+theirs. Failure will give an incorrect direction.
+
+Pow 10 / mile range, minimum 1 mi.
+
+Fixed casting time 1 hour, +7.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Trigger
 
 A spell bound into a magical device that allows the firing of a symbol
 spell. The trigger must be as large as the triggered symbol. A trigger is
-attached to one and only one symbol spell. Difficulty 12, Pow = 1, EP 1000.
+attached to one and only one symbol spell.
+
+Pow 1.
+
+(Jon) Scroll cannot be created.
 
 === Magic - Unerase
 
 A liquid which will cause erased or faded writing to reappear on a page.
-Difficulty 8. Pow = 1, EP 250
+
+Pow 1.
+
+(Jon) Scroll cost 1 GP, availability 20%.
 
 === Magic - Vampirism
 
 Converts anyone into a vampire (permanently). You gain all the powers and
-disadvantages of a vampire. A failed roll means the target dies. Difficulty
-11. Pow 1000. EP 2000
+disadvantages of a vampire. A failed roll means the target dies.
+
+Pow 1000.
+
+(Jon) Scroll cost 100 GP, not generally available.
 
 [[vigor]]
 === Magic - Vigor
 
 Allows the recipient to fight at negative HP. Recipient will fight to
 negative 4X normal death, but will die if spell ends while you are worse
-than death. EP 250, Difficulty = 7, 10 Pow. Can continue at 1 Pow / round. 1
-round, +2.
+than death.
+
+Pow 10. Pow 1 / round to continue.
+
+Fixed casting time 1 round, +2.
+
+(Jon) Scroll cost 1 GP, availability 10%, permanent.
 
 === Magic - Volcano
 
-Causes a volcano to begin to grow in a specified location. Difficulty 15.
+Causes a volcano to begin to grow in a specified location.
+
 Volcano will start producing 100 m^3^ of lava each hour. This will
 double each hour for 3d6 hours. This rate will continue for (d2*)^2^ days.
 It will then subside, and remain dormant for (d2*)^2^ years. It will then
-begin to erupt again. EP 5000, Pow = 50,000, Difficulty = 15
+begin to erupt again.
+
+Pow 50,000.
+
+(Jon) Scroll cost >1000 GP, not generally available.
 
 === Magic - Volcano Control
 
 Includes protection from fumes, walk on lava, survive lava, redirect lava,
-lava control. EP 2000, Pow = 20 / round, Difficulty = 7 (each round).
+lava control.
+
+Pow 20 / round.
+
+(Jon) Scroll cost 10 GP, not generally available.
+
+[NOTE]
+====
+(Jon) Used to say "Difficulty 7 (each round)". In modern games, typically
+the mage only casts Volcano Control once and does not need to re-roll every
+round.
+====
 
 === Magic - Wall Of Fire
 
 Create an immobile curtain of raging fire. It cannot be created through a
 solid object (or person). Anything which crosses through the curtain takes
-fire damage equal d6 for each 10 points in the spell. In addition to the Pow
-for damage, 5 Pow / hex length must be spent. Continuing spell. Difficulty 8
-EP500. fixed casting time 3 rounds, +3;
+fire damage equal d6 for each 10 points in the spell. Continuing spell.
+
+Pow 5 / hex length + Pow for damage (above).
+
+Fixed casting time 3 rounds, +3.
+
+(Jon) Scroll cost 1 GP, not generally available.
 
 === Magic - Wall Of Stone
 
-Creates a series of crystal like spikes the grow out of the ground. Covers 1
-hexes to a height of 10' for each Pow. Requires a flat climbing or
-acrobatics roll to cross. If attacked, DCV=-10, DEF =600, 5000hp, 1/4 damage
-from edged weapons. Blocks vision. 10 rounds +5
+Creates a series of crystal like spikes to grow out of the ground. Spikes
+are 10' tall. Requires a flat Climbing or Acrobatics roll to cross. If
+attacked, DCV -10, Defense 600, HP 5000, 1/4 damage from edged weapons. Blocks
+vision.
+
+Fixed casting time 10 rounds, +5, 1 Pow / hex / 10' spikes.
 
 === Magic - Water Breathing
 
 Potion allows you to operate under water without needing to breathe and
-makes you immune to pressure effects. Components are deep sea fish oil,
-squid ink, and crushed pearls (1 GP / potion). Potion lasts 1 day. EP 500,
-Difficulty 10. After taking potion, you cannot survive in air until the
-effects wear off.
+makes you immune to pressure effects. After taking the potion, you cannot
+survive in air until the effects wear off.
+
+Pow ???. Components deep sea fish oil, squid ink, and crushed pearls (1 GP /
+potion). Duration 1 day.
 
 === Magic - Wind
 
 Spell causes a wind to blow over the area of effect. Pow = radius(hexes) *
 speed(knots)^2^ / 1000. A 10 knot wind over a 1000 hex radius (1 mile),
-would cost 100 Pow. Duration is 1 hour. Maximum wind speed is 30 knots.
-Maximum radius is 10 miles. Minimum Pow is 20. Difficulty =10, EP 500, Pow =
-1000.
+would cost 100 Pow. Maximum wind speed is 30 knots. Maximum radius is 10
+miles. Minimum Pow is 20.
+
+Pow 1000. Duration is 1 hour.
+
+(Jon) Scroll cost 10 GP, availability 25%.
 
 
 [[psi]]
@@ -5142,8 +5830,8 @@ paralysis. The base area of effect is 100 hex radius, at a range of up to
 
 This is the ability to freeze an opponent in their tracks. Target must look
 at your eyes or a -5 applies. Targets in combat will look at your eyes on a
-7-.Range is line of sight to max of 10 hexes. Note, opponent can avoid eyes
-but is -1 on all combat. Difficulty 5, EP 1000
+7-. Range is line of sight to max of 10 hexes. Note, opponent can avoid eyes
+but is -1 on all combat.
 
 === Psi - Read Impression
 
@@ -5181,7 +5869,7 @@ A very advanced psi ability. Provides the ability to move objects by mind
 alone. It provides motions and forces similar to those a human could
 produce. If used for attack, it attacks at your Psi - General Plus for 2.0
 base (for a dull object) and 5.0 base for weapons, or a parry of 15. If used
-for lifting, the maximum amount that can be lifted is 30 pounds. These
+for lifting, the maximum amount that can be lifted is 30 lbs. These
 numbers are multiplied by Psi / 10.
 
 
@@ -5341,7 +6029,7 @@ used "Pure Chaos Power".
     but does not stop aging. Permanent.
   * Unaging: 5 Chaons. Stops aging at middle age.
   * Regeneration: Regenerate 1 HP / round for 100 Chaons. Regeneration goes
-    as square root of Chaons. Permanent.
+    as sqrt(Chaons). Permanent.
   * Strength: strength increases by (10 * sqrt(Chaons))%. This affects
     Damage, Defense, Parry, HP.
 +
@@ -5491,7 +6179,7 @@ Each 12 hours roll for one of the following effects (flat roll):
 | 3    | Crevasse opens. All must roll an acrobatic roll at +8 (or be swallowed).
 | 4    | Food from heaven - bread drops from the sky, or grows out of the ground.
 | 5    | Geyser appears - Fire attack at +0 / 30 to all involved.
-| 6    | Hail of d6( Magnesium, Silver, Gold, Rubies (1-10 ct), Diamonds (1-10 Ct), Mithril): each 1 pound / hex total. Counts as +6/3 attack each round. Last 5 rounds.
+| 6    | Hail of d6( Magnesium, Silver, Gold, Rubies (1-10 ct), Diamonds (1-10 Ct), Mithril): each 1 lb. / hex total. Counts as +6/3 attack each round. Last 5 rounds.
 |====
 
 If there are no waves, a roll for effects is required each day. If the roll
@@ -5559,11 +6247,11 @@ table. When passed +8/30
     normal. HP divided by 2.
   * Reptile: All damages and HP 2X, but fatigue after CON / 4 rounds. Shift
     all outdoor survival rolls by 20 degrees hotter.
-  * Amphibian: Move -2, Can swim at original full move -2, and survive
+  * Amphibian: Move -2, Can swim at original Full Move -2, and survive
     underwater to 100M depth. Fight normally underwater. All survival rolls
     at -2. Must have 1 pint water / hour (3 gallons / day) or lose 1 hp /
     hour.
-  * Fish: Move -2, Can swim at original full move +2, Survive underwater to
+  * Fish: Move -2, Can swim at original Full Move +2, Survive underwater to
     any depth. Stealth underwater gain +5. All survival rolls at -5. Must
     have 2 pints water / hour (6 gallons / day), or lose d6 hp / hour.
 
@@ -5679,8 +6367,8 @@ normal human they kill
 The following abilities are gained as Chaons are added
 
   * Form: 1 Chaon. Required for any other abilities
-  * Movement: 1 Chaon: Can move 1 / hex. Movement rate increases as the
-    square root of the number of Chaons.
+  * Movement: 1 Chaon: Can move 1 / hex. Movement rate increases as
+    sqrt(Chaons).
   * Speech: 1 Chaon: ability to talk
   * Physical Form: 1 Chaon for each 1% of normal strength and coupling to
     physical attacks. Maximum coupling is 100%.
@@ -5754,7 +6442,7 @@ Availability of a specific skill in the general population
 | Land - farmland                                     | Acre   | 100        | 25%       | 75%  | Can support ~1 person. In protected area.
 | Lands - as noble lord                               | person | 200        | 50%       | 90%  | Each peasant, can only sell after 1 year
 | Iron                                                | Lb     | 2          | 5%        | 75%  |
-| Lamp (brass, wind block)                            | Ea.    | 20         | 10%       | 50%  | 3 hours. 1 pound, fragile
+| Lamp (brass, wind block)                            | Ea.    | 20         | 10%       | 50%  | 3 hours. 1 lb., fragile
 | Mercury                                             | oz.    | 100        | 25%       | 75%  | Important magical ingredient
 | Nitroglycerine                                      | Lb.    | 100        | 25%       | 50%  | If available, 10% in city, dangerous
 | Mithril                                             | oz.    | 2000       | 50%       | 50%  | Rare
@@ -5763,7 +6451,7 @@ Availability of a specific skill in the general population
 | Ship                                                |        |            |           |      | See Sailing Ship Rules
 | Silver                                              | oz.    | 1          | 0%        | 100% | Monetary standard
 | Steel                                               | Lb.    | 5          | 10%       | 75%  | Weapons grade
-| Torch                                               | Ea.    | 0.1        | 10%       | 50%  | 1/2 hour, weighs 1 pound.
+| Torch                                               | Ea.    | 0.1        | 10%       | 50%  | 1/2 hour, weighs 1 lb.
 | Wages - General Skilled +N                          | Hour   | 0.05*2^N^  | 25%       | 50%  | Carpenter, smith, etc
 | Wages - Judge, magistrate                           | Hour   | 1          | 10%       | 50%  |
 | Wages - soldier 250 EP [5/5 +0/13 0/5/9 69/17/13]   | Hour   | .05        | 10%       | 50%  | Guardsman (100 SP / yr) 1 / 20 population available.
@@ -5906,169 +6594,6 @@ Magical training:
   * Magic research lab - about 1000 GP, including at least 300 books.
 
 
-=== Magical Spells And Scrolls (Retail, Wholesale = 1/4)
-
-Availability is at a large city (100K pop) magic shops. *n/a* means a scroll
-cannot be created for that spell.
-
-[NOTE]
-====
-*Restricted* means that use of this spell is often illegal, and the
-authorities will imprison or kill mages casting it if possible.
-
-(Jon) The spell table has a lot of redundancy with the <<Magic Spells>>
-section, and with skill.dbs (which gets tweaked by GMs a fair amount anyway,
-and may no longer track this document in significant ways). Only the price,
-availability and notes columns of this table are unique. We should probably
-merge that information into the list of spells.
-====
-
-.Spell Table
-[options="header"]
-|====
-| Spell                  | (-) | Adj - | $scroll | Avail | EP    | Pow         | Notes (P = possible permanent, or long term)
-| Alarm                  | 7   |       | 1 GP    | 50%   | 100   | 20          | Scroll is for specific distance. (P)
-| Alpine Snuff           | 12  |       | ***     | nil   | 1000  | >1          | Cocaine, 1 dose (.01 gm)
-| Analyze magic          | 8   |       | n/a     | n/a   | 500   | 10          | indicates Pow and effect of spell
-| Animal Empathy         | 8   |       | n/a     | n/a   | 500   | 5           | Communicate with animals
-| Animate Rock           | 10  |       | 10 GP   | 5%    | 500   | 5 / hex     | attack +5/10.0
-| Animate Tree           | 10  |       | Nil     | Nil   | 2000  | 10 / ft.    | Rare
-| Army of Death          | 13  |       | >1,000  | nil   | 1000  | 1 / 100 hex | 100 hex / Pow, Metamagic
-| Asteroid Strike        | 15  |       | >1,000  | nil   | 20000 | 1.0E6       | 1 Megaton, Metamagic
-| Audible Simulacrum     | 5   |       | 1 GP    | 80%   | 250   | 1 / minute  | Scroll is for a specific sound
-| Aurora Shield          | 13  |       | Nil     | Nil   | 5000  | 1k + 50 / round | meteors into fireballs, asteroids->10K meteors
-| Ball Lightning         | 5   |       | 1 GP    | nil   | 1000  | 50          | mg+, 10.0, 10 hexes / round, 6 rounds, Metamagic
-| Banish                 | 10  |       | 10 GP   | 30%   | 1000  | 1000        | Banish demons (you hope)
-| Blackout               | 10  |       | 10 GP   | 10%   | 200   | >1          | 1 Pow / 10 hexes, potion
-| Blindness              | 10  |       | 10 GP   | 5%    | 500   | 30          | Lasts until dispelled 30 Pow
-| Body of Stone          | 8   |       | 1 GP    | 20%   | 2000  | 120         | 4X dam, -2CV, 2 hours / round move (P)
-| Brass to Bronze        | 12  |       | >1,000  | nil   | 250   | 10 / lb.    |
-| Brass to Iron          | 12  |       | >1000   | 20%   | 250   | 10 / lb.    |
-| Break Rock             | 8   |       | 1 GP    | 20%   | 250   | 10 / ft^2^  | Magician must touch target
-| Bronze to Silver       | 14  |       | >1000   | nil   | 500   | 10 / oz.    |
-| Call lightning         | 6   |       | 1 GP    | 10%   | 1000  | 10          | +5 / 20 200hex p =10
-| Call Sun               | 10  |       | 10 GP   | 10%   | 1000  | 80          | Pow 80, dissipates storms
-| Camouflage             | 10  |       | 10 GP   | 10%   | 100   | 10          | chameleon skin (P), +2 stealth
-| Channel                | 10  |       | 10pg    | nil   | 1000  | 1           | Channel natural forces, Metamagic
-| Chaos Binding          | 15  |       | >1000   | nil   | 1000  | >1          | Stores chaos energy in object, Metamagic
-| Chill                  | 7   |       | 1 GP    | 5%    | 250   | 5           | causes momentary fear
-| City Walk              | 7   |       | 1 GP    | 10%   | 250   | 20          | Scroll is specific location
-| Cleaner                | 7   |       | 1 GP    | 30%   | 500   | 1 / hex     | Sorcerer's apprentice spell 1 Pow / hex
-| Conflagration          | 15  |       | >1000   | nil   | 5000  | 10000       | Fires storm, air turns to oxygen.
-| Control Undead         | 8   |       | 1 GP    | 10%   | 500   | 10          |
-| Corona                 | 8   |       | n/a     | n/a   | 1000  | 20 / round  | allows weapons to affect resistant opponent
-| Crack of doom          | 15  |       | >1000   | 0     | 20000 | 1.0E6       | 1 x 10 miles, 1M Pow, Metamagic
-| Create Rock            | 9   |       | 1 GP    | 30%   | 500   | 1 / ft^3^   | makes granite or basalt like rock
-| Create Zombie          | 10  |       | 10 GP   | 10%   | 500   | 30          |
-| Curse                  | 4   |       | n/a     | n/a   | 500   | 20          | Variable
-| Darkness               | 7   |       | 1 GP    | 20%   | 500   | 1 / hex     | 0.1 / hex / round to maintain
-| Death                  | 11  |       | 100 GP  | 10%   | 2000  | 50          |
-| De-scent oil           | 10  |       | 10 GP   | 5%    | 250   | 1 / ltr.    | Eliminates smells
-| Disease                | 10  |       | 10 GP   | 5%    | 500   | 10          |
-| Distract               | 7   |       | 1 GP    | 10%   | 250   | 10          | Opponent is distracted
-| Door Bar               | 9   |       | 1 GP    | 20%   | 500   | >10         | Locks door (P)
-| Door Break             | 9   |       | 1 GP    | 20%   | 500   | >10         | Breaks open door
-| Drain                  | 9   |       | 1 GP    | 5%    | 1000  | 10          | Draw d10 CON and STR from target, get 10X Pow
-| Earth Elemental        | 12  |       | 1000    | 1%    | 1000  | 5000        | Summons earth elemental
-| Earthquake             | 15  |       | >1000   | nil   | 5000  | 100,000     | Magnitude 8, Metamagic
-| Enchant Weapon         | 14  |       | n/a     | n/a   | 1000  | 1000        | Creates a Plus 1 weapon
-| Exorcism               | 10  |       | n/a     | n/a   | 500   | 100         | Removes a demonic possession
-| Extinguish             | 7   |       | 1 GP    | 10%   | 500   | 1 / hex     | Puts out fires
-| Vorpal Weapon          | 16  |       | n/a     | n/a   | 1500  | 5000        | Creates a Plus 2 weapon
-| Slaying Weapon         | 16  |       | n/a     | n/a   | 1500  | 10,000      | Sword will kill specific type
-| Energy Wall            | 8   |       | 1 GP    | 20%   | 500   | 1 / 5 points| barrier is DCV 0
-| Fast Walk              | 8   |       | n/a     | n/a   | 500   | 10*speed^2^ | Failure is BAD
-| Fear                   | 7   |       | 1 GP    | 20%   | 500   | 15          | Scares single target
-| Fire Elemental         | 11  |       | n/a     | nil   | 1000  | 5000        |
-| Fireball               | 7   |       | 1 GP    | 20%   | 1000  | 2*N^2^      | n Die explosive.
-| Flesh to Stone         | 8   |       | 1 GP    | 20%   | 500   | 20          |
-| Flesh to stone potion  | 12  |       | n/a     | nil   | 1000  | 50          | only reversible with spell.
-| Floating Liquid        | 11  |       | 100 GP  | nil   | 500   | 1 / oz.     | lifts UP
-| Fog                    | 10  |       | 10 GP   | 10%   | 1000  | 1 / 10K hex | Outside only
-| Forget                 | 10  |       | 10 GP   | 5%    | 500   | 30          |
-| Gate                   | 13  |       | n/a     | n/a   | 5000  | 10K / hex   | Metamagic, (P)
-| Glue                   | 9   |       | 1 GP    | 10%   | 100   | 1 / oz.     | like crazy glue
-| Glow                   | 10  |       | 10 GP   | 50%   | 500   | 10          | Lasts 1 day on object, like candle
-| Glow water             | 12  |       | 100 GP  | nil   | 1000  | 10 / oz.    | like Cylume stick
-| Healing Potion         | 9   |       | n/a     | n/a   | 500   | 50          | 6d6 healing, drain 10d6* from others
-| Heat                   | 7   |       | 1 GP    | 20%   | 500   | 1 / round   | like camp fire
-| Hellborer              | 12  |       | n/a     | n/a   | 5000  | 10000       | Drills hole, 10 hex radius, 100 Pow / hex deep, 10 hexes / round
-| Hurricane              | 12  |       | >1000   | nil   | 5000  | 20000       | Metamagic.
-| Hypnotize              | 9   |       | n/a     | n/a   | 500   | 10          | *Restricted*
-| Identify Artifact      | 8   |       | n/a     | n/a   | 500   | 5           | fabricated devices (non magic)
-| Identify Rock          | 8   |       | n/a     | n/a   | 250   | 5           | natural rock only
-| Ignite                 | 10  |       | >1000   | nil   | 2000  | 25 / hex    | 1 / hex to maintain. ignites all flammables.
-| Igniteall              | 10  |       | 10 GP   | 5%    | 250   | 1 / unit    | Burns anything
-| Immortality            | 16  |       | >1000   | nil   | 5000  | 10,000      | impossible???, any failure kills!
-| Invisibility           | 7   |       | 1 GP    | 5%    | 500   | 10 / minute | move to other world?
-| Lead to Brass          | 9   |       | 1 GP    | 5%    | 250   | 1 / lb.     |
-| Light                  | 7   |       | 1 GP    | 30%   | 500   | >1          | 1=candle to 100 = flare (P)
-| Lightning Bolt         | 6   |       | 1 GP    | 30%   | 500   | >10         | 1 HP base / 10 Pow
-| Livelong               | 0   |       | 1 GP    | 10%   | 2000  | 20          | dangerous (*Restricted*)
-| Magic Wall             | 6   |       | 1 GP    | 10%   | 500   | 100         | direct spells only
-| Magical Sword          | 7   |       | 1 GP    | 10%   | 500   | 1 / minute  | Causes sword to affect immune creatures
-| Major Illusion         | 9   |       | 10 GP   | 20%   | 2000  | 1 / 100 hex | Visual and audible illusion
-| Mesmerize              | 12  |       | n/a     | n/a   | 500   | 30          |
-| Meteor                 | 14  |       | >1000   | nil   | 3000  | 2000        | 10,000 / hexes^2^
-| Mold rock              | 8   |       | 1 GP    | 10%   | 500   | 10 / ft^3^  | turns rock into putty
-| Moonlight              | 10  |       | 10 GP   | 5%    | 1000  | 30          | lasts 1 minute
-| Move rock              | 6   |       | n/a     | n/a   | 250   | 1 / 100 lb. | lots of restrictions, 1 round
-| N-Liquid               | 8   |       | 1 GP    | 5%    | 250   | 1 / ltr.    | flows uphill, useless?
-| Necromantic collection | 10  |       | n/a     | n/a   | 2000  | 100         | Requires carved obelisks. Collects death Pow
-| Nightmare              | 8   |       | n/a     | n/a   | 500   | 10          |
-| Paralysis              | 10  |       | 10 GP   | 5%    | 500   | 30          | last 5 minutes, does not allow attack
-| Partial petrify        | 10  |       | 10 GP   | 5%    | 500   | 10          | lasts 1 day, does not kill
-| Peer through rock      | 9   |       | 1 GP    | 10%   | 500   | 10 / ft     | lasts 1 minute
-| Permanent Sleep        | 11  |       | 100 GP  | nil   | 1000  | 30          | sleeping beauty spell
-| Phase thru rock        | 10  |       | 10 GP   | 1%    | 1000  | 1 / round   | after start roll at +0 or DIE
-| Physical protection    | 8   |       | 1 GP    | 20%   | 500   | 1 / 5 points| DCV 0
-| Plague                 | 14  |       | >1000   | nil   | 1000  | 1000        | 50% fatality, Metamagic,
-| Plant Growth           | 9   |       | 10 GP   | 1%    | 2000  | 30 / round  | 10 hex radius area.
-| Poison                 | 9   |       | 1 GP    | 5%    | 500   | 1           | Creates poison
-| Power Storage          | 4   |       | n/a     | n/a   | 500   | >10         | Store power in gem
-| Portal                 | 10  |       | n/a     | n/a   | 1000  | 100 / hex   | Transportation - must create symbol
-| Power Generation       | 8   |       | n/a     | n/a   | 500   | 10          | Creates a power generation gem
-| Rain                   | 10  |       | 10 GP   | 5%    | 500   | 200         | 10 mi.^2^ area
-| Rebuild                | 14  |       | >1000   | nil   | 1000  | 1 / hex     | Rebuilds old structures (P)
-| Rock to lead           | 10  |       | 10 GP   | 5%    | 250   | 1 / pound   |
-| Sanctuary              | 11  |       | >100    | nil   | 1000  | 1000 / 100 hex | Creates a safe area, -10 Navigation - Land roll to enter.
-| Scrying                | 12  |       | n/a     | n/a   | 2000  | 50          | Affects person, must have item (P)
-| Shadow hide            | 6   |       | 1 GP    | 10%   | 500   | 1 / round   | roll at +0 each round after casting
-| Shatter metal          | 10  |       | 10 GP   | 10%   | 500   | 10 / in^2^  |
-| Shatter Rock           | 9   |       | 1 GP    | 10%   | 100   | 10 / ft^2^  | works at range
-| Silence                | 8   |       | 1 GP    | 10%   | 500   | 10          | target cannot make sound
-| Silver to gold         | 16  |       | >1000   | nil   | 2000  | 100 / oz.   |
-| Simulacrum             | 7   |       | 1 GP    | 10%   | 250   | 1 / minute  | no motion , scroll is specific, 1 hex
-| Sleep                  | 8   |       | 1 GP    | 10%   | 500   | 10          | only on unaware targets
-| Sleep Potion           | 8   |       | 1 GP    | 10%   | 250   | 1 / unit    | dose is 1oz, lasts hours
-| Slow                   | 9   |       | 1 GP    | 10%   | 500   | 20          | slows movement to 1/2
-| Slow burn              | 8   |       | 1 GP    | 25%   | 250   | 1 / cc      | Burns for an hour / cc
-| Smoke                  | 6   |       | 1 GP    | 25%   | 500   | 1 / 1K ft^3^|
-| Soul Creation          | 17  |       | >>1000  | nil   | 3000  | 5000        | Metamagic - immortality, and angelic powers
-| Spring                 | 9   |       | 1 GP    | 10%   | 500   | 100         | Causes water spring to appear (P)
-| Statue Garden          | 12  |       | >1000   | Nil   | 1000  | 100 / target| Turns people to stone is prepared area (P)
-| Storm                  | 11  |       | 100 GP  | 1%    | 1000  | 500         | Big thunderstorm
-| Summon                 | 10  |       | 10 GP   | 1%    | 1000  | 1000        | scroll summons specific demon
-| Sun                    | 11  |       | >100    | nil   | 5000  | 2000        | Calls sun into sky
-| Sunlight               | 9   |       | 1 GP    | 1%    | 1000  | 100         | Ray of sunlight
-| Teleport               | 9   |       | n/a     | n/a   | 1000  | 10 / hex    | Line of sight, direct spell
-| Terrify animal         | 7   |       | 1 GP    | 10%   | 250   | 5           | non-enchanted, unintelligent only
-| Tidal Wave             | 12  |       | >1000   | nil   | 5000  | 10,000      | 200' x 20 mile wave, Metamagic
-| Tidiness               | 7   |       | 1 GP    | 10%   | 500   | 10          | Makes you look neat and clean
-| Time Stop              | 8   |       | 10 GP   | 1%    | 500   | 30 / hex    | Stops time inside or out.
-| Tornado                | 10  |       | n/a     | n/a   | 3000  | 3000        | 500 hex diam, 200 rounds, 20 hex / round
-| Track                  | 11  |       | n/a     | n/a   | 500   | >10         | 10 Pow / mile range, need item
-| Trigger                | 12  |       | n/a     | n/a   | 1000  | 1           | For enchanted artifact creation
-| Unerase                | 8   |       | 1 GP    | 20%   | 250   | 1           | Read erased text
-| Vampirism              | 11  |       | 100 GP  | nil   | 2000  | 1000        | Not in combat
-| Vigor                  | 7   |       | 1 GP    | 10%   | 250   | 10          | can fight to -2X death 1 / round (P)
-| Volcano                | 15  |       | >1000   | nil   | 5000  | 50000       | Metamagic.
-| Volcano control        | 7   |       | 10 GP   | nil   | 2000  | 20 / round  |
-| Wall of fire           | 8   |       | 1 GP    | nil   | 500   | d6 / point  | Stationary wall of flames
-| Wind                   | 10  |       | 10 GP   | 25%   | 500   | >20         | Pow = rad(hex) * speed(knots)^2^ / 1000. 1 hour.
-|====
-
-
 == Miscellaneous Rules
 
 === Encumbrance
@@ -6147,7 +6672,7 @@ A castle wall, 200' on a side, with 15' stone fortifications, would cost 50
 GP in materials and labor.
 
 Defensive Wall gates: A typical gate for a defensive wall will have 1/4 the
-DEF and HP of the wall itself. A gate costs as much as 100' of wall.
+Defense and HP of the wall itself. A gate costs as much as 100' of wall.
 
 Building construction costs per ft.^2^ of living area. These costs are
 approximations. Occupancy is minimum ft.^2^ per person living in the
@@ -6192,13 +6717,13 @@ Furnishings cost 25% of purchase price.
 .Accommodation Types
 [options="header"]
 |====
-|Type        | Sleeps  | Cooking | Studying         | Meetings | Status     | Entertainment
-|Peasant     | 6       | -2      | No               | No       | -1 or less | Peasants
-|Cheap       | 10      | -1      | No               | 10       | -1,0       | Working Class
-|Expensive   | 12      | 0       | Studying         | 20       | 0,1        | Merchants, etc
-|Mansion     | 55      | 1       | Research         | 50       | 1,2        | Minor Nobles
-|Palace      | 260     | 2       | Research Project | 200      | 3.4        | Anyone
-|Versailles  | 2050    | 3       | Research Project | 10000    | 5          | Anyone
+| Type        | Sleeps  | Cooking | Studying         | Meetings | Status     | Entertainment
+| Peasant     | 6       | -2      | No               | No       | -1 or less | Peasants
+| Cheap       | 10      | -1      | No               | 10       | -1,0       | Working Class
+| Expensive   | 12      | 0       | Studying         | 20       | 0,1        | Merchants, etc
+| Mansion     | 55      | 1       | Research         | 50       | 1,2        | Minor Nobles
+| Palace      | 260     | 2       | Research Project | 200      | 3.4        | Anyone
+| Versailles  | 2050    | 3       | Research Project | 10000    | 5          | Anyone
 |====
 
 In addition to construction costs, there are land costs, ranging from about
@@ -6269,7 +6794,7 @@ Battering Ram: Does 10 points base for each wielder. Attacks at +0. Maximum of
 | -1                      | Explorer       | 500     |           |      | 200        |                 |                 | 30          | 250 GP
 |====
 
-Crew: 400 pounds of cargo must be allocated for each person, plus 5 lb. /
+Crew: 400 lbs. of cargo must be allocated for each person, plus 5 lb. /
 day / person supplies.
 
 Scale: Hexes are 100 ft, turns are 1 minute (for both to move). Speed 1 = 1
@@ -6429,7 +6954,7 @@ subtracted from the other).
 
 === Contest Of Rock Carrying (Silly)
 
-Each contestant picks up a 200 pound rock, and tries to carry it as far as
+Each contestant picks up a 200 lb. rock, and tries to carry it as far as
 possible without dropping (it or themselves). Contestants are allowed to ram
 each other.
 
@@ -6544,8 +7069,10 @@ Warhorse Combat Stats:
 
 Causes a ball of flame to explode at some range from the caster. This is an
 indirect area-effect spell. A N die fireball, does N dice of damage in its
-hex, one less die for each hex distance. Cost is 2 * N^2^ Pow. Range cost is
-normal, 1 / hex. Difficulty 7, EP 1000
+hex, one less die for each hex distance. Range cost is
+normal, 1 / hex.
+
+Pow 2 * N^2^.
 
 
 === Darkness (Obsolete)
@@ -6607,8 +7134,9 @@ rules in combat section. Note that flash powder is flammable. Any accessible
 flash powder units will explode at a percent chance = fire or lightning
 damage done. Protected units have 1 / 10 chance of exploding, but take 10
 rounds to ready. An exploded unit does 3d6 (add damages from all units, then
-subtract armor). Difficulty 9. EP 100, Pow = 5 / unit. Materials cost is 10
-SP / unit.
+subtract armor). Materials cost is 10 SP / unit.
+
+Pow 5 / unit.
 
 
 === Special Angel And Demon Rules (Rarely Used)
@@ -6854,7 +7382,7 @@ Players of Trolls must join discussions using only single-syllable words.
 
 These rules are optional and rarely used.
 
-Typical character starting age is 15 + EP/300. For characters entering in
+Typical character starting age is 15 + EP / 300. For characters entering in
 the midst of a campaign, the GM should produce a set of rules.
 
 [NOTE]
@@ -6913,6 +7441,11 @@ include::cliche.adoc[]
 [appendix]
 == Change Log
 
+  * 2016/09/08 (Jon Leech) - Remove the "Magic Spells and Scrolls" table and
+    merge the price and availability information into the
+    <<magic-spells,Magic Spells>> section, with a new introduction. Remove
+    the EP and Difficulty information from potions and spells and make the
+    Pow / duration information consistently formatted.
   * 2016/09/07 (Jon Leech) - Added descriptions of terms to the
     <<introduction,Introduction>>. Changed <<phases,Order of Actions>> list
     by adding links to other sections and examples of allowed Special
