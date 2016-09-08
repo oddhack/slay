@@ -18,17 +18,19 @@ ASCIIDOC = asciidoctor
 DBLATEX = dblatex
 
 SLAY = slay
-FILES = $(SLAY).adoc joel.adoc
+FILES = $(SLAY).adoc joel.adoc rat.adoc cliche.adoc
 
 all: $(SLAY).html $(SLAY).pdf
 
 $(SLAY).html: $(FILES)
 	$(ASCIIDOC) -b html5 -o $@ $(SLAY).adoc
+	cp $(SLAY).html Sample/
 
 $(SLAY).pdf: $(FILES)
 	$(ASCIIDOC) -b docbook $(SLAY).adoc
 	$(DBLATEX) $(SLAY).xml
 	-rm $(SLAY).xml
+	cp $(SLAY).pdf Sample/
 
 clean:
 	-rm -f *.html

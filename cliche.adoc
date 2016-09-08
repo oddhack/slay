@@ -1,0 +1,526 @@
+[appendix]
+== Hack and Slay Cliches List
+
+  * <<glossary,Glossary>>
+  * <<stereotypes,PC Stereotypes>>
+
+=== Glossary
+
+The following is an annotated guide to the Cliches and Common References
+which permeate FrischWorlds(tm), and to a lesser degree Hack and Slay
+campaigns run by other GMs. Joe Decker wrote the initial draft a while back,
+which has been significantly revised, added to and improved manyfold by Lisa
+Nikodym, Joe Frisch, and others. Joe's draft was based on an earlier "list
+of cliches" that Joe and Lisa Nikodym had put together. You should blame him
+for any typos or mistakes which slipped through. This is based on Joe's
+Revision 1.0. Jon Leech has done a bit of maintenance on the list
+and merged it into the proposed update to the rules.
+
+[beard]
+"Beard"::
+    Blondbeard, Redbeard, Beard, Longbeard, etc., etc. All are one of the
+    two stereotyped Joe Decker characters, all pirates, all good drinkers.
+    Yo ho ho.
+
+Being sneaky but fast and heavily armed but also acting in a casual
+manner::
+    Canonical example of a PC trying to do contradictory things and get away
+    with it. Another example is "hang-glider in my backpack...."
+
+BFA::
+    Bold Frontal Assult. Synonym for <<DFA,DFA>>, which is more common.
+
+Black Iron::
+    Very rare substance which destroys magic it comes in contact with. The
+    second word is pronounced "i-ron", not "i-urn", in honor of
+    mispronouncer James Bell.
+
+Blue Oyster Cult References::
+    See: <<four-winds,Four Winds Bar>>, <<dizbusters,Diz-Busters>>,
+    <<Cultosauri,Cultosauri>>.
+
+[[bond-effect]]
+Bond Effect::
+    Any mechanism by which the PCs get to destroy the entire works of the
+    bad guy by pressing a big red button designed for the task, named for
+    James Bond (of the movies), who typically can get this effect near the
+    end of any movie.
+
+[[braineaters]]
+Brain Eaters::
+    See <<Encephelophages,Encephelophages>>.
+
+Bribing GM with Mint Milano cookies::
+    Never actually seen in FrischWorld, Ruthanne Bevier described using Mint
+    Milano cookies with a previous GM to reduce, for example, the number of
+    orcs the party was facing. (It's been tried more subtly now and then in
+    FrischWorld, and may have had effect.)
+
+[[canaris]]
+Canaris::
+    A power-hungry dwarf with "stubby little legs", who occasionally appears
+    as <<dark-lord,Dark Lord>>. Doesn't like elves. In one universe, created strange,
+    apparently magical (though they didn't "detect magic") devices called
+    "nukes", "machine guns", and "ME262s" (the last being yet another Blue
+    Oyster Cult reference).
+
+Chaos at the end of the world::
+    Standard fantasy cliche.
+
+Chaos Leaks::
+    Chaos actually eating into the useful part of the universe, often as the
+    result of some plug being broken or some crack in the universe. Usually
+    associated with either <<Mandlebrot,Mandelbrot>> or the
+    <<earthmage,"-ac" Mages>>.
+
+[[chili]]
+Chili, Four Winds Bar::
+    From <<ozymandia,Ozymandia>>'s mother's recipe. Probably the hottest
+    chili in the known (and unknown) universe. See: <<four-winds,Four Winds
+    Bar>>.
+
+CSUTN: Continent-Spanning Underground Tunnel Network::
+    Goes everywhere, pretty common but not in every world. Often a dangerous
+    place. Exits can be very far between. Often contains shoggoths from the
+    <<mythos,Cthulhu Mythos>.
+
+[[mythos]]
+Cthulhu Mythos::
+    References to the works of H. P. Lovecraft abound in FrischWorld. A
+    "Shoggoth" is a castle-sized magical blob of protoplasm that you never
+    want to meet. Saying the names of most of the standard Lovecraft
+    critters themselves is inherently dangerous (just so you know not to say
+    them, the names of the biggies are Cthulhu, Hastur, Shub-Niggurath,
+    Ithaqua, Azathoth, and Nyarlathotep).
+
+[[Cultosauri]]
+Cultosauri::
+    Another Blue Oyster Cult reference. Dinorsaur-like creatures with
+    humongous bodies, miles-tall skinny necks, weird strainer teeth, and
+    possibly no legs (no one's ever seen the underside of one; there's a
+    vague rumor that they have two little bitty feet). I really don't do
+    them justice -- check out the cover of
+    https://en.wikipedia.org/wiki/Cult%C3%B6saurus_Erectus[Cultosaurus
+    Erectus]. They live in huge deserts and eat sandworms like spaghetti.
+    Often found with entire civilizations living on their backs. Rare.
+
+[[dark-lord]
+Dark Lords::
+    Big magical bad guys who want to take over the world and kill
+    everything in their way in the most aestheticly nasty way. They
+    generally try to hire the PCs. Common. Frequently female (FrischWorld
+    (TM) is an equal opportunity employer).
+
+Dark Tower::
+    As Dark Lords are common in FrischWorlds (TM), Dark Towers are common
+    also, typically as their residences, and typically dangerous. Dark
+    Tower architecture has been classified into a number of styles: Early
+    Dark Lord (simple geometric shapes like pyramids, domes and obelisks),
+    Middle Dark Lord (geometric shapes with some elaboration, ex.
+    Mayan-style pyramids), Gothic Dark Lord (think Cologne Cathedral),
+    Late Dark Lord (weird organic-looking stuff, like the alien
+    constructions in "Aliens"), Vernacular Dark Lord (basic medieval-style
+    castle construction), and maybe one more I'm forgetting (Post Dark
+    Lord????).
+
+[[dark-tower]]
+Dark Tower, <<mythos,Cthulhu Mythos>>, <<everybody-dies,Everybody Dies>>::
+    The canonical 'low-ku' describing FrischWorld. See the individual
+    entries for more information.
+
+[[DFA]]
+DFA::
+    Direct Frontal Assult. Standard procedure for the PCs, even when they
+    plan something else.
+
+<<DFA,DFA>> on a heavily-defended fortress by about five PCs::
+    They do it every time. Very silly of them (Joe Frisch himself insisted
+    that we add this one to the list.)
+
+[[dizbusters]]
+Diz-busters::
+    Pterydactyls with afterburners and long stretchy claws that can grab you
+    and hurt you as they fly by at 200+ mph. Dangerous, like anything else
+    in FrischWorld (TM). Usually in groups of seven, in reference to the
+    Blue Oyster Cult song https://www.youtube.com/watch?v=3Y1ZecQgWiI[Seven
+    Screaming Diz-Busters].
+
+Drinking Contests::
+    Pretty canonical, esp. <<shotglass-chess,Shotglass chess>>.
+
+[[earthmage]]
+Earth Mages::
+    Notorious for destroying the world, or at least creating major
+    destruction in large portions of it. Hence the adage "Earth Mages are
+    Bad News".
+
+Elder Sign::
+    Do Not Remove. Magical seal (painted or stone, depending on the
+    universe), which is generally used for locking away nasty Cthulhuoid
+    critters (see <<mythos,Cthulhu Mythos>>) to keep them from trashing the
+    world. The symbol itself was stolen from Space 1999, but the Frisch
+    hates to admit it.
+
+Escaping off the edge of the battle map::
+    It's worked at least once...
+
+[[Encephelophages]]
+Encephelophages::
+    A.k.a. <<braineaters,Brain Eaters>>. Typically found attached to the
+    back of someones neck, when in larval form. Very dangerous, there's
+    usually a controlling creature (the adult form, based loosely on D&D
+    mind-flayers) somewhere around. Very deadly, useful for getting the PCs
+    into a very paranoid frame of mind. (Responsible for the PC's invention
+    of "neck armor".) I think the little guys may be from an R. A. Heinlein
+    story, "The Puppet Masters". (Lisa Nikodym's note: Yeah, he admits it.)
+
+Everybody Dies::
+    It's not uncommon for whole parties to get wiped out during FrischWorld
+    (TM) runs. Don't get too attached to your characters!
+
+[[four-winds]]
+Four Winds Bar::
+    The canonical FrischWorld (TM) bar, chili is very dangerous, surpassed
+    only by <<thunderpartridge,Thunderpartridge>>. It occurs *somewhere* in
+    every universe. Don't mess with the owner. A Blue Oyster Cult reference.
+    The architecture is always unique and interesting. Most often located
+    somewhere hard to get to, like high mountain passes.
+
+Giant Mutant Rats::
+    There are *no* giant mutant rats in FrischWorld (TM).
+
+Good cop, Bad cop, Naughty cop::
+    Legendary interrogation technique, which I will leave to your
+    imagination save to say that "Naughty Cop" was by far the most
+    effective.
+
+Kane::
+    A reference to the character in the Karl Edward Wagner novels.
+    "Bloodstone" in particular is recommended, if you can find it. Swords
+    'n' Sorcery stuff, with an attitude and conically-breasted women. Kane
+    has red hair, and always survives. He *never* dies. In one world, we
+    knew the end of the world was near, but we had a device which would show
+    us specific things or people we asked for. We asked it to show us Kane,
+    and saw him <<wufu,getting on a derelict interplanar sailing ship>>,
+    which we snuck onto.
+
+[[deadron]]
+Killing Ron's Character::
+    Ron is Dr. Ron Sapolsky. A cliche, since it happens so often, usually
+    when he's running an Earth mage. Ron's earth mages (and in fact, all
+    earth mages) have a reputation for being untrustworthy, disloyal,
+    backstabbers with no sense of when not to use the Big Magics. Very
+    amusing (the earth mages, that is, not killing them, although I suppose
+    that's a matter of taste.)
+
+King Crimson References::
+    Not really a cliche since it's mostly entered into one world, based on
+    the song "In the Court of the Crimson King". Eventually, the world was
+    destroyed by a falling moon -- the characters just didn't "get it".
+    Oops. (Note: The Yellow Jester has turned up once or twice since then -
+    a brightly dressed fellow with a great sense of humor and mind-boggling
+    powers, especially involving confusing methods of transportation. Last
+    seen loading up at the Gods' Buffet in Valhalla after the gods had left
+    to fight Ragnarok. Sometimes known as "The Great Sun Jester", but that's
+    a Blue Oyster Cult reference.)
+
+[[Mandelbrot]]
+Mandelbrot::
+    Capricious Lord of Chaos. Likes destroying the multiverse, unless the
+    PC's can talk him out of it.
+
+Mi-go::
+    Inspired by Lovecraft but usually don't want our brains in cans. Instead
+    they have a penchant for trying to Plutoform human worlds. WMD attacks
+    against the Mi-go homeworld (shoving poison gas through which killed
+    several of their cities) may not have been the best response by the PCs.
+
+Mumbledy Peg::
+    Common enough anywhere, I suppose, still, it's a staple of tough
+    characters everywhere. Usually associated with <<sopai,Sopai
+    Assassins>>.
+
+Multidimensional Giant Spiders::
+    Can attack you from a direction you don't even realize exists. You can
+    fight them with multidimensional weapons, but said weapons also
+    *attract* them, so this is risky. Simpler variants (regular Giant
+    Spiders) also exist. Likely to appear in all Frischworld campaigns.
+    The GM is believed to have severe Arachnophobia.
+
+Old Empire::
+    In many FrischWorlds (TM), the PCs are running around at a time past the
+    peak of a great, forgotten civilization. This is generically the "Old
+    Empire", which alwyas did things in a bigger, studlier, more direct sort
+    of way.
+    +
+    (In my (n.b. Joe Decker? Joe Frisch?) opinion, this is symbolic of the
+    idea that American civilation has declined since 1969, when our own Old
+    Empire could produce cheap cars as fast as the current RX7, when the
+    largest passanger aircraft (the 747) in use _today_ was built, when we
+    went to the moon, and when we had a budget surplus. It was a very good
+    year.)
+
+One Word Epic Poem::
+    Written by the elf Kelinor (a recurring Ray Trent character), who spent
+    5000 years in the dungeons of the Dark Lord Canaris (see
+    <<canaris,Canaris>>) doing nothing but composing poetry, so he got
+    *really* good at it (5 million EP worth). So good with a long bow it's
+    utterly ridiculous, too.
+
+Orc Olympics (also, 'x' Olympics)::
+    Occasionally our GM runs out of plots, and then we're often lead into a
+    run of a type we usually call Orc Olympics. In fantasy worlds, this is
+    actually sort of what happens, an interesting a pointless battle for
+    'control' of the orcs amoung its particular clans (orcs of the runny
+    nose, orcs of the broken bottle, the Queen's Guard, etc.) Generically,
+    any big pointless battle.
+
+[[ozymandia]]
+Ozymandia::
+    A recurring Lisa Nikodym character. Originally, an immature adolescent
+    half-elf half-demon running away from home. She was running away from
+    home because she thought that Mommy would get mad that she had been
+    looking in Mommy's best spell books (where she learned such fun spells
+    as creating black holes and plane-spanning firestorms, though she
+    usually didn't know what they would do, exactly, until she tried
+    them...). She was especially fond of orcs, with whom she played
+    <<shotglass-chess,Shotglass Chess>>.
+    +
+    After growing up a bit, she became assistant bartender at the
+    <<four-winds,Four Winds Bar>>, where she introduced her mother's
+    <<chili,Chili>> recipe Eventually killed by a Gug; her mother showed up
+    shortly thereafter, and soon there were no more Gugs. Anywhere. (Her
+    mother was the arch-duke of plane 657, so she could do things like
+    that.) Her favorite orc, Gordon of the Tribe of the Broken Bottle, is
+    still around somewhere though, with nine <<dark-lord,Rings of Power>> on
+    his fingers because he thinks they're pretty (he's about 50,000 years
+    old, which is why he's so good at chess, but that's another story...).
+
+Pacifist Vegetarian Orcs::
+    Someone managed to convert a few of them once. Their agricultural
+    community was destroyed by an exploding volcano, but who knows, a few
+    may have escaped to other worlds.
+
+PC Recognition::
+    PCs recognize each other by the Glowing "PC" symbol stamped on their
+    foreheads, visible only to other PCs. There is no other possible
+    explanation for how some of these groups get together.
+
+Pleasure Palaces::
+    Often constructed by rich and powerful PCs. Designs in the past have
+    often called for the "green jello room", "Thrad's Jungle Room", and the
+    "Marion Memorial Dwarf Room" (or was it the "Marion Memorial Dwarf and
+    Green Jello Room"?).
+
+Red Shirts::
+    Kannonfodder. References to Star Trek, in which red shirted security
+    officers were always the only ones to die. Not a perfect analogy since
+    PCs die all the time in FrischWorld.
+
+Rule you don't know about means you die.::
+    Pretty self-explanitory, also I don't remember the last time it actually
+    happened, but often a useful retort.
+
+Search for Secret Doors::
+    Something the PCs always do, even though in FrischWorld it is virtually
+    never successful. Occasionally applied to dead things, with snickering.
+
+SFA::
+    Sneaky Frontal Assult. Only theoretically possible, in practice these
+    always turn into <<DFA,DFA>>s.
+
+[[shotglass-chess]]
+Shotglass Chess::
+    Standard chess except that the pieces are glasses containing amounts of
+    some beverage proprortional to the weight of the pieces -- if you take a
+    piece, you must drink it. An effective negative feedback system.
+    Multiple games are recommended for optimal effect. Started in
+    FrischWorld (TM) by <<ozymandia,Ozymandia>>, who played it with orcs (at
+    least, one or two orcs who could manage to remember the rules). Has been
+    played by players, as well.
+
+[[sopai]]
+Sopai Assassins::
+    Name comes from the comic book Cerebus but the idea is somewhat
+    different. Sopai assassins are very dangerous and very good. They are
+    generally trained from a very early age, and seem to be uniformly
+    female. They prefer light two-handed swords. They are capable of being
+    very sneaky, but often lack the will to be sneaky when the alternative
+    is a direct frontal assult yelling "YeYeYeYeYeYe" at the top of their
+    lungs. They sometimes call themselves "feminist pacifist vegetarian
+    ninjas", but the rest of us aren't so sure about the "pacifist" part,
+    because they cannot keep themselves from killing everything in sight
+    whenever they get excited.
+
+Special Effects Budget::
+    A generic term referring to how cool something looks, a
+    <<bond-effect,Bond Effect>> explosion of a <<dark-tower,Dark Tower>>
+    Tower] could be said to "blow the Special Effects Budget", as if the
+    game were a movie.
+
+Stealing the Sun::
+    Frequently used Dark Lord / Elder God tactic to gain more power.
+
+Stone Warriors::
+    Start with a good warrior, flesh-to-stone spell, animate rock spell. A
+    favorite of earth mages. Tough to hurt. (An early variant, the Stone
+    Monk, is even scarier because it's *fast*.)
+    +
+    In 2014-vintage rules, the Body of Stone spell folds in both steps.
+    Drawbacks: a fumble by the mage may result in a statue of a screaming
+    Earth Mage and a party which is unable to counter the spell.
+
+Stay for the night, and maybe for a... BITE!::
+    Line from the Rocky Horror Picture Show, uttered at appropriate moments,
+    mostly by Joe Decker and Lisa Nikodym. The last word is uttered with
+    particular relish. Fallen out of usage in recent years.
+
+Stormbringer::
+    Reference to the Elric mythos. The name of a Soulsucking sword, black
+    with runes. Variations occasionally occur.
+
+Tar-Aman::
+    The Great God Tar-Aman (accent on the last syllable) is the god of utter
+    peace, love and harmony. His followers are so pacifistic they're
+    intensely annoying.
+
+Thrad::
+    A recurring Joe Decker character. Big and dumb. Big sword. Doesn't
+    remember how old he his, but there've been hints that he's near
+    immortal. One of the two barely distinguishable prototypes for Joe
+    Decker's characters (the other is the <<beard,canonical pirate-type>>).
+    Also called "Thrad of the Jungle" (see the
+    https://www.youtube.com/watch?v=TrSUZPek-to[George of the Jungle] theme
+    song).
+
+[[thunderpartridge]]
+Thunderpartridge::
+    Fabeled most potent beverage in the universe. Found, if ever, at the
+    <<four-winds,Four Winds Bar>>. Originally more potent than you can
+    imagine, it gained in power of the years of gaming through a stage where
+    a whiff would knock out a normal and ended up being a useful explosive
+    against (say) <<warrior-demons,Warrior Demons>>. Aging is important for
+    high quality and potency. The potentcy of this is not purely due to
+    alcohol. This is made, partially, from the berries of the
+    Thunderpartridge bush.
+
+"Two, four, six, eight, tiptoe sneak and infiltrate, cha cha cha."::
+    Quote from "Bored of the Rings".
+
+"Very dangerous, you go first."::
+    Quote from "Raiders of the Lost Ark". Frequently uttered line.
+    Self-explanatory.
+
+Velociraptors::
+    Jurassic Park style. Mostly an annoyance except for low level PCs.
+
+Vorch::
+    Hideously dangerous pack carnivore. At least twice the speed of a fast
+    human, multiple attacks, intelligent or at least cooperative behavior.
+    Believed to be the degraded form of an ancient powerful civilization
+    predating humans. Best avoided or dealt with by large armies with a
+    disregard for casualties and appropriate weaponry (see
+    <<vorch-sword,Vorch Sword>>).
+
+[[vorch-sword]]
+Vorch Sword::
+    Eastern weapon which can be used to kill Vorch. Typical stats when
+    wielded with no armor are +9 for 50 points. When wielded with armor
+    it's more like a really heavy sword (+2 for 50) and very poor Parry.
+    Can be swung once every other round.
+    +
+    Best strategy is to have a large number of NPCs with Combat - Eastern.
+    One wields the weapon and does a fully offensive charge attack on the
+    Vorch. If she fails, the next NPC steps up. Lather, rinse, repeat.
+    +
+    If a Vorch can be trapped, rains of arrows are also effective at
+    killing them. First, trap a Vorch...
+
+[[warrior-demons]]
+Warrior Demons::
+    Trilaterally symmetric (i.e. no back to get behind) demonic killing
+    machines with three heads, six nasty claws, and a tail with a poisonous
+    stinger that reaches through hyperspace to get you. Very clever, too
+    (but, on at least on occasion, not as clever as the PCs). Very
+    dangerous. Guardian Demons are basically equivalent, though they have
+    backs, and aren't quite as studly.
+
+The Wizard Guard::
+    We don't remember where the original reference was from, but the Wizard
+    Guard was used in "Planet of Assassins", a game that James Bell and Joe
+    Decker ran many years ago. During the game, if the GMs got bored, they
+    would set a kitchen timer (wihtout saying anything about why they were
+    doing so.) If they got unbored (e.g., the players did something), they
+    would turn the timer off and reset it. The first time it went off, the
+    PCs were immediately ambushed by the Wizard Guard, the guards for the
+    people the PCs were trying to assassinate. I don't believe it was
+    necessary for them to show up more than once or perhaps twice -- the
+    sound of the timer worked wonders!
+
+[[wufu]]
+WUFU::
+    Pronounced "woo-foo". Stands for "Wrong Universe For Us". In most
+    FrischWorlds, the PC's at some point realize that every major power in
+    the universe is out to get them and/or that they are in a universe that
+    is about to self-destruct. At this point, if they're smart, the PC's
+    proclaim a state of WUFU and look for alternate universes if possible.
+
+Zarga or Zlena::
+    Female Dark Lord or Dark Lord-in-training who has, or wants to conquer
+    the entire world with armies of orcs, balrogs, dragons and such.
+    Generally this is expected to leave the world in a much better tate than
+    it was in previously.
+
+
+[[stereotypes]]
+=== Player Character Stereotypes
+
+Alianthe Laverte::
+    Exceptionally acrobatic, exceptionally stealthy thieves who are
+    motivated largely by the security of the group, the challenge, and the
+    sparkly loot. Loosely based on Parker from the show
+    https://en.wikipedia.org/wiki/Leverage_%28TV_series%29[Leverage].
+
+Christine Clarke::
+    Very poor, very sneaky people. Or wealthy, beautiful women with
+    extremely high Shopping Pluses.
+
+Graham Hamilton::
+    Communist Rabble-Rousers. Fighters with military command / espionage
+    skills, often from Mongol cultures and very fond of their horses. Life
+    Mages who wring their hands a lot and seem to be the specific target of
+    almost every powerful enemy in the world. Known to take unilateral
+    action when the PCs have been dithering for too long over a decision.
+
+Joel Duisman::
+    Extremely beautiful priestesses of Love Goddesses. Or War gods.
+
+
+Joe Frisch::
+    Generally runs dislikeable or psychotic characters who for some reason
+    almost never wear armor.
+
+Jon Leech::
+    Small sneaky acrobatic people who are usually *not* dishonest by
+    nature, but are always eager to take on very dangerous scouting
+    missions and climbing feats. Often results in capture by, and
+    requiring rescue from the Bad Guys.
+    +
+    In recent years Jon has finally figured out the melee rules and is more
+    likely to run extremely Acrobatic Heavy Fighters who can run on the
+    heads of enemies.
+
+Lisa Nikodym::
+    Sagely characters who carry Oreo cookies everywhere (Lisa's note: Useful
+    for making friends with the natives and determining the voraciousness of
+    local fauna).
+
+Ray Trent::
+    Mysterious characters, secret lives, etc. Often bowmen.
+
+Ron Sapolsky::
+    Gonzo earth mages whose names end in -ac. Power-mad, magic-crazy. They
+    frequently make lawn statuary with Calvin-and-Hobbes twisted faces
+    (sometimes of themselves when the spell fumbles). See: <<deadron,Killing
+    Ron's Character>>. If in a high-tech world without magic, "Jedi" with
+    high Psionic skills.

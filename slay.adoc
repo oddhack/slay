@@ -29,6 +29,7 @@ Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License].
 //
 // toc::[]
 
+[[introduction]]
 == Introduction
 
 image::images/Slay.png[align="center",title="Hack and Slay"]
@@ -37,6 +38,30 @@ This is the Player's Guide for the Hack and Slay gaming system. Hack and
 Slay is a Role-Playing Game system developed by Josef Frisch and with
 additions and modifications from other GMs and players using the system over
 many years.
+
+[NOTE]
+====
+(Jon) Just for completeness...
+
+The *Party* is a group of characters who travel and adventure together.
+
+*Player Characters* or *PCs* are characters designed and played by the
+people around the table. They should have distinctive personalities, names,
+and abilities, and actual Role Play of your character is appreciated.
+
+*Non-Player Characters* or *NPCs* are characters designed by the GM. They
+may be opponents or random neutral people you encounter, or people you hire.
+In some cases when a PC dies, an existing NPC associated with the Party
+finds that there is a "Glowing PC Mark" on their forehead, and that
+character can be taken over by the player whose PC died as their new PC.
+
+NPCs are usually much less skilled and powerful than the PCs, except for the
+top-level opponents (Ernst Stavro Blofeld, Lich King, Khan Noonian Singh,
+Sauron, etc.). But NPCs should still be treated as *people*. They have
+agency and problems of their own, and there are *always* many more NPCs than
+there are PCs.
+====
+
 
 == General Skill Rules
 
@@ -77,22 +102,36 @@ there are interactions between skills, so that training in one skill can
 improve others. Training in skills affects stats - usually, but not always
 resulting in an increase.
 
+
+[[phases]]
 === Order Of Actions
 
 (((Order of Actions))) (((Phases aka 'Order of Actions')))
 (((Combat - Phases - aka 'Order of Actions')))
 
-  * Reserved actions can occur at any time during a round
-  * Movement, which includes Engage rolls
-  * Hand to hand combat
-  * Missile weapons
-  * Magic spell casting: all spells declared
-  * Magic spell normal counters: all counters declared
-  * Brute force counters
-  * Psi
-  * Other actions ("special actions")
-  ** Military Command to determine enemy combat pluses
-  ** Soliloquy phase
+[NOTE]
+====
+(Jon) When engaged in combat, the order of actions in each round is as
+follows. Otherwise, the GM will keep track of time depending on what the
+group is doing.
+====
+
+  * <<combat,Reserved Actions>> can occur at any time during a round.
+  * <<movement,Movement>>, which includes Engage rolls.
+  * Hand to hand (Melee) combat
+  * Missile weapons (Bows, Guns)
+  * Magic
+  ** Declare and roll all spells being cast.
+  ** Declare and roll all <<brute-force-counter,brute force Counters>>
+     to spells.
+  * <<psi,Psi>> Actions.
+  * Special Actions
+  ** (Jon) Most Special Actions cannot be performed if you were in combat,
+     cast spells, or used Psi - you were fully occupied in this round.
+     Examples: Switching weapons, Military Command to determine enemy combat
+     pluses, looting a corpse.
+  ** (Jon) A few actions can always be performed. Examples: Soliloquy (keep
+     it short!), Intimidation, Dropping your weapon.
 
 === Experience Points
 
@@ -230,7 +269,7 @@ character you have.
 | Constitution | CON          | Hardiness, stamina, resistance to disease, etc.
 | Agility      | AGI          | Ability to move entire body quickly.
 | Dexterity    | DEX          | Ability to move with precision.
-| Psi          | PSI          | Strength of will, Psionic powers in some scenarios.
+| Psi          | PSI          | Strength of will, <<psi,Psi>> powers in some scenarios.
 | Magic        | MAG          | Magical power / ability
 | Intelligence | INT          | Not necessarily common sense.
 | Appearance   | APP          | Physical appearance.
@@ -363,7 +402,43 @@ roll again after another time period.
 [1] Effects of no water at normal temperatures. Otherwise, see the
 <<outdoor-survival,Outdoor Survival>> tables.
 
-=== Travel
+
+[[movement]]
+== Movement
+
+[NOTE]
+====
+(Jon) New section - oddly, this phase was never described!
+
+Your maximum movement (in hexes / round) is determined by your Running
+skill, as affected by your current weapon and armor and bulky or heavy items
+you may be carrying.
+
+  * *Full Move* = maximum amount you can move over short periods of time.
+    This is the value in the "Move" column for your currently wielded Weapon
+    + Armor on your character sheet. See the <<running,Running>> skill for
+    exhaustion effects.
+  * *Half Move* = your sustained movement rate when walking long distances,
+    without tiring. This is 1/2 of the Move value, rounded up.
+
+A party's aggregate movement rate when marching over long distances
+is the slowest Half Move in the group.
+
+When in combat time (when the <<phases,Order of Actions>> is being
+followed), you may move the following distances:
+
+  * Zero hexes if you are Engaged with an opponent and cannot Disengage.
+  * One hex if you are Engaged and win a STR roll to Push Back.
+  * One hex if you are moving in Stealth.
+  * Your Half Move, without combat penalties.
+  * Up to your Full Move, with potential penalties for defense and bonuses
+    for attack and Engage rolls.
+
+Movement interaction with Melee effects is enumerated in more detail in the
+<<combat-actions,Combat Actions>> section.
+====
+
+=== Long-Distance Travel
 
 [NOTE]
 ====
@@ -406,6 +481,7 @@ The following examples are based on Roman tech levels.
 |====
 
 
+[[combat]]
 == Combat
 
 *Reserved Actions:* An action that is ready to be performed may be
@@ -434,13 +510,13 @@ Combat skills and related weapons. Additional Combat skills and weapons may
 be defined in the the GM-specific appendices.
 
   * Combat - Bow - Composite Bow, Crossbow, Long Bow, Short Bow.
-  * Combat - Cohe Wand - Cohe Wand
+  * Combat - Cohe Wand - Cohe Wand.
   * Combat - Darkness - not a weapon, but the character's ability
     to <<darkness,operate in darkness conditions>>.
   * Combat - Eastern - Eastern Bow, Karate, Light Two-Handed Sword,
     Naginata, Nunchuks, Shiruken, Eastern Staff, Vorch Sword.
   * Combat - Fencing - Rapier.
-  * Combat - Flail - Flail
+  * Combat - Flail - Flail.
   * Combat - Grappling - not a weapon, but the character's
     ability to <<grappling,grapple and hold>> an oppponent.
   * Combat - Gun - Assault Rifle, Blaster, Elephant Gun, Flame Thrower,
@@ -456,9 +532,9 @@ be defined in the the GM-specific appendices.
   * Combat - Net - Special weapon used for <<weapon-net,Grapple>> attacks.
   * Combat - Random Object - Improvised weapons (chairs, flagpoles, rocks,
     etc.). These fall into four categories: Small (e.g. a pot), Medium (e.g.
-    a chair), Big (e.g. a table), and Random - Throw (such as a rock). Exact
-    categories and modifiers are determined by the GM in each case. Rarely
-    used except for throwing rocks in low-level runs.
+    a chair), Big (e.g. a table), and Random - Thrown (such as a rock).
+    Exact categories and modifiers are determined by the GM in each case.
+    Rarely used except for throwing rocks in low-level runs.
   * Combat - Sonic Axe - Sonic Axe (obscure high-tech weapon)
   * Combat - Sword - Axe, Broadsword, Cutlass, Light Sword, Long Sword,
     Mace, Short Sword, Sword.
@@ -472,34 +548,62 @@ be defined in the the GM-specific appendices.
 ====
 
 
+[[hit-points]]
 === Hit Points
 
 Hit Points (HP) are the damage you can take before your actions become
-impaired due to damage. Effects of negative HP are listed below. Note: C* =
-CON^2^ / 10
+impaired due to damage. Effects of negative HP are listed below.
+
+[NOTE]
+====
+  * C* = CON^2^ / 10. C* affects your recovery rate as shown below, is used
+    in several other places. C* is shown on generated character sheets below
+    the skill plus table.
+  * (Jon) *Dead At* is the HP value at which your character has died. It is
+    shown next to C* on character sheets. You cannot recover from Death
+    (except by unusual GM fiat). Some potions and spells, such as
+    <<vigor,Vigor>>, will temporarily change your Dead At value, but if the
+    effect wears off and your HP are below your normal Dead At, you will
+    still *die* at that time.
+====
 
 .Hit Points, Combat Modifiers, and Recovery Rates
 [options="header"]
 |====
-| HP                  | Effect                        | Recovery
-| HP to HP/2          | None                          | C*/10 / hour
-| HP/2 - 1 to 0       | None                          | C*/10 / day
-| -1 to -C*/2         | -1 combat for each 10% of C*  | C*/10 / week
-| -C*/2-1 to -C*      | -1 move for each 20%C*        | C*/10 / week
-| -C*-1 to -2*C*      | Unconscious                   | C*/10 / week
-| < -2*C* (*Dead At*) | *Dead* - no recovery possible | n/a
+| HP                    | Effect                           | Recovery
+| HP to HP / 2          | None                             | C* / 10 / hour
+| HP / 2 - 1 to 0       | None                             | C* / 10 / day
+| -1 to -C* / 2         | -1 combat for each 10% of C*     | C* / 10 / week
+| -C* / 2 - 1 to -C*    | -1 move for each 20% of C*       | C* / 10 / week
+| -C* - 1 to -2 * C*    | Unconscious                      | C* / 10 / week
+| < -2 * C*             | *Dead At* - no recovery possible | n/a
 |====
 
-Recovery: After 3 rounds of no combat actions, you recover d6 HP. Note that
-you may not recover more points than you lost in the battle. Each hour, day
-or week (depending on your position on the chart) a healer may make a
-healing roll. The number of points you regain is multiplied by (1+ the
-amount by which the healer makes their roll).
+==== Recovering Hit Points
+
+After 3 rounds of no combat actions, you recover d6 HP. Note that
+you may not recover more points than you lost in the battle.
+
+Each hour, day or week (depending on your position on the chart) a healer
+may make a healing roll. The number of points you regain is multiplied by
+(1+ the amount by which the healer makes their roll).
 
 Orc Recovery Rates:
 
   * above 0: C*/10/hour
   * 0 to dead: C*/10/day.
+
+[NOTE]
+====
+(Jon) I believe our usual rule is that you can only recover d6 HP *once* in
+a given battle.
+
+(Jon) Once someone with a given Plus has Healed you, you cannot be Healed
+again from that damage unless a better Healer becomes available (This,
+oddly, replicates the effect commonly seen in teaching hospitals where
+Interns get first crack at patients followed by Doctors.)
+====
+
 
 === Hand To Hand Weapon Combat
 
@@ -531,16 +635,18 @@ combat.
 
 ==== Attack Mode
 
-The attacker chooses which defense to attack against. You may attack against
-low, medium, or high armor class.
+The attacker chooses which defense to attack against. They choose to attack
+against one of the following armor classes:
 
-  * *Low* - Attempt to smash through defenders parry and armor. Subtract
-    parry and armor from attack damage.
-  * *Medium* - Attempt to bash through defenders armor. Subtract armor from
-    attack damage.
+  * *Low* - Attempt to smash through defender's parry and armor. Subtract
+    the "Parry" and "Armr" values from the defender's character sheet from
+    the attack damage.
+  * *Medium* - Attempt to avoid defender's parry and bash through armor.
+    Subtract their "Armr" value from the attack damage.
   * (Jon) *Modified High* - used only during missile attacks. See discussion
     in the Ranged Weapon section.
-  * *High* - Attempt to avoid parry and armor. No damage subtracted.
+  * *High* - Attempt to avoid defender's parry and armor entirely. No damage
+    subtracted.
 
 [NOTE]
 ====
@@ -557,13 +663,25 @@ resulting value is known as the [[DCV]] *DCV*, or *Defense Combat Value*,
 for that combat.
 ====
 
-*Dropping Pluses to attack first*
+*Dropping Pluses to Attack First*
 
 Weapons normally attack simultaneously. You may drop pluses to attack first.
 If both combatants drop the same number of pluses, the attacks are again
 simultaneous. Dropping pluses only effects the order in which attacks occur
-within a phase of combat, it will not, for example, allow missile combat to
+within a phase of combat; it will not, for example, allow missile combat to
 occur before hand to hand combat.
+
+[NOTE]
+====
+(Jon) An undocumented and frequently used mechanic in melee:
+
+*Simultaneous Death*:If fighters attack simultaneously and both would have
+died, roll d6 to determine the outcome:
+
+  * 1 or 2 - Fighter A hit first, fighter B is dead and A took no damage.
+  * 3 or 4 - Fighter A and B hit simultaneously, both are dead.
+  * 5 or 6 - Fighter B hit first, fighter A is dead and B took no damage.
+====
 
 ==== Multiple Opponents
 
@@ -575,6 +693,35 @@ Missile attacks are not included in multiple attacks.
 ====
 (Jon) I believe our current rules are that a Fully Offensive attacker
 defends at *-5* absolute, which disagrees here and in the table below.
+
+(Jon) If someone has multiple attackers, do they remain at minuses
+for missile attacks? I think there's been confusion about this.
+====
+
+[[attack-damage]]
+==== Attack Damage
+
+[NOTE]
+====
+(Jon) Again amazingly, this wasn't described anywhere I can see.
+
+If the attacker hits (rolls 3d6 + attack modifiers >= the defender's 3d6 +
+defense modifiers), the damage done to the defender is the "Damg" column for
+the attacker's current weapon multiplied by the "over" - the difference in
+dice rolls. The damage is subtracted from the defender's Hit Points and may
+<<hit-points,affect their abilities>> in actions following the attack,
+This mechanic is also used for ranged weapons and magical direct attacks.
+
+For example, if an attacker is wielding a staff that does 6 points / over,
+and rolls 14 vs. the defender's 11, the damage done is (14 - 11) * 6 = 18
+points.
+
+Some magical effects can reduce damage from attacks.
+
+If the attacker rolls the *same* value as the defender, no *physical* damage
+is done. However, with certain types of weapons, such as poison, Flesh To
+Stone, and magical direct attacks, there may still be consequences to the
+defender as determined by the GM.
 ====
 
 
@@ -584,16 +731,16 @@ defends at *-5* absolute, which disagrees here and in the table below.
 Bare hand and some creatures or weapons have the ability to use grappling
 attacks. The procedure is as follows:
 
-If both opponents want to grapple, skip to grappling. If not, the one who
-wants to grapple must start the round already engaged. Grappling attacks
-must be announced at the beginning of combat, and will take place after hand
-to hand combat. The grappler must use their Combat - Barehand (or Combat -
-Eastern, if using Karate) combat stats for defense the round in which they
-are grappling. The grappler must then roll an attack at Combat - Barehand
-Plus against the defender's low <<DCV>>. If it succeeds, no damage is done,
-but proceed to Grappling (below). Otherwise the round ends. Note: it is
-often effective for the defender to move pluses to attack, and kill the
-grappler before the grappling occurs
+If both opponents want to grapple, skip to *Grappling*, below. If not, the
+one who wants to grapple must start the round already engaged. Grappling
+attacks must be announced at the beginning of combat, and will take place
+after hand to hand combat. The grappler must use their Combat - Barehand (or
+Combat - Eastern, if using Karate) combat stats for defense the round in
+which they are grappling. The grappler must then roll an attack at Combat -
+Barehand Plus against the defender's low <<DCV,DCV>>. If it succeeds, no
+damage is done, but proceed to Grappling (below). Otherwise the round ends.
+Note: it is often effective for the defender to move pluses to attack, and
+kill the grappler before the grappling occurs
 
 *Grappling*: When grappling has started, each rolls with their grapple skill
 plus at the start of each combat round. Keep track of the running total (the
@@ -607,6 +754,12 @@ can end the grapple at any time and switch to normal weapons attacks.
   * Grappled at 20 or more: The loser takes a point of damage for each
     cumulative grapple point over 20.
 
+[NOTE]
+====
+(Jon) I believe the usual mechanic is that at a grapple of 20+, the defender
+is immobilized (they can still complain, spit, breathe fire, etc.)
+====
+
 [[weapon-net]]
 *Net*: Special weapon. A hit against low counts as a grapple attack at +10
 for the first attack, then the net "grapples" at +0. Can be used with a
@@ -618,39 +771,39 @@ first round.
 
 ==== General Rules
 
-Pluses: Attacker uses their attack Plus against opponent's defense Plus -
+*Pluses*: Attacker uses their attack Plus against opponent's defense Plus -
 range modifier. You take 1 range minus for each multiple of the weapon range
 distance (round down: if the weapon has range 3, you are at 0 for 3 and less
 hexes, -1 for 4 to 6 hexes). Note: The attacker may not shift Pluses from
 offense to defense.
 
-Surprise attack: If the opponent is not aware they are being attacked and is
+*Surprise Attack*: If the opponent is not aware they are being attacked and is
 not in combat, their DCV is given in the combat actions list (later).
 
-Aiming: This may only be used against a target that is not moving, or is
+*Aiming*: This may only be used against a target that is not moving, or is
 walking slowly. Attacker gains +1 for each round spent aiming. During
 aiming, DCV is as for Fully Offensive. Aimed weapons attack first in combat.
 Maximum aiming = +5.
 
-Hitting a Hex: The DCV of a hex is -10.
+*Hitting a hex*: The DCV of a hex is -10.
 
-Multiple missile attacks: Normally multiple attacks are rolled separately.
+*Multiple Missile Attacks*: Normally multiple attacks are rolled separately.
 In order to save time with many attacks, the GM may use the following, only
 making a single roll. The defender is at -1 for each factor of 2 in multiple
 attacks. For 8 attacks, the defender is at -3. Against 200 archers on the
 walls, the defender is at -7.
 
-Reduced mobility: A defender whose mobility is limited is at worse minuses
+*Reduced Mobility*: A defender whose mobility is limited is at worse minuses
 against attacks. A defender who cannot possibly move out of an area which
 will be covered with missiles, will be attacked at no worse than +0 net by
 the number of missiles which hit the hex. This only applies for
 *synchronized* and *planned* attacks.
 
-Auto fire: If you fire multiple shots at a single target, the first shot
+*Auto Fire*: If you fire multiple shots at a single target, the first shot
 hits normally, the next 2 at -1, the next 4 at -2, etc. Subtract armor from
 each projectile.
 
-Defense: For targets without a shield: Medium DCV is equal to Low DCV. High
+*Defense*: For targets without a shield: Medium DCV is equal to Low DCV. High
 DCV is equal to low DCV + armor plus. Note: "armor plus" is the difference
 between High DCV and Medium DCV. A shield may only be used to parry missile
 attack from one hex side per round and will increase your medium DCV by 2.
@@ -663,7 +816,7 @@ attack from one hex side per round and will increase your medium DCV by 2.
 shown as *M.H.* in generated character sheets.
 ====
 
-Running throw: Spears and axes may be thrown from a running start. Gain
+*Running Throw*: Spears and axes may be thrown from a running start. Gain
 charge damage bonus, and +1 range for each hex moved, but run must be
 declared in movement round, and DCV is -2.
 
@@ -691,6 +844,7 @@ using the Damage to Physical Objects rules below.
 | Arrow slit | Can use like a wall edge | -1     | +5
 |====
 
+[[explosion-damage]]
 ==== Explosion Damage
 
 Weapon does listed number of dice in the megahex hit. See chart for range
@@ -717,7 +871,7 @@ by 2X for each turn required. A wall counts as 1 turn normally, 2 turns if
 you are hiding (no shots that round). Arrow or gun slit counts as -5 dice
 damage.
 
-Armor: Armor protects against explosion damage in the same fashion it
+*Armor*: Armor protects against explosion damage in the same fashion it
 <<weapon-modifiers,protects against area effect damage>>.
 
 === Damage To Physical Objects
@@ -926,7 +1080,7 @@ among hexes and use mass fire rules.
 
 Some small creatures (wasps, rats, etc) attack in groups. The entire group
 is treated as a single creature. The HP are proportional to the number of
-creatures involved. Engage / disengage is based only on the movement - if
+creatures involved. Engage / disengage is based only on the movement; if
 they can reach, they can attack. Swarms have a Low / Med / High attack
 damage (all simultaneous, usually only High is important). Attack damage is
 treated like auto fire: First at normal, next 2 at -1, next 4 at -2.
@@ -962,6 +1116,7 @@ both barrels, but take (4d6 - size+ )damage
 [[weapon-gun-speed]]
 Quick draw (gun speed). Can drop that many pluses on gun to go first.
 
+[[combat-actions]]
 ==== Combat Actions Summary
 
 Absolute plus (abs) indicates that 3d6 is rolled, but no character based
@@ -1473,7 +1628,7 @@ with a group of primitives. Some effects of other rolls:
 [options="header"]
 |====
 | Roll | Typical Effect
-| +10  | Convince them that you are a GOD
+| +10  | Convince them that you are a God
 | +5   | Convince them to join and accept your culture
 | +2   | Establish favorable trading relations
 | 0    | Establish peaceful contact
@@ -1768,7 +1923,7 @@ The craft of fashioning glass objects, both lab ware, and artistic items.
 
 The healing skill causes others to recover HP. First aid uses the
 healing skill. A roll in the first minute after combat stabilizes the victim
-and usually allows them to recover consciousness. Normal healing requires 1
+and usually allows them to recover consciousness. Normal Healing requires 1
 hour. The victim recovers d6 for each plus. Healing can only be done once
 for each set of wounds. Healing can be used to help cure disease in a group
 of people. The healer's plus is added to the victim's roll. For healing
@@ -2175,14 +2330,15 @@ Ability to ride horses. A riding roll is required if a horse attempts to
 throw you, or for a jump of more than 1', or to control an unruly or
 frightened horse. See combat - riding above for more details.
 
+[[running]]
 === Running
 
 This skill allows you to move faster in combat, and also allows you to move
 larger distances. For a dash, maximum move is full movement. (so movement 9
-is 22.5feet / sec. Make a con roll (at plus = (8 CON - 10 / 3) if fail, take
--1 on (combat stats, and con ) and roll again. each con# rounds. Before
-exhaustion, with a con 20, speed 9 (an excellent runner) could go 1.7 miles
-at 3.9 minutes / mile. CON 10, speed 6 gives 15' / sec. 2/3 mile, at 6
+is 22.5 ft. / sec. Make a CON roll at Plus = (8 CON - 10 / 3). If you fail,
+take -1 on combat stats and CON Plus, and roll again each CON # rounds.
+Before exhaustion, with CON 20, speed 9 (an excellent runner) could go 1.7
+miles at 3.9 minutes / mile. CON 10, speed 6 gives 15' / sec. 2/3 mile, at 6
 minute mile.
 
 Distance running: Use 1/2 move. -1 CON effect each minute. CON 10, speed 6,
@@ -2456,7 +2612,7 @@ Then at -1 for all combat due to fatigue. Subject does not know when they
 take damage until they are dead. They may fight normally until dead. Subject
 must always go at least +2 to offense if in hand to hand. Subject must
 attempt to engage in hand to hand combat. If fighting multiple opponents,
-subject may tactically disengage from all if the GB believes this has a
+subject may tactically disengage from all if the GM believes this has a
 reasonable chance of resulting in combat with at least one opponent. Subject
 must make a PSI roll to avoid being taunted out of a defensive position by
 attackers. Difficulty -12, 200 EP. Components: Blood from a lion, Wood from
@@ -2531,8 +2687,9 @@ Flash Powder has the following effects:
 ====
 
 Similar to normal Flash powder, but also has the effect of sunlight on the
-undead. Damage to undead is 3d6 * 100 points explosive (see rules under
-explosions: full damage in center hex, 1/10 damage at 10 hexes, 1/r^2^
+undead. Damage to undead is 3d6 * 100 points explosive (see the
+<<explosion-damage,Explosion Damage>> table:
+full damage in center hex, 1/10 damage at 10 hexes, 1 / r^2^
 beyond that. ) Uses 1 oz. mithril for each unit produced. Difficulty 10, EP
 500
 
@@ -2914,7 +3071,7 @@ for spells.
 
 [NOTE]
 ====
-(Jon) <<Psionics,PSI>> moved to its own section for TOC / indexing purposes.
+(Jon) <<psi,Psi>> moved to its own section for TOC / indexing purposes.
 ====
 
 === Casting Spells
@@ -3269,6 +3426,7 @@ cast. Corrected above.
 ====
 
 
+[[brute-force-counter]]
 ==== Brute Force Counter
 
 The defender rolls 3d6 at base MG+ against the attacker. If the rolls
@@ -3382,6 +3540,12 @@ full plus.
 *Body Of Stone*: Becomes Flesh To Stone on caster.
 
 *Summon*: Summons the (very) wrong thing.
+
+[NOTE]
+====
+(Jon) See the Fumble probability column in the <<dice-roll-table,appendix>>
+to get an idea of how dangerous casting a spell at a given Plus is.
+====
 
 
 === Learning Magic
@@ -3750,7 +3914,7 @@ color of your clothes. EP 100 Difficulty 10, Pow 10.
 Allows the caster to interact with, and to some extent control natural
 forces like storms, volcanoes, oceans, etc. Allows the caster to manipulate
 the effect within the normal parameters for that sort of natural phenomena.
-Difficulty 10, EP 1000. Pow: once started, magician GAINS up to 1000 Pow /
+Difficulty 10, EP 1000. Pow: once started, magician *gains* up to 1000 Pow /
 minute from a major phenomena. Can be used to combine magical Pow from
 multiple magicians. Must be cast for each magician.
 
@@ -4769,6 +4933,7 @@ Converts anyone into a vampire (permanently). You gain all the powers and
 disadvantages of a vampire. A failed roll means the target dies. Difficulty
 11. Pow 1000. EP 2000
 
+[[vigor]]
 === Magic - Vigor
 
 Allows the recipient to fight at negative HP. Recipient will fight to
@@ -4821,7 +4986,29 @@ Maximum radius is 10 miles. Minimum Pow is 20. Difficulty =10, EP 500, Pow =
 1000.
 
 
-== Psionics
+[[psi]]
+== Psionics (Psi)
+
+[NOTE]
+====
+(Jon) Psi (Psionics) refers to disciplines and abilities which let you
+directly act using your mind alone - think Jean Grey (X-Men), Gully Foyle
+("The Stars My Destination") Denise Castanaveras ("Emerald Eyes").
+
+Psi skills are not available in many campaigns, and when they are available,
+they almost always require training in each Psi skill by someone who is
+already expert in it. You cannot put points in Psi skills without GM
+approval in each case. Once you have EP in a Psi skill, you can add to it
+from there like any other skill.
+
+Psi is not "The Force", unless the GM defines it that way. The only time
+there are actual "Jedi" is if the GM defines a campaign based on the Star
+Wars Mythos, or a world with characters with knowledge of the Star Wars
+movies who explicitly try to create that Mythos. You can play such a
+character, and even wield a "Light Saber", in other campaigns - but don't
+expect the other PCs to do anything but laugh at your crazy belief
+system.
+====
 
 If your Psi - General Plus is \<= 0, you are considered to be Psi inactive,
 and are not noticeable to other psionic creatures. If your Psi - General
@@ -5047,22 +5234,22 @@ Skills>>.
   * Physics - As currently understood. See Hyperphysics.
   * Starship skills - Roughly matches the bridge crew of the *Enterprise*.
     They are used during <<starship-combat,Starship Combat>>.
-  * Starship Commander - Used in starship movement phase to determine order
-    of actions. May be combined with Overacting to dramatically impress
-    Viewing Audience.
-  * Starship Communications - "Hailing Frequencies open, Captain"
-  * Starship Engineer - "My poor bairns, they cannot take it!" / "I'd have
-    to be a Miracle Worker to do it in an hour, Jim!"
-  * Starship Helmsman - +
-    *Kirk*: "But from where? +
-    *Spock*: "His pattern indicates... two-dimensional thinking." +
-    *Kirk*: "Z Minus 10,000 meters. Stand by Photon Torpedos!" +
-  * Starship Navigator - "Is There in Truth no Beauty?"
-  * Starship Science - "It's a type of radiation unknown to our science,
-    Captain!"
-  * Starship Weapons - +
-    *Sulu*: "Phaser lock inoperative, sir." +
-    *Kirk*: "Best guess, Mr. Sulu. Fire when ready!"
+  ** Starship Commander - Used in starship movement phase to determine order
+     of actions. May be combined with Overacting to dramatically impress
+     Viewing Audience.
+  ** Starship Communications - "Hailing Frequencies open, Captain"
+  ** Starship Engineer - "My poor bairns, they cannot take it!" / "I'd have
+     to be a Miracle Worker to do it in an hour, Jim!"
+  ** Starship Helmsman - +
+     *Kirk*: "But from where? +
+     *Spock*: "His pattern indicates... two-dimensional thinking." +
+     *Kirk*: "Z Minus 10,000 meters. Stand by Photon Torpedos!"
+  ** Starship Navigator - "Is There in Truth no Beauty?"
+  ** Starship Science - "It's a type of radiation unknown to our science,
+     Captain!"
+  ** Starship Weapons - +
+     *Sulu*: "Phaser lock inoperative, sir." +
+     *Kirk*: "Best guess, Mr. Sulu. Fire when ready!"
   * Vehicle - general ability to control type of vehicle. Take Minuses for
     weather, environment, road conditions, etc.
   ** Vehicle - Aircraft - Powered, endoatmospheric only. Wright Flyer,
@@ -5073,7 +5260,7 @@ Skills>>.
      etc.
   ** Vehicle - Ship - Wet-water, Age of Steam or later. See Sailing for
      other ships.
-  ** Vehicle - Tank - M1 Abrams
+  ** Vehicle - Tank - M-1 Abrams
   ** Vehicle - Walker - AT-AT
 ====
 
@@ -5132,7 +5319,8 @@ chaos abilities (see below). Unbound Chaons may be moved to those abilities
 
 [NOTE]
 ====
-(Jon) Contemporary usage, formerly "Pure Chaos Power".
+(Jon) "Unbound" is colloquial contemporary usage. Formerly the documented
+used "Pure Chaos Power".
 ====
 
 .Chaos Manipulation Pluses
@@ -5355,13 +5543,13 @@ table. When passed +8/30
 | -8                | Grow extra arm. 1 additional attack / round, at -1 on _all_ attacks. (need new armor)
 | -7                | Change to hideous appearance (=0)
 | -6                | Change to (reptilian, avian, mammalian). (see chart below).
-| -5                | All points in one chaos ability removed (choose randomly, include pure power)
-| -4                | Lose 3d6 chaos points or HP if at zero
-| -3                | Lose d6 chaos points or HP if at zero
+| -5                | All Chaons in one chaos ability removed (choose randomly, include unbound Chaons)
+| -4                | Lose 3d6 Chaons or HP if at zero
+| -3                | Lose d6 Chaons or HP if at zero
 | -2 to 5           | No effect
-| 6                 | Gain d6 chaos points (if you are REALLY good, you can win consistently)
-| 7                 | Gain 3d6 chaos points
-| > 7               | Gain Nd6 chaos points (N is GM-determined, usually (roll-4)
+| 6                 | Gain d6 Chaons (if you are REALLY good, you can win consistently)
+| 7                 | Gain 3d6 Chaons
+| > 7               | Gain Nd6 Chaons (N is GM-determined, usually (roll-4)
 |====
 
 ==== Class Change (Mammal, Bird, Reptile, Amphibian, Fish)
@@ -5605,10 +5793,10 @@ Availability of a specific skill in the general population
 .Wealth and Class
 [options="header"]
 |====
-| Class   | Money Stat | Net Income/Week | Cash On Hand | Net Worth
-| Peasant | MON 5      | 0.4 SP / week   | 0.5 SP       | 3 SP
-| Baron   | MON 21     | 100 SP / week   | 250 GP       | 2500 GP
-| Duke    | MON 23     | 180 SP / week   | 1000 GP      | 10,000 GP
+| Class   | Money Stat | Net Income / Week | Cash On Hand | Net Worth
+| Peasant | MON 5      | 0.4 SP / week     | 0.5 SP       | 3 SP
+| Baron   | MON 21     | 100 SP / week     | 250 GP       | 2500 GP
+| Duke    | MON 23     | 180 SP / week     | 1000 GP      | 10,000 GP
 |====
 
 Other:
@@ -5650,23 +5838,37 @@ Guide for the day in a city: 10 CP (cheap), 1 SP (expensive).
 [options="header"]
 |====
 | Item                     | Cost (GP) | Found At
-| Heavy plate like chain   | 1000      | Chaos eternal city
-| +1 all plane sword       | 250       | Chaos eternal city
-| Ignore metal sword       | 3500      | Chaos eternal city
-| Palantirs (5)            | 2000      | Chaos eternal city
-| +2 rapier                | 800       | Chaos eternal city
-| +2 long sword            | 800       | Chaos eternal city
-| Chain like light leather | 1000      | Chaos eternal city
-| Plate like heavy leather | 1000      | Chaos eternal city
-| Iron Golem               | 3000      | Chaos eternal city
-| Chaos resistance sticks  | 1         | Chaos eternal city
-| Ruby bladed dagger       | 100       | Chaos eternal city
-| Soul points (clean)      | 2         | Chaos eternal city
-| Soul points (normal)     | 1         | Chaos eternal city
-| Soul points (dirty)      | 0.5       | Chaos eternal city
+| Heavy plate like chain   | 1000      | Chaos - Eternal City
+| +1 all plane sword       | 250       | Chaos - Eternal City
+| Ignore metal sword       | 3500      | Chaos - Eternal City
+| Palantirs (5)            | 2000      | Chaos - Eternal City
+| +2 rapier                | 800       | Chaos - Eternal City
+| +2 long sword            | 800       | Chaos - Eternal City
+| Chain like light leather | 1000      | Chaos - Eternal City
+| Plate like heavy leather | 1000      | Chaos - Eternal City
+| Iron Golem               | 3000      | Chaos - Eternal City
+| Chaos resistance sticks  | 1         | Chaos - Eternal City
+| Ruby bladed dagger       | 100       | Chaos - Eternal City
+| Chaons (clean)           | 2         | Chaos - Eternal City
+| Chaons (normal)          | 1         | Chaos - Eternal City
+| Chaons (dirty)           | 0.5       | Chaos - Eternal City
 |====
 
-Hirelings:
+[NOTE]
+====
+(Jon) The Eternal City is a trope, discussed in the gaming Cliche List.
+Great shopping, very dangerous (especially if you have a lot of unbound
+Chaons). The difference between "clean", "normal", and "dirty" Chaons
+(formerly "Soul Points" in this table but nowhere else) may be just a
+marketing gimmick to make the players feel better about eating people's
+Souls.
+
+Roughly speaking "dirty" == Blood Sacrifice of children, "normal" == adults
+who were killed in battle, "clean" == someone who voluntarily gave up their
+soul and died?!
+====
+
+==== Hirelings
 
 Typical rates for hirelings: with stat power equal to EP. Cost is total cost
 of support. Pay is 1/2 of listed cost.
@@ -6257,6 +6459,58 @@ course).
 
 
 [appendix]
+[[dice-roll-table]]
+== Success, Failure, and Fumble Probabilities
+
+[NOTE]
+====
+(Jon) This was moved from the JoelWorld rules at it is just mathematics of
+3d6 + N vs. 3d6, and generally useful. Added "Failure" column. Edited
+description to account for that and generalize from spells.
+====
+
+This table shows the likelihood of winning a 3d6 + modifier roll against the
+GM's 3d6. Modifier is the final number you add to your die roll - skill
+Plus, casting time Plus, environment conditons, etc. Note that the GM may be
+adding modifiers to *their* roll that you're not told about, though this is
+not all that common.
+
+  * *Success* - Probability of rolling >= GM roll
+  * *Failure* - Probability of rolling < GM roll
+  * *Fumble* - Probability of a <<fumble,Fumble>> (rolling exactly 1 under
+    the GM) when casting spells.
+
+Even a -10 roll may succeed and even a +10 roll may fumble!
+
+.Success, Failure, and Fumble Probability Table
+[options="header"]
+|====
+| Modifier on 3d6 Roll | Success | Failure | Fumble
+| -10                  |  1.1%   | 98.9%   | 1.0%
+| -9                   |  2.1%   | 97.9%   | 1.6%
+| -8                   |  3.7%   | 96.3%   | 2.5%
+| -7                   |  6.2%   | 93.8%   | 3.5%
+| -6                   |  9.7%   | 90.3%   | 4.8%
+| -5                   | 14.5%   | 85.5%   | 6.1%
+| -4                   | 20.6%   | 79.4%   | 7.3%
+| -3                   | 28.0%   | 72.0%   | 8.4%
+| -2                   | 36.3%   | 63.7%   | 9.0%
+| -1                   | 45.4%   | 54.6%   | 9.3%
+| 0                    | 54.6%   | 45.4%   | 9.0%
+| 1                    | 63.7%   | 36.3%   | 8.4%
+| 2                    | 72.0%   | 28.0%   | 7.3%
+| 3                    | 79.4%   | 20.6%   | 6.1%
+| 4                    | 85.5%   | 14.5%   | 4.8%
+| 5                    | 90.3%   |  9.7%   | 3.5%
+| 6                    | 93.8%   |  6.2%   | 2.5%
+| 7                    | 96.3%   |  3.7%   | 1.6%
+| 8                    | 97.9%   |  2.1%   | 1.0%
+| 9                    | 98.9%   |  1.1%   | 0.5%
+| 10                   | 99.4%   |  0.6%   | 0.3%
+|====
+
+
+[appendix]
 == Obsolete And Rarely Used Rules
 
 === Mounted Combat (Obsolete)
@@ -6268,21 +6522,21 @@ Warhorse Combat Stats:
 
   * Attack +2 / 10 points
   * Without Armor
-  ** Low/Med/High 2/2/4
+  ** Low / Med / High 2/2/4
   ** Parry / Armor / Hit Points 0 / 0 / 100
   * With Armor
-  ** Low/Med/High 2/2/9
+  ** Low / Med / High 2/2/9
   ** Parry / Armor / Hit Points 50 / 0 / 100
 
 .Riding Horse Properties
 [options="header"]
 |====
-| _Type of horse_      | _Temper_ | _Attack Plus_ | _Damage (1 hand)_ | _Damage (2 hand)_
-| _Wild horse_         | _-5_     | _+0_          | _+25%_            | _0_
-| _Tame cart horse_    | _+2_     | _-1_          | _0_               | _0_
-| _Good riding horse_  | _0_      | _+0_          | _+25%_            | _0_
-| _War horse_          | _0_      | _+1_          | _+50%_            | _+25%_
-| _Superior war horse_ | _+1_     | _+2_          | _+100%_           | _+50%_
+| Type of horse      | Temper | Attack Plus | Damage (1 hand) | Damage (2 hand)
+| Wild horse         | -5     | +0          | +25%            | 0
+| Tame cart horse    | +2     | -1          | 0               | 0
+| Good riding horse  | 0      | +0          | +25%            | 0
+| War horse          | 0      | +1          | +50%            | +25%
+| Superior war horse | +1     | +2          | +100%           | +50%
 |====
 
 
@@ -6405,10 +6659,10 @@ is 1 Pow / day moved. Abilities:
 Movement sequence:
 
   * A move
-  * Both attack/defend
+  * Both attack / defend
   * Both morale check
   * Both move
-  * Both attack/defend
+  * Both attack / defend
   * Both morale check
 
 1 unit = 10 men. 1 hex = 50', time = 20 seconds, stack limit = 10.
@@ -6436,50 +6690,28 @@ Run sample combats to determine large-scale effects?
 
 
 [[epgain]]
-=== General Ep Gain Rules (Rarely Used)
+=== General EP Gain Rules (Rarely Used)
 
-"Free time" while doing some other full time job
+[NOTE]
+====
+(Jon) - Converted list into a table.
+====
 
-2 EP / week
-
-"On the job training" in job related skills - while working full time
-
-10 EP / week
-
-Training while not working (cost of living 2 SP / week)
-
-20 EP / week
-
-Being trained by an instructor N pluses better (typical cost 2^+^ gold /
-year)
-
-40*N EP / week
-
-Training someone else - must put hours into skill.
-
-20 EP / week
-
-Learning a skill where you are below minimum EP without reference
-materials.
-
-1/4 normal
-
-Learning a skill where you are below minimum EP, but with reference
-materials.
-
-Normal
-
-Training in stressful conditions (guard, combat duty, wartime)
-
-100 EP /week
-
-Single event training - for some special situation (combat etc)
-
-100-500 EP.
-
-Typical EP gain for a game "run"
-
-500 - 1000 EP
+.EP Gain
+[options="header"]
+|====
+| Situation                                                             | EP Gain
+| "Free time" while doing some other full time job                      | 2 EP / week
+| "On the job training" in job related skills - while working full time | 10 EP / week
+| Training while not working (cost of living 2 SP / week)               | 20 EP / week
+| Being trained by someone N Pluses better (cost 2^+^ GP / year)        | 40 * N EP / week
+| Training someone else - must put EP into skill you are teaching       | 20 EP / week
+| Learning a skill - below min. EP, without reference materials         | 1/4 normal
+| Learning a skill - below min. EP, *with* reference materials          | Normal
+| Training in stressful conditions (guard, combat duty, wartime)        | 100 EP / week
+| Single event training - for some special situation (combat etc)       | 100-500 EP
+| Typical EP gain for a game "run"                                      | 500 - 1000 EP
+|====
 
 ==== Typical Activities And Ep Gain
 
@@ -6497,7 +6729,7 @@ to training using the previous table.
 | Outdoor travel - easy conditions (no outdoor survival rolls)| 10 EP / week outdoor survival + 10 EP Navigation - Land + 10 hours training / week
 | Outdoor travel - harsh conditions (with survival rolls)     | 30 EP / week outdoor survival + 10 EP Navigation - Land + 5 hours training / week
 | School / training center - 10 SP / week cost - if available | 40 EP / week in trained skills
-| Working on a spell                                          | 1 EP / hour, 40/week. In that specific spell. No other activities
+| Working on a spell                                          | 1 EP / hour, 40 / week. In that specific spell. No other activities
 |====
 
 
@@ -6643,22 +6875,29 @@ modifications are made to the character's stats. Note that these charts are
 not exact for extreme ages, and should only be used as guidelines outside
 the 15-75 age range.
 
-.Aging Modifiers On Stats
+[NOTE]
+====
+(Jon) In the aging table, "youth" is defined as (15 - Age) and "old" is
+defined as (Age - 75). Added variable names for these quantities to simplify
+the table a bit.
+====
+
+.Aging Modifiers On Stats.
 [options="header"]
 |====
-| Stat / Age   | <15 | 15-20 | 21-30 | 31-45 | 45-60 | 60-75 | >75
-| Agility      |  +2 | +1    | 0     | -1    | -2    | -3    | -3-.5/year
-| Appearance   |   0 | +1    | +1    | 0     | -1    | -2    | -3
-| Constitution |  +2 | +1    | 0     | 0     | 0     | -1    | -2-1/year
-| Dexterity    |   0 | +1    | 0     | 0     | 0     | 0     | -0.5/year
-| Intelligence |-2 - 0.5/year < 15 | -1 | 0     | 0     | +1    | +2 | +2-1/year
-| Magic        |   0 | 0     | 0     | 0     | +1    | +2    | +2
-| Money        |  -3 | -2    | -1    | 0     | +1    | +2    | +2
-| Psi          |  -3 | -2    | -1    | 0     | +1    | +2    | +3
-| Reactions    |  +2 | +1    | 0     | 0     | 0     | -1    | -1-0.5/year
-| Senses       |   0 | 0     | +1    | 0     | 0     | -1    | -1-0.5/year
-| Size         |-1 - 1/year < 15   | -1  | 0     | +1    | 0     | -1 | -1-1/year
-| Strength     |   0 | +1    | 0     | 0     | -1    | -2    | -2-1/year
+| Stat / Age   |           <15 | 15-20 | 21-30 | 31-45 | 45-60 | 60-75 | >75
+| Agility      |            +2 | +1    | 0     | -1    | -2    | -3    | -3 - old / 2
+| Appearance   |             0 | +1    | +1    | 0     | -1    | -2    | -3
+| Constitution |            +2 | +1    | 0     | 0     | 0     | -1    | -2 - old
+| Dexterity    |             0 | +1    | 0     | 0     | 0     | 0     | -old / 2
+| Intelligence |-2 - youth / 2 | -1    | 0     | 0     | +1    | +2    | +2 - old
+| Magic        |             0 | 0     | 0     | 0     | +1    | +2    | +2
+| Money        |            -3 | -2    | -1    | 0     | +1    | +2    | +2
+| Psi          |            -3 | -2    | -1    | 0     | +1    | +2    | +3
+| Reactions    |            +2 | +1    | 0     | 0     | 0     | -1    | -1 - old / 2
+| Senses       |             0 | 0     | +1    | 0     | 0     | -1    | -1 - old / 2
+| Size         |-1 - youth     | -1    | 0     | +1    | 0     | -1    | -1 - old
+| Strength     |             0 | +1    | 0     | 0     | -1    | -2    | -2 - old
 |====
 
 
@@ -6668,9 +6907,22 @@ include::joel.adoc[]
 // RatWorld appendix
 include::rat.adoc[]
 
+// Cliche List
+include::cliche.adoc[]
+
 [appendix]
 == Change Log
 
+  * 2016/09/07 (Jon Leech) - Added descriptions of terms to the
+    <<introduction,Introduction>>. Changed <<phases,Order of Actions>> list
+    by adding links to other sections and examples of allowed Special
+    Actions. Added <<movement,Movement>> and <<attack-damage,Attack Damage>>
+    sections. Document Simultaneous Death d6 mechanic. Better document C*
+    and Dead At in <<hit-points,Hit Points>> section. Add introduction to
+    the <<psi,Psi>> section noting limitations on learning Psi skills. Moved
+    <<dice-roll-table,Success and Fumble Probabilities>> table into the main
+    document and added "Failure" column. Add Gaming Cliche list. Minor
+    formatting cleanup.
   * 2016/09/07 (Jon Leech) add many skills and spells from various skill.dbs
     missing from the document, mostly in outline form. Add "Technical
     Skills" and "Starship Combat" sections. Split "Alchemy" and "Psi" into
