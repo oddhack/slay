@@ -321,6 +321,14 @@ Casting pluses or minuses (at GM discretion) for how the animal already
 feels about the caster. A spoiled house pet is much easier, a recently
 captured wild animal is much tougher.
 
+==== Bless (Life)
+
+Connects a living object with the spirit of a Saint. The saint can then
+directly guide that creature. Requires sacrifice of 1GP worth
+of suitable material.
+
+Pow 100.
+
 ==== Bonfire (Fire)
 
 Create a giant bonfire which lights up an area to normal dawn levels and
@@ -334,6 +342,14 @@ below zero, their blood coagulates into a stone like substance and adds 10
 extra armor points.
 
 Pow 1 / minute to maintain.
+
+==== Enchant Greater (Enchant)
+
+Used to create greater magical items. Must have an exceptional base material
+to work from - at least +10, an additional plus is gained for +15 base
+materials.
+
+Pow 10,000,000 (10M).
 
 ==== Enduring Flame (Fire)
 
@@ -474,6 +490,19 @@ d6 recovery in the magic phase without having to be still for 3 rounds.
 
 Pow 10, Pow 1 / minute to maintain.
 
+==== Man of Steel (Earth)
+
+The recipient becomes made of steel for the duration of the spell. Direct
+Spell.
+
+  * Movement is reduced to 1 hex.
+  * All physical actions are taken at -5.
+  * Mages may counter but not cast spells.
+  * HP are multiplied by 1000.
+  * Damage done is multiplied by 10X.
+
+Pow ???
+
 ==== Migration (Life)
 
 Migration causes all the animals (including sapients) in a given area to
@@ -541,6 +570,13 @@ Creates an area of stone post piles over an area over the next hour.
 Disrupting buildings and providing a source of stone for spells.
 
 Pow 5 / hex.
+
+==== Purifying Flame (Fire)
+
+Creates an area in which cursed things burn at 2X the normal rate, and
+favored things do not burn at all. Area must already be burning.
+
+Pow 10 / hex radius of circular area affected.
 
 ==== Quicksand (Life)
 

@@ -7451,6 +7451,7 @@ include::cliche.adoc[]
 [appendix]
 == Change Log
 
+  * 2016/09/10 (Jon Leech) - Add new JoelWorld spells from email.
   * 2016/09/08 (Jon Leech) - Remove the "Magic Spells and Scrolls" table and
     merge the price and availability information into the
     <<magic-spells,Magic Spells>> section, with a new introduction. Remove
