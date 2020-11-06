@@ -1,0 +1,3 @@
+== An included file (bar.adoc)
+
+Fnord
